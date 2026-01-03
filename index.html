@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BJJ Technique Glossary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🥋 Brazilian Jiu Jitsu Glossary</h1>
+            <nav>
+                <button class="nav-btn active" data-section="guards">Guards</button>
+                <button class="nav-btn" data-section="athletes">Athletes</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Guards Section -->
+        <section id="guards-section" class="section active">
+            <div class="content-wrapper">
+                <!-- Guards List -->
+                <div class="guards-list">
+                    <h2>Select a Guard</h2>
+                    <div id="guards-container" class="guards-grid"></div>
+                </div>
+
+                <!-- Guard Details -->
+                <div id="guard-details" class="guard-details">
+                    <div class="empty-state">
+                        <p>Select a guard to view details</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Athletes Section -->
+        <section id="athletes-section" class="section">
+            <h2>Athletes & Their Signature Moves</h2>
+            <div id="athletes-container" class="athletes-grid"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
