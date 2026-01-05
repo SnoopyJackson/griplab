@@ -8,7 +8,9 @@ let currentGuard = null;
 // Create particles effect
 function createParticles() {
     const particlesContainer = document.querySelector('.particles');
-    const particleCount = 30;
+    // Reduce particles on mobile for better performance
+    const isMobile = window.innerWidth <= 768;
+    const particleCount = isMobile ? 15 : 30;
     
     for (let i = 0; i < particleCount; i++) {
         const particle = document.createElement('div');
@@ -147,7 +149,7 @@ function selectGuard(guardId) {
                 <h3>🔄 SWEEP TECHNIQUES</h3>
                 <div class="technique-grid">
                     ${guard.sweeps.map((sweep, idx) => `
-                        <div class="technique-card" style="animation-delay: ${idx * 0.1}s">
+                        <div class="technique-card" style="animation-delay: ${idx * 0.1}s" onclick="searchYouTube('${sweep.name}', '${guard.name}')">
                             <span class="technique-type sweep">SWEEP</span>
                             <h5>${sweep.name}</h5>
                             <p>${sweep.description}</p>
@@ -162,7 +164,7 @@ function selectGuard(guardId) {
                 <h3>🚀 GUARD PASS TECHNIQUES</h3>
                 <div class="technique-grid">
                     ${guard.passes.map((pass, idx) => `
-                        <div class="technique-card" style="animation-delay: ${idx * 0.1}s">
+                        <div class="technique-card" style="animation-delay: ${idx * 0.1}s" onclick="searchYouTube('${pass.name}', '${guard.name}')">
                             <span class="technique-type pass">PASS</span>
                             <h5>${pass.name}</h5>
                             <p>${pass.description}</p>
@@ -177,7 +179,7 @@ function selectGuard(guardId) {
                 <h3>🎯 SUBMISSION TECHNIQUES</h3>
                 <div class="technique-grid">
                     ${guard.submissions.map((sub, idx) => `
-                        <div class="technique-card" style="animation-delay: ${idx * 0.1}s">
+                        <div class="technique-card" style="animation-delay: ${idx * 0.1}s" onclick="searchYouTube('${sub.name}', '${guard.name}')">
                             <span class="technique-type submission">SUBMISSION</span>
                             <h5>${sub.name}</h5>
                             <p>${sub.description}</p>
@@ -238,4 +240,11 @@ function renderAthletes() {
             card.style.zIndex = '1';
         });
     });
+}
+
+// YouTube Search Function
+function searchYouTube(techniqueName, guardName) {
+    const query = `${techniqueName} ${guardName} BJJ`;
+    const youtubeUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
+    window.open(youtubeUrl, '_blank');
 }

@@ -619,8 +619,9 @@ main {
 }
 
 .pros {
-    background: linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(34, 197, 94, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.15) 0%, rgba(34, 197, 94, 0.08) 100%);
     border-color: rgba(34, 197, 94, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 .pros::before {
@@ -635,8 +636,9 @@ main {
 }
 
 .cons {
-    background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(239, 68, 68, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.15) 0%, rgba(239, 68, 68, 0.08) 100%);
     border-color: rgba(239, 68, 68, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 .cons::before {
@@ -671,6 +673,21 @@ main {
 .pros ul,
 .cons ul {
     margin-left: 20px;
+}
+
+.pros ul li,
+.cons ul li {
+    color: #1e293b;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.pros ul li::before {
+    color: #22c55e;
+}
+
+.cons ul li::before {
+    color: #ef4444;
 }
 
 /* Athlete Tags */
@@ -733,6 +750,7 @@ main {
     position: relative;
     overflow: hidden;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 
 .technique-card::before {
@@ -966,6 +984,29 @@ main {
 }
 
 @media (max-width: 768px) {
+    .game-title {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-btn {
+        flex: 1;
+        padding: 12px 15px;
+        font-size: 0.85rem;
+    }
+
+    .btn-text {
+        display: none;
+    }
+
+    .btn-icon {
+        font-size: 1.5rem;
+    }
+
     .content-wrapper {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -973,6 +1014,7 @@ main {
 
     .guards-list {
         max-height: none;
+        padding: 20px;
     }
 
     .guards-grid {
@@ -981,8 +1023,13 @@ main {
         gap: 10px;
     }
 
+    .guard-card {
+        padding: 15px 12px;
+    }
+
     .guard-card h3 {
         font-size: 0.9rem;
+        letter-spacing: 0.5px;
     }
 
     .guard-details {
@@ -992,30 +1039,90 @@ main {
 
     .guard-detail-content h2 {
         font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    .guard-image {
+        height: 250px;
+    }
+
+    .detail-section {
+        padding: 15px;
+        margin: 20px 0;
     }
 
     .detail-section h3 {
         font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    .detail-section p,
+    .detail-section ul {
+        font-size: 1rem;
     }
 
     .pros-cons {
         grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .pros,
+    .cons {
+        padding: 15px;
     }
 
     .athletes-grid {
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-template-columns: 1fr;
+        gap: 25px;
     }
 
     .technique-grid {
         grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .technique-card {
+        padding: 15px;
+    }
+
+    .technique-card h5 {
+        font-size: 1.1rem;
     }
 
     .section-title {
         font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    .section-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .athlete-card {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .athlete-image {
+        height: 250px;
     }
 }
 
 @media (max-width: 480px) {
+    .game-title {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+
+    .nav-btn {
+        padding: 10px 12px;
+        font-size: 0.75rem;
+    }
+
+    .btn-icon {
+        font-size: 1.3rem;
+    }
+
     .athletes-grid {
         grid-template-columns: 1fr;
     }
@@ -1024,22 +1131,79 @@ main {
         grid-template-columns: 1fr;
     }
 
+    .guard-card h3 {
+        font-size: 0.95rem;
+    }
+
     .guard-image {
-        height: 250px;
+        height: 200px;
     }
 
     .athlete-image {
-        height: 250px;
+        height: 220px;
+    }
+
+    .guard-detail-content h2 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    .detail-section h3 {
+        font-size: 1rem;
+    }
+
+    .detail-section p,
+    .detail-section ul {
+        font-size: 0.95rem;
     }
 
     .section-title {
         font-size: 1.5rem;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
+    }
+
+    .section-subtitle {
+        font-size: 0.85rem;
+        letter-spacing: 1px;
     }
     
     .guard-details,
     .guards-list {
         padding: 15px;
+    }
+
+    .technique-card h5 {
+        font-size: 1rem;
+    }
+
+    .technique-card p {
+        font-size: 0.9rem;
+    }
+
+    .athlete-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .move-item {
+        padding: 10px 12px;
+    }
+
+    .move-type {
+        font-size: 0.8rem;
+    }
+
+    .move-name {
+        font-size: 0.9rem;
+    }
+
+    .pros h4,
+    .cons h4 {
+        font-size: 1rem;
+    }
+
+    .athlete-tag {
+        padding: 8px 15px;
+        font-size: 0.85rem;
     }
 }
 
