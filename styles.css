@@ -589,6 +589,49 @@ main {
     gap: 10px;
 }
 
+.description-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.description-header h3 {
+    margin-bottom: 0;
+    flex: 1;
+    min-width: 200px;
+}
+
+.watch-video-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: rgba(255, 0, 0, 0.1);
+    border: 2px solid rgba(255, 0, 0, 0.3);
+    border-radius: 10px;
+    color: #ff0000;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.watch-video-btn:hover {
+    background: rgba(255, 0, 0, 0.2);
+    border-color: #ff0000;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(255, 0, 0, 0.4);
+}
+
+.watch-video-btn svg {
+    flex-shrink: 0;
+}
+
 .detail-section p,
 .detail-section ul {
     color: var(--text-primary);
