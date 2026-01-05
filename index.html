@@ -31,6 +31,10 @@
                     <span class="btn-icon">🥊</span>
                     <span class="btn-text">FIGHTERS</span>
                 </button>
+                <button class="nav-btn" data-section="progress">
+                    <span class="btn-icon">📊</span>
+                    <span class="btn-text">PROGRESS</span>
+                </button>
             </nav>
         </div>
     </header>
@@ -60,6 +64,54 @@
                         <span class="empty-hint">Choose your combat specialization</span>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Progress Tracker Section -->
+        <section id="progress-section" class="section">
+            <div class="progress-header">
+                <h2 class="section-title">TRAINING PROGRESS</h2>
+                <p class="section-subtitle">Track your journey to mastery</p>
+            </div>
+
+            <!-- Moves of the Week -->
+            <div class="moves-of-week-card">
+                <div class="moves-header">
+                    <h3>🎯 MOVES OF THE WEEK</h3>
+                    <p class="moves-subtitle">Techniques you're currently learning</p>
+                </div>
+                <div id="moves-of-week" class="moves-grid"></div>
+            </div>
+
+            <!-- Player Stats Card -->
+            <div class="player-stats-card">
+                <div class="stats-header">
+                    <div class="total-stats">
+                        <div class="stat-item">
+                            <span class="stat-icon">📚</span>
+                            <span class="stat-value" id="learning-count">0</span>
+                            <span class="stat-label">Learning</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">📈</span>
+                            <span class="stat-value" id="average-count">0</span>
+                            <span class="stat-label">Average</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">⭐</span>
+                            <span class="stat-value" id="mastered-count">0</span>
+                            <span class="stat-label">Mastered</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guard Progress Cards -->
+            <div class="progress-grid" id="progress-grid"></div>
+
+            <!-- Reset Progress Button -->
+            <div class="progress-actions">
+                <button class="action-btn danger" onclick="resetProgress()">🔄 Reset All Progress</button>
             </div>
         </section>
 

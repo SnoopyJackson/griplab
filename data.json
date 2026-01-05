@@ -255,7 +255,7 @@
         "Practice your sit-up sweep as a high-percentage option",
         "Drill transitions to X-guard and single leg X"
       ],
-      "athletes": ["Marcelo Garcia", "Adam Wardzinski", "Lucas Hulk Barbosa", "Jon Satava", "Mikey Musumeci"],
+      "athletes": ["Marcelo Garcia", "Adam Wardzinski", "Gordon Ryan", "Jean Jacques Machado", "Jon Satava"],
       "sweeps": [
         {
           "name": "Sit-up Sweep",
@@ -442,7 +442,51 @@
     "sweep": "Butterfly Sweep (with sleeve/belt control)",
     "pass": "Smash/Knee Slice Passing",
     "submission": "Back Take → Chokes from Top"
-      }
+      }}
+   ,
+    {
+      "id": 10,
+    "name": "Marcelo Garcia",
+    "image": "images/marcelo.jpg",
+    "signatures": {
+      "guard": "X-Guard & Butterfly Guard",
+      "sweep": "X-Guard Sweep to Back Take",
+      "pass": "Arm Drag Series",
+      "submission": "Guillotine & Rear Naked Choke"
     }
+},
+{
+  "id": 11,
+  "name": "Gordon Ryan",
+  "image": "images/gordonryan.jpeg",
+  "signatures": {
+    "guard": "Outside Ashi & 50/50",
+    "sweep": "Leg Entanglement Entries",
+    "pass": "Body Lock Passing",
+    "submission": "Heel Hook & Rear Naked Choke"
+  }
+},
+{
+  "id": 12,
+  "name": "Jean Jacques Machado",
+  "image": "images/jjmachado.jpg",
+  "signatures": {
+    "guard": "Closed Guard & Half Guard",
+    "sweep": "Hip Bump & Scissor Sweep",
+    "pass": "Knee Slice & Toreando",
+    "submission": "Mounted Guillotine & Armbar"
+  }
+},
+{
+  "id": 13,
+  "name": "Jon Satava",
+  "image": "images/satava.jpg",
+  "signatures": {
+    "guard": "De La Riva & Reverse De La Riva",
+    "sweep": "Kiss of the Dragon",
+    "pass": "Leg Drag & Backstep",
+    "submission": "Triangle & Omoplata"
+  }
+}
   ]
 }
