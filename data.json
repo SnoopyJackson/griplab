@@ -214,9 +214,9 @@
     },
     {
       "id": 4,
-      "name": "Butterfly Guard",
+      "name": "Butterfly Guard 🦋",
       "description": "Butterfly guard is a seated guard where you use hooks under your opponent's legs while sitting up, allowing for dynamic sweeps and transitions.",
-      "image": "https://images.unsplash.com/photo-1555597408-26bc8e548a46?w=500&h=300&fit=crop",
+      "image": "images/butterfly_guard.avif",
       "execution": [
         "Sit with your knees bent and feet inside",
         "Place your feet (hooks) under opponent's thighs",
@@ -509,6 +509,17 @@
         "sweep": "Flower Sweep",
         "pass": "Stack Pass",
         "submission": "Rear Naked Choke"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Adam Wardzinski",
+      "image": "images/wardzinski.jpg",
+      "signatures": {
+    "guard": "Butterfly Guard",
+    "sweep": "Butterfly Sweep (with sleeve/belt control)",
+    "pass": "Smash/Knee Slice Passing",
+    "submission": "Back Take → Chokes from Top"
       }
     }
   ]

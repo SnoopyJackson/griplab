@@ -3,42 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BJJ Technique Glossary</title>
+    <title>BJJ GripLab🧪</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Animated Background -->
+    <div class="game-background">
+        <div class="grid-overlay"></div>
+        <div class="particles"></div>
+    </div>
+
     <header>
         <div class="container">
-            <h1>🥋 Brazilian Jiu Jitsu Glossary</h1>
+            <h1 class="game-title">
+                <span class="title-glow">BJJ</span> 
+                <span class="title-accent">GripLab🧪</span>
+            </h1>
             <nav>
-                <button class="nav-btn active" data-section="guards">Guards</button>
-                <button class="nav-btn" data-section="athletes">Athletes</button>
+                <button class="nav-btn active" data-section="guards">
+                    <span class="btn-icon">⚔️</span>
+                    <span class="btn-text">SKILL TREE</span>
+                </button>
+                <button class="nav-btn" data-section="athletes">
+                    <span class="btn-icon">🥊</span>
+                    <span class="btn-text">FIGHTERS</span>
+                </button>
             </nav>
         </div>
     </header>
 
     <main class="container">
-        <!-- Guards Section -->
+        <!-- Guards Section - RPG Skill Tree -->
         <section id="guards-section" class="section active">
+            <div class="skill-tree-header">
+                <h2 class="section-title">TECHNIQUE SKILL TREE</h2>
+                <p class="section-subtitle">Select a guard style to unlock its combat techniques</p>
+            </div>
             <div class="content-wrapper">
-                <!-- Guards List -->
+                <!-- Guards List - Skill Tree Nodes -->
                 <div class="guards-list">
-                    <h2>Select a Guard</h2>
+                    <div class="skill-tree-label">
+                        <span class="label-icon">🎯</span>
+                        <span>GUARD STYLES</span>
+                    </div>
                     <div id="guards-container" class="guards-grid"></div>
                 </div>
 
-                <!-- Guard Details -->
+                <!-- Guard Details - Skill Details Panel -->
                 <div id="guard-details" class="guard-details">
                     <div class="empty-state">
-                        <p>Select a guard to view details</p>
+                        <div class="empty-icon">🗡️</div>
+                        <p>SELECT A GUARD STYLE</p>
+                        <span class="empty-hint">Choose your combat specialization</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Athletes Section -->
+        <!-- Athletes Section - Fighter Selection -->
         <section id="athletes-section" class="section">
-            <h2>Athletes & Their Signature Moves</h2>
+            <div class="fighter-select-header">
+                <h2 class="section-title">FIGHTER SELECTION</h2>
+                <p class="section-subtitle">Choose your warrior</p>
+            </div>
             <div id="athletes-container" class="athletes-grid"></div>
         </section>
     </main>
