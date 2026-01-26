@@ -2,48 +2,100 @@
   "guards": [
     {
       "id": 1,
-      "name": "Closed Guard",
+      "name": "Closed Guard 🔒",
       "description": "The closed guard is one of the fundamental positions in Brazilian Jiu-Jitsu. It involves wrapping your legs around your opponent's waist while lying on your back, creating a tight control that prevents them from passing.",
-      "image": "https://images.unsplash.com/photo-1555597673-b21d5c935865?w=500&h=300&fit=crop",
-      "video": "https://www.youtube.com/watch?v=your-closed-guard-video-id",
+      "image": "images/closed_guard.webp",
+      "video": "https://www.youtube.com/watch?v=gJRoWoRTIhA",
       "execution": [
         "Lie on your back with your opponent between your legs",
-        "Lock your ankles behind their back",
+        "Lock your ankles behind their back at the lower back",
         "Use your legs to break their posture by pulling them down",
-        "Control their sleeves or collar with your hands",
-        "Keep your hips active and mobile"
+        "Control their sleeves or collar with your hands for grip control",
+        "Keep your hips active and mobile - never flat",
+        "Squeeze your knees together to prevent space",
+        "Keep your shoulders slightly off the mat to stay active",
+        "Use angle changes by moving your hips side to side",
+        "Maintain constant pressure with your legs to control distance"
       ],
       "pros": [
-        "Excellent control over opponent",
-        "Multiple submission opportunities",
-        "Prevents opponent from advancing position",
-        "Great for beginners to learn"
+        "Excellent control over opponent's posture and movement",
+        "Multiple submission opportunities from secure position",
+        "Prevents opponent from advancing position effectively",
+        "Great for beginners to learn fundamental guard concepts",
+        "Allows you to rest while opponent works",
+        "Safe position to attack from with low risk",
+        "Works well in self-defense scenarios"
       ],
       "cons": [
         "Can be difficult against standing opponents",
-        "Uses significant energy to maintain",
-        "Less effective in No-Gi",
-        "Limited mobility compared to open guards"
+        "Uses significant energy to maintain against strong opponents",
+        "Less effective in No-Gi due to lack of grips",
+        "Limited mobility compared to open guards",
+        "Can be stalled by defensive opponents",
+        "Vulnerable to guard breaks from experienced passers",
+        "Restricted attacking angles compared to open guard"
       ],
       "tips": [
-        "Always break your opponent's posture first",
+        "Always break your opponent's posture first - this is priority #1",
         "Use angle changes to create submission opportunities",
-        "Don't let your opponent establish a strong base",
-        "Practice hip escapes to maintain the guard"
+        "Don't let your opponent establish a strong base or posture",
+        "Practice hip escapes to maintain and adjust the guard",
+        "Open your guard strategically to transition, not passively",
+        "Combine attacks - if one fails, chain to another immediately",
+        "Use overhooks and underhooks to control their arms",
+        "Keep your guard high on their back for better control",
+        "Don't cross your ankles when in mount - only in guard",
+        "Practice breaking grips to prevent guard opening"
       ],
-      "athletes": ["Roger Gracie", "Rickson Gracie", "Demian Maia"],
+      "athletes": ["Roger Gracie", "Rickson Gracie", "Demian Maia", "Xande Ribeiro", "Leandro Lo"],
       "sweeps": [
         {
           "name": "Scissor Sweep",
           "description": "Classic sweep using a scissoring motion with your legs to off-balance and sweep your opponent."
         },
         {
-          "name": "Flower Sweep",
+          "name": "Flower Sweep (Pendulum)",
           "description": "Use your legs to elevate and sweep when opponent posts their hand."
         },
         {
           "name": "Hip Bump Sweep",
           "description": "Sit up and use your hip to bump opponent backwards while controlling their arm."
+        },
+        {
+          "name": "Overhead Sweep",
+          "description": "Pull opponent forward and sweep them over your head with momentum."
+        },
+        {
+          "name": "Elevator Sweep",
+          "description": "Use your leg like an elevator to lift and sweep opponent to the side."
+        },
+        {
+          "name": "Sit-up Sweep",
+          "description": "Sit up into opponent, control their back, and sweep them forward."
+        },
+        {
+          "name": "Kimura Sweep",
+          "description": "Use kimura grip to break posture and sweep when they defend."
+        },
+        {
+          "name": "Arm Drag to Back Take",
+          "description": "Drag their arm across and take the back for technical sweep or back control."
+        },
+        {
+          "name": "Butterfly Sweep (from closed)",
+          "description": "Open guard to butterfly hooks and sweep immediately."
+        },
+        {
+          "name": "Double Ankle Sweep",
+          "description": "Control both ankles when they stand and sweep their base."
+        },
+        {
+          "name": "Shoulder Walk Sweep",
+          "description": "Walk your shoulders under opponent and elevate to sweep."
+        },
+        {
+          "name": "Loop Choke Sweep",
+          "description": "Use loop choke setup to off-balance and sweep when they defend."
         }
       ],
       "passes": [
@@ -54,6 +106,58 @@
         {
           "name": "Double Under Pass",
           "description": "Pass by getting both arms under the legs after opening the guard."
+        },
+        {
+          "name": "Knee Slice Pass",
+          "description": "Open guard and slice knee across to side control."
+        },
+        {
+          "name": "Toreando Pass",
+          "description": "Stand, control pants, and throw legs to side to pass around."
+        },
+        {
+          "name": "Leg Drag Pass",
+          "description": "Open guard and drag their leg across their body to pass."
+        },
+        {
+          "name": "Stack Pass",
+          "description": "Drive their knees to chest, stack their weight, and pass around."
+        },
+        {
+          "name": "Pressure Pass (over-under)",
+          "description": "One arm over, one under, drive pressure and pass to side."
+        },
+        {
+          "name": "X-Pass",
+          "description": "Cross your arms to control both legs and pass to the side."
+        },
+        {
+          "name": "Smash Pass",
+          "description": "Use heavy shoulder pressure to flatten and pass."
+        },
+        {
+          "name": "Hip Switch Pass",
+          "description": "Open guard, switch hips, and slide knee across to pass."
+        },
+        {
+          "name": "Headquarters Pass",
+          "description": "Control bottom leg after opening guard to prevent re-guard."
+        },
+        {
+          "name": "Long Step Pass",
+          "description": "Step one leg back far to break guard, then circle to pass."
+        },
+        {
+          "name": "Bullfighter Pass",
+          "description": "Stand, control legs, and move side to side to pass quickly."
+        },
+        {
+          "name": "Knee Cut (Inside)",
+          "description": "Open guard and drive knee through inside position to pass."
+        },
+        {
+          "name": "Leg Weave Pass",
+          "description": "Weave your leg over/under to systematically clear guard and pass."
         }
       ],
       "submissions": [
@@ -71,45 +175,104 @@
         },
         {
           "name": "Guillotine Choke",
-          "description": "Wrap your arm around opponent's neck and squeeze."
+          "description": "Wrap your arm around opponent's neck and squeeze with closed guard."
+        },
+        {
+          "name": "Kimura",
+          "description": "Figure-four grip on their arm to attack the shoulder joint."
+        },
+        {
+          "name": "Omoplata",
+          "description": "Use your legs to control and attack their shoulder."
+        },
+        {
+          "name": "Loop Choke",
+          "description": "Feed collar behind their head for a powerful choke."
+        },
+        {
+          "name": "Ezekiel Choke",
+          "description": "Use your own gi sleeve to choke from closed guard bottom."
+        },
+        {
+          "name": "Straight Armlock (from guard)",
+          "description": "Extend arm straight using hip pressure for joint lock."
+        },
+        {
+          "name": "Gogoplata",
+          "description": "Use shin across throat with arm trapped for rare choke."
+        },
+        {
+          "name": "Baratoplata",
+          "description": "Advanced shoulder lock variation combining armbar and omoplata mechanics."
+        },
+        {
+          "name": "Wrist Locks",
+          "description": "Attack posted wrists when opponent defends submissions."
+        },
+        {
+          "name": "Bicep Slicer",
+          "description": "Attack the bicep joint using your legs and arms together."
+        },
+        {
+          "name": "Bow and Arrow Choke (after sweep)",
+          "description": "Transition from back take to finish with collar and pant choke."
+        },
+        {
+          "name": "Baseball Bat Choke",
+          "description": "Use both lapels in baseball bat grip for powerful choke from guard."
         }
       ]
     },
     {
       "id": 2,
-      "name": "Spider Guard",
+      "name": "Spider Guard 🕷️",
       "description": "Spider guard is an open guard position where you control your opponent's sleeves while placing your feet on their biceps or inside their elbows, creating distance and controlling their posture.",
-      "image": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=500&h=300&fit=crop",
+      "image": "images/spider_guard.jpg",
+      "video": "https://www.youtube.com/watch?v=yKz47TYZvIY",
       "execution": [
-        "Start from open guard position",
-        "Grab both of your opponent's sleeves",
+        "Start from open guard position with hips mobile",
+        "Grab both of your opponent's sleeves with strong grips",
         "Place your feet on their biceps, pushing them away",
-        "Extend your legs to create tension",
+        "Extend your legs to create tension and stretch them",
+        "Keep your hips off the mat and ready to angle",
         "Use one foot to control the hip if doing single spider",
-        "Keep constant pressure and movement"
+        "Keep constant pressure and movement - never stay static",
+        "Combine with collar or pant grips for hybrid positions",
+        "Stay ready to transition to lasso, collar sleeve, or other guards"
       ],
       "pros": [
-        "Excellent distance control",
-        "Multiple sweep opportunities",
+        "Excellent distance control and management",
+        "Multiple sweep opportunities from every angle",
         "Great for controlling aggressive opponents",
-        "Allows for transitions to other guards"
+        "Allows for transitions to other guards seamlessly",
+        "Prevents opponent from establishing strong base",
+        "Works well against heavier opponents using their weight",
+        "Creates opportunities for sweeps even when they stand"
       ],
       "cons": [
-        "Requires strong grip endurance",
-        "Only effective in Gi",
-        "Can be passed with good balance",
-        "Difficult against standing leg drag passes"
+        "Requires strong grip endurance and forearm strength",
+        "Only effective in Gi (sleeves required)",
+        "Can be passed with good balance and posture",
+        "Difficult against standing leg drag passes",
+        "Grips can be broken with proper grip fighting",
+        "Energy intensive to maintain for long periods",
+        "Vulnerable to stack passes if they get close"
       ],
       "tips": [
-        "Always maintain sleeve grips",
-        "Combine with lasso or collar guards",
-        "Keep your opponent off balance",
-        "Use bicep control to prevent them standing tall"
+        "Always maintain sleeve grips - if broken, re-establish immediately",
+        "Combine with lasso or collar guards for hybrid attacks",
+        "Keep your opponent off balance with constant pushing and pulling",
+        "Use bicep control to prevent them standing tall",
+        "Switch between single and double spider dynamically",
+        "Don't just push - pull with grips to create off-balance",
+        "Practice grip endurance with specific training",
+        "Chain your sweeps - if one fails, flow to another",
+        "Use spider to set up triangles and omoplatas"
       ],
-      "athletes": ["Braulio Estima", "Rodolfo Vieira", "Keenan Cornelius"],
+      "athletes": ["Braulio Estima", "Rodolfo Vieira", "Keenan Cornelius", "Michael Langhi", "Romulo Barral"],
       "sweeps": [
         {
-          "name": "Spider Sweep",
+          "name": "Spider Sweep (Classic)",
           "description": "Push with one leg while pulling with grips to sweep opponent to the side."
         },
         {
@@ -118,98 +281,390 @@
         },
         {
           "name": "Triangle Sweep",
-          "description": "Transition from spider to triangle position and sweep."
+          "description": "Transition from spider to triangle position and sweep or submit."
+        },
+        {
+          "name": "Bicep Push Sweep",
+          "description": "Push both biceps strongly while pulling sleeves to sweep backward."
+        },
+        {
+          "name": "Sit-up Sweep (Spider variation)",
+          "description": "Come up to sitting while maintaining spider control to sweep forward."
+        },
+        {
+          "name": "Overhead Sweep",
+          "description": "Pull them forward over your head using spider grips and leg extension."
+        },
+        {
+          "name": "Spider to X-Guard Sweep",
+          "description": "Transition from spider control to X-guard and sweep from there."
+        },
+        {
+          "name": "Collar Sleeve Sweep",
+          "description": "Combine collar grip with spider control for powerful angular sweep."
+        },
+        {
+          "name": "Spider to De La Riva Sweep",
+          "description": "Transition from spider to DLR position and sweep."
+        },
+        {
+          "name": "Reverse Spider Sweep",
+          "description": "Use reverse spider grips (feet on inside of arms) to sweep opposite direction."
+        },
+        {
+          "name": "Tripod Sweep (Spider variation)",
+          "description": "Post on one hand while using spider control to sweep to posted side."
+        },
+        {
+          "name": "Balloon Sweep (Spider entry)",
+          "description": "Use spider grips to elevate and sweep opponent over your head."
         }
       ],
       "passes": [
         {
           "name": "Toreando Pass",
-          "description": "Control the pants and move the legs side to side to pass."
+          "description": "Control the pants and move the legs side to side to pass around spider."
         },
         {
           "name": "Leg Drag",
-          "description": "Drag one leg across to pass while maintaining pressure."
+          "description": "Drag one leg across to pass while breaking spider control."
+        },
+        {
+          "name": "Stack Pass",
+          "description": "Drive their knees to chest, stack weight on shoulders, break grips and pass."
+        },
+        {
+          "name": "Knee Slice",
+          "description": "Break grips and slice knee through middle to clear spider hooks."
+        },
+        {
+          "name": "Smash Pass",
+          "description": "Drive forward with pressure to collapse spider structure and pass."
+        },
+        {
+          "name": "Leg Weave Pass",
+          "description": "Weave legs over/under to systematically clear spider hooks."
+        },
+        {
+          "name": "Double Under Pass",
+          "description": "Get both arms under legs after breaking grips to secure pass."
+        },
+        {
+          "name": "Backstep Pass",
+          "description": "Step back and around when they elevate for sweep to pass or take back."
+        },
+        {
+          "name": "Long Step Pass",
+          "description": "Step one leg way back to clear spider hooks and circle around."
+        },
+        {
+          "name": "Pressure Pass",
+          "description": "Use chest pressure to break grips and collapse guard structure."
+        },
+        {
+          "name": "Grip Break to Pass",
+          "description": "Systematically break sleeve grips using proper mechanics then pass."
+        },
+        {
+          "name": "Headquarters Pass",
+          "description": "Control bottom leg to prevent spider engagement and pass from control."
+        },
+        {
+          "name": "Knee Cut (Outside)",
+          "description": "Cut knee across from outside after breaking grips to pass to side."
+        },
+        {
+          "name": "Float Pass",
+          "description": "Float weight over spider hooks while maintaining upper body control."
+        },
+        {
+          "name": "Cartwheel Pass",
+          "description": "When they invert or go upside down, cartwheel over to pass to mount."
         }
       ],
       "submissions": [
         {
           "name": "Triangle Choke",
-          "description": "Transition from spider guard into triangle position."
+          "description": "Transition from spider guard into triangle position by controlling posture."
         },
         {
           "name": "Omoplata",
-          "description": "Use your legs to attack the shoulder joint."
+          "description": "Use your legs to attack the shoulder joint from spider control."
         },
         {
           "name": "Bicep Slicer",
-          "description": "Attack the bicep using your legs and gi."
+          "description": "Attack the bicep using your legs and gi when they defend sweeps."
+        },
+        {
+          "name": "Armbar",
+          "description": "Swing leg over for armbar when opponent posts or defends from spider."
+        },
+        {
+          "name": "Collar Choke (Cross Collar)",
+          "description": "Use collar grips from spider to set up cross collar choke."
+        },
+        {
+          "name": "Loop Choke",
+          "description": "Set up loop choke from spider guard collar and sleeve control."
+        },
+        {
+          "name": "Straight Ankle Lock",
+          "description": "Transition from spider to ashi garami and attack the ankle."
+        },
+        {
+          "name": "Toe Hold",
+          "description": "Attack the foot from leg entanglement entries off spider transitions."
+        },
+        {
+          "name": "Wrist Lock",
+          "description": "Attack their posted wrist when defending spider guard."
+        },
+        {
+          "name": "Triangle Armbar (combo)",
+          "description": "Transition from triangle attempt to armbar finish."
+        },
+        {
+          "name": "Baratoplata",
+          "description": "Advanced shoulder lock using spider grip and leg control."
+        },
+        {
+          "name": "Gogoplata",
+          "description": "Use shin across throat from spider position for rare choke."
+        },
+        {
+          "name": "Mounted Triangle",
+          "description": "Complete sweep to mount and finish triangle from top."
+        },
+        {
+          "name": "Kimura",
+          "description": "Attack the shoulder when opponent posts or defends from spider."
+        },
+        {
+          "name": "Baseball Bat Choke",
+          "description": "Use collar grips from spider position to set up this powerful choke."
         }
       ]
     },
     {
       "id": 3,
-      "name": "De La Riva Guard",
+      "name": "De La Riva 🪝",
       "description": "The De La Riva guard is named after Ricardo De La Riva. It involves hooking your opponent's leg from the outside with your leg while controlling their opposite sleeve, creating an asymmetrical control position.",
-      "image": "https://images.unsplash.com/photo-1517438476312-10d79c077509?w=500&h=300&fit=crop",
+      "image": "images/delariva.jpg",
+      "video": "https://www.youtube.com/watch?v=QRjmkD22UUo",
       "execution": [
         "From open guard, identify opponent's lead leg",
-        "Hook your outside leg behind their near leg",
-        "Wrap your foot around to their inner thigh",
-        "Grip their opposite collar or sleeve",
+        "Hook your outside leg behind their near leg (shin to calf)",
+        "Wrap your foot around to their inner thigh for maximum control",
+        "Grip their opposite collar or sleeve with a strong grip",
         "Use your other leg to control their hip or bicep",
-        "Stay active and create angles"
+        "Keep your hips off the mat and mobile",
+        "Maintain constant tension pulling them forward",
+        "Stay active and create angles by scooting your hips",
+        "Keep your shoulders off the mat to prevent being flattened"
       ],
       "pros": [
         "Excellent for off-balancing opponents",
-        "Multiple sweep combinations",
+        "Multiple sweep combinations available",
         "Great for transitioning to other guards",
-        "Works well against standing passes"
+        "Works well against standing passes",
+        "Allows for advanced techniques like berimbolo and back takes",
+        "Effective in both Gi and No-Gi (with modifications)",
+        "Creates asymmetrical control that disrupts opponent's balance"
       ],
       "cons": [
-        "Complex for beginners",
-        "Requires flexibility",
+        "Complex for beginners to master",
+        "Requires good flexibility in the hips",
         "Can be countered by backstep passes",
-        "Vulnerable to knee slice if not maintained"
+        "Vulnerable to knee slice if not maintained properly",
+        "Requires constant movement and energy",
+        "Can be smashed if you get flattened",
+        "Leg positioning can be fatiguing to maintain"
       ],
       "tips": [
-        "Keep constant tension on the hook",
-        "Combine with berimbolo attacks",
-        "Control the far sleeve to prevent defense",
-        "Practice inversions for advanced attacks"
+        "Keep constant tension on the hook - never let it go slack",
+        "Combine with berimbolo attacks for modern game",
+        "Control the far sleeve to prevent defensive frames",
+        "Practice inversions for advanced attacks and scrambles",
+        "Chain your attacks - if sweep fails, transition to another guard",
+        "Keep your free leg active - use it to push, frame, or hook",
+        "Don't stay static - constantly shift angles and grips",
+        "Master the basic DLR sweep before moving to berimbolo",
+        "Use collar drag to set up back takes",
+        "Practice the kiss of the dragon for advanced back takes"
       ],
-      "athletes": ["Ricardo De La Riva", "Cobrinha", "Miyao Brothers"],
+      "athletes": ["Ricardo De La Riva", "Cobrinha", "Miyao Brothers", "Rafa Mendes", "Langhi Brothers"],
       "sweeps": [
         {
-          "name": "De La Riva Sweep",
-          "description": "Use the hook and far grip to off-balance and sweep."
+          "name": "Classic De La Riva Sweep",
+          "description": "Use the hook and far grip to off-balance and sweep to your hooking side."
         },
         {
           "name": "Berimbolo",
-          "description": "Invert under opponent to take the back or sweep."
+          "description": "Invert under opponent to take the back or sweep - signature modern DLR technique."
         },
         {
           "name": "Balloon Sweep",
-          "description": "Elevate opponent using hooks and sweep over your head."
+          "description": "Elevate opponent using hooks and sweep over your head with momentum."
+        },
+        {
+          "name": "Kiss of the Dragon",
+          "description": "Invert completely under opponent, rotate around to take the back."
+        },
+        {
+          "name": "Sit-up Sweep (DLR variation)",
+          "description": "Come up to sitting position while maintaining hook to sweep forward."
+        },
+        {
+          "name": "Omoplata Sweep",
+          "description": "Transition from DLR hook to omoplata position and sweep."
+        },
+        {
+          "name": "Spider-DLR Hybrid Sweep",
+          "description": "Combine spider guard grips with DLR hook for powerful sweep."
+        },
+        {
+          "name": "Reverse DLR Sweep",
+          "description": "Use reverse DLR hook (hooking from inside) to sweep opposite direction."
+        },
+        {
+          "name": "DLR to X-Guard Sweep",
+          "description": "Transition from DLR to X-guard and sweep from there."
+        },
+        {
+          "name": "DLR to Single Leg X Sweep",
+          "description": "Drop to single leg X position and finish sweep from leg entanglement."
+        },
+        {
+          "name": "Waiter Sweep",
+          "description": "Control their far leg like a waiter holding a tray and sweep backward."
+        },
+        {
+          "name": "Collar Drag to Back Take",
+          "description": "Drag their collar and spin behind for back control or technical sweep."
         }
       ],
       "passes": [
         {
           "name": "Back Step Pass",
-          "description": "Step back and around the De La Riva hook to pass."
+          "description": "Step back and around the De La Riva hook to pass to side control or back."
         },
         {
           "name": "Knee Slice",
-          "description": "Drive the knee through while controlling the hook."
+          "description": "Drive the knee through while controlling the hook and clearing it to slice through."
+        },
+        {
+          "name": "Leg Drag",
+          "description": "Control and drag their bottom leg across to clear the hook and pass."
+        },
+        {
+          "name": "Smash Pass",
+          "description": "Drive heavy pressure down to flatten them and clear hooks with pressure."
+        },
+        {
+          "name": "Toreando Pass",
+          "description": "Stand up, control the pants, throw legs to side and pass around."
+        },
+        {
+          "name": "Stack Pass",
+          "description": "Drive their knees to chest, stack their weight, clear hook and pass."
+        },
+        {
+          "name": "Floating Pass",
+          "description": "Float over the hook with hip pressure while controlling upper body."
+        },
+        {
+          "name": "Leg Weave Pass",
+          "description": "Weave your leg over/under to clear the DLR hook systematically."
+        },
+        {
+          "name": "Crossface Pass",
+          "description": "Heavy crossface to flatten them, then clear hook and circle to side."
+        },
+        {
+          "name": "Pressure Pass",
+          "description": "Use chest-to-chest pressure to collapse structure and clear hooks."
+        },
+        {
+          "name": "Long Step Pass",
+          "description": "Step the hooked leg way back to break the hook, then circle around."
+        },
+        {
+          "name": "Headquarters Pass",
+          "description": "Control their bottom leg in headquarters position to prevent hook engagement."
+        },
+        {
+          "name": "Knee Cut (Outside variation)",
+          "description": "Cut your knee across from the outside while clearing the DLR hook."
+        },
+        {
+          "name": "Leg Pin Pass",
+          "description": "Pin their hooking leg down to the mat and pass over it."
+        },
+        {
+          "name": "Cartwheel Pass",
+          "description": "When inverted for berimbolo, cartwheel over to pass to mount."
         }
       ],
       "submissions": [
         {
           "name": "Straight Ankle Lock",
-          "description": "Control the ankle from De La Riva position."
+          "description": "Control the ankle from De La Riva position and transition to ashi garami."
         },
         {
           "name": "Triangle Choke",
-          "description": "Transition from DLR to triangle setup."
+          "description": "Transition from DLR to triangle setup by controlling posture and getting angle."
+        },
+        {
+          "name": "Omoplata",
+          "description": "Use the DLR hook position to swing leg over for omoplata shoulder lock."
+        },
+        {
+          "name": "Toe Hold",
+          "description": "Attack the foot from leg entanglement entries off DLR."
+        },
+        {
+          "name": "Knee Bar",
+          "description": "Attack the near knee when they defend sweeps or transition to leg locks."
+        },
+        {
+          "name": "Heel Hook (No-Gi)",
+          "description": "Enter heel hook positions from DLR entries in no-gi systems."
+        },
+        {
+          "name": "Collar Choke (Loop Choke)",
+          "description": "Use collar grips from DLR to set up loop choke when they defend."
+        },
+        {
+          "name": "Armbar",
+          "description": "Swing leg over for armbar when opponent posts or defends sweeps."
+        },
+        {
+          "name": "Back Take to Chokes",
+          "description": "Complete berimbolo or kiss of dragon to take back and finish with chokes."
+        },
+        {
+          "name": "Calf Slicer",
+          "description": "Trap their calf with your legs in specific DLR variations."
+        },
+        {
+          "name": "Wrist Locks",
+          "description": "Attack posted hands in no-gi when opponent defends DLR."
+        },
+        {
+          "name": "Guillotine Choke",
+          "description": "Catch the neck as opponent dives in to defend or pass the DLR."
+        },
+        {
+          "name": "Estima Lock",
+          "description": "Attack the foot from DLR entries using specific footlock mechanics."
+        },
+        {
+          "name": "Baseball Bat Choke",
+          "description": "Use collar grips from DLR position to set up this powerful choke."
+        },
+        {
+          "name": "Bow and Arrow Choke",
+          "description": "Transition from back take to finish with bow and arrow from back control."
         }
       ]
     },
@@ -432,6 +887,452 @@
           "description": "Swing leg over for armbar when opponent posts their arm (less common)."
         }
       ]
+    },
+    {
+      "id": 5,
+      "name": "Half Guard 🛡️",
+      "description": "Half guard is a position where you control one of your opponent's legs between both of yours while on your back. It's a versatile position that bridges the gap between full guard retention and being passed, offering numerous sweeps and submission opportunities.",
+      "image": "halfguard.jpg",
+      "video": "https://www.youtube.com/watch?v=V6kBW4TzBNA",
+      "execution": [
+        "Lie on your side with opponent's leg trapped between yours",
+        "Control their trapped leg with both your legs locked",
+        "Get an underhook on their far side when possible",
+        "Keep your inside knee blocking their hip",
+        "Stay on your side - never flat on your back",
+        "Control their upper body with frames or grips",
+        "Keep your head off the mat to prevent crossface",
+        "Use your bottom leg to control their ankle/knee",
+        "Maintain active hips ready to shift and create angles"
+      ],
+      "pros": [
+        "Great recovery position when guard is being passed",
+        "Works equally well in Gi and No-Gi",
+        "Excellent for smaller practitioners against bigger opponents",
+        "Multiple sweep and back take opportunities",
+        "Can transition to deep half, knee shield, or lockdown variations",
+        "Allows defensive players to slow the pace",
+        "Natural position for leg lock entries in modern game"
+      ],
+      "cons": [
+        "Can be smashed by heavy pressure if flat",
+        "Vulnerable to crossface and shoulder pressure",
+        "Requires constant battle for underhook",
+        "Can be difficult to attack if opponent establishes strong base",
+        "Risk of being passed if not active",
+        "Can be stalled by defensive top players",
+        "Requires good timing and technique to sweep effectively"
+      ],
+      "tips": [
+        "Get the underhook - this is the most important battle",
+        "Never let them flatten you - stay on your side",
+        "Use knee shield to create distance when needed",
+        "Practice deep half guard for modern sweeps",
+        "Combine half guard with butterfly hooks for hybrid attacks",
+        "Don't stay static - constantly shift between variations",
+        "Learn the lockdown for control in Gi and No-Gi",
+        "Practice coming up on your elbow/hand for better base",
+        "Study the old school sweep as high-percentage option",
+        "Chain your attacks - sweep to pass to submission"
+      ],
+      "athletes": ["Bernardo Faria", "Lucas Leite", "Roberto Gordo", "Eddie Bravo", "Tom DeBlass"],
+      "sweeps": [
+        {
+          "name": "Old School Sweep",
+          "description": "Use underhook and leg control to sweep opponent backwards over shoulder."
+        },
+        {
+          "name": "Deep Half Sweep (Waiter Sweep)",
+          "description": "Get deep under opponent and sweep them like lifting a tray."
+        },
+        {
+          "name": "Homer Simpson Sweep",
+          "description": "Roll under opponent from deep half to sweep or take back."
+        },
+        {
+          "name": "Knee Tap Sweep",
+          "description": "Control their far knee and sweep them to that side."
+        },
+        {
+          "name": "Electric Chair Sweep",
+          "description": "Use lockdown and lift opponent's leg to sweep or submit."
+        },
+        {
+          "name": "Plan B Sweep (Shaolin Sweep)",
+          "description": "Roll under opponent when they defend deep half."
+        },
+        {
+          "name": "Underhook Sweep",
+          "description": "Use strong underhook to drive forward and sweep."
+        },
+        {
+          "name": "Knee Shield Sweep",
+          "description": "Use knee shield to create space and sweep to side."
+        },
+        {
+          "name": "Lockdown Sweep",
+          "description": "Control with lockdown and sweep when they try to escape."
+        },
+        {
+          "name": "Half Guard to X-Guard Sweep",
+          "description": "Transition from half to X-guard and sweep from there."
+        },
+        {
+          "name": "Single Leg from Half",
+          "description": "Come up to single leg takedown from half guard."
+        },
+        {
+          "name": "Back Take Sweep",
+          "description": "Take the back from half guard for technical sweep."
+        }
+      ],
+      "passes": [
+        {
+          "name": "Crossface Pass",
+          "description": "Heavy crossface to flatten them and pass to side control."
+        },
+        {
+          "name": "Knee Slice",
+          "description": "Slice your trapped knee across to free leg and pass."
+        },
+        {
+          "name": "Underhook Pass",
+          "description": "Win the underhook battle and drive forward to pass."
+        },
+        {
+          "name": "Leg Drag from Half",
+          "description": "Control and drag their bottom leg to clear half guard."
+        },
+        {
+          "name": "Backstep Pass",
+          "description": "Step back and around the half guard to pass or take back."
+        },
+        {
+          "name": "Smash Pass",
+          "description": "Drive heavy pressure to flatten and clear half guard."
+        },
+        {
+          "name": "Knee Cut (Half Guard)",
+          "description": "Cut your knee across while controlling upper body."
+        },
+        {
+          "name": "Leg Weave Pass",
+          "description": "Weave your trapped leg free systematically and pass."
+        },
+        {
+          "name": "Lockdown Counter Pass",
+          "description": "Break the lockdown and clear leg to pass to side."
+        },
+        {
+          "name": "Hip Switch Pass",
+          "description": "Switch your hips and free trapped leg to pass."
+        },
+        {
+          "name": "Shoulder of Justice",
+          "description": "Drive shoulder into thigh to create pain and pass."
+        },
+        {
+          "name": "Kimura Trap Pass",
+          "description": "Control their arm with kimura grip and pass."
+        },
+        {
+          "name": "Float Pass",
+          "description": "Float weight over half guard while maintaining control."
+        },
+        {
+          "name": "Stack Pass (Half Guard)",
+          "description": "Stack their weight and clear trapped leg to pass."
+        },
+        {
+          "name": "Deep Half Counter",
+          "description": "When they enter deep half, circle hips and pass to mount."
+        }
+      ],
+      "submissions": [
+        {
+          "name": "Kimura",
+          "description": "Attack the far arm with kimura grip from half guard."
+        },
+        {
+          "name": "Guillotine Choke",
+          "description": "Catch the neck when opponent drives forward in half guard."
+        },
+        {
+          "name": "Darce Choke",
+          "description": "Trap their arm and wrap Darce from half guard bottom."
+        },
+        {
+          "name": "Triangle Choke",
+          "description": "Transition from half guard to triangle when getting angle."
+        },
+        {
+          "name": "Arm-in Guillotine",
+          "description": "Trap their arm inside guillotine from half guard."
+        },
+        {
+          "name": "Electric Chair",
+          "description": "Use lockdown to attack their leg/groin from half guard."
+        },
+        {
+          "name": "Toe Hold",
+          "description": "Attack the foot from half guard leg entanglements."
+        },
+        {
+          "name": "Straight Ankle Lock",
+          "description": "Transition to ankle lock from half guard bottom."
+        },
+        {
+          "name": "Back Take to Chokes",
+          "description": "Take the back from half and finish with rear naked choke."
+        },
+        {
+          "name": "Omoplata",
+          "description": "Swing leg over for omoplata when they defend sweeps."
+        },
+        {
+          "name": "Armbar",
+          "description": "Transition to armbar from half guard when controlling arm."
+        },
+        {
+          "name": "Ezekiel Choke",
+          "description": "Use gi sleeve to choke from half guard bottom."
+        },
+        {
+          "name": "Calf Slicer",
+          "description": "Attack the calf from deep half guard variations."
+        },
+        {
+          "name": "Wrist Locks",
+          "description": "Attack posted wrists from half guard in no-gi."
+        },
+        {
+          "name": "Knee Bar",
+          "description": "Attack the near knee from half guard transitions."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "X-Guard ✖️",
+      "description": "X-Guard is a powerful sweeping position where you control your opponent with both legs forming an 'X' under their body. One leg hooks behind their knee while the other controls their hip, creating excellent elevation and off-balancing opportunities.",
+      "image": "xguard.jpg",
+      "video": "https://www.youtube.com/watch?v=yXLTHqy1kRc",
+      "execution": [
+        "Start from open guard or half guard position",
+        "Get one foot on their hip (top hook)",
+        "Thread your other leg behind their near knee (bottom hook)",
+        "Create an X formation with your legs under their body",
+        "Control their sleeve or wrist on the trapped leg side",
+        "Keep your hips off the mat and mobile",
+        "Use your top hook to elevate and control balance",
+        "Pull their upper body forward to break posture",
+        "Stay ready to transition to single leg X or back take"
+      ],
+      "pros": [
+        "Extremely powerful sweeping position",
+        "Works excellently in both Gi and No-Gi",
+        "Great for smaller practitioners against bigger opponents",
+        "Natural transition to back takes",
+        "Excellent for standing up in scrambles",
+        "Multiple sweep angles available",
+        "Difficult for opponent to establish base or pressure"
+      ],
+      "cons": [
+        "Requires good timing to enter the position",
+        "Can be vulnerable to guard jumps and knee bars",
+        "Requires flexibility in the hips",
+        "Can be difficult against opponents who widen their base",
+        "Exposed to leg locks if you don't know defense",
+        "Requires constant movement and energy",
+        "Can be passed if opponent sits or drops weight correctly"
+      ],
+      "tips": [
+        "Master the entry from half guard and butterfly guard",
+        "Always control their upper body - pull them forward",
+        "Use your top hook to elevate constantly",
+        "Practice the back take as your primary option",
+        "Don't stay static - keep elevating and off-balancing",
+        "Chain X-guard with single leg X for more options",
+        "Study Marcelo Garcia's X-guard system extensively",
+        "Learn to stand up from X-guard in scrambles",
+        "Practice the technical stand-up sweep",
+        "Combine with butterfly hooks for hybrid sweeps"
+      ],
+      "athletes": ["Marcelo Garcia", "Gui Mendes", "Leandro Lo", "Cobrinha", "Rafa Mendes"],
+      "sweeps": [
+        {
+          "name": "X-Guard Sweep (Classic)",
+          "description": "Elevate with both hooks and sweep opponent to the side."
+        },
+        {
+          "name": "X-Guard to Back Take",
+          "description": "Use X-guard control to transition to back control - Marcelo Garcia signature."
+        },
+        {
+          "name": "Technical Stand-up",
+          "description": "Come up to your feet from X-guard while maintaining control."
+        },
+        {
+          "name": "Elevator Sweep",
+          "description": "Use bottom hook like elevator to lift and sweep opponent."
+        },
+        {
+          "name": "Overhead Sweep",
+          "description": "Pull opponent over your head using X-guard hooks."
+        },
+        {
+          "name": "Single Leg X Transition Sweep",
+          "description": "Flow from X-guard to single leg X and sweep."
+        },
+        {
+          "name": "Tripod Sweep (from X)",
+          "description": "Post on one hand and use X-guard hooks to sweep."
+        },
+        {
+          "name": "Balloon Sweep",
+          "description": "Elevate opponent high and sweep them overhead."
+        },
+        {
+          "name": "Reverse X Sweep",
+          "description": "Transition to reverse X-guard position and sweep."
+        },
+        {
+          "name": "Hip Bump Sweep (X-guard entry)",
+          "description": "Use X-guard control to sit up and bump sweep."
+        },
+        {
+          "name": "Ankle Pick Sweep",
+          "description": "Control ankle from X-guard and sweep their base."
+        },
+        {
+          "name": "Crab Ride to Back",
+          "description": "Transition from X-guard to crab ride and take the back."
+        }
+      ],
+      "passes": [
+        {
+          "name": "Sit Down Pass",
+          "description": "Sit down on their bottom hook to break X-guard and pass."
+        },
+        {
+          "name": "Knee Bar Counter",
+          "description": "Attack their bottom leg with knee bar when entering X-guard."
+        },
+        {
+          "name": "Wide Base Pass",
+          "description": "Widen your base to prevent elevation and clear hooks."
+        },
+        {
+          "name": "Leg Drag",
+          "description": "Control their bottom leg and drag across to pass."
+        },
+        {
+          "name": "Smash Pass",
+          "description": "Drive weight down to collapse X-guard structure."
+        },
+        {
+          "name": "Backstep Pass",
+          "description": "Step back and around X-guard hooks to pass."
+        },
+        {
+          "name": "Headquarters Pass",
+          "description": "Establish headquarters to prevent X-guard entry."
+        },
+        {
+          "name": "Stack Pass",
+          "description": "Stack their weight on shoulders to break X-guard."
+        },
+        {
+          "name": "Leg Weave Pass",
+          "description": "Weave your legs free from X-guard hooks systematically."
+        },
+        {
+          "name": "Toreando Pass",
+          "description": "Control legs and throw to side to clear X-guard."
+        },
+        {
+          "name": "Knee Slice",
+          "description": "Clear hooks and slice knee through to side control."
+        },
+        {
+          "name": "Float Pass",
+          "description": "Float weight over X-guard while maintaining upper body control."
+        },
+        {
+          "name": "Long Step Pass",
+          "description": "Step trapped leg way back to break X-guard and circle."
+        },
+        {
+          "name": "Pressure Pass",
+          "description": "Use heavy chest pressure to flatten and clear X-guard."
+        },
+        {
+          "name": "Reverse X Counter",
+          "description": "When they go to reverse X, counter with specific pass."
+        }
+      ],
+      "submissions": [
+        {
+          "name": "Triangle Choke",
+          "description": "Transition from X-guard to triangle when controlling posture."
+        },
+        {
+          "name": "Straight Ankle Lock",
+          "description": "Attack the ankle from X-guard position."
+        },
+        {
+          "name": "Toe Hold",
+          "description": "Attack the foot from X-guard leg entanglement."
+        },
+        {
+          "name": "Knee Bar",
+          "description": "Attack their trapped knee from X-guard control."
+        },
+        {
+          "name": "Back Take to Chokes",
+          "description": "Take the back from X-guard and finish with rear naked choke."
+        },
+        {
+          "name": "Armbar",
+          "description": "Control arm and swing leg over for armbar from X-guard."
+        },
+        {
+          "name": "Guillotine Choke",
+          "description": "Catch the neck when opponent dives forward from X-guard."
+        },
+        {
+          "name": "Omoplata",
+          "description": "Transition to omoplata when they defend sweeps."
+        },
+        {
+          "name": "Calf Slicer",
+          "description": "Attack the calf using X-guard leg position."
+        },
+        {
+          "name": "Heel Hook (No-Gi)",
+          "description": "Enter heel hook from X-guard in no-gi systems."
+        },
+        {
+          "name": "Wrist Locks",
+          "description": "Attack posted wrists when defending X-guard."
+        },
+        {
+          "name": "Kimura",
+          "description": "Attack the shoulder when opponent posts from X-guard."
+        },
+        {
+          "name": "Estima Lock",
+          "description": "Attack the foot using specific mechanics from X-guard."
+        },
+        {
+          "name": "Crucifix",
+          "description": "Trap both arms from back take off X-guard."
+        },
+        {
+          "name": "Bow and Arrow Choke",
+          "description": "Complete back take and finish with bow and arrow choke."
+        }
+      ]
     }
    ],
   "athletes": [
@@ -488,6 +1389,17 @@
     "sweep": "Kiss of the Dragon",
     "pass": "Leg Drag & Backstep",
     "submission": "Triangle & Omoplata"
+  }
+},
+{
+  "id": 14,
+  "name": "Roger Gracie",
+  "image": "images/rogergracie.jpg",
+  "signatures": {
+    "guard": "Closed Guard",
+    "sweep": "Scissor Sweep & Hip Bump Sweep",
+    "pass": "Pressure Passing & Cross-face",
+    "submission": "Cross Collar Choke from Mount & Armbar"
   }
 }
   ]
