@@ -123,7 +123,7 @@
   {
     "id": 20,
     "name": "Lachlan Giles",
-    "image": "images/giles.jpg",
+    "image": "images/giles.webp",
     "signatures": {
       "guard": "K-Guard",
       "sweep": "Leg Entanglement Entries",
@@ -134,7 +134,7 @@
   {
     "id": 21,
     "name": "Craig Jones",
-    "image": "images/craigjones.jpg",
+    "image": "images/craigjones.webp",
     "signatures": {
       "guard": "Z-Guard",
       "sweep": "Half Guard Underhook Sweep",
@@ -145,7 +145,7 @@
   {
     "id": 22,
     "name": "Felipe Pena",
-    "image": "images/penna.jpg",
+    "image": "images/penna.webp",
     "signatures": {
       "guard": "De La Riva Guard",
       "sweep": "Single Leg Sweep",
@@ -156,7 +156,7 @@
   {
     "id": 23,
     "name": "Leandro Lo",
-    "image": "images/leandrolo.jpg",
+    "image": "images/leandrolo.webp",
     "signatures": {
       "guard": "DLR & Lasso Guard",
       "sweep": "Matrix Back Take",
@@ -167,7 +167,7 @@
   {
     "id": 24,
     "name": "Xande Ribeiro",
-    "image": "images/xande.jpg",
+    "image": "images/xande.webp",
     "signatures": {
       "guard": "Closed Guard",
       "sweep": "Scissor Sweep",
@@ -190,7 +190,7 @@
   {
     "id": 26,
     "name": "Tye Ruotolo",
-    "image": "images/tyeruotolo.jpg",
+    "image": "images/tyeruotolo.webp",
     "signatures": {
       "guard": "K-Guard & Butterfly Guard",
       "sweep": "Wrestle-Up Sweep",
@@ -201,7 +201,7 @@
   {
     "id": 27,
     "name": "Mica Galvao",
-    "image": "images/micagalvao.jpg",
+    "image": "images/micagalvao.webp",
     "signatures": {
       "guard": "DLR & K-Guard",
       "sweep": "Matrix Back Take",
@@ -212,7 +212,7 @@
   {
     "id": 28,
     "name": "Nicholas Meregali",
-    "image": "images/meregali.jpg",
+    "image": "images/meregali.webp",
     "signatures": {
       "guard": "De La Riva Guard",
       "sweep": "Berimbolo",
@@ -245,7 +245,7 @@
   {
     "id": 31,
     "name": "Diego Pato",
-    "image": "images/diegopato.jpg",
+    "image": "images/diegopato.webp",
     "signatures": {
       "guard": "De La Riva Guard",
       "sweep": "Berimbolo to Back",
@@ -267,7 +267,7 @@
   {
     "id": 33,
     "name": "Nicky Rodriguez",
-    "image": "images/nickyrod.jpg",
+    "image": "images/nickyrod.webp",
     "signatures": {
       "guard": "Wrestle-Up Guard",
       "sweep": "Single Leg Stand-Up",
@@ -289,7 +289,7 @@
    {
     "id": 35,
     "name": "Tainan Dalpra",
-    "image": "images/tainandalpra.jpg",
+    "image": "images/tainandalpra.webp",
     "signatures": {
       "guard": "Closed Guard & Collar Sleeve",
       "sweep": "Tripod Sweep",
