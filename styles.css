@@ -734,7 +734,7 @@ main {
 
 .pros ul li,
 .cons ul li {
-    color: #1e293b;
+    color: var(--text-primary);
     line-height: 1.8;
     font-weight: 500;
 }
