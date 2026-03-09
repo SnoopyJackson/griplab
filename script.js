@@ -81,16 +81,19 @@ function createParticles() {
     }
 }
 
-// Load Data from JSON
+// Load Data from JSON files
 async function loadData() {
     try {
-        const response = await fetch('data.json');
-        const data = await response.json();
-        guardsData = data.guards;
-        athletesData = data.athletes;
+        const [guardsResponse, athletesResponse] = await Promise.all([
+            fetch('data.json'),
+            fetch('athletes.json')
+        ]);
+        const guardsJson = await guardsResponse.json();
+        guardsData = guardsJson.guards;
+        athletesData = await athletesResponse.json();
     } catch (error) {
         console.error('Error loading data:', error);
-        alert('Error loading data. Please make sure data.json is in the same directory.');
+        alert('Error loading data. Please make sure data.json and athletes.json are in the same directory.');
     }
 }
 
