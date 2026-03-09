@@ -1493,6 +1493,776 @@ main {
 }
 
 /* =================================
+   TRAINING LOG
+   ================================= */
+.log-header {
+    margin-bottom: 30px;
+}
+
+/* Stats Row */
+.log-stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.log-stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 12px;
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--card-border);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.log-stat-card:hover {
+    border-color: var(--primary-glow);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+    transform: translateY(-3px);
+}
+
+.log-stat-icon {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.log-stat-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--primary-glow);
+    text-shadow: var(--glow-sm);
+}
+
+.log-stat-label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+/* Breakdown Card */
+.log-breakdown-card {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--card-border);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-brutal);
+}
+
+.log-breakdown-card h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--secondary-glow);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.log-breakdown-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.breakdown-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.breakdown-label {
+    width: 120px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    flex-shrink: 0;
+    color: var(--text-primary);
+}
+
+.breakdown-bar-track {
+    flex: 1;
+    height: 22px;
+    background: rgba(15, 23, 42, 0.8);
+    border: 1px solid var(--card-border);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.breakdown-bar-fill {
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.5s ease;
+    box-shadow: 0 0 10px currentColor;
+}
+
+.breakdown-count {
+    width: 30px;
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--primary-glow);
+}
+
+/* Form Card */
+.log-form-card {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.12) 0%, rgba(0, 212, 255, 0.12) 100%);
+    border: 2px solid rgba(168, 85, 247, 0.4);
+    border-radius: 15px;
+    padding: 28px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 32px rgba(168, 85, 247, 0.2);
+}
+
+.log-form-card h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-glow);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.log-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.log-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.log-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.log-form-group label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--secondary-glow);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.log-form-group input,
+.log-form-group select,
+.log-form-group textarea {
+    padding: 12px 14px;
+    background: rgba(15, 23, 42, 0.8);
+    border: 2px solid var(--card-border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+}
+
+.log-form-group input:focus,
+.log-form-group select:focus,
+.log-form-group textarea:focus {
+    border-color: var(--primary-glow);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.25);
+}
+
+.log-form-group textarea {
+    resize: vertical;
+    min-height: 70px;
+}
+
+.log-form-group select option {
+    background: #0f172a;
+    color: var(--text-primary);
+}
+
+.log-submit-btn {
+    padding: 14px 30px;
+    background: linear-gradient(135deg, var(--primary-glow) 0%, var(--secondary-glow) 100%);
+    border: none;
+    border-radius: 10px;
+    color: var(--bg-darker);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 255, 136, 0.4);
+}
+
+.log-submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(0, 255, 136, 0.6);
+}
+
+/* History Card */
+.log-history-card {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--card-border);
+    border-radius: 15px;
+    padding: 28px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-brutal);
+}
+
+.log-history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.log-history-header h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--secondary-glow);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.log-filter-row select {
+    padding: 8px 14px;
+    background: rgba(15, 23, 42, 0.8);
+    border: 2px solid var(--card-border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+
+.log-filter-row select:focus {
+    border-color: var(--primary-glow);
+}
+
+.log-filter-row select option {
+    background: #0f172a;
+}
+
+.log-entries {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.log-entry {
+    position: relative;
+    padding: 16px 50px 16px 18px;
+    background: rgba(15, 23, 42, 0.6);
+    border-left: 4px solid;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.log-entry:hover {
+    background: rgba(15, 23, 42, 0.9);
+}
+
+.log-entry-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.log-entry-activity {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.log-entry-date {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.log-entry-body {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.log-entry-duration {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--primary-glow);
+}
+
+.log-entry-notes {
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    line-height: 1.6;
+    opacity: 0.9;
+    white-space: pre-wrap;
+}
+
+.log-entry-delete {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: opacity 0.2s;
+    padding: 4px;
+}
+
+.log-entry:hover .log-entry-delete {
+    opacity: 1;
+}
+
+.log-empty {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-secondary);
+}
+
+.log-empty p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    opacity: 0.6;
+}
+
+.log-empty span {
+    font-size: 0.95rem;
+    opacity: 0.4;
+}
+
+/* Export / Import buttons */
+.log-data-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.export-btn {
+    background: rgba(0, 212, 255, 0.2);
+    border-color: var(--secondary-glow);
+    color: var(--secondary-glow);
+}
+
+.export-btn:hover {
+    background: var(--secondary-glow);
+    color: var(--bg-darker);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
+    transform: translateY(-2px);
+}
+
+.import-btn {
+    background: rgba(168, 85, 247, 0.2);
+    border-color: var(--accent-purple);
+    color: var(--accent-purple);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.import-btn:hover {
+    background: var(--accent-purple);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+    transform: translateY(-2px);
+}
+
+/* =================================
+   WAR ROOM — Professor Class Prep
+   ================================= */
+.warroom-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Position Grid */
+.warroom-positions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.wr-position-card {
+    background: var(--card-bg);
+    border: 1px solid rgba(0, 255, 136, 0.15);
+    border-radius: 12px;
+    padding: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.wr-position-card:hover {
+    border-color: var(--primary-glow);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px rgba(0, 255, 136, 0.15);
+}
+
+.wr-pos-emoji {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.wr-pos-name {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.1rem;
+    color: var(--primary-glow);
+    margin-bottom: 8px;
+}
+
+.wr-pos-desc {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 14px;
+    line-height: 1.4;
+}
+
+.wr-pos-tags {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.wr-pos-tag {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Panel Header */
+.warroom-panel-header {
+    margin-bottom: 24px;
+}
+
+.warroom-back-btn {
+    background: transparent;
+    border: 1px solid var(--text-secondary);
+    color: var(--text-secondary);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 12px;
+}
+
+.warroom-back-btn:hover {
+    border-color: var(--primary-glow);
+    color: var(--primary-glow);
+}
+
+.warroom-position-title {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.5rem;
+    color: var(--primary-glow);
+    text-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+    margin-bottom: 16px;
+}
+
+.warroom-filter-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.warroom-filter-btn {
+    background: rgba(15, 23, 42, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-secondary);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.warroom-filter-btn:hover {
+    border-color: var(--secondary-glow);
+    color: var(--text-primary);
+}
+
+.warroom-filter-btn.active {
+    background: var(--secondary-glow);
+    color: #0f172a;
+    border-color: var(--secondary-glow);
+}
+
+/* Technique Cards */
+.warroom-technique-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.wr-technique-card {
+    background: var(--card-bg);
+    border: 1px solid rgba(0, 212, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.3s;
+}
+
+.wr-technique-card:hover {
+    border-color: rgba(0, 212, 255, 0.3);
+}
+
+.wr-tech-header {
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.wr-tech-title-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.wr-tech-cat-badge {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.wr-tech-persp {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.wr-tech-name {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.15rem;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+}
+
+.wr-tech-goal {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.wr-tech-expand-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    transition: transform 0.3s;
+}
+
+.wr-technique-card.expanded .wr-tech-expand-icon {
+    transform: rotate(180deg);
+}
+
+/* Accordion body */
+.wr-tech-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.wr-technique-card.expanded .wr-tech-body {
+    max-height: 3000px;
+}
+
+/* Detail Blocks */
+.wr-detail-block {
+    padding: 16px 20px;
+    margin: 0 16px 16px;
+    background: rgba(15, 23, 42, 0.6);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.wr-detail-block h5 {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.85rem;
+    color: var(--secondary-glow);
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.4);
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+/* Initial Position Grid */
+.wr-position-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.wr-pos-item {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 3px solid var(--secondary-glow);
+}
+
+.wr-pos-label {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.7rem;
+    color: var(--secondary-glow);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.wr-pos-item p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Green / Red Lights Row */
+.wr-lights-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 0 16px 16px;
+}
+
+.wr-lights-row .wr-detail-block {
+    margin: 0;
+}
+
+.wr-lights-green {
+    border-left: 3px solid #00ff88;
+}
+
+.wr-lights-green h5 {
+    color: #00ff88;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
+}
+
+.wr-lights-red {
+    border-left: 3px solid #ff4444;
+}
+
+.wr-lights-red h5 {
+    color: #ff4444;
+    text-shadow: 0 0 10px rgba(255, 68, 68, 0.4);
+}
+
+.wr-detail-block ul,
+.wr-detail-block ol {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.wr-detail-block li {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+/* Steps */
+.wr-detail-steps {
+    border-left: 3px solid var(--primary-glow);
+}
+
+.wr-detail-steps ol {
+    counter-reset: step;
+    list-style: none;
+    padding-left: 0;
+}
+
+.wr-detail-steps ol li {
+    counter-increment: step;
+    padding-left: 32px;
+    position: relative;
+}
+
+.wr-detail-steps ol li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    background: var(--primary-glow);
+    color: #0f172a;
+    border-radius: 50%;
+    font-family: 'Orbitron', monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Complex / Simple */
+.wr-detail-complex {
+    border-left: 3px solid #f59e0b;
+}
+
+.wr-detail-complex h5 {
+    color: #f59e0b;
+    text-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+}
+
+.wr-detail-simple {
+    border-left: 3px solid #a855f7;
+}
+
+.wr-detail-simple h5 {
+    color: #a855f7;
+    text-shadow: 0 0 10px rgba(168, 85, 247, 0.4);
+}
+
+/* =================================
    RESPONSIVE DESIGN
    ================================= */
 @media (max-width: 1024px) {
@@ -1881,6 +2651,83 @@ main {
 
     .empty-state p {
         font-size: 1.1rem;
+    }
+
+    /* Training Log Mobile */
+    .log-stats-row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .log-stat-value {
+        font-size: 1.5rem;
+    }
+
+    .log-stat-icon {
+        font-size: 1.4rem;
+    }
+
+    .log-form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .log-form-card,
+    .log-history-card,
+    .log-breakdown-card {
+        padding: 18px;
+    }
+
+    .log-data-actions {
+        flex-direction: column;
+    }
+
+    .log-data-actions .action-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .breakdown-label {
+        width: 90px;
+        font-size: 0.85rem;
+    }
+
+    /* War Room mobile */
+    .warroom-positions {
+        grid-template-columns: 1fr;
+    }
+
+    .wr-position-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .wr-lights-row {
+        grid-template-columns: 1fr;
+    }
+
+    .warroom-position-title {
+        font-size: 1.2rem;
+    }
+
+    .warroom-filter-row {
+        gap: 6px;
+    }
+
+    .warroom-filter-btn {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    .wr-tech-name {
+        font-size: 1rem;
+    }
+
+    .wr-detail-block {
+        margin: 0 10px 12px;
+        padding: 14px;
+    }
+
+    .wr-lights-row {
+        margin: 0 10px 12px;
     }
 }
 

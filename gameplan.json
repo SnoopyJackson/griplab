@@ -1,0 +1,1020 @@
+{
+  "positions": [
+    {
+      "id": "closed-guard",
+      "name": "Closed Guard",
+      "emoji": "🔒",
+      "description": "Guard player has legs locked around opponent's waist. One of the most fundamental positions in BJJ.",
+      "techniques": [
+        {
+          "name": "Scissor Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Sweep opponent from closed guard to mount by creating a scissoring motion with your legs — one leg pushes across their belly while the other cuts their base away.",
+          "initialPosition": {
+            "body": "Lying on your back, guard OPEN, torso angled to the side of your collar grip. Not flat on your back — hips are scooted slightly to the collar grip side.",
+            "grips": "Deep cross collar grip (4 fingers inside, same side you're sweeping toward) + sleeve or wrist grip on their opposite arm, pulling it across.",
+            "legs": "Top leg: shin placed horizontally across opponent's stomach/chest, knee pointing to the ceiling. Bottom leg: extended along the mat, foot hooking behind opponent's far knee/calf.",
+            "hips": "Angled toward the collar grip side, slightly off-center. Never flat on your back."
+          },
+          "greenLights": [
+            "Opponent is kneeling with upright posture (not standing)",
+            "Opponent's weight is centered or slightly forward",
+            "You've broken their posture and they're recovering upright — transitional moment",
+            "Opponent's base is narrow (knees close together)"
+          ],
+          "redLights": [
+            "Opponent is standing up — your shin shield won't be effective",
+            "Opponent has a very wide base with knees spread far apart",
+            "Opponent has underhooks on both sides",
+            "You don't have a solid collar grip yet (shallow grip = no pull power)"
+          ],
+          "steps": [
+            "From closed guard, secure deep cross collar grip and opposite-side sleeve grip. Open your guard.",
+            "Place your shin across opponent's belly, angle your hips toward the collar grip side. Extend your bottom leg out, foot hooking behind their far knee.",
+            "Simultaneously: PULL forward and down with the collar grip, PUSH with the shin across their belly, and SWEEP the bottom leg back to cut away their far knee/base. All three happen together.",
+            "Follow the sweep momentum to mount, keeping the collar grip throughout the transition. Establish mount control immediately."
+          ],
+          "complexpieces": [
+            "If opponent posts their hand to resist the sweep, switch to an armbar on the posted arm",
+            "Chain with triangle: if they posture to resist and leave an arm in/arm out situation",
+            "Lapel lasso variation: feed the lapel under their leg for a much stronger sweep grip"
+          ],
+          "simplifications": [
+            "Practice the scissoring leg motion without grips first — focus on body mechanics",
+            "Use double sleeve grips instead of collar grip for an easier grip setup",
+            "Against a cooperative partner, focus only on the timing of the hip angle change"
+          ]
+        },
+        {
+          "name": "Hip Bump Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Sweep opponent to mount by explosively sitting up and driving your hips into them when they posture up. Capitalizes on their upright posture.",
+          "initialPosition": {
+            "body": "Transitioning from lying on back to sitting up explosively. Posting on one hand behind you on the mat.",
+            "grips": "Posting hand flat on the mat behind you (same side as sweep direction). Free hand reaches over opponent's same-side shoulder in an overhook/hugging position.",
+            "legs": "Guard opens. Foot on the posting-hand side plants flat on the mat for base and driving power.",
+            "hips": "Driving forward and upward at approximately 45° angle toward the overhook side."
+          },
+          "greenLights": [
+            "Opponent sits upright with hands on your chest, hips, or completely off you",
+            "Opponent has no collar or sleeve grips at the moment",
+            "Opponent leans back or postures up — creating space between your chests",
+            "Opponent momentarily takes both hands off you"
+          ],
+          "redLights": [
+            "Opponent has heavy forward pressure with head low on your chest",
+            "Opponent has deep collar grips controlling your posture down",
+            "Opponent is already actively working a pass",
+            "You're flat on the mat with no explosiveness available in your hips"
+          ],
+          "steps": [
+            "The MOMENT opponent postures up, open your guard and plant your foot (same side as posting hand) flat on the mat.",
+            "Post your hand on the mat behind you and EXPLOSIVELY sit up, driving your hips forward and UP at a 45° angle.",
+            "Reach over their shoulder on the same side with your free arm, hugging tight to prevent them from posting their hand.",
+            "Drive through to mount, pushing them onto their back with the hip bump momentum. Secure mount control immediately."
+          ],
+          "complexpieces": [
+            "If opponent posts their hand to block → grab the posted wrist for a kimura",
+            "If opponent pushes your chest → dive under their arm for guillotine",
+            "Combine with scissor sweep: attempt hip bump (they lean back), when they push forward, immediately transition to scissor sweep"
+          ],
+          "simplifications": [
+            "Practice the explosive sit-up motion without the sweep (just drill sitting up fast from guard)",
+            "Focus on the hip driving angle (45°) against a static partner",
+            "Do the sweep without the overhook first — just the sit-up and hip drive"
+          ]
+        },
+        {
+          "name": "Armbar from Closed Guard",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Hyperextend opponent's elbow joint by pivoting your hips perpendicular to their body, clamping their arm between your legs, and lifting your hips against the elbow.",
+          "initialPosition": {
+            "body": "Lying on back in closed guard. Hips already angled toward the attacking side — perpendicular angle to opponent's body is the target.",
+            "grips": "Same-side wrist or sleeve grip on the arm you're attacking. Other hand grips their head (behind the neck) or collar, pulling their posture down.",
+            "legs": "Guard opens to place one foot on their hip (same side as trapped arm) for the pivot. Other leg will come high across their back and over their face.",
+            "hips": "Scooted to the side, creating a perpendicular angle. Never square/flat."
+          },
+          "greenLights": [
+            "Opponent extends one arm — posting on your chest, reaching for your collar, or pushing",
+            "Opponent's posture is broken down (head low, leaning forward)",
+            "You've successfully isolated one of their arms with wrist control",
+            "Opponent is focused on posturing up and not defending their arm"
+          ],
+          "redLights": [
+            "Both opponent's arms are tight to their body — nothing to isolate",
+            "Opponent is actively posturing up with hips back and strong base",
+            "You're flat on your back with no angle created yet",
+            "Opponent is stacking you (hips driving over your head)"
+          ],
+          "steps": [
+            "Control the target arm at the wrist. Use your other hand to grab behind their head or collar and PULL their posture down.",
+            "Place your foot on their hip (same side as trapped arm) and pivot your hips to create a perpendicular angle to their body. Your other leg swings high across their back and over their shoulders/face.",
+            "Clamp BOTH legs tight — one leg over their face/neck, one across their torso. Keep their thumb pointing UP (arm fully extended, elbow joint facing your hips).",
+            "Squeeze knees together, pinch tight. Lift your hips UP against their elbow for the submission. Control at the wrist — your hips provide the breaking pressure."
+          ],
+          "complexpieces": [
+            "Chain from triangle: attempt triangle first, if they pull arm out, switch to armbar",
+            "If they stack you, transition to triangle or omoplata",
+            "Set up with a cross collar choke attempt — when they push your hand away, catch the extended arm"
+          ],
+          "simplifications": [
+            "Drill the hip pivot/angle change in isolation (just movement, no submission)",
+            "Break into 2 parts: (1) angle creation + leg placement, (2) finishing mechanics",
+            "Practice leg clamp and hip lift on a compliant partner's arm to feel correct pressure"
+          ]
+        },
+        {
+          "name": "Triangle Choke",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Choke opponent using your legs in a figure-four configuration around their neck and one trapped arm. The legs compress the carotid arteries using the thigh and their own shoulder.",
+          "initialPosition": {
+            "body": "Lying on back in closed guard. Hips angled to the side for leg clearance over their shoulder.",
+            "grips": "Same-side sleeve grip on the arm you're pulling across your body. Other hand on their collar or behind their head, pushing them down.",
+            "legs": "Guard opens. One leg will throw HIGH over their shoulder and behind their neck. Other foot pushes on their hip for the pivot.",
+            "hips": "Scooted out to the side to create the angle needed for your leg to clear over their shoulder."
+          },
+          "greenLights": [
+            "Opponent has one arm forward and one arm back (arm in, arm out situation)",
+            "Opponent pushes one hand into your chest or stomach — arm is extended and exposed",
+            "You've broken their posture and can control one arm across your centerline",
+            "After a failed guard pass attempt where one arm is isolated"
+          ],
+          "redLights": [
+            "Both of opponent's arms are inside your guard — can't create arm in/arm out",
+            "Opponent has strong upright posture with hips back (can't throw leg over)",
+            "Opponent is stacking you (hips driving over your head)",
+            "You have no grip on any of their arms — can't control the arm-in position"
+          ],
+          "steps": [
+            "Control one arm by the wrist/sleeve and PULL it across your centerline. Push their head down with your other hand.",
+            "Open guard, plant your foot on their hip (opposite side of trapped arm), and throw your top leg HIGH over their shoulder and behind their neck.",
+            "Lock the triangle: place the back of your knee over your opposite ankle (figure-four). Angle your body 30° to the side to tighten the choke geometry.",
+            "Squeeze knees together, pull their head DOWN with both hands, lift your hips. Their trapped arm's shoulder compresses one carotid, your thigh compresses the other."
+          ],
+          "complexpieces": [
+            "If they posture inside the triangle, switch to armbar on the trapped arm",
+            "If they try to stack, release the lock and transition to omoplata by controlling the shoulder",
+            "Set up from overhook: swim for an overhook control, then throw the triangle leg over their shoulder"
+          ],
+          "simplifications": [
+            "Practice the figure-four leg lock configuration without any resistance (just position your legs correctly)",
+            "Focus first on getting the arm-in, arm-out position before throwing the leg",
+            "Wall drills: lie on your back with hips near a wall and practice the hip-cut angle"
+          ]
+        },
+        {
+          "name": "Cross Collar Choke",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Choke opponent using both hands gripping deep inside their collar in an X pattern. Wrist bones compress the carotid arteries. Gi-only technique.",
+          "initialPosition": {
+            "body": "Lying on back in closed guard. Opponent's posture is broken down — ideally chest to chest.",
+            "grips": "First hand: deep 4-finger-inside grip in the cross collar (palm up, reaching across). Second hand: deep grip inside the OPPOSITE collar (palm down). Wrists form an X at the throat.",
+            "legs": "Guard closed tight, actively pulling opponent's posture down with leg squeeze.",
+            "hips": "Can be square or slightly angled. Focus is on keeping opponent's posture broken so they can't escape."
+          },
+          "greenLights": [
+            "Opponent's posture is fully broken down and their head is low",
+            "You've secured the first collar grip very deep (past the tag at the back of the neck)",
+            "Opponent is focused on passing guard and not defending their collar",
+            "Opponent is flat-chested on you, unable to posture up"
+          ],
+          "redLights": [
+            "Opponent has strong posture with hips back — can't reach collar deeply",
+            "Opponent is actively grip-fighting and stripping your collar grips",
+            "You can't get deeper than halfway in the collar (too shallow = no choke)",
+            "Opponent stands up in your guard (lose the broken posture)"
+          ],
+          "steps": [
+            "Break opponent's posture: pull with legs and arms. Secure first grip — reach across and feed your hand DEEP inside their collar (4 fingers in, thumb out, palm up). Grip should be past the tag at the back of the collar.",
+            "With the other hand, reach across to the OTHER side of the collar, gripping deep (4 fingers in, palm down). Your wrists now form an X at their throat.",
+            "Pull your elbows toward your OWN ribs (NOT flaring out). Squeeze your forearms together like closing scissors. Keep posture broken with leg pressure.",
+            "Expand your chest forward while squeezing elbows down. The pressure comes from your wrist bones on the carotid arteries — this is a blood choke, not windpipe."
+          ],
+          "complexpieces": [
+            "Use the first choke grip attempt as a setup: if they posture to defend, switch to hip bump sweep or armbar",
+            "Set up from an overhook position for a deeper first grip entry",
+            "Feed the collar grip from the back of the head around the neck for even deeper placement"
+          ],
+          "simplifications": [
+            "Practice getting just the FIRST grip deep, repeatedly — grip depth is everything",
+            "Drill posture-breaking: pulling opponent's head down with collar grip + leg squeeze",
+            "Use a gi hanging on a bar to practice the X-choke hand position and squeeze mechanics"
+          ]
+        },
+        {
+          "name": "Standing Guard Break + Toreando Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Open the opponent's closed guard by standing up and breaking their ankle lock, then immediately pass using a toreando (bullfighter) pass to side control.",
+          "initialPosition": {
+            "body": "Inside opponent's closed guard. Strong upright posture — head up, back straight, chest out.",
+            "grips": "Both hands gripping opponent's pants at the knee line, or controlling their hips/belt. Hands are anchored on their body.",
+            "legs": "One foot steps up flat on the mat near their hip (combat base). Then other foot stands up. End in a standing position inside their guard.",
+            "hips": "Driving forward and UP as you stand, using hip extension to break their ankle lock."
+          },
+          "greenLights": [
+            "You've established strong posture (head up, back straight, not hunched)",
+            "You have solid grips on their pants or hips before standing",
+            "Opponent doesn't have deep collar grips pulling you down",
+            "Your balance is stable with one foot already up in combat base"
+          ],
+          "redLights": [
+            "Opponent has deep collar grips breaking your posture (strip grips first)",
+            "You're leaned forward with head down (vulnerable to sweeps and submissions)",
+            "Opponent has an overhook or high guard locking you in",
+            "Your balance is compromised — about to be swept"
+          ],
+          "steps": [
+            "Establish posture: head up, back straight. Grip both pant legs at the knees. Step one foot up near their hip (combat base), then stand up with the other, driving hips forward to break their ankle lock.",
+            "Once guard opens, immediately control both legs at the pant cuffs or ankles. Push one leg DOWN to the mat while directing the other leg across (toreando motion).",
+            "Explode laterally like a bullfighter — move your hips quickly to the side, passing their legs. Keep pressure on their legs to prevent reguarding.",
+            "Land in side control: near arm under their head (crossface), far arm under their hip. Drop chest-to-chest pressure, sprawl your legs back."
+          ],
+          "complexpieces": [
+            "If opponent blocks with a knee shield, switch immediately to a knee slice pass",
+            "Combine with leg drag: as you clear the legs, drag their top leg across your body",
+            "Fake toreando one direction, then switch sides when they react"
+          ],
+          "simplifications": [
+            "Practice the standing guard break separately (just breaking the guard, reset)",
+            "Solo footwork drills: practice the toreando lateral movement without a partner",
+            "Start from an already-open guard to practice just the toreando passing mechanics"
+          ]
+        },
+        {
+          "name": "Double Under Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Pass guard by getting both arms under opponent's legs, stacking their hips over their shoulders, and walking around to side control.",
+          "initialPosition": {
+            "body": "Kneeling between opponent's open guard (guard must be open). Posture upright, chest forward.",
+            "grips": "Both arms reach under opponent's legs — biceps under their hamstrings. Hands clasp together (gable grip) behind their lower back or at their belt.",
+            "legs": "Knees on the mat, feet together, tight base. One foot steps up when you begin the stack.",
+            "hips": "Driving FORWARD, stacking opponent's hips over their head."
+          },
+          "greenLights": [
+            "Opponent plays open guard with feet on your hips or biceps (you can swim under both legs)",
+            "Both of opponent's legs are accessible — not locked in closed guard",
+            "Opponent is relatively flat on their back (easier to stack)",
+            "You can clasp your hands behind their back or belt"
+          ],
+          "redLights": [
+            "Opponent has strong cross collar grips (can set up chokes as you stack)",
+            "Opponent is very flexible — stacking has minimal effect on their mobility",
+            "You can only get under one leg (need both for double under)",
+            "Opponent is framing hard on your hips preventing you from closing distance"
+          ],
+          "steps": [
+            "From open guard, drive forward and swim both arms under opponent's thighs. Clasp your hands together (gable grip) behind their lower back or belt.",
+            "Step one foot up and drive forward, stacking their hips OVER their head. Your shoulder drives into their thighs. Keep your head on one side (the side you'll pass to).",
+            "Walk around to the side where your head is, maintaining constant forward stacking pressure. Don't let them unstack or create space.",
+            "Once past the legs, release the stack and drop into side control. Secure crossface and hip control immediately."
+          ],
+          "complexpieces": [
+            "If they grab your collar, transition to over-under pass by switching one arm over one leg",
+            "Chain with toreando: if they kick out of the stack, immediately switch to toreando",
+            "São Paulo pass variation: grip collar instead of clasping hands, drive head to the mat"
+          ],
+          "simplifications": [
+            "Practice the stacking motion with just shoulder pressure (no hands) to learn the body drive",
+            "Drill getting the double underhook grip vs a static open guard",
+            "Focus on stepping UP with one foot to generate stacking power — most common mistake is staying on both knees"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "half-guard",
+      "name": "Half Guard",
+      "emoji": "½",
+      "description": "One of your legs is entangled with one of opponent's legs. Versatile position for sweeps from bottom and passes from top.",
+      "techniques": [
+        {
+          "name": "Underhook Sweep (Old School)",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Sweep from half guard bottom to top position by securing a deep underhook and driving forward into your opponent like a tackle.",
+          "initialPosition": {
+            "body": "On bottom in half guard, turned ON YOUR SIDE facing opponent. Never flat on your back. Head tight against opponent's hip/ribcage.",
+            "grips": "Deep underhook on the far side — arm threaded under their armpit, hand reaching their back. Other hand controls their wrist or blocks the crossface.",
+            "legs": "Half guard locked around their near-side leg (triangle lock or lockdown). Knees close to your chest.",
+            "hips": "Angled on your side, hips close to opponent. Head is BELOW their chest level to deny the crossface."
+          },
+          "greenLights": [
+            "You've secured a deep underhook (arm under their armpit, hand reaching their back)",
+            "Your head is below their chest level — denying the crossface",
+            "Opponent is driving forward pressure into you (you use their momentum)",
+            "Opponent reaches for your head with their crossface arm — creates space for underhook"
+          ],
+          "redLights": [
+            "Opponent has a strong crossface with heavy shoulder pressure (ear pinned to mat)",
+            "You're flat on your back — no ability to generate sweep power",
+            "Opponent has a strong whizzer/overhook countering your underhook",
+            "Opponent is sitting back with weight away from you (no momentum to use)"
+          ],
+          "steps": [
+            "Get on your side and FIGHT for the underhook: swim your arm under their far-side armpit. Keep your head tight against their hip to deny crossface.",
+            "With underhook secured, walk your hips out slightly to create angle. Keep your half guard locked tight on their leg.",
+            "Drive FORWARD into them using the underhook like a tackle. Come up to your knees first, then to your feet, lifting and driving through.",
+            "Take them over to their back. Establish top position — side control or extract your trapped leg to pass the half guard."
+          ],
+          "complexpieces": [
+            "If they whizzer hard, duck under and take the back instead of sweeping forward",
+            "Chain with dog fight: if they base out wide, transition to single leg or back take from the dog fight position",
+            "Use a knee tap with your free hand on their far knee to accelerate the sweep"
+          ],
+          "simplifications": [
+            "Drill just the underhook fight: start flat on back, practice getting to your side and securing the underhook",
+            "Practice the forward drive (coming up to knees) without finishing the sweep",
+            "Start with the underhook already secured to focus only on the sweep mechanics"
+          ]
+        },
+        {
+          "name": "Knee Shield to Guard Recovery",
+          "category": "escape",
+          "perspective": "bottom",
+          "goal": "Use the knee shield as a frame to create distance, prevent the pass, and recover to a full guard position (closed guard, butterfly, or open guard).",
+          "initialPosition": {
+            "body": "On bottom in half guard, turned to your side. Top knee wedged across opponent's chest or midsection as a frame.",
+            "grips": "Near hand framing on their bicep or shoulder. Far hand on their collar, hip, or behind their head.",
+            "legs": "Top leg: knee across their body (knee shield), foot hooked on their hip. Bottom leg: locked in half guard on their near leg.",
+            "hips": "Angled slightly away from opponent, creating distance with the knee shield."
+          },
+          "greenLights": [
+            "You've managed to wedge your knee across their body before they flatten you",
+            "Opponent is trying to close distance and smash past — your knee shield is holding",
+            "You have frames on their upper body preventing them from collapsing",
+            "There's enough space to hip escape and start extracting your bottom leg"
+          ],
+          "redLights": [
+            "Opponent has already flattened you and passed around the knee shield",
+            "They have an underhook AND have passed your knee",
+            "You have no frames and they have crushing shoulder-to-face pressure",
+            "Your bottom leg is completely stapled and pinned to the mat"
+          ],
+          "steps": [
+            "From half guard, get on your side and wedge your top knee across opponent's belly/chest. Keep your foot hooked on their hip for structure.",
+            "Frame with both hands: near hand on their bicep/shoulder, far hand on their collar or head. PUSH to create distance.",
+            "Use the distance to hip escape (shrimp) and start extracting your bottom leg from the half guard entanglement.",
+            "Recover to full guard (lock ankles) or transition to an open guard (De La Riva, butterfly, collar-sleeve) depending on the distance."
+          ],
+          "complexpieces": [
+            "From knee shield, transition directly to a scissor sweep setup — the position is very similar",
+            "Use the knee shield to set up triangle or omoplata when they try to pass around it",
+            "Drop the knee shield down to transition to X-guard or single leg X"
+          ],
+          "simplifications": [
+            "Drill just the knee shield insertion: from flat on back, practice getting to your side with knee across their body",
+            "Practice hip escapes (shrimps) as a separate solo drill",
+            "Start with the knee shield already in place and focus only on the guard recovery part"
+          ]
+        },
+        {
+          "name": "Knee Slice Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Pass the half guard by sliding your lead knee across opponent's thigh while driving heavy crossface pressure to flatten them and advance to side control.",
+          "initialPosition": {
+            "body": "In combat base inside half guard (top position). Heavy shoulder pressure on the passing side.",
+            "grips": "Near arm: crossface — arm wrapping behind their head, shoulder driving into their jaw/cheek. Far hand: gripping the far collar or underhooking their far arm.",
+            "legs": "Lead knee placed diagonally across opponent's thigh (the slicing knee). Other leg posted back for base and drive.",
+            "hips": "Weight heavy on the slicing knee, hips LOW and driving forward. Not up on your toes."
+          },
+          "greenLights": [
+            "You have a strong crossface with your shoulder driving into their jaw (they can't face you)",
+            "Opponent's knee shield has been cleared or flattened",
+            "You have head position on the passing side — they can't get the underhook",
+            "Their bottom leg is relatively flat and your knee can slice across easily"
+          ],
+          "redLights": [
+            "Opponent has a deep underhook on the passing side (they'll take your back)",
+            "Opponent has a strong knee shield you can't clear — don't force it",
+            "You DON'T have head position (crossface) — vulnerable to back takes",
+            "Opponent is framing strongly against your shoulder preventing you from closing distance"
+          ],
+          "steps": [
+            "Secure the crossface: drive your near-side shoulder INTO their jaw. Arm wraps behind their head. Grip the far collar for anchor control.",
+            "Clear any knee shield by driving your hips LOW and stapling their bottom leg. Place your lead knee across their thigh, pointing diagonally toward the mat.",
+            "Slice your knee across their thigh while driving FORWARD with constant chest pressure. Keep your hips LOW — do not rise up or create space.",
+            "Clear your foot free from their half guard lock. Consolidate side control with crossface and hip control. Don't rush — maintain heavy pressure throughout."
+          ],
+          "complexpieces": [
+            "If opponent underhooks on the passing side, switch to a d'arce choke or backstep to leg drag",
+            "Chain with mount: after passing, immediately step over to mount",
+            "Use a collar grip to set up a baseball bat choke as you slice through"
+          ],
+          "simplifications": [
+            "Practice the knee slide motion against no resistance as a solo drill",
+            "Start from half guard with the crossface already secured — focus only on the knee slice",
+            "Focus first on maintaining overwhelming shoulder pressure before adding the knee slice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mount",
+      "name": "Mount",
+      "emoji": "👑",
+      "description": "Dominant top position sitting on opponent's torso. One of the highest-value positions in BJJ — multiple submissions available.",
+      "techniques": [
+        {
+          "name": "Americana (Keylock)",
+          "category": "submission",
+          "perspective": "top",
+          "goal": "Submit opponent with a shoulder lock by pinning their wrist to the mat and rotating their arm in a paint-brush arc motion against the shoulder joint.",
+          "initialPosition": {
+            "body": "In full mount. Weight distributed forward, chest heavy and low over opponent. Not sitting upright.",
+            "grips": "Same-side hand pins their wrist to the mat beside their head. Other hand threads under their arm (between forearm and mat) and grabs your own wrist — figure-four grip.",
+            "legs": "Grapevine hooks in (toes hooked under their thighs) OR knees squeezed tight to their ribs for stability.",
+            "hips": "Heavy and low — prevents opponent from bridging you off."
+          },
+          "greenLights": [
+            "Opponent pushes on your chest with one or both hands — arm is now extended and accessible",
+            "You've pinned their wrist to the mat near their head successfully",
+            "Opponent is flat on their back, not actively bridging or shrimping",
+            "Opponent's elbow is bent at approximately 90° (americana requires a bent arm)"
+          ],
+          "redLights": [
+            "Opponent keeps elbows extremely tight to their body — can't isolate the arm",
+            "Opponent is actively bridging and shrimping (focus on maintaining mount first!)",
+            "Their arm is straight — americana needs a bent arm, switch to armbar instead",
+            "You're sitting too upright (easy to be bumped/bridged off)"
+          ],
+          "steps": [
+            "From mount, pin opponent's wrist to the mat beside their head using your same-side hand. Keep your chest heavy and head low for base.",
+            "Slide your other hand UNDER their arm (between forearm and the mat) and grab your own wrist, creating the figure-four/paintbrush grip.",
+            "Keep their elbow pinned to the mat using your body weight and chest pressure. Slowly slide their wrist toward their hip in an ARC motion along the mat.",
+            "Maintain downward pressure on the elbow while moving the wrist in the arc. The shoulder joint reaches its rotation limit — opponent taps."
+          ],
+          "complexpieces": [
+            "If they straighten their arm to defend, immediately transition to a straight armbar",
+            "If they roll to their side, switch to a kimura on the exposed arm",
+            "Set up with a cross collar choke attempt: when they push your choking hand away, catch the extended arm for the americana"
+          ],
+          "simplifications": [
+            "Practice the figure-four grip configuration with a partner's arm repeatedly",
+            "Drill the wrist-to-hip arc to understand the correct angle of pressure",
+            "Focus first on maintaining stable mount pressure before attempting any submission"
+          ]
+        },
+        {
+          "name": "Ezekiel Choke",
+          "category": "submission",
+          "perspective": "top",
+          "goal": "Choke opponent from mount using your own gi sleeve as leverage. One arm behind their head for structure, the other feeds inside your own sleeve to press across their throat.",
+          "initialPosition": {
+            "body": "In mount, low and heavy on opponent's chest. Posture is forward, not sitting up.",
+            "grips": "One arm slides behind opponent's head (under the back of their neck). The free hand reaches INSIDE the sleeve opening of the arm behind the head, knuckles presenting across the front of the throat.",
+            "legs": "Mount with grapevines or knees tight to their ribs for stability.",
+            "hips": "Heavy and driving forward. Weight keeps opponent flat."
+          },
+          "greenLights": [
+            "You have stable mount with heavy pressure — opponent isn't escaping",
+            "Opponent is defending by covering their neck with hands (you can wedge your arm behind their head UNDER their defensive hands)",
+            "Opponent is focused on hip escaping, not watching for the choke setup",
+            "Your arm is already behind their head — half the work is done"
+          ],
+          "redLights": [
+            "Opponent is actively bridging and you can't maintain mount (stabilize first)",
+            "You can't get your arm behind their head — they're blocking effectively",
+            "Your sleeve grip is too shallow to form the choke structure",
+            "Opponent has strong frames pushing you away from their upper body"
+          ],
+          "steps": [
+            "From mount, slide one arm behind opponent's head — under the back of their neck. Settle your weight forward and stay heavy.",
+            "With your free hand, reach inside your OWN sleeve opening of the arm behind the head. Your knuckles enter the sleeve from the inside of your forearm.",
+            "Present the knife-edge/knuckle side of your free hand across opponent's throat (forearm across the front of the neck).",
+            "Squeeze by bringing both elbows TOGETHER and dropping your weight forward. The combination of sleeve pulling and forearm pressure across the throat creates the choke."
+          ],
+          "complexpieces": [
+            "Can also be applied from inside closed guard as a surprise (risky but effective)",
+            "Set up from a failed americana attempt — your arm is already behind their head from the pin",
+            "Apply from half guard top as a surprise attack when opponent is focused on sweeping"
+          ],
+          "simplifications": [
+            "Practice finding your own sleeve opening quickly — do it blindfolded to build muscle memory",
+            "Drill the hand-inside-sleeve mechanic against a cooperative partner or dummy",
+            "Focus on the squeeze direction: elbows together and weight forward, not pulling backward"
+          ]
+        },
+        {
+          "name": "Armbar from Mount",
+          "category": "submission",
+          "perspective": "top",
+          "goal": "Hyperextend opponent's elbow from the mounted position by transitioning to S-mount, swinging your leg over their face, and lifting your hips against their arm.",
+          "initialPosition": {
+            "body": "High mount with hips near opponent's chest. Transitioning to S-mount (one leg posted up near their head).",
+            "grips": "Both hands controlling the target arm at the wrist. Other hand on their face, chest, or mat for base during the transition.",
+            "legs": "S-mount: one knee up near opponent's head (same side as trapped arm), other leg down near their hip for base.",
+            "hips": "Pivoting to face toward the trapped arm, shifting weight toward their head for the transition."
+          },
+          "greenLights": [
+            "Opponent pushes against your chest with arms extended — arm is exposed",
+            "You've isolated one arm at the wrist successfully",
+            "Opponent is flat on their back and not actively bridging",
+            "You've achieved high mount or S-mount control"
+          ],
+          "redLights": [
+            "Opponent keeps both arms very tight and refuses to extend — don't force it",
+            "Opponent is actively bucking and bridging (secure mount first)",
+            "You don't have wrist control — they'll pull the arm out when you spin",
+            "Opponent is turned to their side — they can escape more easily during transition"
+          ],
+          "steps": [
+            "From high mount, control the target arm at the wrist. Place your other hand on the mat (or their face) for base.",
+            "Step your foot up near their head on the SAME SIDE as the trapped arm, entering S-mount. Lean your weight toward their head.",
+            "Swing your other leg OVER their face. Sit back while clamping both knees together tightly. Keep their thumb pointing at the ceiling (elbow joint facing you).",
+            "Pinch knees tight, control the wrist, lift hips UP and slightly back against their elbow joint for the submission."
+          ],
+          "complexpieces": [
+            "If they clasp hands to defend, use a bicep curl, wrist peel, or push their hands toward their feet",
+            "Chain: cross collar choke attempt → they push your hand → catch the pushing arm for armbar",
+            "If they try to pull the arm out during the spin, transition to triangle"
+          ],
+          "simplifications": [
+            "Practice the S-mount position hold before adding the armbar (just maintain the position for 30 seconds)",
+            "Drill the leg swing-over against no resistance to build the movement pattern",
+            "Break into phases: (1) S-mount entry, (2) leg over face, (3) finishing squeeze"
+          ]
+        },
+        {
+          "name": "Trap & Roll Escape (Upa)",
+          "category": "escape",
+          "perspective": "bottom",
+          "goal": "Bridge opponent over your body to reverse mount position — you end up in their closed guard on top. A power-based escape using explosive hip movement.",
+          "initialPosition": {
+            "body": "On your back underneath mount. Arms are defending and about to trap.",
+            "grips": "Trap opponent's arm on one side: hug their wrist/forearm tight to your chest with an overhook. Other hand can frame on their hip or control their head.",
+            "legs": "Trap opponent's foot on the SAME side as the trapped arm: step your foot over their ankle, pinning it to the mat.",
+            "hips": "Loaded and coiled, ready to bridge explosively upward and over."
+          },
+          "greenLights": [
+            "Opponent posts one hand on the mat — you can trap that arm AND foot on the same side",
+            "Opponent leans forward with their head over yours (weight shifted forward)",
+            "Opponent has both feet flat on the mat — NOT grapevined (no hooks)",
+            "Opponent is attempting a choke and momentarily not focused on their base"
+          ],
+          "redLights": [
+            "Opponent has both arms free and good wide base — nothing is trapped",
+            "Opponent is in high mount with grapevine hooks (very hard to bridge)",
+            "You've only trapped the arm but NOT the leg — they'll just post their foot to block",
+            "Opponent is sitting very upright with wide base on BOTH sides"
+          ],
+          "steps": [
+            "Trap their arm on one side: HUG their wrist/forearm tight to your chest. Overhook that arm so it can't escape.",
+            "Trap their foot on the SAME SIDE: step your foot over their ankle, pinning it to the mat. They now can't post arm or foot on that side.",
+            "Bridge EXPLOSIVELY: drive your hips straight UP toward the ceiling, then arc OVER your shoulder toward the trapped side. Imagine punching the ceiling with your hips.",
+            "Follow through the bridge momentum and roll them over. End in their closed guard on top. Immediately posture up and begin working a guard break."
+          ],
+          "complexpieces": [
+            "If they resist the bridge, immediately switch to elbow-knee escape on the OPPOSITE side",
+            "Use the bridge to create space, then transition to guard recovery instead of the full reversal",
+            "Chain: bridge one direction (they resist), immediately bridge to the other side"
+          ],
+          "simplifications": [
+            "Practice bridging alone (explosive hip bridge with shoulder turn) as a solo drill",
+            "Practice trapping just the arm, then just the foot — separately",
+            "Start with partner giving zero resistance to learn the exact direction of the bridge"
+          ]
+        },
+        {
+          "name": "Elbow-Knee Escape (Shrimp)",
+          "category": "escape",
+          "perspective": "bottom",
+          "goal": "Create space under mount by shrimping your hips away and inserting your knee/leg inside to recover guard. A technique-based escape using hip movement, not strength.",
+          "initialPosition": {
+            "body": "On back underneath mount. Elbows tight to your body. Hands framing on opponent's hips or knees.",
+            "grips": "Both hands framing on their hips, knees, or belt — pushing them toward your feet. Elbows stay tight, never flaring out.",
+            "legs": "Feet flat on the mat, knees up, ready to bridge slightly then shrimp.",
+            "hips": "Ready to turn to one side and shrimp (hip escape) away from opponent."
+          },
+          "greenLights": [
+            "Opponent is sitting heavy but you can frame on their hips/knees",
+            "You have enough space to turn to your side after a small bump",
+            "Opponent is not attacking a submission — you have a moment to work",
+            "You can get at least one elbow to the mat to turn to your side"
+          ],
+          "redLights": [
+            "Opponent has grapevine hooks locked in — hip movement is severely limited",
+            "Opponent is actively choking you — defend the choke FIRST, escape second",
+            "You have no frames and opponent has both arms controlling your upper body",
+            "Opponent is in very high mount near your head (bridge first to lower them before shrimping)"
+          ],
+          "steps": [
+            "Frame both hands on opponent's near-side hip/knee. Bump with a small bridge to create space and TURN to your side, facing away from opponent.",
+            "SHRIMP your hips AWAY from them (toward the direction you're facing), creating space between your hip and their leg.",
+            "Slide your near-side knee INTO the space between you and them. Wedge your knee in as a frame/shield.",
+            "Continue shrimping and working your other leg inside. Recover to full guard or half guard. Re-establish grips immediately."
+          ],
+          "complexpieces": [
+            "Chain: bridge one way (upa attempt), when they post, immediately shrimp the OTHER way",
+            "Transition to deep half guard instead of full guard for immediate sweep options",
+            "From recovered half guard, immediately fight for the underhook to sweep"
+          ],
+          "simplifications": [
+            "Practice shrimping/hip escapes as a solo drill extensively (this is the #1 movement to drill)",
+            "Drill only the knee insertion step against a stationary partner",
+            "Practice the full escape with partner offering very light resistance to learn the movement path"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "side-control",
+      "name": "Side Control",
+      "emoji": "⚔️",
+      "description": "Top player controls opponent from the side with chest-to-chest pressure. Strong dominant position with many submission and transition options.",
+      "techniques": [
+        {
+          "name": "Americana from Side Control",
+          "category": "submission",
+          "perspective": "top",
+          "goal": "Submit opponent with an Americana shoulder lock from side control, using the same figure-four mechanics as from mount — pin the wrist, rotate the arm in an arc.",
+          "initialPosition": {
+            "body": "In side control on top. Chest heavy on opponent's chest, head low. Strong crossface established.",
+            "grips": "Crossface arm behind their head initially, then transitions: same-side hand pins opponent's near wrist to the mat beside their head. Other hand threads under their arm for the figure-four grip.",
+            "legs": "Sprawled back with hips heavy and low. Near knee can be tight against their hip, far leg sprawled back for base.",
+            "hips": "Heavy pressure driving INTO opponent's side. Don't leave space."
+          },
+          "greenLights": [
+            "Opponent is flat on their back with near-side arm exposed (not tucked)",
+            "Opponent pushes against your neck/chin with their near-side arm — arm is accessible",
+            "You have strong crossface and hip control already established",
+            "Opponent is not actively framing or shrimping — they're relatively static"
+          ],
+          "redLights": [
+            "Opponent has strong frames with elbows tight to their body",
+            "Opponent is actively shrimping and fighting to recover guard",
+            "Their near-side arm is completely tucked and inaccessible",
+            "You don't have stable side control yet — establish the position first"
+          ],
+          "steps": [
+            "From side control, switch your crossface hand to PIN opponent's near-side wrist to the mat beside their head.",
+            "Slide your other hand UNDER their arm and grab your own wrist (figure-four grip). Their elbow should be bent at approximately 90°.",
+            "Keep the elbow pinned DOWN using your chest/shoulder weight. Slowly slide their wrist toward their hip — painting an arc along the mat.",
+            "Apply smooth, controlled pressure. The shoulder joint rotation against the pinned elbow creates the submission."
+          ],
+          "complexpieces": [
+            "If they straighten their arm to defend, transition to armbar from side control",
+            "If they turn to their side, the grip angle shifts — switch to kimura",
+            "Chain with north-south: transition to north-south position for a north-south kimura"
+          ],
+          "simplifications": [
+            "Practice the figure-four grip from a static side control position",
+            "Drill the wrist-to-hip arc to learn the exact direction of pressure",
+            "Focus on maintaining heavy side control before adding any submission"
+          ]
+        },
+        {
+          "name": "Kimura from Side Control",
+          "category": "submission",
+          "perspective": "top",
+          "goal": "Submit opponent with a kimura shoulder lock by controlling their arm in a figure-four and rotating their wrist behind their back against the shoulder joint.",
+          "initialPosition": {
+            "body": "In side control, transitioning to face opponent's legs (north-south direction). Weight heavy on their upper body.",
+            "grips": "Kimura grip (figure-four): one hand grabs opponent's wrist, other hand reaches OVER their arm and grabs your own wrist. Both hands lock together.",
+            "legs": "Near knee tight against opponent's body, far leg posted for base. Transitioning to step over their head toward north-south.",
+            "hips": "Heavy, driving down to keep their arm pinned and prevent escape."
+          },
+          "greenLights": [
+            "Opponent reaches across with their near arm (trying to push you or frame on you)",
+            "Opponent turns to their side, exposing their arm behind them",
+            "You've established strong cross-body control and they're relatively flat",
+            "Their near arm is separated from their body — accessible for the grip"
+          ],
+          "redLights": [
+            "Opponent's arm is completely tight to their body, elbow locked at their side",
+            "They're gripping their own belt or pants to defend (grip fight first)",
+            "You don't have your hips blocking their hip movement — they can escape",
+            "Opponent is actively escaping to their knees or recovering guard"
+          ],
+          "steps": [
+            "From side control, grab opponent's near-side wrist with your hip-side hand. Release crossface and reach OVER their arm to grab your own wrist — figure-four kimura grip.",
+            "Step over their head toward north-south for better leverage. Peel their arm off the mat by pulling their elbow toward you.",
+            "Keep their elbow bent at 90°. Pin their forearm to the mat using your body weight pressing down.",
+            "Rotate their wrist toward their back (like pointing their hand at the ceiling, then toward their spine). Apply smooth, rotational pressure on the shoulder."
+          ],
+          "complexpieces": [
+            "If they roll to escape, follow them to mount with the kimura grip still secured — finish from mount",
+            "Transition to armbar if they straighten the arm to defend",
+            "Use the kimura grip to take the back: roll them over and insert your hooks as they turn"
+          ],
+          "simplifications": [
+            "Practice the kimura figure-four grip in isolation until it's automatic",
+            "Drill the north-south step-over for improved angle without finishing the sub",
+            "Start with their arm already separated from their body to focus on finishing mechanics"
+          ]
+        },
+        {
+          "name": "Shrimp to Guard Recovery",
+          "category": "escape",
+          "perspective": "bottom",
+          "goal": "Escape from bottom side control by framing, shrimping your hips away, and inserting your knee to recover guard position.",
+          "initialPosition": {
+            "body": "On your back under side control. Turned slightly to face opponent. Elbows inside — never let arms get trapped.",
+            "grips": "Near-side forearm frames on their neck/jaw line (preventing crossface pressure). Far-side hand frames on their hip, pushing them away.",
+            "legs": "Feet flat on the mat, knees up, ready to bridge then shrimp.",
+            "hips": "Ready to escape AWAY from opponent (toward the direction you're facing)."
+          },
+          "greenLights": [
+            "You have a solid frame on their hip and neck/jaw — they're not crushing you",
+            "Opponent hasn't settled heavy — you still have hip mobility",
+            "Your arms are inside and not trapped under their body",
+            "You can turn to your side and face them"
+          ],
+          "redLights": [
+            "Opponent has a tight crossface and you can't get your forearm frame on their neck",
+            "Your near-side arm is trapped under their body — free it first",
+            "Opponent has kesa gatame (head and arm control) — need a different escape specific to kesa",
+            "You're completely flat with no frames established — build frames first before shrimping"
+          ],
+          "steps": [
+            "Establish frames: near-side forearm across their throat/jaw, far-side hand pushing their hip. Get your elbows INSIDE — don't let them pin your arms.",
+            "Bump/bridge INTO them slightly to create a moment of space, then immediately SHRIMP your hips AWAY (toward the direction you're facing).",
+            "Get your near-side knee INSIDE the space between you and them. Use your knee as a shield and wedge.",
+            "Continue shrimping until you get your far leg inside too. Recover to full guard (lock ankles), half guard, or butterfly guard. Establish grips immediately."
+          ],
+          "complexpieces": [
+            "If they block the knee from coming in, shrimp AGAIN with another bump and try a different angle",
+            "Transition to an underhook escape if the guard recovery is blocked",
+            "Recover to butterfly guard instead of closed guard — immediately look for butterfly sweep"
+          ],
+          "simplifications": [
+            "Solo drill: practice the shrimp/hip escape motion on the mat (50 reps each side daily)",
+            "Drill only getting the near-side knee inside vs light resistance",
+            "Start with opponent being static in side control to learn the movement path"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-control",
+      "name": "Back Control",
+      "emoji": "🎯",
+      "description": "The highest-scoring position in BJJ. Attacker controls opponent from behind with hooks or body triangle. The dominant attacking position in the sport.",
+      "techniques": [
+        {
+          "name": "Rear Naked Choke (RNC)",
+          "category": "submission",
+          "perspective": "top",
+          "goal": "Choke opponent from back control using your arms in a figure-four around their neck. The forearm and bicep compress both carotid arteries — a blood choke.",
+          "initialPosition": {
+            "body": "Behind opponent with your chest on their back. Seatbelt control (one arm over shoulder, one under armpit).",
+            "grips": "Choking arm slides under their chin — forearm across the front of their throat, crook of elbow at center. Other hand grabs your own bicep (figure-four). Free hand goes behind their head.",
+            "legs": "Both hooks in (feet inserted inside opponent's thighs, heels digging in) OR body triangle locked around their waist.",
+            "hips": "Tight against their back, slightly offset to the choking arm side for angle."
+          },
+          "greenLights": [
+            "You have solid back control with hooks or body triangle — position is established",
+            "Opponent's chin is exposed and not tucked (you can slide your arm under)",
+            "You already have one arm around their neck or seatbelt control",
+            "Opponent is hand-fighting but you can work around their defending hands"
+          ],
+          "redLights": [
+            "Opponent has two hands firmly grip-fighting your choking arm with strong defense",
+            "You have no hooks or body triangle — back control isn't established yet",
+            "Opponent is about to turn into you to make it a guard situation",
+            "Your choking arm is too low (across their chest, not their neck)"
+          ],
+          "steps": [
+            "From back control with hooks in, fight for your choking arm to get UNDER their chin. Use your other hand to peel down their defending hands or use hand-fighting setups.",
+            "Slide your forearm under their chin — position the crook of your elbow directly under the center of their chin. Forearm on one side of the neck, bicep on the other.",
+            "Grab your own bicep with the choking hand (figure-four lock). Place your free hand behind their head — palm on the back of their skull.",
+            "SQUEEZE by expanding your chest, pulling elbows together, and pressing the back of their head forward with your free hand. Both carotid arteries are compressed."
+          ],
+          "complexpieces": [
+            "If they defend their neck, switch to arm triangle, armbar from back, or bow and arrow choke",
+            "Short choke: if you can't get under the chin, apply pressure on the jawline to force the chin up",
+            "Use collar choke setups (in gi) to force reactions that expose the neck for the RNC"
+          ],
+          "simplifications": [
+            "Practice the figure-four grip extensively (hand-to-bicep, hand-behind-head)",
+            "Drill hand fighting to get under the chin against a partner who actively defends",
+            "Focus first on maintaining back control for 2 minutes before attacking any choke"
+          ]
+        },
+        {
+          "name": "Bow and Arrow Choke",
+          "category": "submission",
+          "perspective": "top",
+          "goal": "Choke opponent from back control using their own collar and a pants grip to stretch them out like drawing a bow. Extremely powerful gi choke.",
+          "initialPosition": {
+            "body": "Behind opponent in back control. Transitioning to fall to the side at an angle, pulling opponent onto you.",
+            "grips": "Cross collar grip: top hand feeds deep across their neck gripping their far-side collar (4 fingers inside, knuckles against neck). Bottom hand grabs their near-side pant leg at the knee.",
+            "legs": "Top hook controls opponent's hip. Bottom leg posts on the mat for leverage and drive.",
+            "hips": "Falling to the side (toward the collar grip direction), creating the stretching angle."
+          },
+          "greenLights": [
+            "You have back control and a deep collar grip established (past the tag on the collar)",
+            "You can reach and grip their far-side pant leg at the knee",
+            "Opponent is defending the RNC — bow and arrow is the backup plan",
+            "You have strong seatbelt control transitioning to the collar grip"
+          ],
+          "redLights": [
+            "Back control isn't established (no hooks or body triangle)",
+            "Can't reach their pants — they're curled up in a tight ball",
+            "Collar grip is too shallow (not deep enough past the neck area)",
+            "Opponent has already turned to face you — the back position is lost"
+          ],
+          "steps": [
+            "From back control, feed your top arm DEEP across their neck and grip their far-side collar (4 fingers inside). Deep grip is crucial — knuckles against their neck.",
+            "With your bottom hand, reach down and grab their near-side pant leg at the knee. Top hook stays controlling their hip.",
+            "FALL to the side (toward the collar grip side), extending their body — pull the collar one direction, pull the pant leg the other, like drawing a bow.",
+            "Squeeze by pulling the collar tight (elbow toward your OWN ribs) while extending their leg away. The collar tightens across the arteries for the choke."
+          ],
+          "complexpieces": [
+            "If you can't reach pants, use their belt or control the leg with your hook while choking with just the collar",
+            "Chain with armbar: if they defend by pulling the collar away, their arm is exposed",
+            "Transition from failed RNC: when they defend the RNC hand, swim it to their collar instead"
+          ],
+          "simplifications": [
+            "Practice getting a deep collar grip from behind repeatedly — depth is everything",
+            "Focus on the falling and angling motion without the choke to understand body positioning",
+            "Use a dummy or very cooperative partner to learn the pulling/stretching mechanics"
+          ]
+        },
+        {
+          "name": "Back Escape to Guard",
+          "category": "escape",
+          "perspective": "bottom",
+          "goal": "Escape opponent's back control and recover to a guard position. Priority is defending the neck first, then escaping the position systematically.",
+          "initialPosition": {
+            "body": "Opponent has your back. Your back is against their chest. Chin is tucked, shoulders are raised to protect neck.",
+            "grips": "Both hands fighting on opponent's choking arm: one hand controls their wrist, other hand controls the crook of their elbow — two-on-one grip defense.",
+            "legs": "Fighting their hooks — working to clear the bottom hook first.",
+            "hips": "Preparing to scoot DOWN toward the bottom hook side."
+          },
+          "greenLights": [
+            "You've defended the choke (two hands controlling their choking arm securely)",
+            "Opponent's bottom hook is lighter or you can trap it with your legs",
+            "You can scoot your hips toward the bottom hook side",
+            "You have a solid grip on their choking arm preventing collar or RNC entry"
+          ],
+          "redLights": [
+            "Opponent has a body triangle locked — address the body triangle lock FIRST before escaping",
+            "You're currently being choked — defend the neck IMMEDIATELY, escape later",
+            "You're trying to escape toward the top hook side (wrong direction — exposes your back more)",
+            "Opponent has a deep seatbelt and you can't access their arms at all"
+          ],
+          "steps": [
+            "IMMEDIATELY defend the neck with both hands: control their choking arm with two-on-one grip (one hand on their wrist, one hand on their elbow). Chin tucked, shoulders raised.",
+            "Scoot your hips DOWN toward their bottom hook side. Pin their bottom hook to the mat by walking your hips over it.",
+            "Slide over their trapped bottom leg, turning INTO them. Your back presses to the mat on the side of the trapped hook.",
+            "Continue turning until you FACE them, recovering into their closed guard or half guard. Immediately establish defensive grips and recover posture."
+          ],
+          "complexpieces": [
+            "When clearing the hooks, look for a leg lock entry as a surprise counterattack",
+            "Use the momentum of the escape to go directly to top position instead of guard",
+            "If opponent has body triangle: extend the trapped leg, scoot hips down, pop the triangle lock first"
+          ],
+          "simplifications": [
+            "Drill neck defense first: practice controlling both hands on the choking arm for 30 seconds",
+            "Practice just the hip-scoot direction — DOWN toward bottom hook — as a movement drill",
+            "Work the escape with partner only using hooks (no grips or choke attempts) to learn the movement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open-guard",
+      "name": "Open Guard",
+      "emoji": "🦎",
+      "description": "Guard player's legs are not locked around opponent. Includes seated guard, supine guard, and all variations. Very dynamic position with multiple grip combinations.",
+      "techniques": [
+        {
+          "name": "Tripod Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Sweep a standing opponent by simultaneously pushing their hip, pulling both ankles, and hooking behind one knee — collapsing them like a tripod losing a leg.",
+          "initialPosition": {
+            "body": "On your back in open guard. Opponent is standing above you. Core engaged, hips slightly elevated.",
+            "grips": "Both hands gripping opponent's ankles or pant cuffs. One foot planted on their hip (same side as one grip) pushing them away.",
+            "legs": "One foot on their hip, pushing and controlling distance. Other foot hooks behind their far-side knee or calf from the outside.",
+            "hips": "Slightly elevated, engaged core. Not flat and passive."
+          },
+          "greenLights": [
+            "Opponent is standing with both feet within reach of your grips",
+            "You can grip both of their ankles or pant cuffs solidly",
+            "Opponent's weight is evenly distributed or slightly backward",
+            "Opponent is focused on gripping you and not defending their feet"
+          ],
+          "redLights": [
+            "Opponent has a very staggered stance with one foot far back — can't reach both ankles",
+            "Opponent is crouched very low with an extremely wide base",
+            "You can't get a grip on either of their legs (strong grip fighting)",
+            "Opponent is actively grabbing your legs to initiate their own pass"
+          ],
+          "steps": [
+            "Grip both of opponent's ankles or pant cuffs with your hands. Place one foot on their hip (same side as one grip) to control distance.",
+            "Place your other foot behind their far knee — hooking behind the knee or calf from the outside.",
+            "SIMULTANEOUSLY: PUSH their hip with your foot, PULL their ankles toward you with your hands, and SWEEP behind their knee to kick it out. All three forces at once.",
+            "Opponent falls backward. IMMEDIATELY come up on top — don't stay on your back. Technical stand-up or follow into a passing position."
+          ],
+          "complexpieces": [
+            "If they step one leg back, transition to single leg X-guard or De La Riva",
+            "Chain with sickle sweep: if they step over the hooking foot, switch to sickle sweep (same grips, different leg configuration)",
+            "Follow the sweep immediately with a toreando or leg drag pass"
+          ],
+          "simplifications": [
+            "Practice the three simultaneous forces (push-pull-sweep) without the hook first — just push hip + pull ankles",
+            "Drill standing up rapidly after a sweep (technical stand-up from the ground)",
+            "Start with partner standing stationary to learn grip placement and foot positions"
+          ]
+        },
+        {
+          "name": "Toreando Pass (vs Open Guard)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Pass opponent's open guard by controlling both legs and explosively moving laterally (like a bullfighter) past their legs into side control.",
+          "initialPosition": {
+            "body": "Standing over opponent who is in open guard. Athletic, slightly crouched stance. Ready to explode laterally.",
+            "grips": "Both hands gripping opponent's pants at the knees, or controlling their shins/ankles. From the outside of their legs.",
+            "legs": "Standing, feet shoulder-width, slightly staggered for explosive lateral movement.",
+            "hips": "Athletic stance — hips low, loaded, ready to explode sideways."
+          },
+          "greenLights": [
+            "Opponent is playing seated or supine open guard without strong upper body grips on you",
+            "You have solid control of both their legs/pants",
+            "Opponent's grips on you are broken or minimal (no collar, no sleeves)",
+            "Opponent's legs are relatively relaxed — you can redirect them"
+          ],
+          "redLights": [
+            "Opponent has strong collar AND sleeve grips (spider guard, lasso guard)",
+            "Opponent has a hook on your leg (De La Riva, X-guard) — strip hooks first",
+            "You don't have a grip on at least one of their legs (need control of both to pass)",
+            "Opponent is actively inverting or re-guarding as you move"
+          ],
+          "steps": [
+            "Grip both of opponent's pants at the knees or control their ankles. Maintain standing posture above them.",
+            "Push one leg DOWN to the mat (pinning it), while directing their other leg across their body to the far side. Control the direction of their hips.",
+            "EXPLODE laterally — move your hips fast to the side, like a bullfighter stepping past the bull. Keep pressure on their legs to prevent reguarding.",
+            "Landing in side control: near arm drives under their head (crossface), far arm under their hip. Drop chest-to-chest pressure, sprawl legs back."
+          ],
+          "complexpieces": [
+            "Fake one direction then switch sides when they react — toreando switch",
+            "If they play knee shield, chain into knee slice pass",
+            "Combine with leg drag: instead of directing the leg across, drag it over your thigh — even tighter pass"
+          ],
+          "simplifications": [
+            "Practice the lateral footwork pattern as a solo agility drill",
+            "Work on grip fighting: practice breaking their sleeve and collar grips quickly first",
+            "Drill the toreando from a static open guard to learn the correct passing angle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turtle",
+      "name": "Turtle",
+      "emoji": "🐢",
+      "description": "Defensive position where one player is on all fours. Common transitional position from failed takedowns, guard passes, and scrambles.",
+      "techniques": [
+        {
+          "name": "Clock Choke",
+          "category": "submission",
+          "perspective": "top",
+          "goal": "Choke the turtled opponent using their own collar by walking in a circular motion around their head — the rotation tightens the collar like the hands of a clock. Gi technique.",
+          "initialPosition": {
+            "body": "Beside and slightly behind the turtled opponent. Perpendicular to their body.",
+            "grips": "Near hand reaches UNDER their chin and grips the far-side collar deep (4 fingers inside, knuckles against neck). Far hand grips their near-side belt or back of pants.",
+            "legs": "Near-side knee on the mat tight against their body. Far-side foot posted on the mat for mobility and driving.",
+            "hips": "Close to opponent's side, ready to walk in a circular motion toward their head."
+          },
+          "greenLights": [
+            "Opponent is static in turtle — not actively moving or rolling",
+            "You can feed your hand under their chin to their far-side collar",
+            "You have a strong, deep collar grip across their neck",
+            "Opponent is tight in turtle but not defending the collar — focused on protecting hooks"
+          ],
+          "redLights": [
+            "Opponent is actively granby rolling or sitting to guard — too dynamic to set up the choke",
+            "You can't get your hand under their chin (chin is tucked very tightly to their chest)",
+            "Opponent is hand-fighting and actively preventing collar access",
+            "Opponent is sitting out or standing up from turtle — position is changing"
+          ],
+          "steps": [
+            "Position yourself perpendicular to the turtle. Reach your near hand UNDER their chin and grip the far-side collar DEEP (4 fingers inside, knuckles against the artery side of the neck).",
+            "With your far hand, grip their belt or the back of their pants for anchor control. Near-side knee stays tight against their body.",
+            "Walk your legs in a CIRCULAR direction around their head — clockwise or counter-clockwise depending on your position. This rotational movement tightens the collar across their neck.",
+            "As you circle, drop your chest weight onto their upper back and continue walking. The collar cinches tighter with each step. Maintain forward pressure until they tap."
+          ],
+          "complexpieces": [
+            "If they try to roll out, follow and transition to side control with the collar grip still active",
+            "Chain with back take: if they open up from turtle to defend the choke, insert your hooks for back control instead",
+            "Baseball bat choke variation: use two hands on the collar (both gripping) for a different choking angle"
+          ],
+          "simplifications": [
+            "Practice getting the collar grip under the chin without the choke — just the grip insertion",
+            "Walk the circular motion SLOWLY to understand how each step tightens the collar",
+            "Drill from a completely static turtle position before adding any partner movement/resistance"
+          ]
+        }
+      ]
+    }
+  ]
+}

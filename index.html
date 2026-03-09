@@ -35,6 +35,14 @@
                     <span class="btn-icon">📊</span>
                     <span class="btn-text">PROGRESS</span>
                 </button>
+                <button class="nav-btn" data-section="training-log">
+                    <span class="btn-icon">📓</span>
+                    <span class="btn-text">LOG</span>
+                </button>
+                <button class="nav-btn" data-section="warroom">
+                    <span class="btn-icon">🗺️</span>
+                    <span class="btn-text">WAR ROOM</span>
+                </button>
             </nav>
         </div>
     </header>
@@ -122,6 +130,130 @@
                 <p class="section-subtitle">Choose your warrior</p>
             </div>
             <div id="athletes-container" class="athletes-grid"></div>
+        </section>
+
+        <!-- Training Log Section -->
+        <section id="training-log-section" class="section">
+            <div class="log-header">
+                <h2 class="section-title">TRAINING LOG</h2>
+                <p class="section-subtitle">Track every session on the mats</p>
+            </div>
+
+            <!-- Log Stats -->
+            <div class="log-stats-row">
+                <div class="log-stat-card">
+                    <span class="log-stat-icon">🔥</span>
+                    <span class="log-stat-value" id="log-total-sessions">0</span>
+                    <span class="log-stat-label">Total Sessions</span>
+                </div>
+                <div class="log-stat-card">
+                    <span class="log-stat-icon">📅</span>
+                    <span class="log-stat-value" id="log-this-month">0</span>
+                    <span class="log-stat-label">This Month</span>
+                </div>
+                <div class="log-stat-card">
+                    <span class="log-stat-icon">⚡</span>
+                    <span class="log-stat-value" id="log-streak">0</span>
+                    <span class="log-stat-label">Day Streak</span>
+                </div>
+                <div class="log-stat-card">
+                    <span class="log-stat-icon">⏱️</span>
+                    <span class="log-stat-value" id="log-total-hours">0</span>
+                    <span class="log-stat-label">Total Hours</span>
+                </div>
+            </div>
+
+            <!-- Activity Breakdown -->
+            <div class="log-breakdown-card">
+                <h3>📊 ACTIVITY BREAKDOWN</h3>
+                <div id="log-breakdown-bars" class="log-breakdown-bars"></div>
+            </div>
+
+            <!-- Add Session Form -->
+            <div class="log-form-card">
+                <h3>➕ LOG A SESSION</h3>
+                <form id="log-form" class="log-form">
+                    <div class="log-form-row">
+                        <div class="log-form-group">
+                            <label for="log-date">Date</label>
+                            <input type="date" id="log-date" required>
+                        </div>
+                        <div class="log-form-group">
+                            <label for="log-activity">Activity</label>
+                            <select id="log-activity" required>
+                                <option value="bjj">🥋 BJJ (Gi)</option>
+                                <option value="nogi">🤼 No-Gi</option>
+                                <option value="wrestling">🏋️ Wrestling</option>
+                                <option value="lifting">💪 Lifting</option>
+                            </select>
+                        </div>
+                        <div class="log-form-group">
+                            <label for="log-duration">Duration (min)</label>
+                            <input type="number" id="log-duration" min="1" max="600" placeholder="60" required>
+                        </div>
+                    </div>
+                    <div class="log-form-group">
+                        <label for="log-notes">Notes</label>
+                        <textarea id="log-notes" rows="3" placeholder="What did you work on? Techniques drilled, rolls, takedowns..."></textarea>
+                    </div>
+                    <button type="submit" class="log-submit-btn">💾 SAVE SESSION</button>
+                </form>
+            </div>
+
+            <!-- Session History -->
+            <div class="log-history-card">
+                <div class="log-history-header">
+                    <h3>📜 SESSION HISTORY</h3>
+                    <div class="log-filter-row">
+                        <select id="log-filter-activity">
+                            <option value="all">All Activities</option>
+                            <option value="bjj">🥋 BJJ (Gi)</option>
+                            <option value="nogi">🤼 No-Gi</option>
+                            <option value="wrestling">🏋️ Wrestling</option>
+                            <option value="lifting">💪 Lifting</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="log-entries" class="log-entries"></div>
+            </div>
+
+            <!-- Export / Import -->
+            <div class="log-data-actions">
+                <button class="action-btn export-btn" onclick="exportTrainingLog()">📤 Export Data (JSON)</button>
+                <label class="action-btn import-btn">
+                    📥 Import Data (JSON)
+                    <input type="file" id="import-file" accept=".json" onchange="importTrainingLog(event)" hidden>
+                </label>
+            </div>
+        </section>
+
+        <!-- War Room Section -->
+        <section id="warroom-section" class="section">
+            <div class="warroom-header">
+                <h2 class="section-title">WAR ROOM</h2>
+                <p class="section-subtitle">Professor's class preparation — select a position to explore fundamental techniques</p>
+            </div>
+
+            <!-- Position Grid -->
+            <div class="warroom-positions" id="warroom-positions"></div>
+
+            <!-- Active Position Techniques -->
+            <div class="warroom-techniques-panel" id="warroom-techniques-panel" style="display:none;">
+                <div class="warroom-panel-header">
+                    <button class="warroom-back-btn" id="warroom-back-btn">← ALL POSITIONS</button>
+                    <h3 class="warroom-position-title" id="warroom-position-title"></h3>
+                    <div class="warroom-filter-row">
+                        <button class="warroom-filter-btn active" data-cat="all">All</button>
+                        <button class="warroom-filter-btn" data-cat="sweep">Sweeps</button>
+                        <button class="warroom-filter-btn" data-cat="pass">Passes</button>
+                        <button class="warroom-filter-btn" data-cat="submission">Submissions</button>
+                        <button class="warroom-filter-btn" data-cat="escape">Escapes</button>
+                    </div>
+                </div>
+
+                <!-- Technique Cards -->
+                <div class="warroom-technique-list" id="warroom-technique-list"></div>
+            </div>
         </section>
     </main>
 
