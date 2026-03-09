@@ -160,6 +160,14 @@ function renderGuards() {
             // Update selected state
             container.querySelectorAll('.guard-card').forEach(c => c.classList.remove('selected'));
             card.classList.add('selected');
+
+            // Auto-scroll to details on mobile
+            if (window.innerWidth <= 768) {
+                const details = document.getElementById('guard-details');
+                setTimeout(() => {
+                    details.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 100);
+            }
         });
     });
 }
