@@ -586,7 +586,7 @@
   {
     "id": 62,
     "name": "Helena Crevar",
-    "image": "images/helenacrevar.jpg",
+    "image": "images/helenacrevar.webp",
     "signatures": {
       "guard": "K-Guard",
       "sweep": "Leg Entanglement Sweep",
@@ -597,7 +597,7 @@
   {
     "id": 63,
     "name": "Mayssa Bastos",
-    "image": "images/mayssabastos.jpg",
+    "image": "images/mayssabastos.webp",
     "signatures": {
       "guard": "De La Riva Guard",
       "sweep": "Berimbolo",
@@ -608,7 +608,7 @@
   {
     "id": 64,
     "name": "Brianna Ste-Marie",
-    "image": "images/briannastemarie.jpg",
+    "image": "images/briannastemarie.webp",
     "signatures": {
       "guard": "Half Guard",
       "sweep": "Underhook Half Guard Sweep",
