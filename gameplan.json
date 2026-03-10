@@ -1811,6 +1811,614 @@
       ]
     },
     {
+      "id": "spider-guard",
+      "name": "Spider Guard",
+      "emoji": "🕷️",
+      "description": "Gi-based open guard where bottom player controls opponent's sleeves while placing feet on biceps. Extending and retracting legs controls distance, posture, and balance for sweeps and submissions.",
+      "techniques": [
+        {
+          "name": "Spider Guard Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Push one bicep while pulling the sleeve and angling the hips to sweep the opponent sideways using spider guard control.",
+          "initialPosition": {
+            "body": "Lying on your back in spider guard. Hips mobile and slightly off the mat, angled toward the sweeping direction.",
+            "grips": "Both hands gripping opponent's sleeves. Feet on their biceps with toes pointing outward, creating tension.",
+            "legs": "One leg extends to push their bicep while the other retracts to pull. Alternating push-pull creates off-balance.",
+            "hips": "Angled toward the sweep direction, slightly elevated off the mat for mobility."
+          },
+          "greenLights": [
+            "You have strong double sleeve grips with feet on both biceps",
+            "Opponent's weight is shifted to one side or their base is narrow",
+            "Opponent is reaching forward trying to break your grips — weight is committed",
+            "You've successfully pushed one arm across their body, compromising their posture"
+          ],
+          "redLights": [
+            "Opponent has broken one of your sleeve grips — regrip before sweeping",
+            "Opponent is stacking you by driving forward with heavy pressure",
+            "Your feet have slipped off their biceps — re-establish hooks first",
+            "Opponent has widened their base significantly on both sides"
+          ],
+          "steps": [
+            "From spider guard with double sleeve grips and feet on biceps, identify which direction to sweep based on opponent's weight distribution.",
+            "PUSH one bicep away with your foot while PULLING the opposite sleeve across their body. Angle your hips toward the sweep direction.",
+            "Use the push-pull asymmetry to break their base — their weight shifts sideways as you redirect their arm.",
+            "Follow through the sweep, coming up to top position. Maintain at least one sleeve grip throughout the transition."
+          ],
+          "complexpieces": [
+            "Chain with triangle: if they resist the sweep by posturing, throw your leg over their shoulder for a triangle",
+            "If they step one leg forward to resist, transition to De La Riva hook on that leg",
+            "Alternate sweep directions: fake one way, then sweep the opposite when they shift weight"
+          ],
+          "simplifications": [
+            "Practice the push-pull leg motion with a cooperative partner — focus on the timing of simultaneous push and pull",
+            "Drill hip angle changes while maintaining feet on biceps as a movement drill",
+            "Start with a static partner to learn the correct sweeping angle before adding resistance"
+          ]
+        },
+        {
+          "name": "Balloon Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Use sleeve grips and leg extension to elevate the opponent and sweep them over your head from spider guard.",
+          "initialPosition": {
+            "body": "Lying on your back in spider guard. Scooting hips under opponent to load their weight onto your feet.",
+            "grips": "Both hands gripping opponent's sleeves tightly. Pulling them forward to commit their weight over you.",
+            "legs": "Feet on opponent's biceps or transitioning to their hips/stomach for the elevation. Legs coiled and ready to extend.",
+            "hips": "Scooted underneath opponent, positioned to elevate them overhead with leg extension."
+          },
+          "greenLights": [
+            "Opponent is leaning forward with their weight committed over you",
+            "You've loaded their weight onto your feet successfully",
+            "Strong double sleeve grips are maintained — they can't post their hands",
+            "Opponent's hips are over your center of gravity"
+          ],
+          "redLights": [
+            "Opponent is sitting back with hips away — can't load their weight onto your feet",
+            "You've lost a sleeve grip — they'll post a hand and block the sweep",
+            "Opponent has very wide base and low center of gravity",
+            "Your hips aren't underneath them — not enough elevation angle"
+          ],
+          "steps": [
+            "From spider guard, pull opponent forward with double sleeve grips to commit their weight over you. Scoot your hips under them.",
+            "Transition your feet from biceps to their hips or stomach area to create a platform for elevation.",
+            "EXTEND your legs explosively while PULLING the sleeves overhead. Guide them over your head in a controlled arc.",
+            "Follow through the sweep, rolling backward and coming up on top. Maintain sleeve control throughout the transition."
+          ],
+          "complexpieces": [
+            "If they resist the overhead motion, redirect to a lateral spider sweep",
+            "Chain with overhead sweep: same setup, different leg angle for the elevation",
+            "Use single spider (one foot on bicep, one on hip) for a more controlled elevation"
+          ],
+          "simplifications": [
+            "Practice with a lightweight or cooperative partner to learn the elevation mechanics",
+            "Drill the hip scoot underneath to load their weight — the setup is the hardest part",
+            "Focus on the timing of simultaneous leg extension and sleeve pull"
+          ]
+        },
+        {
+          "name": "Overhead Sweep (Spider Guard)",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Pull the opponent forward and extend your legs to flip them over your head from spider guard, using the sleeve grips to prevent posting.",
+          "initialPosition": {
+            "body": "Lying on your back in spider guard. Pulling opponent forward aggressively to break their posture over you.",
+            "grips": "Double sleeve grips, pulling opponent's arms forward and down. Preventing them from posting hands on the mat.",
+            "legs": "Feet on biceps transitioning to hips for the flip. Legs coiled, ready for explosive upward extension.",
+            "hips": "Under opponent's center of gravity, positioned to flip them overhead."
+          },
+          "greenLights": [
+            "Opponent's posture is broken forward — weight is over you",
+            "You have strong sleeve control on both arms",
+            "Opponent is stepping forward or lunging to pass — momentum carries them over",
+            "You can plant your feet on their hips or stomach for the elevation"
+          ],
+          "redLights": [
+            "Opponent has strong upright posture with hips back",
+            "You've lost one or both sleeve grips",
+            "Opponent is stepping laterally to avoid going overhead",
+            "Your legs are too extended to generate the flip — need to coil first"
+          ],
+          "steps": [
+            "From spider guard, aggressively PULL both sleeves forward and down, breaking opponent's posture over you.",
+            "As they stumble forward, plant your feet on their hips. Scoot your hips under them to position for the flip.",
+            "EXTEND legs explosively upward and overhead while pulling the sleeves past your head. Launch them over you.",
+            "Roll through to top position as they land behind you. Keep at least one sleeve grip for immediate control."
+          ],
+          "complexpieces": [
+            "If they base and resist mid-flip, transition to armbar on an extended arm",
+            "Chain with triangle: if they posture during the attempt, throw your leg over for triangle",
+            "Fake the overhead sweep to pull them forward, then redirect to a lateral sweep"
+          ],
+          "simplifications": [
+            "Practice the foot-on-hip elevation with a cooperative partner",
+            "Drill the sleeve pull and hip scoot as separate movements first",
+            "Start with partner already leaning forward to focus on the flip mechanics"
+          ]
+        },
+        {
+          "name": "Tripod Sweep (Spider Setup)",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "From spider guard control, place a foot on the hip and another behind the ankle to create a tripod structure that collapses their base for the sweep.",
+          "initialPosition": {
+            "body": "Lying on your back, transitioning from full spider guard to a tripod configuration. Body angled toward the sweeping side.",
+            "grips": "One hand maintains sleeve grip. Other hand grabs opponent's far ankle or pant leg at the heel.",
+            "legs": "One foot pushes against opponent's near-side hip. Other foot hooks behind their far ankle from the outside.",
+            "hips": "On the mat, angled slightly toward the sweep direction."
+          },
+          "greenLights": [
+            "You can reach opponent's far ankle with your hand while maintaining a sleeve grip",
+            "Opponent is standing with feet relatively close together",
+            "Your foot is solidly on their hip with good pushing power",
+            "Opponent is focused on passing and not defending their ankles"
+          ],
+          "redLights": [
+            "Opponent has very wide stance — hard to reach far ankle",
+            "You've lost your sleeve grip and can't prevent them from posting",
+            "Opponent is kneeling — tripod sweep requires them to be standing or in combat base",
+            "Your foot hook behind their ankle has slipped off"
+          ],
+          "steps": [
+            "From spider guard, release one foot from their bicep and place it on their near-side hip. Maintain the sleeve grip on that side.",
+            "Reach with your free hand and grab their far-side ankle or pant cuff at the heel. Hook your other foot behind that same ankle from the outside.",
+            "Simultaneously PUSH on their hip with your foot while PULLING the sleeve and SWEEPING the ankle with your foot hook. All three forces work together.",
+            "Their base collapses and they fall backward or sideways. Come up to top position immediately."
+          ],
+          "complexpieces": [
+            "If they step over your hooking foot, transition to De La Riva guard on that leg",
+            "Chain with sickle sweep: if the tripod is blocked, switch the hooking leg to a sickle motion across both ankles",
+            "Fake the tripod sweep to pull them forward, then switch to an overhead sweep"
+          ],
+          "simplifications": [
+            "Practice the three-point structure (hand on ankle, foot on hip, foot behind ankle) statically",
+            "Drill the push-pull-sweep timing with a standing partner giving light resistance",
+            "Master the ankle grip first — the most common failure point is losing foot/hand contact on the ankle"
+          ]
+        },
+        {
+          "name": "Lasso Sweep (Transition from Spider)",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Transition from spider guard into lasso guard by wrapping your leg around opponent's arm, then use rotational pressure to sweep them.",
+          "initialPosition": {
+            "body": "Lying on your back, transitioning from spider to lasso. One leg wraps OVER and AROUND opponent's arm from the outside.",
+            "grips": "Same-side sleeve grip on the lasso side (essential to keep the arm trapped). Other hand grips collar, far sleeve, or pant leg.",
+            "legs": "Lasso leg: shin wraps over and around opponent's bicep from outside, foot threads inside near their armpit. Other leg: foot on hip or free for sweeping.",
+            "hips": "Angled toward the lasso side, creating rotational leverage for the sweep."
+          },
+          "greenLights": [
+            "You've wrapped your shin over and around their arm with the lasso — arm is fully trapped",
+            "Sleeve grip on the lasso side is solid",
+            "Opponent can't retract their arm from the lasso wrap",
+            "You have a secondary grip (collar, sleeve, or pants) for sweep direction"
+          ],
+          "redLights": [
+            "Opponent has pulled their arm free from the lasso — regrip and re-wrap",
+            "Your sleeve grip is broken on the lasso side — the wrap loses effectiveness",
+            "Opponent is stepping back and creating distance to unwrap the lasso",
+            "Opponent has strong posture and both arms free"
+          ],
+          "steps": [
+            "From spider guard, feed one foot over and around opponent's arm — wrap your shin over the bicep from outside in, threading your foot near their armpit. Maintain the sleeve grip.",
+            "Your lasso leg now traps their arm. Grab their collar, far sleeve, or far pant leg with your free hand.",
+            "Create rotational force: PULL the trapped arm across their body while using your hips and lasso leg to rotate them. Push with your free foot on their hip.",
+            "Sweep them laterally or backward using the rotational pressure. Come up to top position, maintaining the lasso control during transition."
+          ],
+          "complexpieces": [
+            "If they resist the sweep, use the lasso to set up omoplata or triangle",
+            "Deep lasso variation: thread the foot all the way to their back for maximum control",
+            "Chain between lasso and full spider — transition back and forth to keep them reacting"
+          ],
+          "simplifications": [
+            "Practice the leg wrap (over and around the arm) as an isolated movement drill",
+            "Drill the lasso entry from spider guard without finishing the sweep",
+            "Focus on maintaining the sleeve grip — without it, the lasso unravels"
+          ]
+        },
+        {
+          "name": "De La Riva Transition Sweep (from Spider)",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Transition one leg from spider guard to a De La Riva hook on opponent's lead leg, then attack sweeping angles from the hybrid position.",
+          "initialPosition": {
+            "body": "Lying on your back, transitioning from spider guard. One foot drops from bicep to hook around opponent's lead leg.",
+            "grips": "Sleeve grip maintained on the DLR side. Other hand grips collar, far sleeve, or opponent's far ankle.",
+            "legs": "One leg: DLR hook around opponent's lead leg (shin behind their calf, foot hooking inside thigh). Other leg: remains on bicep in spider position or pushes on hip.",
+            "hips": "Angled away from the hooked leg, creating the DLR sweeping angle."
+          },
+          "greenLights": [
+            "Opponent steps one leg forward — the lead leg is accessible for the DLR hook",
+            "You can maintain the sleeve grip while transitioning the hook",
+            "Opponent is standing or in combat base — DLR is most effective here",
+            "Your spider control has disrupted their posture and they're reacting"
+          ],
+          "redLights": [
+            "Opponent is kneeling with no lead leg exposed for the hook",
+            "You've lost both sleeve grips during the transition",
+            "Opponent immediately backsteps when they feel the DLR hook",
+            "You can't maintain the hybrid position — pick one guard or the other"
+          ],
+          "steps": [
+            "From spider guard, when opponent steps a leg forward, release that foot from their bicep and hook it BEHIND their lead calf — DLR hook (shin behind calf, foot hooks inner thigh).",
+            "Maintain your same-side sleeve grip. Use your other hand to grab their far ankle, collar, or belt.",
+            "Use the DLR hook to off-balance: pull their lead leg forward while pushing with your spider foot on the other bicep or their hip.",
+            "Sweep them to the side or take the back as their base is disrupted. Follow through to top position or back control."
+          ],
+          "complexpieces": [
+            "From the hybrid spider-DLR, transition to berimbolo for a back take",
+            "If sweep is blocked, transition to full DLR guard and attack from there",
+            "Use the spider-DLR combination to set up X-guard entry underneath them"
+          ],
+          "simplifications": [
+            "Practice the DLR hook insertion from spider guard as a transition drill",
+            "Drill the hybrid position hold: one foot spider, one foot DLR — maintain for 30 seconds",
+            "Focus on maintaining sleeve grips throughout the transition — grips make or break this technique"
+          ]
+        },
+        {
+          "name": "Triangle Choke (from Spider Guard)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Use spider guard sleeve control and leg movement to trap the opponent's neck and one arm in a triangle choke configuration.",
+          "initialPosition": {
+            "body": "Lying on your back in spider guard. Hips angled to create the arm-in, arm-out situation needed for the triangle.",
+            "grips": "Sleeve grips controlling both arms. One sleeve is pulled ACROSS their body while the other arm is pushed away — creating the arm-in, arm-out.",
+            "legs": "One foot drops from bicep to hip to create the angle. Other leg swings HIGH over opponent's shoulder and behind their neck.",
+            "hips": "Scooted to one side for the angle needed to throw the leg over their shoulder."
+          },
+          "greenLights": [
+            "You've created an arm-in, arm-out situation with your spider grips",
+            "One arm is pulled across their body while the other is pushed wide",
+            "Opponent's posture is broken forward — close enough for your leg to reach their head",
+            "You have the angle to throw your leg over their shoulder"
+          ],
+          "redLights": [
+            "Both of opponent's arms are equally extended — no arm-in, arm-out yet",
+            "Opponent has strong upright posture — too far away to reach with your leg",
+            "You've lost a sleeve grip — can't control the arm positioning",
+            "Opponent is actively backing away and creating distance"
+          ],
+          "steps": [
+            "From spider guard, pull one sleeve ACROSS their body (this is the arm-in). Push the other arm away with your foot on their bicep (arm-out).",
+            "Drop the foot from the arm-in side to their hip. Use the angle to throw your other leg HIGH over their shoulder, behind their neck.",
+            "Lock the triangle: back of your knee over your opposite ankle (figure-four). Angle your body 30° to the side for optimal choke geometry.",
+            "Squeeze knees together, pull their head DOWN, and lift your hips. The trapped arm's shoulder compresses one carotid, your thigh compresses the other."
+          ],
+          "complexpieces": [
+            "If they posture inside the triangle, switch to armbar on the trapped arm",
+            "If they stack you, transition to omoplata by releasing the lock and controlling the shoulder",
+            "Set up the triangle by faking a sweep first — when they resist, their arm positioning gives you the opening"
+          ],
+          "simplifications": [
+            "Practice the arm-in, arm-out creation from spider grips as a separate drill",
+            "Drill the leg-over-shoulder throw from spider position without locking the triangle",
+            "Focus first on the angle creation — hip scoot and foot on hip — before adding the triangle"
+          ]
+        },
+        {
+          "name": "Omoplata (from Spider Guard)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attack the opponent's shoulder when their posture breaks during spider guard control, swinging your leg over their shoulder for the omoplata shoulder lock.",
+          "initialPosition": {
+            "body": "Lying on your back in spider guard, transitioning to perpendicular angle. Rotating body 90° relative to opponent.",
+            "grips": "Sleeve grip on the arm being attacked, pulling it across your body. Other hand assists the rotation or controls their hip.",
+            "legs": "Attacking leg releases from bicep and swings HIGH over opponent's shoulder. Other foot pushes on their hip for the pivot.",
+            "hips": "Pivoting to create a perpendicular angle — similar setup to armbar but finishing with shoulder pressure."
+          },
+          "greenLights": [
+            "Opponent's posture is broken and their arm is extended forward",
+            "You've pulled one arm across your body with the sleeve grip",
+            "You can swing your leg over their shoulder from the spider position",
+            "Opponent is focused on defending the spider sweep and not watching the arm attack"
+          ],
+          "redLights": [
+            "Opponent has strong posture and you can't reach their shoulder with your leg",
+            "You've lost the sleeve grip on the attacking arm — can't control it",
+            "Opponent is backing away creating too much distance",
+            "Opponent is already rolling forward to escape before you establish control"
+          ],
+          "steps": [
+            "From spider guard, pull one sleeve across your body. Drop that foot from their bicep and push on their hip with your other foot for the pivot.",
+            "Swing your attacking leg HIGH over their shoulder, draping it across their back. Your leg traps their arm against your body.",
+            "Sit up and control their hip or belt to prevent the forward roll escape. Establish the perpendicular angle.",
+            "Lean forward, driving their arm behind their back using your leg pressure on their shoulder. Apply smooth rotational pressure for the submission."
+          ],
+          "complexpieces": [
+            "If they roll forward to escape, follow the roll and sweep to top position",
+            "Chain from triangle: if your triangle attempt fails, redirect the leg for omoplata",
+            "Set up a wrist lock on the trapped arm while maintaining the omoplata position"
+          ],
+          "simplifications": [
+            "Practice the leg swing from spider position over partner's shoulder as a movement drill",
+            "Drill sitting up and controlling the hip — most common mistake is staying flat on your back",
+            "Break into phases: (1) pull arm across, (2) pivot and swing leg, (3) sit up and control, (4) finish"
+          ]
+        },
+        {
+          "name": "Armbar (from Spider Guard)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Swing your leg over the opponent's arm when they attempt to posture or defend in spider guard, isolating the arm for a hyperextension submission.",
+          "initialPosition": {
+            "body": "Lying on your back in spider guard. Hips angled to create a perpendicular angle to opponent's body for the armbar.",
+            "grips": "Wrist or sleeve grip on the arm being attacked. Other hand controls their posture (collar, head, or other sleeve).",
+            "legs": "One foot pushes on their hip for the pivot. Other leg swings over their face/head for the armbar clamp. Both feet were originally on biceps.",
+            "hips": "Pivoting to perpendicular angle, scooted to the side for the armbar geometry."
+          },
+          "greenLights": [
+            "Opponent reaches forward trying to break your spider grips — arm is extended and exposed",
+            "You've controlled one wrist/sleeve and can pivot your hips for the armbar angle",
+            "Opponent's posture is broken and they're leaning forward",
+            "One arm is isolated while the other is controlled or pushed away"
+          ],
+          "redLights": [
+            "Both of opponent's arms are retracted tight to their body",
+            "Opponent has strong upright posture with hips back — too far for your legs",
+            "You've lost sleeve control — they'll pull the arm out during the spin",
+            "Opponent is stacking you, driving hips over your head"
+          ],
+          "steps": [
+            "From spider guard, isolate one arm by maintaining a tight wrist/sleeve grip. Push on their hip with one foot for the pivot.",
+            "Swing your other leg HIGH over their head/face, clamping down across their neck. Pivot your hips to create a perpendicular angle.",
+            "Clamp BOTH legs tight — one over their face, one across their torso. Their thumb points UP (arm extended, elbow joint facing your hips).",
+            "Squeeze knees together, pinch tight, and lift your hips UP against their elbow for the submission. Control at the wrist while hips provide the breaking pressure."
+          ],
+          "complexpieces": [
+            "If they stack you, transition to triangle or omoplata — the leg is already over their shoulder",
+            "Chain with triangle: if they pull arm out during the armbar, lock up the triangle",
+            "Set up from a sweep attempt: when they base with an extended arm to resist, catch the armbar"
+          ],
+          "simplifications": [
+            "Practice the hip pivot from spider guard to the perpendicular armbar angle as a movement drill",
+            "Drill the leg-over-face clamp from spider position without finishing the armbar",
+            "Break into two parts: (1) angle creation and leg placement, (2) finishing mechanics with hip lift"
+          ]
+        },
+        {
+          "name": "Triangle to Armbar Combo (from Spider Guard)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attempt a triangle choke from spider guard, and when the opponent defends by posturing or pulling their arm, transition immediately to an armbar on the trapped arm.",
+          "initialPosition": {
+            "body": "In the triangle position from spider guard. Legs locked in figure-four around opponent's neck and one arm. Ready to transition based on their defense.",
+            "grips": "Controlling the trapped arm at the wrist. Other hand pulling their head down or controlling their posture.",
+            "legs": "Triangle locked: back of knee over opposite ankle (figure-four) around their neck and trapped arm. Ready to unlock and switch to armbar clamp.",
+            "hips": "Angled to one side for the triangle. Ready to pivot further for the armbar transition."
+          },
+          "greenLights": [
+            "You have the triangle locked but opponent is defending by posturing or tucking their chin",
+            "The trapped arm is still accessible for an armbar attack",
+            "Opponent is focused entirely on escaping the triangle — not defending the arm",
+            "You can control their wrist while unlocking your legs to transition"
+          ],
+          "redLights": [
+            "Triangle is very tight and opponent is close to tapping — finish it instead of switching",
+            "You've lost control of the trapped arm — can't transition to armbar",
+            "Opponent has already escaped the triangle — no arm to attack",
+            "Your legs are fatigued and can't maintain the clamp for either submission"
+          ],
+          "steps": [
+            "From the triangle position (locked from spider guard setup), control the trapped arm at the wrist. If opponent is defending the choke effectively, prepare to switch.",
+            "Unlock the triangle by releasing the figure-four. Keep the leg over their head/face in place and swing the other leg across their chest.",
+            "Pivot your hips for the armbar angle. Clamp BOTH legs tight — one over their face, one across their torso. Keep the wrist controlled with their thumb pointing up.",
+            "Squeeze knees together and lift your hips UP against their elbow. The transition catches them off guard as they were focused on defending the triangle."
+          ],
+          "complexpieces": [
+            "If they defend the armbar by bending the arm, lock up the triangle again — chain back and forth",
+            "Add omoplata to the chain: triangle → armbar → omoplata creates a three-way submission loop",
+            "Use the threat of the triangle to force them to extend the arm, making the armbar easier"
+          ],
+          "simplifications": [
+            "Practice the triangle-to-armbar transition slowly with a cooperative partner",
+            "Drill just the leg switch: from triangle legs to armbar legs, repeatedly",
+            "Focus on maintaining wrist control throughout the transition — this is the most critical grip"
+          ]
+        },
+        {
+          "name": "Grip Break and Toreando Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Break the spider guard sleeve grips and immediately circle around the legs using the toreando (bullfighter) pass to reach side control.",
+          "initialPosition": {
+            "body": "Standing in opponent's spider guard. They have feet on your biceps and sleeve grips. Posture upright, working to strip grips.",
+            "grips": "Initially controlled by opponent. Working to break their sleeve grips by circling your wrists, pulling arms back, or using grip-breaking techniques.",
+            "legs": "Standing with strong base. Ready to explode laterally once grips are broken.",
+            "hips": "Upright and mobile, ready to change direction rapidly for the toreando pass."
+          },
+          "greenLights": [
+            "You've broken both of their sleeve grips — this is the trigger for the toreando",
+            "Opponent's feet have slipped off your biceps after the grip break",
+            "You can grab both of their pant legs at the knees or shins",
+            "Opponent is flat on their back after losing spider control"
+          ],
+          "redLights": [
+            "Opponent still has strong sleeve grips — break them before attempting to pass",
+            "Their feet are still actively on your biceps with tension",
+            "Opponent has transitioned to a different guard (lasso, DLR) as you strip grips",
+            "You've grabbed their legs but they've regripped your sleeve immediately"
+          ],
+          "steps": [
+            "Address the grips: circle your wrists outward, yank your arms back, or use two-on-one to strip their sleeve grips. Break both grips if possible.",
+            "The INSTANT grips are broken, grab both pant legs at the knees or shins. Push one leg DOWN and direct the other leg across.",
+            "Explode LATERALLY like a bullfighter — move your hips to the side, passing around their legs. Speed is critical before they regrip.",
+            "Drop into side control: crossface and hip control. Sprawl your legs back and drive chest-to-chest pressure."
+          ],
+          "complexpieces": [
+            "If they regrip one sleeve during the pass, use the other hand to complete a single-side toreando",
+            "Chain with leg drag: as you pass, drag their top leg across your body for an even tighter pass",
+            "If they transition to lasso as you strip grips, strip the lasso by backsteping and circling the arm free"
+          ],
+          "simplifications": [
+            "Practice grip-breaking techniques in isolation — circle wrists, yank back, peel fingers",
+            "Drill the toreando footwork as a solo agility drill (lateral explosion)",
+            "Start from grips already broken to focus only on the toreando passing mechanics"
+          ]
+        },
+        {
+          "name": "Leg Drag Pass (vs Spider Guard)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Drag one of the opponent's legs across your body after breaking their spider guard hooks to pass to side control with tight hip-to-hip control.",
+          "initialPosition": {
+            "body": "Standing or kneeling in opponent's spider guard. Working to break their structure and control one leg for the drag.",
+            "grips": "One hand grips opponent's pant leg at the ankle/shin. Other hand controls their collar, belt, or other pant leg.",
+            "legs": "Strong base with hips close to opponent. Stepping to the drag side as you pull their leg across.",
+            "hips": "Driving forward and to the side, pinning their dragged leg against your hip."
+          },
+          "greenLights": [
+            "You've broken their spider hooks and can grab a pant leg",
+            "You can drag their leg across your body and pin it against your hip",
+            "Opponent's guard is compromised after losing spider structure",
+            "You have a grip on their leg and can drive forward"
+          ],
+          "redLights": [
+            "Spider hooks are still active with strong sleeve grips — break structure first",
+            "Opponent is actively framing and preventing you from closing distance",
+            "They've regripped your sleeves and re-established spider guard",
+            "Opponent has transitioned to De La Riva or lasso as you attempt the drag"
+          ],
+          "steps": [
+            "Break spider guard structure: strip sleeve grips and clear their feet off your biceps.",
+            "Grab one pant leg at the ankle or shin. DRAG their leg across your body toward your opposite hip.",
+            "Step to the drag side and PIN their leg against your hip with your body. Drive your hips close to theirs — hip-to-hip contact.",
+            "Drop into side control on the drag side. Their hips are turned away, making reguarding very difficult. Secure crossface and chest pressure."
+          ],
+          "complexpieces": [
+            "Chain with toreando: fake the toreando to one side, when they react, drag the leg the other way",
+            "If they try to reguard, immediately switch to knee slice on the dragged side",
+            "Use the leg drag position to set up a back take by stepping over"
+          ],
+          "simplifications": [
+            "Practice the leg drag motion (grabbing ankle, pulling across hip) as a partner drill",
+            "Drill the hip-to-hip pinning pressure from a static position",
+            "Start from spider guard already broken to focus only on the drag mechanics"
+          ]
+        },
+        {
+          "name": "Stack Pass (vs Spider Guard)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Drive the opponent's knees toward their chest to collapse the spider guard structure, then use stacking pressure to pass to side control.",
+          "initialPosition": {
+            "body": "Standing or kneeling in opponent's spider guard. Driving forward to collapse their leg structure.",
+            "grips": "Controlling opponent's legs at the knees or thighs. Pushing their legs toward their chest. Hands may grip pants or hug inside the legs.",
+            "legs": "Stepping forward with one foot up for drive. Other knee on the mat or both feet up driving forward.",
+            "hips": "Driving FORWARD and DOWN, using bodyweight to stack their hips over their shoulders."
+          },
+          "greenLights": [
+            "You can drive forward and collapse their legs toward their chest",
+            "Opponent's feet have slipped off your biceps — spider hooks are neutralized",
+            "You have control of both legs and can stack their hips",
+            "Opponent is relatively flat and can't maintain distance with their legs"
+          ],
+          "redLights": [
+            "Spider hooks are still active — their feet on your biceps prevent you from closing distance",
+            "Opponent has strong frames keeping you away with extended legs",
+            "Opponent is very flexible and stacking has little effect on their mobility",
+            "You don't have control of both legs — one is free to frame or reguard"
+          ],
+          "steps": [
+            "Break the spider hooks by stripping grips and clearing feet off your biceps. Immediately close distance.",
+            "Drive FORWARD, pushing opponent's knees toward their chest. Shoulder pressure into their thighs, stacking their hips over their head.",
+            "Keep your head on one side (the side you'll pass to). Walk around toward that side, maintaining constant stacking pressure.",
+            "Once past the legs, release the stack and drop into side control. Secure crossface and hip control immediately."
+          ],
+          "complexpieces": [
+            "If they frame with their arms during the stack, swim your arm through for an underhook",
+            "Chain with double under pass: if you get both arms under their legs during the stack",
+            "If they resist the stack, redirect to toreando — their legs are compressed and easy to redirect"
+          ],
+          "simplifications": [
+            "Practice the forward stacking drive against light resistance as a pressure drill",
+            "Drill walking around the stacked legs to learn the passing angle",
+            "Start from spider guard already broken to focus on the stacking and passing"
+          ]
+        },
+        {
+          "name": "Knee Slice Pass (vs Spider Guard)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Break spider guard sleeve grips and slice your knee through the middle, driving through their guard to reach side control.",
+          "initialPosition": {
+            "body": "Standing or kneeling, opponent's spider guard is partially broken. Transitioning to a knee slice position.",
+            "grips": "Near arm: collar grip or crossface started. Far hand: controlling their pant leg or sleeve to prevent reguarding.",
+            "legs": "Lead knee placed across opponent's thigh, pointing diagonally toward the mat. Rear leg posted back for base and forward drive.",
+            "hips": "Heavy on the slicing knee, driving forward through the center of their guard."
+          },
+          "greenLights": [
+            "You've broken both sleeve grips and their feet are off your biceps",
+            "You can establish a crossface or collar grip to flatten them",
+            "Your knee can slot between their legs for the slice",
+            "Opponent is transitioning between guards and momentarily disorganized"
+          ],
+          "redLights": [
+            "Spider hooks are still active — break them before attempting knee slice",
+            "Opponent has transitioned to lasso or DLR — address those hooks first",
+            "You don't have head position (crossface) — vulnerable to being re-entangled",
+            "Opponent has strong frames preventing you from closing distance"
+          ],
+          "steps": [
+            "Break spider guard grips and clear their feet off your biceps. Immediately step into a knee slice position.",
+            "Secure crossface or collar grip on the passing side. Place your lead knee across their thigh, pointing diagonally toward the mat.",
+            "Drive your knee FORWARD through the center, slicing across their thigh. Maintain chest pressure and keep hips LOW throughout.",
+            "Clear past their legs and consolidate side control. Secure crossface and hip control. Don't let them reguard."
+          ],
+          "complexpieces": [
+            "If they re-establish a hook during the slice, backstep to leg drag",
+            "Chain with toreando: fake the knee slice, when they defend, redirect to toreando",
+            "Use a collar grip to threaten a choke during the knee slice for added pressure"
+          ],
+          "simplifications": [
+            "Practice the knee slice motion from a static position against no resistance",
+            "Drill the grip break to knee slice transition as a seamless combination",
+            "Focus on maintaining heavy shoulder pressure through the entire slice — don't rise up"
+          ]
+        },
+        {
+          "name": "Double Under Stack Pass (vs Spider Guard)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Secure both arms under opponent's legs and stack their hips to completely neutralize spider guard hooks and pass to side control.",
+          "initialPosition": {
+            "body": "Kneeling between opponent's legs. Spider hooks cleared or being cleared as you swim your arms under both legs.",
+            "grips": "Both arms under opponent's legs — biceps under hamstrings. Hands clasp together (gable grip) behind their lower back or belt.",
+            "legs": "Knees on the mat, tight base. One foot steps up when stacking begins.",
+            "hips": "Driving FORWARD into opponent, stacking their hips over their shoulders."
+          },
+          "greenLights": [
+            "You've cleared their feet off your biceps — spider hooks are broken",
+            "You can swim both arms under their legs and clasp hands behind their back",
+            "Opponent is relatively flat and you can stack their hips",
+            "Their sleeve grips are broken — they can't re-establish spider control with your arms under their legs"
+          ],
+          "redLights": [
+            "Spider hooks are still active — your arms can't get under their legs",
+            "Opponent has strong collar grips that threaten chokes as you stack",
+            "You can only get under one leg (need both for double under)",
+            "Opponent is framing hard on your hips preventing you from getting close"
+          ],
+          "steps": [
+            "Break spider guard grips and clear feet off your biceps. Immediately drive forward and swim BOTH arms under opponent's legs.",
+            "Clasp your hands together (gable grip) behind their lower back or belt. Lock the grip tight.",
+            "Step one foot up and drive forward, stacking their hips OVER their shoulders. Your shoulder drives into their thighs. Keep your head on the passing side.",
+            "Walk around to the side your head is on, maintaining constant forward stacking pressure. Release the stack into side control with crossface and hip control."
+          ],
+          "complexpieces": [
+            "If they grab your collar during the stack, transition to over-under pass by releasing one arm",
+            "Chain with toreando: if they kick out of the stack, switch to toreando immediately",
+            "São Paulo pass variation: use collar grip instead of clasping hands for collar-choke pressure during the pass"
+          ],
+          "simplifications": [
+            "Practice the double underhook entry against a static open guard",
+            "Drill the stacking motion and walk-around separately",
+            "Focus on the grip clasp behind their back — a loose grip means they'll escape the stack"
+          ]
+        }
+      ]
+    },
+    {
       "id": "turtle",
       "name": "Turtle",
       "emoji": "🐢",
