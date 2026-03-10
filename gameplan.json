@@ -285,6 +285,806 @@
             "Drill getting the double underhook grip vs a static open guard",
             "Focus on stepping UP with one foot to generate stacking power — most common mistake is staying on both knees"
           ]
+        },
+        {
+          "name": "Flower Sweep (Pendulum Sweep)",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Sweep opponent from closed guard by swinging your leg in a wide pendulum arc while controlling their arm, using momentum to roll them over.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Hips angled slightly toward the sweeping side.",
+            "grips": "Same-side hand grips opponent's sleeve or wrist (the arm you're controlling to prevent posting). Other hand grips behind the opponent's elbow or grabs the back of their gi pants at the knee on the same side.",
+            "legs": "Guard opens. Sweeping-side leg swings wide and high in a pendulum motion. Other leg hooks under opponent's far leg for leverage.",
+            "hips": "Scooted slightly to the side, creating the angle for the pendulum swing."
+          },
+          "greenLights": [
+            "Opponent is kneeling with upright posture",
+            "You've isolated one arm with a solid sleeve/wrist grip",
+            "Opponent's weight is centered or slightly forward",
+            "You can reach their same-side pant leg at the knee"
+          ],
+          "redLights": [
+            "Opponent has a very wide base with knees spread far apart",
+            "Opponent is standing — pendulum motion loses effectiveness",
+            "You can't control their posting arm (they'll block the sweep)",
+            "Opponent has heavy low pressure pinning your hips flat"
+          ],
+          "steps": [
+            "From closed guard, secure a sleeve/wrist grip on one side and grip their pants at the knee on the same side. Open your guard.",
+            "Swing your same-side leg OUT wide and HIGH in a big pendulum arc — generate momentum with this sweeping motion.",
+            "Simultaneously PULL the sleeve grip across to prevent posting, and LIFT their knee with your pant grip. Your other leg hooks under their far thigh for added leverage.",
+            "Follow the pendulum momentum to roll them over. Come up to mount, maintaining grips throughout the transition."
+          ],
+          "complexpieces": [
+            "If opponent posts their free hand, switch to an omoplata on the posted arm",
+            "Chain with scissor sweep: attempt flower sweep, if blocked, immediately set up scissor sweep",
+            "Use the pendulum motion to create angle for triangle or armbar if the sweep fails"
+          ],
+          "simplifications": [
+            "Practice the pendulum leg swing solo to build the movement pattern",
+            "Use double pant grips instead of sleeve + pants for easier grip setup",
+            "Start with partner giving zero resistance to learn the arc and timing"
+          ]
+        },
+        {
+          "name": "Overhead Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Sweep opponent by pulling them forward and using your legs to elevate them overhead, flipping them behind you to reverse the position.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Pulling opponent's posture down and forward.",
+            "grips": "Both hands gripping opponent's sleeves, collar, or belt — pulling them forward. Grips should facilitate pulling their weight over you.",
+            "legs": "Guard opens. Feet placed on opponent's hips or thighs, ready to extend and elevate.",
+            "hips": "Scooted under opponent, creating space to load them onto your feet for the elevation."
+          },
+          "greenLights": [
+            "Opponent is leaning forward with their weight over you",
+            "You've successfully broken their posture and pulled them close",
+            "Opponent has narrow base with knees close together",
+            "You can plant your feet on their hips for the elevation"
+          ],
+          "redLights": [
+            "Opponent has strong upright posture with hips back",
+            "Opponent has a very wide base making elevation difficult",
+            "You can't load their weight onto your feet",
+            "Opponent is standing up in your guard"
+          ],
+          "steps": [
+            "From closed guard, break opponent's posture and pull them forward using sleeve, collar, or belt grips. Get their weight shifting over you.",
+            "Open your guard and place both feet on their hips. Scoot your hips slightly under them to load their weight onto your feet.",
+            "EXTEND your legs to elevate them overhead while PULLING with your grips. Guide them over your head in a controlled arc.",
+            "Follow through, rolling backward and coming up on top. Establish top position immediately."
+          ],
+          "complexpieces": [
+            "If opponent bases with their hands, transition to armbar or triangle on the posted arm",
+            "Chain with hip bump: attempt hip bump first, when they resist forward, use momentum for overhead sweep",
+            "Use butterfly hooks variation for a more controlled elevation"
+          ],
+          "simplifications": [
+            "Practice the leg extension and elevation motion with a light partner",
+            "Drill the hip scoot to load their weight onto your feet as a separate movement",
+            "Start from an already-broken posture position to focus on the sweep mechanics"
+          ]
+        },
+        {
+          "name": "Kimura Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Use a kimura grip (figure-four on the arm) from closed guard to break opponent's posture and sweep them when they defend the submission.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Sitting up slightly to secure the kimura grip, then using it to drive opponent over.",
+            "grips": "Kimura figure-four grip: one hand grabs opponent's wrist, other hand reaches over their arm and grabs your own wrist. Locked tight.",
+            "legs": "Guard stays closed or opens slightly to create hip angle for the sweep direction.",
+            "hips": "Angled toward the kimura grip side, using the grip as a lever to direct the sweep."
+          },
+          "greenLights": [
+            "Opponent posts their hand on the mat beside you — wrist is available for kimura grip",
+            "You've secured the figure-four kimura grip on their arm",
+            "Opponent is trying to pull their arm free and creating backward momentum",
+            "Opponent's posture is broken and they're not defending the grip"
+          ],
+          "redLights": [
+            "Opponent keeps elbows tight to their body — can't isolate an arm",
+            "Opponent grabs their own belt or lapel to defend the kimura grip",
+            "You don't have a solid figure-four lock yet",
+            "Opponent has strong upright posture and you can't reach their arm"
+          ],
+          "steps": [
+            "From closed guard, when opponent posts a hand on the mat, grab their wrist with your same-side hand. Reach your other hand OVER their arm and grab your own wrist — figure-four kimura grip.",
+            "Sit up slightly and pull their elbow tight to your body. Control the arm close to your chest.",
+            "Open your guard slightly, angle your hips, and use the kimura grip as a lever to drive them sideways. Kick with your legs in the sweep direction.",
+            "Follow through to mount or side control. You can either finish the kimura from top position or release and establish dominant position."
+          ],
+          "complexpieces": [
+            "If they resist the sweep, finish the kimura submission from the bottom",
+            "Chain with hip bump: attempt hip bump, when they post their hand, catch the kimura grip",
+            "Transition to guillotine if they duck their head while defending the kimura"
+          ],
+          "simplifications": [
+            "Practice securing the kimura grip quickly from closed guard — speed is key",
+            "Drill the figure-four grip mechanics separately until automatic",
+            "Work the sweep against a cooperative partner to learn the leverage angle"
+          ]
+        },
+        {
+          "name": "Sit-Up Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Sit up into your opponent and drive forward to off-balance and sweep them backward. Similar to hip bump but with more emphasis on forward drive and control.",
+          "initialPosition": {
+            "body": "Transitioning from lying on back to sitting up into opponent. Driving chest-to-chest.",
+            "grips": "One hand posts on the mat behind you for the sit-up. Other hand controls opponent's arm, collar, or reaches for an underhook.",
+            "legs": "Guard opens as you sit up. One foot plants on the mat for driving power.",
+            "hips": "Driving forward and upward into opponent's center of gravity."
+          },
+          "greenLights": [
+            "Opponent postures up with their weight shifting backward",
+            "Opponent's hands are off you momentarily",
+            "You have space to sit up explosively",
+            "Opponent has narrow base or their weight is centered"
+          ],
+          "redLights": [
+            "Opponent has heavy forward pressure with head low",
+            "Opponent has deep collar grips controlling your posture",
+            "You're pinned flat with no ability to sit up",
+            "Opponent is actively working a pass"
+          ],
+          "steps": [
+            "When opponent postures up, post one hand behind you on the mat and EXPLOSIVELY sit up toward them.",
+            "Drive your chest into their chest, reaching for an underhook or collar grip with your free arm.",
+            "Open your guard and plant your foot on the mat for added drive. Push forward and off-balance them backward.",
+            "Drive through to top position. Establish mount or side control immediately."
+          ],
+          "complexpieces": [
+            "If they push you back down, transition to guillotine as they lean forward",
+            "Chain with kimura: sit up, when they post to resist, catch the kimura grip",
+            "Combine with hip bump — the sit-up creates the angle for a more powerful bump"
+          ],
+          "simplifications": [
+            "Practice the explosive sit-up motion solo (just the movement, no partner)",
+            "Focus on the timing — sit up the instant they posture up",
+            "Drill against a static partner to learn the forward drive path"
+          ]
+        },
+        {
+          "name": "Clamp Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Control the opponent's arm and clamp their shoulder while using your legs to rotate them over. Uses upper body clamping pressure combined with leg drive.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Upper body clamping opponent's arm and shoulder tight to your chest.",
+            "grips": "Both arms clamp opponent's arm tight to your chest — overhook their arm and hug it tight. Control their shoulder to prevent them from posturing.",
+            "legs": "Guard opens. Legs work to create rotational force in the sweep direction.",
+            "hips": "Angled toward the clamped arm side, creating the rotational vector for the sweep."
+          },
+          "greenLights": [
+            "You've successfully clamped their arm tight to your chest with an overhook",
+            "Opponent's shoulder is pinned and they can't posture up",
+            "Opponent is reaching across or leaving an arm exposed",
+            "Their base is compromised on the clamped side"
+          ],
+          "redLights": [
+            "Opponent pulls their arm free from the clamp — you lose the lever",
+            "Opponent has a very wide base on both sides",
+            "You can't secure the overhook to clamp the shoulder",
+            "Opponent is posturing strongly and you can't break them down"
+          ],
+          "steps": [
+            "From closed guard, secure an overhook on opponent's arm and CLAMP it tight to your chest. Hug their shoulder with both arms.",
+            "Angle your hips toward the clamped arm side. Their posting ability on that side is eliminated.",
+            "Open your guard and use your legs to create rotational momentum — drive your legs toward the clamped side to roll them over.",
+            "Follow through to top position. Maintain the clamp control as you establish mount or side control."
+          ],
+          "complexpieces": [
+            "If they resist the sweep, transition to omoplata from the overhook position",
+            "Chain with triangle: the overhook creates the arm-in position for a triangle setup",
+            "Use the clamp to set up a wrist lock on the trapped arm"
+          ],
+          "simplifications": [
+            "Practice the overhook and shoulder clamp as an isolated drill",
+            "Focus on the hip angle change with the clamp secured before adding leg drive",
+            "Drill with a cooperative partner to learn the rotational mechanics"
+          ]
+        },
+        {
+          "name": "Lumberjack Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "When opponent stands up in your closed guard, control both ankles and push-pull to sweep them backward. Capitalizes on the standing guard break posture.",
+          "initialPosition": {
+            "body": "Lying on your back. Opponent has stood up inside your guard to attempt a guard break.",
+            "grips": "Both hands grab opponent's ankles or pant cuffs at the feet. Control both legs.",
+            "legs": "Guard opens. Feet placed on opponent's hips or inner thighs, ready to push.",
+            "hips": "On the mat, ready to push with feet while pulling ankles."
+          },
+          "greenLights": [
+            "Opponent stands up in your guard — this is the trigger for this sweep",
+            "You can reach both of their ankles or pant legs",
+            "Opponent's weight is shifting backward as they try to open your guard",
+            "Opponent's hands are on your legs/hips and not defending their base"
+          ],
+          "redLights": [
+            "Opponent has already opened your guard and stepped to the side",
+            "You can only reach one ankle — need to control both",
+            "Opponent has strong forward posture and isn't leaning back",
+            "Opponent is actively passing and has cleared your legs"
+          ],
+          "steps": [
+            "As opponent stands up in your guard, open your guard and immediately grab BOTH ankles or pant cuffs.",
+            "Place your feet on their hips or inner thighs. Push with your feet while simultaneously PULLING their ankles toward you.",
+            "The push-pull motion takes their feet out from under them — they fall backward.",
+            "Immediately come up on top as they fall. Establish a passing position or drop into side control."
+          ],
+          "complexpieces": [
+            "If they step one leg back, transition to a single leg or De La Riva hook",
+            "Chain with ankle pick: if they resist the sweep, pull one ankle harder for an ankle pick takedown",
+            "Use the lumberjack grip to transition to X-guard or single leg X"
+          ],
+          "simplifications": [
+            "Practice the timing of grabbing ankles as soon as they stand — reaction drill",
+            "Drill the push-pull motion with feet on hips against a standing partner",
+            "Start with partner already standing to focus on the sweep mechanics"
+          ]
+        },
+        {
+          "name": "Arm Drag to Back Take",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Use an arm drag from closed guard to pull the opponent forward and around your body, exposing their back and allowing you to secure back control.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Ready to sit up slightly and rotate as you drag their arm.",
+            "grips": "Both hands grip opponent's same-side wrist and tricep area. One hand controls the wrist, the other cups the tricep to pull.",
+            "legs": "Guard stays closed initially, then opens to allow you to rotate behind them.",
+            "hips": "Scooting to the side as you drag, creating angle to access their back."
+          },
+          "greenLights": [
+            "Opponent extends an arm toward you — pushing on chest or reaching for collar",
+            "You've secured a strong two-on-one grip on their arm",
+            "Opponent's weight is forward and they're not defending their back",
+            "You can scoot your hips to create the angle for the back take"
+          ],
+          "redLights": [
+            "Opponent keeps elbows tight and doesn't extend arms",
+            "Opponent is sitting back with weight away from you",
+            "You can't get a two-on-one grip on their arm",
+            "Opponent immediately pulls their arm back when you grab it"
+          ],
+          "steps": [
+            "From closed guard, grab opponent's wrist with one hand and cup their tricep with the other — two-on-one grip on the same arm.",
+            "DRAG their arm across your body while simultaneously scooting your hips to the opposite side. Sit up as you drag.",
+            "As their arm clears past your body, their back is exposed. Open your guard and start climbing to their back.",
+            "Secure a seatbelt grip (one arm over shoulder, one under armpit) and insert your hooks. Establish full back control."
+          ],
+          "complexpieces": [
+            "If they resist the drag, use the two-on-one to set up a triangle or armbar",
+            "Chain with collar drag for a similar back take from a different grip",
+            "If you can't get to the back, transition to a single leg takedown from the seated position"
+          ],
+          "simplifications": [
+            "Practice the arm drag motion (two-on-one pull) as an isolated grip drill",
+            "Drill the hip scoot and rotation without finishing the back take",
+            "Start with partner extending their arm to focus on the drag mechanics"
+          ]
+        },
+        {
+          "name": "Muscle Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "A powerful sweep from closed guard that uses upper body strength and timing to elevate and reverse the opponent when they resist posture breaking.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Using upper body strength to drive opponent over.",
+            "grips": "Strong collar and sleeve grips, or double underhooks controlling opponent's upper body. Grips facilitate the powerful lifting motion.",
+            "legs": "Guard closed tight, squeezing to break posture. Legs assist the sweep by driving in the sweep direction.",
+            "hips": "Loaded and ready to bridge powerfully into the sweep direction."
+          },
+          "greenLights": [
+            "Opponent is resisting your posture break by driving into you — use their energy",
+            "You have strong upper body grips or underhooks secured",
+            "Opponent's weight is centered or slightly forward",
+            "You have the strength and explosiveness to power through the sweep"
+          ],
+          "redLights": [
+            "Opponent has a very wide stable base",
+            "You don't have strong enough grips to control the sweep",
+            "Opponent is sitting back with weight away from you",
+            "You're exhausted and can't generate explosive power"
+          ],
+          "steps": [
+            "From closed guard, secure strong upper body grips — deep collar grip and sleeve, or fight for double underhooks.",
+            "Break opponent's posture down. When they resist and push back into you, use that forward energy.",
+            "Bridge explosively and use your grips to elevate and direct them to the side. Combine hip bridge with leg drive.",
+            "Follow through the bridge momentum to reverse to top position. Establish mount or side control."
+          ],
+          "complexpieces": [
+            "Chain with hip bump: use the muscle sweep attempt to set up a hip bump when they resist",
+            "If they post a hand, switch to kimura on the posted arm",
+            "Combine with scissor sweep mechanics for added leverage"
+          ],
+          "simplifications": [
+            "Practice the explosive bridge with direction change as a solo drill",
+            "Drill the grip placement and upper body control separately",
+            "Work against a cooperative partner to learn the correct elevation angle"
+          ]
+        },
+        {
+          "name": "Guillotine Choke",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Wrap your arm around the opponent's neck and apply a choke by squeezing upward while controlling them with your closed guard. Attacks when opponent dives their head down.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Opponent's head is down beside your chest — they've ducked their head low.",
+            "grips": "Choking arm wraps around opponent's neck — wrist bone or blade of forearm against their throat/neck. Same hand grabs your other hand (palm-to-palm or gable grip) for reinforcement.",
+            "legs": "Guard closed tight, pulling opponent into you. Can switch to high guard (legs climbing higher on their back) for a tighter finish.",
+            "hips": "Arching upward, driving the blade of your forearm into their neck. Hips provide the finishing pressure."
+          },
+          "greenLights": [
+            "Opponent ducks their head to your chest trying to pass or posture — neck is exposed",
+            "You've wrapped your arm around their neck with the forearm blade on the throat",
+            "Opponent's head is below your shoulder line and you can cinch the grip",
+            "Opponent shoots forward into you (takedown attempt or posture break)"
+          ],
+          "redLights": [
+            "Opponent has strong upright posture — can't reach around their neck",
+            "Your arm is around the chin, not the neck — jaw choke, not effective",
+            "Opponent has already passed to the side — guillotine loses leverage",
+            "You can't close your hands together for the reinforced grip"
+          ],
+          "steps": [
+            "When opponent ducks their head low, wrap your near arm around the FRONT of their neck. Blade of your wrist/forearm against their throat.",
+            "Grab your choking hand with your free hand — palm-to-palm or gable grip. Pull their head tight to your chest.",
+            "Close your guard HIGH on their back. Squeeze your knees together and pull them in tight.",
+            "Arch your hips UP and squeeze your arms together. The upward hip pressure combined with the arm squeeze compresses the neck for the choke."
+          ],
+          "complexpieces": [
+            "If they posture out, transition to a high-elbow guillotine by angling the choking arm upward",
+            "Chain with hip bump sweep: sit up for hip bump, when they duck, catch the guillotine",
+            "If they pull their head out, switch to an anaconda or d'arce choke"
+          ],
+          "simplifications": [
+            "Practice the wrap-around grip on a partner's neck to find the correct blade placement",
+            "Drill the hip arch finishing motion without the neck wrap to learn the body mechanics",
+            "Start with opponent's head already lowered to focus on the grip and finish"
+          ]
+        },
+        {
+          "name": "Kimura from Closed Guard",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attack the opponent's shoulder with a figure-four grip on their arm from closed guard, rotating their wrist behind their back against the shoulder joint.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Sitting up slightly to one side to secure the grip and create angle.",
+            "grips": "Kimura figure-four grip: one hand grabs opponent's wrist, other hand reaches OVER their arm and grabs your own wrist. Grip locked tight against your chest.",
+            "legs": "Guard open or closed. If open, top leg presses on their back for control.",
+            "hips": "Angled to the side of the kimura grip, scooted slightly off-center."
+          },
+          "greenLights": [
+            "Opponent posts their hand on the mat beside you — wrist is exposed",
+            "You've secured the figure-four kimura grip on their arm",
+            "Opponent's arm is separated from their body",
+            "Opponent is focused on posturing and not defending the arm"
+          ],
+          "redLights": [
+            "Opponent grabs their own belt, lapel, or pants to defend (break the grip first)",
+            "Opponent keeps elbows extremely tight to their body",
+            "You can't get your hand over their arm for the figure-four",
+            "Opponent is stacking you and you're losing angle"
+          ],
+          "steps": [
+            "From closed guard, when opponent posts a hand on the mat, grab their wrist with your same-side hand.",
+            "Sit up slightly, reach your other hand OVER their arm, and grab your own wrist — figure-four kimura grip secured.",
+            "Pull their elbow tight to your chest. Open your guard and place your top leg over their back for added control.",
+            "Pin their forearm down and rotate their wrist toward their back (behind their spine). Apply smooth rotational pressure on the shoulder joint."
+          ],
+          "complexpieces": [
+            "If they resist the kimura, use the grip to sweep them (kimura sweep)",
+            "Chain with hip bump: attempt hip bump, they post hand, catch the kimura",
+            "If they straighten the arm to defend, switch to a straight armbar"
+          ],
+          "simplifications": [
+            "Practice securing the figure-four grip quickly as a reaction drill",
+            "Drill the wrist rotation finish from a static position",
+            "Focus on the sit-up and angle change before adding the submission"
+          ]
+        },
+        {
+          "name": "Omoplata",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Use your legs to isolate and attack the opponent's shoulder joint from closed guard. Your leg wraps over their shoulder and rotates the arm behind their back.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard, transitioning to a perpendicular angle. Rotating your body 90° relative to opponent.",
+            "grips": "Same-side sleeve or wrist grip on the arm you're attacking. Other hand on their collar or head to control posture.",
+            "legs": "Guard opens. Attacking leg swings HIGH over opponent's shoulder and wraps over their back. Other foot pushes on their hip for the pivot.",
+            "hips": "Pivoting to create a perpendicular angle to opponent's body — similar angle to an armbar setup."
+          },
+          "greenLights": [
+            "Opponent extends an arm — pushing, posting, or reaching for collar",
+            "You've created a perpendicular angle with your hips",
+            "Opponent's posture is broken and they can't retract their arm quickly",
+            "Failed triangle attempt where they pull the arm out — perfect omoplata transition"
+          ],
+          "redLights": [
+            "Opponent keeps both arms tight and doesn't extend",
+            "Opponent has strong upright posture and you can't throw your leg over",
+            "Opponent is already rolling forward to escape before you can control their hips",
+            "You can't create enough angle to get your leg over their shoulder"
+          ],
+          "steps": [
+            "From closed guard, control one arm at the wrist/sleeve. Push their head to the opposite side with your other hand.",
+            "Open guard, place one foot on their hip, and pivot your hips to create a perpendicular angle. Swing your attacking leg HIGH over their shoulder.",
+            "Sit up and control their hip/belt to prevent the forward roll escape. Your leg is draped over their shoulder with their arm trapped.",
+            "Lean forward, driving their arm behind their back using your leg pressure. Control their hip and apply rotational pressure on the shoulder for the submission."
+          ],
+          "complexpieces": [
+            "If they roll forward to escape, follow the roll and sweep to top position",
+            "Chain from triangle: if triangle fails and they pull the arm out, transition to omoplata",
+            "Set up a wrist lock on the trapped arm while holding the omoplata position"
+          ],
+          "simplifications": [
+            "Practice the hip pivot and leg-over-shoulder motion as an isolated movement drill",
+            "Drill sitting up and controlling the hip — the most common mistake is lying flat",
+            "Break into phases: (1) angle creation, (2) leg placement, (3) sit-up and control, (4) finish"
+          ]
+        },
+        {
+          "name": "Loop Choke",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Feed the opponent's collar behind their neck and create a tight choking loop. A sneaky collar choke that catches opponents off guard during transitions.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard or transitioning as opponent tries to pass. Body angled toward the choking side.",
+            "grips": "Lead hand feeds deep into opponent's cross collar — fingers inside the collar, thumb outside. Pull the collar across the back of their neck to create the loop. Other hand controls their posture or blocks their arm.",
+            "legs": "Guard closed or transitioning. Legs pull opponent's posture down to tighten the collar loop.",
+            "hips": "Angled slightly toward the choking grip side."
+          },
+          "greenLights": [
+            "You've fed a deep collar grip across the back of their neck",
+            "Opponent is driving forward into you with head low",
+            "Opponent is trying to pass guard and not defending the collar",
+            "You can create the collar loop around the back of their neck"
+          ],
+          "redLights": [
+            "Opponent has strong upright posture — can't feed the collar deep enough",
+            "Opponent is actively grip-fighting your collar grip",
+            "You can't reach deep enough into the collar for an effective loop",
+            "Opponent is pulling away and creating distance"
+          ],
+          "steps": [
+            "From closed guard, feed your hand DEEP into their cross collar (4 fingers inside). Pull the collar across and behind their neck to create a loop around the back of their head.",
+            "With your other hand, control their posture — grip behind their head, their sleeve, or block their posting arm.",
+            "Close your guard tight and pull them DOWN. The collar loop tightens around their neck as they try to posture up.",
+            "Squeeze by pulling the collar grip toward your chest while keeping their posture broken. The loop acts as a noose around the neck arteries."
+          ],
+          "complexpieces": [
+            "Set up during a guard pass attempt — feed the collar as they try to open your guard",
+            "Chain with cross collar choke: if the loop choke fails, the grip is already set for the second hand",
+            "Use the collar control to sweep if the choke isn't finishing"
+          ],
+          "simplifications": [
+            "Practice feeding the collar grip deep behind the neck repeatedly — depth is everything",
+            "Drill the loop formation on a static partner or gi on a hanger",
+            "Focus on the posture break with legs — the choke tightens when they can't posture"
+          ]
+        },
+        {
+          "name": "Gogoplata",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Use your shin across the opponent's throat while controlling their posture from closed guard, creating a choke with leg pressure against the windpipe and arteries.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Transitioning to rubber guard or high guard — one leg climbs very high on opponent's back.",
+            "grips": "Both hands pull opponent's head DOWN toward your chest. Controlling the back of their head is critical to keep the shin in place.",
+            "legs": "One shin placed directly across the front of opponent's throat. Other leg wraps behind their back or head for control.",
+            "hips": "Elevated and angled, with significant flexibility required to place shin on throat."
+          },
+          "greenLights": [
+            "You have excellent hip flexibility — this is an advanced flexibility technique",
+            "Opponent's posture is fully broken and they can't lift their head",
+            "You've successfully placed your shin across their throat",
+            "Opponent is focused on escaping other submissions and not defending the shin"
+          ],
+          "redLights": [
+            "You don't have the flexibility to get your shin to their throat — don't force it",
+            "Opponent has strong posture and can lift their head away from your shin",
+            "Your shin placement is on the chin, not the throat — ineffective",
+            "Opponent is stacking you and your hips can't maintain the position"
+          ],
+          "steps": [
+            "From closed guard, break opponent's posture completely. Get rubber guard or high guard control — pull one leg very high on their back.",
+            "Feed your foot through and place your shin across the FRONT of their throat. Your shin bone presses into their neck.",
+            "Grab the back of their head with BOTH hands and pull their face DOWN into your shin. This closes the choking pressure.",
+            "Squeeze by pulling their head down and pressing your shin forward. The shin compresses the throat and arteries."
+          ],
+          "complexpieces": [
+            "Transition from failed omoplata — if the leg is already over their shoulder, redirect the shin to the throat",
+            "Set up from rubber guard: use the rubber guard to walk the leg into position",
+            "If they escape, transition to triangle or omoplata with the leg already in position"
+          ],
+          "simplifications": [
+            "Practice hip flexibility drills extensively before attempting this technique",
+            "Drill the shin placement against a cooperative partner without finishing the choke",
+            "Work from rubber guard position first to develop the high-leg control needed"
+          ]
+        },
+        {
+          "name": "Baratoplata",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "An advanced shoulder lock that combines armbar and omoplata mechanics from closed guard. Traps the opponent's arm in a unique configuration using your legs and arms together.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Transitioning through an omoplata-like position with additional arm control.",
+            "grips": "Figure-four or reverse grip controlling opponent's wrist and forearm. One arm threads through their trapped arm for additional lock control.",
+            "legs": "Guard opens. One leg wraps over opponent's shoulder similar to omoplata. The leg and arm control create a compound lock.",
+            "hips": "Angled perpendicular to opponent, similar to omoplata positioning."
+          },
+          "greenLights": [
+            "Opponent's arm is isolated and you have wrist control",
+            "You've achieved a perpendicular angle similar to omoplata position",
+            "Failed omoplata or armbar attempt — baratoplata is a transition option",
+            "Opponent's arm is bent and you can thread your grip through"
+          ],
+          "redLights": [
+            "You're not familiar with the mechanics — this is a very advanced technique",
+            "Opponent's arm is straight — the compound lock requires a bent arm",
+            "You can't create the perpendicular angle needed",
+            "Opponent is already escaping and you don't have secure control"
+          ],
+          "steps": [
+            "From closed guard, isolate opponent's arm using an omoplata-type setup — swing your leg over their shoulder and create a perpendicular angle.",
+            "Instead of finishing the omoplata, thread your same-side arm UNDER their trapped forearm and grip your own wrist or their wrist — creating a compound figure-four lock.",
+            "Your leg over their shoulder combined with the arm thread creates a double lock on the shoulder and elbow.",
+            "Apply pressure by rotating their arm behind their back while your leg and arm work together as a compound lever. Smooth, controlled pressure."
+          ],
+          "complexpieces": [
+            "Chain from omoplata: when they defend the omoplata by clasping hands, thread the baratoplata grip",
+            "Transition from armbar: if they bend their arm to defend the armbar, wrap into baratoplata",
+            "Use as a surprise transition when opponent thinks they've defended the initial attack"
+          ],
+          "simplifications": [
+            "Master the omoplata position first — baratoplata builds on the same angle and leg placement",
+            "Drill the arm-threading grip mechanic slowly against a cooperative partner",
+            "Break into phases: (1) achieve omoplata angle, (2) thread the arm grip, (3) apply compound pressure"
+          ]
+        },
+        {
+          "name": "Wrist Lock from Closed Guard",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attack the opponent's wrist when they post or defend submissions from your closed guard. A subtle joint lock that capitalizes on their defensive reactions.",
+          "initialPosition": {
+            "body": "Lying on your back in closed guard. Often set up as opponent defends another submission and their wrist is exposed.",
+            "grips": "Both hands control opponent's hand and forearm. One hand grabs the back of their hand (fingers wrapping over the knuckles), other hand controls their forearm.",
+            "legs": "Guard closed, pulling opponent down to reduce their ability to retract the arm.",
+            "hips": "Slightly angled to create the leverage needed for the wrist bend."
+          },
+          "greenLights": [
+            "Opponent posts their hand on the mat — wrist is vulnerable",
+            "Opponent grabs your collar or gi with a stiff arm — hand is accessible",
+            "They're pushing away on your chest with an extended arm",
+            "Opponent is defending another submission and leaving their wrist exposed"
+          ],
+          "redLights": [
+            "Opponent's wrists are flexible and they can absorb the pressure",
+            "You can't control both the hand and forearm for proper leverage",
+            "Opponent immediately retracts their arm when you grab the hand",
+            "The angle is wrong — you're bending the wrist in a direction with no joint lock"
+          ],
+          "steps": [
+            "Identify the exposed wrist — often when opponent posts, pushes, or grabs your gi with a stiff arm.",
+            "With one hand, grip the BACK of their hand (knuckles facing you). With the other hand, control their forearm just above the wrist.",
+            "Bend their wrist by pushing their hand toward their forearm — curl the hand over itself. Use your body and grips as the lever.",
+            "Apply steady, controlled pressure. The wrist joint has limited range — even small angles create significant submission pressure. Control the forearm so they can't pull out."
+          ],
+          "complexpieces": [
+            "Set up from armbar defense: when they clasp hands to defend an armbar, attack the wrist",
+            "Chain from collar grip attempt: when they grab your collar with a stiff arm, catch the wrist lock",
+            "Use as a secondary attack during any submission attempt where their hand is exposed"
+          ],
+          "simplifications": [
+            "Practice the hand-over-forearm bending mechanics slowly — wrist locks are subtle",
+            "Drill identifying the exposed wrist in various defensive positions",
+            "Start with partner posting their hand to focus on the grip and angle"
+          ]
+        },
+        {
+          "name": "Knee-in-Tailbone Guard Break",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Break opponent's closed guard by placing your knee in their tailbone area and applying pressure to pry their ankles apart. A kneeling guard break that doesn't require standing.",
+          "initialPosition": {
+            "body": "Inside opponent's closed guard, kneeling. Strong upright posture — head up, back straight, chest out.",
+            "grips": "Both hands gripping opponent's collar, lapels, or controlling their hips. Hands anchored for posture and control.",
+            "legs": "One knee steps up and drives into opponent's tailbone area. Other knee stays on the mat for base.",
+            "hips": "Driving forward and downward, using the knee to create splitting pressure on their guard lock."
+          },
+          "greenLights": [
+            "You've established strong posture inside the guard",
+            "You can drive your knee into the tailbone gap between their legs",
+            "Opponent's ankles are getting tired from holding the guard closed",
+            "You have solid lapel or hip grips for control"
+          ],
+          "redLights": [
+            "Opponent has deep collar grips breaking your posture — strip grips first",
+            "You can't establish upright posture (leaned forward = vulnerable to attacks)",
+            "Opponent has very strong guard lock and your knee can't find the tailbone",
+            "Opponent is actively attacking submissions — defend first"
+          ],
+          "steps": [
+            "Establish posture inside closed guard: head up, back straight. Grip both lapels or control their hips.",
+            "Step one knee up and drive it into the gap near opponent's tailbone/coccyx area. Press your shin against their inner thigh.",
+            "Drive your hips forward while pushing your knee down — this creates a splitting pressure that forces their ankles apart.",
+            "As the guard opens, immediately control their legs and begin your pass. Don't let them reguard."
+          ],
+          "complexpieces": [
+            "Combine with standing guard break: if the knee pressure doesn't work, transition to standing",
+            "Immediately chain into toreando or knee slice pass once the guard opens",
+            "Use collar grips to push them away as the guard breaks for extra distance"
+          ],
+          "simplifications": [
+            "Practice posture establishment in closed guard first — posture is the foundation",
+            "Drill the knee placement and hip drive against a partner holding light guard pressure",
+            "Focus on the timing — drive forward steadily, don't jerk or bounce"
+          ]
+        },
+        {
+          "name": "Log Splitter Guard Break",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Control both lapels or opponent's torso and drive your knee between their legs to split the guard open. A forceful kneeling guard break using wedge pressure.",
+          "initialPosition": {
+            "body": "Inside opponent's closed guard, kneeling with strong upright posture. Chest out, head up.",
+            "grips": "Both hands gripping opponent's lapels, gi, or controlling their torso. Pulling upward and toward you for posture.",
+            "legs": "One knee drives between opponent's thighs, splitting through like a wedge. Other knee provides base.",
+            "hips": "Driving forward, using hip extension and the wedge knee to force the guard open."
+          },
+          "greenLights": [
+            "You have strong posture with good lapel or torso control",
+            "You can wedge your knee between their thighs effectively",
+            "Opponent's guard lock isn't extremely tight",
+            "You have good base and balance to drive forward"
+          ],
+          "redLights": [
+            "Opponent has very tight guard lock that won't yield to the wedge",
+            "Your posture is broken — you're leaned forward and vulnerable",
+            "Opponent has deep collar grips controlling you",
+            "You're off-balance and the knee drive would compromise your base"
+          ],
+          "steps": [
+            "Establish strong posture inside closed guard. Grip both lapels or control their torso by pulling upward.",
+            "Drive one knee forward BETWEEN their thighs like a wedge. Use a log-splitting motion — steady, forward, splitting pressure.",
+            "Extend your hips forward while driving the wedge knee deeper. The splitting pressure forces their ankles apart and opens the guard.",
+            "As the guard breaks, immediately establish leg control and transition to your preferred guard pass."
+          ],
+          "complexpieces": [
+            "Chain with toreando pass: once guard opens, immediately redirect to toreando",
+            "If the log splitter stalls, switch to standing guard break",
+            "Use lapel grips to push opponent away as guard breaks for added distance"
+          ],
+          "simplifications": [
+            "Practice the knee wedge motion against light resistance first",
+            "Focus on steady forward hip pressure rather than explosive bursts",
+            "Drill the posture and grip setup separately before adding the knee drive"
+          ]
+        },
+        {
+          "name": "Sao Paulo Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Apply strong shoulder pressure while controlling the legs to pass after opening the guard. A pressure-based pass that uses heavy upper body weight to pin and pass.",
+          "initialPosition": {
+            "body": "Guard has been opened. Driving heavy shoulder pressure into opponent while controlling their legs.",
+            "grips": "One hand controls opponent's collar (pulling their head up), other hand controls their pant leg or hip. Shoulder drives into their thigh or chest.",
+            "legs": "Strong base — one foot up, other knee on the mat. Driving forward with bodyweight.",
+            "hips": "Heavy and low, driving downward pressure through your shoulder into opponent."
+          },
+          "greenLights": [
+            "Guard has been successfully opened",
+            "You can drive heavy shoulder pressure into opponent",
+            "You have good collar and pant grips for control",
+            "Opponent is pinned flat and can't create frames"
+          ],
+          "redLights": [
+            "Guard is still closed — open it first before attempting this pass",
+            "Opponent has strong frames preventing your shoulder pressure",
+            "You can't anchor collar and pant grips",
+            "Opponent is actively reguarding and your shoulder pressure is ineffective"
+          ],
+          "steps": [
+            "After opening the guard, immediately drive your shoulder INTO opponent's thigh or chest. Establish heavy pressure.",
+            "Grip their collar with one hand (pulling their head toward you) and their pant leg with the other. Anchor your grips.",
+            "Walk around toward their head, maintaining constant shoulder driving pressure. Don't let up — keep them pinned flat.",
+            "Clear the legs and drop into side control. Secure crossface and hip control immediately."
+          ],
+          "complexpieces": [
+            "Chain with double under pass: if they frame against the Sao Paulo, switch to double unders",
+            "Use the collar grip to set up a choke during the pass transition",
+            "If they reguard one leg, transition to half guard passing (knee slice)"
+          ],
+          "simplifications": [
+            "Practice driving shoulder pressure into a partner from a static position",
+            "Drill the walk-around footwork without resistance",
+            "Start with guard already open to focus on the pressure passing mechanics"
+          ]
+        },
+        {
+          "name": "Carlson Gracie Jr. Sitting Guard Break",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Sit back with strong posture while controlling lapels or biceps, widen your knees for base, and apply steady outward pressure with elbows and hips to force the guard open.",
+          "initialPosition": {
+            "body": "Inside opponent's closed guard, sitting back on your heels with very strong upright posture.",
+            "grips": "Both hands controlling opponent's lapels, biceps, or belt. Elbows drive outward into their inner thighs.",
+            "legs": "Knees widened significantly for a very solid base. Sitting on your heels, hips back.",
+            "hips": "Sitting back and driving outward — creating expanding pressure against their guard lock."
+          },
+          "greenLights": [
+            "You can establish strong upright posture sitting back on your heels",
+            "Your knees are wide enough to create a stable base",
+            "You have good lapel or bicep grips for control",
+            "Opponent's guard lock is starting to weaken from the outward pressure"
+          ],
+          "redLights": [
+            "Opponent has deep collar grips pulling your posture forward",
+            "You can't sit back — they're holding you forward with grips",
+            "Your base is too narrow and you're off-balance sitting back",
+            "Opponent is actively attacking and you need to defend first"
+          ],
+          "steps": [
+            "Establish strong posture inside closed guard. Grip both lapels or control their biceps. Sit back on your heels.",
+            "Widen your knees significantly to create a broad, stable base. Bring your elbows to the INSIDE of their thighs.",
+            "Drive your elbows and hips OUTWARD — creating a steady expanding pressure against their closed guard lock. Don't rush — use steady pressure.",
+            "As the guard opens, immediately control their legs and transition to your preferred guard pass."
+          ],
+          "complexpieces": [
+            "Chain with standing guard break: if the seated break stalls, switch to standing",
+            "Immediately transition to toreando or leg drag once the guard opens",
+            "Use the wide base position to defend any submission attempts while working the break"
+          ],
+          "simplifications": [
+            "Practice the seated posture with wide knees as a positional hold",
+            "Drill the outward elbow pressure against light guard resistance",
+            "Focus on patience — this guard break relies on steady pressure, not explosive movement"
+          ]
+        },
+        {
+          "name": "Standard Standing Closed Guard Opening",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Control opponent's sleeve and lapels, stand with strong posture, step one leg back, and use downward pressure on hips or thigh to pry the guard open.",
+          "initialPosition": {
+            "body": "Inside opponent's closed guard. Transitioning from kneeling to standing with controlled, purposeful steps.",
+            "grips": "One hand grips opponent's sleeve (prevents them from gripping you during the stand). Other hand controls their hip, belt, or lapel. Grips anchor you during the stand-up.",
+            "legs": "One foot steps up first (combat base), then stand fully. Step one leg back to create angle for the guard break.",
+            "hips": "Driving upward as you stand, extending hips to pressure their ankles apart."
+          },
+          "greenLights": [
+            "You've established strong posture before standing",
+            "Your sleeve grip prevents them from pulling you forward as you stand",
+            "You can step up to combat base without being off-balanced",
+            "Opponent doesn't have deep collar grips"
+          ],
+          "redLights": [
+            "Opponent has deep collar grips — strip them before standing",
+            "You're being pulled forward and can't establish posture to stand",
+            "Opponent has an overhook or high guard trapping you",
+            "Your balance is compromised — don't stand until you're stable"
+          ],
+          "steps": [
+            "Establish posture. Grip their sleeve with one hand and control their hip or lapel with the other. Step one foot up into combat base.",
+            "Stand up fully, keeping your posture tall and hips driving forward. The sleeve grip prevents them from pulling you back down.",
+            "Step one leg BACK and push DOWN on their hip or thigh with your free hand. The angle change and downward pressure pries their ankles apart.",
+            "As the guard opens, immediately control both legs at the pant cuffs or ankles and begin your preferred pass."
+          ],
+          "complexpieces": [
+            "Chain directly into toreando pass once the guard opens",
+            "If they hang on during the stand, shake the leg or circle to break the lock",
+            "Use the standing position to set up a leg drag pass immediately after opening"
+          ],
+          "simplifications": [
+            "Practice the stand-up from closed guard with focus on balance — no guard break, just standing",
+            "Drill the step-back and hip push as an isolated movement",
+            "Start from combat base to focus only on the standing and breaking portion"
+          ]
         }
       ]
     },
