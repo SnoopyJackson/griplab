@@ -2350,7 +2350,7 @@ main {
     }
 
     main.container {
-        padding: 20px 12px 90px;
+        padding: 24px 12px 90px;
     }
 
     /* Content Layout */
@@ -2364,6 +2364,7 @@ main {
         padding: 16px;
         background: rgba(15, 23, 42, 0.95);
         border: 2px solid var(--primary-glow);
+        overflow: visible;
     }
 
     .skill-tree-label {

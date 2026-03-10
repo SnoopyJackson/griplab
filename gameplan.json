@@ -1255,6 +1255,686 @@
             "Start from half guard with the crossface already secured — focus only on the knee slice",
             "Focus first on maintaining overwhelming shoulder pressure before adding the knee slice"
           ]
+        },
+        {
+          "name": "Deep Half Sweep (Waiter Sweep)",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Move underneath the opponent in deep half guard and lift their trapped leg like a waiter carrying a tray to sweep them over.",
+          "initialPosition": {
+            "body": "Lying underneath opponent in deep half guard. You've scooted deep under their body, head near their hip. Their leg is trapped between yours.",
+            "grips": "Near arm wraps around opponent's trapped thigh. Far hand reaches under their leg to cup the back of their knee or thigh (waiter position).",
+            "legs": "Both legs entangle opponent's trapped leg — half guard lockdown or figure-four on their leg. Body is deep underneath them.",
+            "hips": "Deep underneath opponent's center of gravity, positioned to elevate their leg upward."
+          },
+          "greenLights": [
+            "You've scooted deep underneath the opponent — head near their hip",
+            "You can cup the back of their knee/thigh with your far hand (waiter grip)",
+            "Opponent's weight is over you — loadable for the elevation",
+            "Their trapped leg is fully controlled between your legs"
+          ],
+          "redLights": [
+            "You're not deep enough — still at surface level half guard",
+            "Opponent has a strong whizzer or crossface preventing the deep entry",
+            "You can't reach the waiter grip behind their knee",
+            "Opponent has already started to free their leg before you can elevate"
+          ],
+          "steps": [
+            "From half guard, scoot your body DEEP underneath the opponent. Get your head past their hip line, deep under their body.",
+            "Wrap your near arm around their trapped thigh. Reach your far hand UNDER their leg to cup behind the knee — establishing the waiter grip.",
+            "ELEVATE their trapped leg upward like a waiter lifting a tray. Push the leg toward the ceiling while bridging your hips.",
+            "Their base collapses as the leg goes up. Come out the back door to top position. Establish side control or take the back."
+          ],
+          "complexpieces": [
+            "If they whizzer to block, use the whizzer pressure to accelerate the deep entry",
+            "Chain with Homer Simpson sweep: if the waiter is blocked, roll underneath instead",
+            "Transition to back take by coming out behind them after the elevation"
+          ],
+          "simplifications": [
+            "Practice the deep entry underneath as a movement drill — scoot deep without the sweep",
+            "Drill the waiter grip in isolation — cupping behind the knee from the deep position",
+            "Focus on the elevation mechanic: lift the leg UP, not sideways"
+          ]
+        },
+        {
+          "name": "Homer Simpson Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "From deep half guard, roll underneath the opponent to reverse them by using the deep entanglement to load and roll their weight over you.",
+          "initialPosition": {
+            "body": "Deep underneath opponent in deep half guard. You're rolling under their body, using the entanglement to carry them over.",
+            "grips": "Near arm wraps opponent's trapped thigh. Far arm may grip belt, hip, or assist the roll.",
+            "legs": "Legs entangle opponent's trapped leg tightly. The entanglement creates the anchor for the rolling sweep.",
+            "hips": "Rolling underneath — inverting partially to come out the other side with opponent swept."
+          },
+          "greenLights": [
+            "You're deep in deep half guard — head past their hip",
+            "Opponent's weight is loadable — they're over you, not sprawled away",
+            "The leg entanglement is tight — your anchor for the roll",
+            "Waiter sweep was blocked and opponent is resisting upward elevation"
+          ],
+          "redLights": [
+            "You're not deep enough to roll underneath effectively",
+            "Opponent has freed their leg from the entanglement — no anchor",
+            "Opponent is sprawling with hips far back — can't load their weight",
+            "You're stuck on your back without enough momentum for the roll"
+          ],
+          "steps": [
+            "From deep half guard, secure the leg entanglement tight. Wrap your near arm around their trapped thigh.",
+            "Initiate the roll by turning your body AWAY from the opponent and rolling underneath them. The entanglement carries their leg with you.",
+            "Continue the rolling motion — your body rotates under theirs. Their weight follows the trapped leg.",
+            "Come out on top as the roll completes. Establish top position — side control, mount, or leg drag."
+          ],
+          "complexpieces": [
+            "Chain with waiter sweep: attempt waiter (they block) → redirect into Homer Simpson roll",
+            "If the roll stalls, transition to Plan B sweep by changing the rolling direction",
+            "Use the sweep finish to immediately take the back by coming out behind them"
+          ],
+          "simplifications": [
+            "Practice the rolling motion from deep half as a solo drill — get comfortable inverting",
+            "Drill the entanglement control during the roll — the leg must stay trapped throughout",
+            "Start with a cooperative partner to learn the rolling path and timing"
+          ]
+        },
+        {
+          "name": "Knee Tap Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Control the opponent's far knee while coming up from half guard to sweep them sideways by tapping the knee and driving forward.",
+          "initialPosition": {
+            "body": "In half guard, coming up to a seated or kneeling position. Reaching for opponent's far knee.",
+            "grips": "Underhook on the near side for control. Free hand reaches to tap/grab opponent's far knee.",
+            "legs": "Half guard entanglement maintained on the near leg. Coming up from bottom position.",
+            "hips": "Driving forward and to the side as you tap the far knee."
+          },
+          "greenLights": [
+            "You have a strong underhook and can come up to seated/kneeling",
+            "Opponent's far knee is accessible — not too far or blocked",
+            "Their weight is centered or slightly toward the far knee side",
+            "Coming up from an underhook sweep attempt that was blocked"
+          ],
+          "redLights": [
+            "Opponent has heavy crossface preventing you from coming up",
+            "You can't reach their far knee — they're too wide or posting",
+            "Your underhook has been whizzered and you're being flattened",
+            "Opponent is sprawling away and you can't close the distance"
+          ],
+          "steps": [
+            "From half guard, win the underhook and begin sitting up. Drive your shoulder into their chest/armpit.",
+            "As you come up, reach your free hand to opponent's FAR knee. Tap or grab the knee from the outside.",
+            "DRIVE your shoulder forward while pulling/tapping their far knee toward you. Their base collapses sideways.",
+            "Complete the sweep to top position. Transition to side control or immediately pass the remaining half guard."
+          ],
+          "complexpieces": [
+            "Chain with Old School sweep: attempt knee tap (they post) → redirect to Old School by controlling their leg",
+            "If they sprawl during the knee tap, transition to a single leg takedown",
+            "Use the knee tap threat to set up back takes — reach for knee, they react, you go behind"
+          ],
+          "simplifications": [
+            "Practice coming up from half guard with the underhook as a standalone drill",
+            "Drill reaching for the far knee while maintaining underhook control",
+            "Focus on the simultaneous shoulder drive + knee tap — both must happen together"
+          ]
+        },
+        {
+          "name": "Plan B Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Roll underneath the opponent when they defend deep half guard, using an alternative rolling direction to reverse them.",
+          "initialPosition": {
+            "body": "In deep half guard underneath opponent. Their defenses have blocked your primary sweep — you redirect with a different rolling angle.",
+            "grips": "Near arm wraps the trapped thigh. Far hand assists the roll — gripping belt, hip, or mat for leverage.",
+            "legs": "Tight entanglement on opponent's trapped leg. The entanglement maintains control during the directional change.",
+            "hips": "Redirecting the roll — changing direction from the initial sweep attempt."
+          },
+          "greenLights": [
+            "Deep half primary sweeps (waiter, Homer Simpson) have been blocked",
+            "Opponent is overcommitting to blocking the initial sweep direction",
+            "The entanglement is still tight — you have control for the redirect",
+            "Space exists to roll the alternative direction"
+          ],
+          "redLights": [
+            "Entanglement has loosened — opponent is freeing their leg",
+            "You're not deep enough for any deep half sweep variation",
+            "Opponent has established heavy top pressure and you can't move",
+            "Both rolling directions are blocked — need to recompose guard instead"
+          ],
+          "steps": [
+            "From deep half guard, your primary sweep has been blocked. Opponent is defending one direction.",
+            "Redirect: roll the OPPOSITE direction underneath them. Their defense of the first sweep creates openings the other way.",
+            "Use the leg entanglement as your anchor — it carries their trapped leg with the roll regardless of direction.",
+            "Complete the roll and come out to top position. Establish control in side control or take the back."
+          ],
+          "complexpieces": [
+            "Chain: waiter sweep (blocked) → Homer Simpson (blocked) → Plan B opposite direction",
+            "Use the Plan B redirecting momentum to transition to a back take",
+            "If Plan B is also blocked, recompose to standard half guard and attack from there"
+          ],
+          "simplifications": [
+            "Practice directional changes in deep half as a movement drill — roll one way, redirect the other",
+            "Drill maintaining the entanglement during direction changes",
+            "Start with cooperative partner to learn which direction opens when they block"
+          ]
+        },
+        {
+          "name": "Lockdown Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Use the lockdown (double leg entanglement) to hyper-extend the opponent's trapped leg, breaking their base and creating sweeping opportunities.",
+          "initialPosition": {
+            "body": "On your back in half guard with the lockdown established. Body flat, creating downward tension on opponent's trapped leg.",
+            "grips": "Overhook (whizzer) on the near side to control their upper body. Other hand grips their far arm, wrist, or assists the sweep.",
+            "legs": "Lockdown: your outside leg hooks over opponent's trapped ankle, your inside leg hooks under and locks it (figure-four on their lower leg). Extending to stretch their leg.",
+            "hips": "Extending away from opponent to stretch their leg and break their base."
+          },
+          "greenLights": [
+            "Lockdown is established — double leg entanglement on their trapped leg",
+            "You can extend and stretch their leg, breaking their posture",
+            "Overhook/whizzer is controlling their upper body",
+            "Opponent's base is disrupted by the lockdown pressure"
+          ],
+          "redLights": [
+            "Lockdown hasn't been established — need both legs configured correctly",
+            "Opponent has freed their ankle from the lockdown",
+            "You can't extend — opponent is too heavy or your legs are too fatigued",
+            "Opponent has moved to a position where the lockdown has no leverage"
+          ],
+          "steps": [
+            "From half guard, establish the lockdown: outside leg hooks over their trapped ankle, inside leg hooks under and locks. Your legs form a figure-four on their lower leg.",
+            "EXTEND your legs to stretch their trapped leg away from their body. This breaks their base and posture.",
+            "Secure an overhook on the near side. Use the overhook and lockdown extension to create the sweeping angle.",
+            "Elevator sweep: bridge and roll toward the overhook side while extending the lockdown. Their disrupted base allows the sweep to top position."
+          ],
+          "complexpieces": [
+            "Chain with electric chair: if the sweep is blocked, transition to the electric chair sweep/submission",
+            "Use the lockdown stretch to set up sweeps — they try to relieve the stretch, creating sweep openings",
+            "Transition to dog fight position by releasing the lockdown and coming up to knees"
+          ],
+          "simplifications": [
+            "Practice establishing the lockdown as an isolated leg configuration drill",
+            "Drill the extension mechanic — stretch their leg and feel their base break",
+            "Focus on the overhook control before adding the sweep — the upper body control makes sweeps work"
+          ]
+        },
+        {
+          "name": "Back Take from Half Guard",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Use the underhook and angle from half guard to come behind the opponent and take their back.",
+          "initialPosition": {
+            "body": "In half guard with a strong underhook, coming up to a seated or kneeling position. Angling behind the opponent.",
+            "grips": "Deep underhook on the near side — arm deep under their armpit. Other hand assists by gripping belt, hip, or posting.",
+            "legs": "Half guard entanglement on the near leg. Releasing the entanglement as you move behind them.",
+            "hips": "Pivoting to the side and behind the opponent, circling to their back."
+          },
+          "greenLights": [
+            "You have a deep underhook and can come up to a kneeling/seated position",
+            "Opponent's back is accessible — they haven't turned to face you",
+            "Your underhook angle allows you to circle behind rather than sweep forward",
+            "Opponent is defending the sweep and leaving their back exposed"
+          ],
+          "redLights": [
+            "Opponent has a strong whizzer preventing you from coming up",
+            "They've turned to face you — back is no longer accessible",
+            "Crossface pressure is keeping you flat and unable to angle behind",
+            "Your underhook is too shallow to control the angle"
+          ],
+          "steps": [
+            "From half guard, establish a DEEP underhook. Come up to seated or kneeling position, driving your shoulder into their armpit.",
+            "Circle BEHIND the opponent rather than sweeping forward. Use the underhook to guide yourself around to their back.",
+            "Release the half guard entanglement as you move behind. Establish seatbelt grip (one arm over shoulder, one under armpit).",
+            "Insert hooks and complete the back take. Secure full back control with seatbelt and both hooks in."
+          ],
+          "complexpieces": [
+            "Chain: underhook sweep attempt (they block) → redirect to back take since their defense creates the angle",
+            "If the back take is blocked, transition to a single leg takedown",
+            "From the back, immediately attack chokes (RNC, bow and arrow)"
+          ],
+          "simplifications": [
+            "Practice coming up from half guard and circling behind as a movement drill",
+            "Drill the transition from underhook to seatbelt grip without hooks first",
+            "Focus on the circling motion — go AROUND them, not over them"
+          ]
+        },
+        {
+          "name": "John Wayne Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Off-balance the opponent forward while controlling a sleeve and leg, then sit up and rotate your body using your hook to roll them over sideways.",
+          "initialPosition": {
+            "body": "On your back in half guard. Controlling opponent's sleeve and leg, preparing to sit up and rotate.",
+            "grips": "Sleeve grip on opponent's far arm pulling it across. Other hand controls their near leg or pant cuff.",
+            "legs": "Half guard entanglement on the near leg. Inside hook assists the rolling motion as you sweep.",
+            "hips": "Bridging and rotating to roll the opponent over the hooking leg side."
+          },
+          "greenLights": [
+            "You have sleeve control on the far arm — preventing them from posting",
+            "Opponent's weight is forward and their base is compromised",
+            "Your inside hook can engage for the rolling sweep",
+            "Opponent is focused on passing and not defending the sweep"
+          ],
+          "redLights": [
+            "Opponent's far arm is free and they can post to block",
+            "They have a strong base and aren't leaning forward",
+            "Your half guard entanglement is loose — no anchor for the hook",
+            "Crossface pressure is keeping you flat and unable to sit up"
+          ],
+          "steps": [
+            "From half guard, grip opponent's far sleeve and pull it across their body. Control their near leg or pant cuff with your other hand.",
+            "Bridge and sit up while PULLING their sleeve across. This off-balances them forward and prevents posting.",
+            "Rotate your body using the inside hook — roll the opponent sideways over the hook. The sleeve control kills their base.",
+            "Complete the sweep as they roll over. Come up to top position and establish control."
+          ],
+          "complexpieces": [
+            "If they resist by pulling the arm back, redirect to an underhook sweep",
+            "Chain with kimura: the sleeve control can transition to a kimura figure-four on the same arm",
+            "Use the John Wayne sweep threat to set up back takes — they defend the sweep and expose the back"
+          ],
+          "simplifications": [
+            "Practice the sleeve grip and pull across motion as an isolated drill",
+            "Drill the sit-up and rotation from half guard with a cooperative partner",
+            "Focus on preventing the far arm from posting — that's the key to making this sweep work"
+          ]
+        },
+        {
+          "name": "Dog Fight Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Secure underhooks and come up to the dog fight position (both wrestlers on knees), then use leverage and body positioning to sweep the opponent.",
+          "initialPosition": {
+            "body": "Coming up from half guard to the dog fight position — both you and opponent on your knees, chest-to-chest. Underhook battle position.",
+            "grips": "Deep underhook on the near side. Other arm fights for a second underhook, controls their hip, or grips the far leg.",
+            "legs": "Half guard entanglement partially released — transitioning to knees. May maintain a butterfly-style hook.",
+            "hips": "Driving into opponent from the kneeling position, competing for inside positioning."
+          },
+          "greenLights": [
+            "You've come up from half guard to dog fight — both on knees",
+            "You have a strong underhook — your arm is deeper than their whizzer",
+            "Opponent's posture is disrupted and they're not stabilized",
+            "You can drive forward with your hips and shoulder"
+          ],
+          "redLights": [
+            "Opponent has a dominant whizzer killing your underhook",
+            "You can't get up to the kneeling position — crossface keeping you down",
+            "Opponent has already sprawled and is driving you back to flat",
+            "Both underhooks lost and they have inside position"
+          ],
+          "steps": [
+            "From half guard, win the underhook and come up to your knees — entering the dog fight position.",
+            "Drive your shoulder INTO opponent's chest/armpit. Control their posture with the underhook. Fight for dominant inside position.",
+            "Bridge and drive to one side while pulling their upper body with the underhook. Use your lower body leverage to roll them.",
+            "Complete the sweep to top position. Establish side control, mount, or transition to a back take."
+          ],
+          "complexpieces": [
+            "If the sweep is blocked, immediately go for the back take around the whizzer side",
+            "Chain with knee tap: from dog fight, reach for far knee to sweep sideways",
+            "If opponent re-guards during the dog fight, address the new guard before continuing"
+          ],
+          "simplifications": [
+            "Practice the transition from flat half guard to dog fight as a positional drill",
+            "Drill the underhook drive from kneeling position",
+            "Focus on getting your head INSIDE (on the underhook side) — head outside means they guillotine"
+          ]
+        },
+        {
+          "name": "Kimura (from Half Guard)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attack the opponent's far arm with a kimura figure-four grip when they post or reach while in your half guard.",
+          "initialPosition": {
+            "body": "On your back or side in half guard. Opponent has posted a hand or reached forward — far arm is exposed.",
+            "grips": "Kimura figure-four: one hand grips opponent's wrist, other reaches OVER their arm and grabs your own wrist.",
+            "legs": "Half guard entanglement maintained. Legs control their base while you attack the arm.",
+            "hips": "Angled toward the kimura side, creating torque on the trapped arm."
+          },
+          "greenLights": [
+            "Opponent posts a hand on the mat to resist a sweep — arm is isolated",
+            "You can grab their wrist and secure the figure-four grip",
+            "Half guard entanglement prevents them from pulling away",
+            "Opponent is focused on passing and not defending their arm"
+          ],
+          "redLights": [
+            "Opponent's arms are tight to their body — nothing to isolate",
+            "They immediately grab their belt or pants (kimura defense)",
+            "Your half guard is being passed while you attack — position before submission",
+            "You can't reach their wrist from your current angle"
+          ],
+          "steps": [
+            "From half guard, identify the far arm when opponent posts or reaches. Grab their wrist with your near hand.",
+            "Reach your other hand OVER their arm and grab your own wrist — kimura figure-four secured.",
+            "Pull their elbow tight to your chest. Control the arm close to your body.",
+            "Rotate their wrist behind their back with smooth pressure on the shoulder joint. If needed, hip escape to create a better finishing angle."
+          ],
+          "complexpieces": [
+            "If they resist the kimura, use the grip to sweep them — the kimura grip is a powerful sweeping handle",
+            "Chain: sweep attempt → they post → kimura on posted arm → they defend → hip bump sweep",
+            "Transition to armbar or triangle if they straighten the arm to escape"
+          ],
+          "simplifications": [
+            "Practice recognizing the posted arm opportunity during half guard exchanges",
+            "Drill the figure-four grip quickness from half guard bottom",
+            "Focus on keeping their elbow tight to your body — space kills the kimura"
+          ]
+        },
+        {
+          "name": "Guillotine Choke (from Half Guard)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Catch the opponent's neck with a guillotine choke when they drive forward into your half guard with their head low.",
+          "initialPosition": {
+            "body": "On your back in half guard. Opponent is driving forward with their head low, pressuring into you.",
+            "grips": "Choking arm wraps around opponent's neck — wrist bone under their throat (chin strap). Other hand clasps to lock the grip.",
+            "legs": "Half guard entanglement keeps them close and prevents escape. May transition to closed guard or full guard for extra control.",
+            "hips": "Angling slightly to the choking side. Elevating hips for choke pressure."
+          },
+          "greenLights": [
+            "Opponent drives forward with their head low — neck exposed",
+            "You can wrap the neck with wrist bone placement under the throat",
+            "Half guard entanglement prevents them from pulling away",
+            "Opponent is focused on passing and not defending the neck"
+          ],
+          "redLights": [
+            "Opponent keeps head up with strong posture — neck not accessible",
+            "You can't wrap deep enough for wrist bone placement",
+            "They're pulling away and your half guard can't keep them close",
+            "Your grip is on the chin/jaw rather than the throat — won't finish"
+          ],
+          "steps": [
+            "From half guard, as opponent drives forward with low head, wrap your arm around their neck. Wrist bone under their throat.",
+            "Clasp hands to lock the guillotine grip (palm-to-palm or Marcelotine).",
+            "Half guard legs keep them close. Angle slightly to the choking side.",
+            "SQUEEZE by pulling elbows toward your chest while lifting hips UP. The compression chokes the arteries."
+          ],
+          "complexpieces": [
+            "If they defend by turning their head, switch to arm-in guillotine for more control",
+            "Chain: guillotine attempt (they posture) → immediately sweep as their arms defend the choke",
+            "Transition to d'arce choke if the guillotine angle shifts and their arm comes inside"
+          ],
+          "simplifications": [
+            "Practice the chin strap grip — wrist bone placement is everything",
+            "Drill catching the neck as they drive forward from half guard",
+            "Focus on the squeeze mechanic: elbows IN, hips UP — not a neck crank"
+          ]
+        },
+        {
+          "name": "Arm-in Guillotine (from Half Guard)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Trap the opponent's arm inside the guillotine from half guard for additional choking pressure and control.",
+          "initialPosition": {
+            "body": "On your back in half guard with opponent's head low. Their near arm is trapped INSIDE the guillotine alongside their neck.",
+            "grips": "Choking arm wraps around their neck AND near arm. Wrist bone on throat. Other hand clasps to lock.",
+            "legs": "Half guard entanglement keeps them anchored. May transition to closed guard or high guard for extra control.",
+            "hips": "Angling to the choking side. Hips elevate for choke pressure."
+          },
+          "greenLights": [
+            "Opponent dives forward with head low and near arm is inside the wrap",
+            "Wrist bone is still on the throat with the arm trapped inside",
+            "Half guard legs keep them from pulling away",
+            "The trapped arm blocks their primary defense"
+          ],
+          "redLights": [
+            "You can't trap their arm inside — it's too retracted",
+            "The arm inside pushes your wrist off the throat — grip misaligned",
+            "Opponent is pulling away and half guard can't keep them close",
+            "Grip fatigue is setting in and you can't maintain pressure"
+          ],
+          "steps": [
+            "From half guard, as opponent drives forward, wrap your arm around their neck AND their near arm. Trap the arm inside.",
+            "Position wrist bone under their throat. Clasp hands to lock (Marcelotine or palm-to-palm).",
+            "Fall to the choking-arm side. Half guard legs keep them anchored, or transition to closed guard for more control.",
+            "SQUEEZE elbows toward your chest and ELEVATE hips. Trapped arm's shoulder adds pressure to the neck."
+          ],
+          "complexpieces": [
+            "If the arm-in doesn't finish, release the arm for standard guillotine",
+            "Chain with sweep: use head control to sweep to mount and finish from top",
+            "Switch to anaconda or d'arce if the arm positioning shifts during the attempt"
+          ],
+          "simplifications": [
+            "Practice trapping the arm inside the wrap as a grip drill from half guard",
+            "Drill the difference between arm-in and standard guillotine positioning",
+            "Focus on wrist bone placement — the arm must not push your wrist away from the throat"
+          ]
+        },
+        {
+          "name": "D'Arce Choke (from Half Guard)",
+          "category": "submission",
+          "perspective": "top",
+          "goal": "Thread your arm under the opponent's neck and through their near arm from half guard top, applying a figure-four choking grip and squeezing with chest pressure.",
+          "initialPosition": {
+            "body": "In top half guard position. Opponent is on their side with underhook — their near arm and neck create the d'arce channel.",
+            "grips": "Choking arm threads UNDER opponent's neck and through their near armpit — coming out the other side. Lock figure-four: grab your own bicep.",
+            "legs": "In top half guard — leg still trapped but the choke works from here. May free leg during the choke.",
+            "hips": "Driving chest pressure down and into the choke. Hips may sprawl for additional compression."
+          },
+          "greenLights": [
+            "Opponent has an underhook from bottom — their arm creates the channel for the d'arce",
+            "You can thread your arm under their neck and through their armpit",
+            "Opponent's head and arm are close together — compact channel for the choke",
+            "You can lock the figure-four grip (hand to bicep)"
+          ],
+          "redLights": [
+            "Opponent's head and arm are spread apart — no compact channel for the choke",
+            "You can't thread deep enough to reach the figure-four lock",
+            "Opponent is flat on their back — need them on their side for the d'arce to work",
+            "Your choking arm isn't deep enough and you're cranking the neck instead"
+          ],
+          "steps": [
+            "From top half guard, identify the d'arce channel — opponent's underhook creates the opening between their head and arm.",
+            "Thread your near arm UNDER their neck and through their near armpit. Drive your arm deep until you can reach the other side.",
+            "Lock the figure-four: grab your own bicep with the threading hand. Other hand goes behind their head or neck.",
+            "SQUEEZE elbows together and apply chest pressure. Walk your hips toward their head for maximum compression. The choke compresses both carotids."
+          ],
+          "complexpieces": [
+            "Set up from crossface: drive the crossface deep until it threads through for the d'arce",
+            "Chain with anaconda: if the d'arce angle is wrong, switch to anaconda by adjusting the arm path",
+            "If the choke doesn't finish, use the head/arm control to pass half guard to side control"
+          ],
+          "simplifications": [
+            "Practice threading the arm from top half guard as an isolated movement",
+            "Drill the figure-four lock (hand to bicep) from the threaded position",
+            "Focus on the chest pressure — the squeeze comes from your chest driving into them, not just arm strength"
+          ]
+        },
+        {
+          "name": "Ezekiel Choke (from Half Guard)",
+          "category": "submission",
+          "perspective": "top",
+          "goal": "Slip one arm across the opponent's neck while securing the sleeve or wrist with the other hand from top half guard, pressing the forearm into the throat with chest pressure.",
+          "initialPosition": {
+            "body": "In top half guard. Chest pressure on the opponent. One arm threading across their neck for the choke.",
+            "grips": "Choking arm: forearm or fist across opponent's throat. Other hand: feeds through your own sleeve (Gi) or locks the wrist (No-Gi).",
+            "legs": "In top half guard — leg still trapped. The choke works from this position with sufficient chest pressure.",
+            "hips": "Driving downward pressure through your chest into the opponent. Low and heavy."
+          },
+          "greenLights": [
+            "You have dominant top pressure in half guard — opponent is flat",
+            "You can slip your arm across their neck without losing position",
+            "Your other hand can feed through your sleeve (Gi) or control the wrist (No-Gi)",
+            "Opponent is defending the pass and not expecting the choke"
+          ],
+          "redLights": [
+            "Opponent has strong frames preventing you from getting close enough",
+            "Your arm can't reach across their neck — they're framing your arm away",
+            "You're losing top position while attempting the choke",
+            "Opponent tucks their chin tight and you can't get the forearm under"
+          ],
+          "steps": [
+            "From top half guard, establish heavy chest pressure. Flatten the opponent.",
+            "Slip your near arm across their throat — forearm or fist positioned on one side of the neck.",
+            "Feed your other hand through your own sleeve (Gi) or grab your own wrist (No-Gi) — securing the choke grip behind their head.",
+            "SQUEEZE by pressing your forearm into their throat while your other arm closes the loop behind their head. Drive chest pressure downward for maximum compression."
+          ],
+          "complexpieces": [
+            "Set up during pass attempts: threaten the Ezekiel as you work to free your leg",
+            "Chain with crossface pass: if Ezekiel is defended, use the arm pressure to flatten them and pass",
+            "If they turn away to defend the choke, take the back from half guard top"
+          ],
+          "simplifications": [
+            "Practice the arm-across-throat and sleeve feed as an isolated grip drill",
+            "Drill maintaining heavy top pressure while threading the choke — don't rise up",
+            "Focus on the chest pressure component — the Ezekiel finishes with pressure, not just arm squeezing"
+          ]
+        },
+        {
+          "name": "Crossface Pressure Pass (vs Half Guard)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Apply heavy crossface pressure to flatten the half guard player, prevent their underhook, and free the trapped leg to complete the pass.",
+          "initialPosition": {
+            "body": "In opponent's half guard on top. Driving crossface pressure with your shoulder across their jaw/face.",
+            "grips": "Crossface arm: forearm or shoulder driving across their jaw, turning their head away. Other arm: underhook or controls their far hip.",
+            "legs": "One leg trapped in their half guard. Free leg posts for base and drive.",
+            "hips": "Driving LOW and FORWARD with maximum chest and shoulder pressure to flatten them."
+          },
+          "greenLights": [
+            "You can establish crossface — shoulder on their jaw turning their head away",
+            "Opponent is being flattened by the pressure",
+            "Their underhook is denied by your crossface shoulder position",
+            "The trapped leg can be freed with hip movement while maintaining pressure"
+          ],
+          "redLights": [
+            "Opponent has a strong underhook preventing your crossface",
+            "They're getting to their side and your crossface isn't flattening them",
+            "You're too upright — not enough pressure to control them",
+            "Opponent is transitioning to deep half as you pressure"
+          ],
+          "steps": [
+            "From top half guard, drive your shoulder/forearm ACROSS their jaw (crossface). Turn their head away from you.",
+            "Apply heavy chest and shoulder pressure — flatten them onto their back. Deny the underhook.",
+            "Work to free the trapped leg: hip switch, kick the leg free, or walk the knee through while maintaining crossface.",
+            "Clear the half guard entanglement and consolidate side control with crossface and hip control."
+          ],
+          "complexpieces": [
+            "Chain with knee slice: use crossface to set up the slicing knee pass",
+            "If they underhook, switch to d'arce choke — their underhook creates the channel",
+            "If they get to deep half, redirect to smash pressure and address the deep position"
+          ],
+          "simplifications": [
+            "Practice the crossface shoulder drive as a pressure drill from top half guard",
+            "Drill freeing the trapped leg while maintaining shoulder pressure — two skills combined",
+            "Focus on staying LOW — the most common mistake is rising up and losing pressure"
+          ]
+        },
+        {
+          "name": "Underhook Pass (vs Half Guard)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Win the underhook battle from top half guard and use it to drive forward, flattening the opponent and clearing the half guard.",
+          "initialPosition": {
+            "body": "In top half guard. Fighting for the underhook on the inside. Driving forward with the underhook established.",
+            "grips": "Underhook on the near side — arm deep under opponent's armpit. Other hand controls their head, collar, or far hip.",
+            "legs": "One leg trapped in half guard. Free leg posts for base and forward drive.",
+            "hips": "Driving forward with the underhook, using hip pressure to flatten them."
+          },
+          "greenLights": [
+            "You've won the underhook — your arm is deeper than theirs",
+            "Opponent is being flattened by the underhook drive",
+            "The underhook prevents them from getting to their side",
+            "Your weight is driving through the underhook into their body"
+          ],
+          "redLights": [
+            "Opponent has the dominant underhook and you're losing the battle",
+            "Your underhook is too shallow and they're overhooking it",
+            "They've transitioned to deep half using your forward pressure against you",
+            "Opponent is getting to their side despite the underhook"
+          ],
+          "steps": [
+            "From top half guard, fight for the underhook. Get your arm DEEP under their armpit — deeper than their underhook attempt.",
+            "Drive forward with the underhook, flattening opponent onto their back. Your shoulder drives into their chest.",
+            "Control their head with your other hand (crossface, collar grip). Prevent them from turning to their side.",
+            "Free the trapped leg using hip switching, knee extraction, or windshield wipers while maintaining underhook control. Pass to side control."
+          ],
+          "complexpieces": [
+            "Chain with crossface: establish underhook, then switch to crossface for extra flattening pressure",
+            "If they get deep half while you're underhooking, transition to smash-style counter",
+            "Use the underhook to set up Ezekiel choke — your arm is already near their neck"
+          ],
+          "simplifications": [
+            "Practice the underhook fight from top half guard — pummeling drill",
+            "Drill driving forward with the underhook to flatten the partner",
+            "Focus on depth of the underhook — a shallow underhook gets whizzered"
+          ]
+        },
+        {
+          "name": "Backstep Pass (vs Half Guard)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Step the trapped leg backward and around to extract it from the half guard entanglement, using the backstep to free the leg and pass.",
+          "initialPosition": {
+            "body": "In top half guard. Preparing to step the trapped leg backward and out of the entanglement.",
+            "grips": "Controlling opponent's upper body — crossface, collar grip, or head control. Preventing them from following the backstep.",
+            "legs": "Trapped leg steps BACKWARD to extract from the half guard. Free leg maintains base.",
+            "hips": "Turning hips as you backstep, changing the angle to free the trapped leg."
+          },
+          "greenLights": [
+            "Half guard entanglement is relatively loose — the leg can be extracted",
+            "You have upper body control to prevent them from following",
+            "Your balance allows a controlled backstep without falling",
+            "Opponent is focused on their underhook, not the leg entanglement"
+          ],
+          "redLights": [
+            "Half guard is locked tight (lockdown) — can't extract the leg by backstepping",
+            "Your balance is compromised and the backstep would topple you",
+            "Opponent follows the backstep and maintains or improves their guard",
+            "You have no upper body control and they'll reguard immediately"
+          ],
+          "steps": [
+            "From top half guard, establish upper body control (crossface or collar grip). Pin them to prevent following.",
+            "Step the trapped leg BACKWARD and around. Turn your hips away from the entanglement to clear the leg.",
+            "As the leg clears, immediately close the distance — don't leave space for reguarding.",
+            "Pass to side control or transition to mount. Maintain crossface throughout the backstep."
+          ],
+          "complexpieces": [
+            "Chain with knee slice: backstep to partially clear, then knee slice the rest of the way",
+            "Use the backstep to enter leg entanglements — step back into a leg lock position",
+            "If they follow with hooks, immediately hip switch and pass the other direction"
+          ],
+          "simplifications": [
+            "Practice the backstep extraction as a solo footwork drill",
+            "Drill backstepping from a loose half guard entanglement to learn the clearing angle",
+            "Focus on maintaining crossface during the backstep — losing it means they'll follow you"
+          ]
+        },
+        {
+          "name": "Hip Switch Pass (vs Half Guard)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Switch your hips from one side to the other to free the trapped leg and clear the half guard using the directional change.",
+          "initialPosition": {
+            "body": "In top half guard. Preparing to switch hips to extract the trapped leg from the entanglement.",
+            "grips": "Crossface or collar grip for upper body control. Other hand controls their hip or posts on the mat.",
+            "legs": "Trapped leg will switch direction as you hip switch. Free leg adjusts base during the switch.",
+            "hips": "Switching from one hip to the other — the directional change frees the trapped leg from the entanglement."
+          },
+          "greenLights": [
+            "You have strong crossface or upper body control",
+            "The hip switch motion can break the entanglement angle",
+            "Opponent is defending one passing direction — the switch goes the other way",
+            "Your base is stable enough for a controlled hip switch"
+          ],
+          "redLights": [
+            "Opponent has a tight lockdown — hip switch alone won't free the leg",
+            "You have no upper body control and the switch exposes you",
+            "Opponent follows the hip switch and reguards immediately",
+            "Your balance is compromised during the switch"
+          ],
+          "steps": [
+            "From top half guard with crossface control, prepare to switch your hip direction.",
+            "HIP SWITCH: rotate your hips from one side to the other in a quick, decisive motion. The trapped leg changes angle.",
+            "The directional change breaks the half guard's entanglement grip. Extract the freed leg immediately.",
+            "Complete the pass to side control on the new hip-switch side. Maintain crossface throughout."
+          ],
+          "complexpieces": [
+            "Chain multiple hip switches: if one doesn't free the leg, switch back and try again — the unpredictability creates openings",
+            "Use the hip switch to set up knee slice on the new angle",
+            "If the switch creates a d'arce opportunity (their arm comes up), attack the choke immediately"
+          ],
+          "simplifications": [
+            "Practice the hip switch motion from top half guard as an isolated drill",
+            "Drill the hip switch with a partner offering light half guard resistance",
+            "Focus on the speed of the switch — a slow hip switch gets caught"
+          ]
         }
       ]
     },
@@ -3622,6 +4302,814 @@
             "Practice the X-step crossover as a solo footwork drill",
             "Drill the X pass against a static guard to learn the stepping angle",
             "Focus on controlling the near leg throughout — losing it means losing the pass"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "butterfly-guard",
+      "name": "Butterfly Guard",
+      "emoji": "🦋",
+      "description": "Seated open guard where the bottom player uses both instep hooks inside the opponent's thighs to elevate, off-balance, and create sweeping and submission opportunities. Emphasizes an active, seated posture with strong upper body grips.",
+      "techniques": [
+        {
+          "name": "Butterfly Sweep (Classic)",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Elevate the opponent with one hook while controlling the upper body to sweep them over to one side.",
+          "initialPosition": {
+            "body": "Seated upright in butterfly guard with both instep hooks inside opponent's thighs. Chest close to opponent.",
+            "grips": "Underhook on the sweeping side — arm deep under opponent's armpit. Other hand controls their far wrist, sleeve, or collar.",
+            "legs": "Both butterfly hooks (insteps) inside opponent's thighs. Sweeping-side hook will elevate. Other hook provides support.",
+            "hips": "Slightly angled toward the sweeping side, loaded to elevate and roll."
+          },
+          "greenLights": [
+            "You have a deep underhook on the sweeping side",
+            "Opponent's weight is centered or slightly on the sweeping side",
+            "Your head is tight against their chest/shoulder — connected",
+            "The elevating hook is loaded and ready to lift"
+          ],
+          "redLights": [
+            "Opponent has a strong overhook or whizzer neutralizing your underhook",
+            "Opponent is sprawled back with hips far away — hooks can't bite",
+            "Your posture is broken and you're being flattened onto your back",
+            "Opponent has cross-faced you and driven your head to the mat"
+          ],
+          "steps": [
+            "Sit up into opponent's chest with a deep underhook on the sweeping side. Control their far arm with your other hand to prevent posting.",
+            "Angle your body slightly toward the sweeping side. Load your weight onto the sweeping-side hook.",
+            "ELEVATE with the hook — kick your instep up into their thigh while falling to the opposite side. Your underhook pulls them over you.",
+            "Complete the sweep by rolling them over. Come up to top position with your head driving into their chest. Establish side control or mount."
+          ],
+          "complexpieces": [
+            "If they whizzer the underhook, switch to an arm drag on the other side and sweep that direction",
+            "Chain with guillotine: fake the sweep to draw their head down, then attack the neck",
+            "If they post a hand to block, transition to X-guard underneath for a different sweep angle"
+          ],
+          "simplifications": [
+            "Practice the elevating hook motion solo — kick the instep up and fall to the side",
+            "Drill the underhook entry from butterfly guard as a separate exercise",
+            "Start with partner offering light resistance — focus on the angle and timing of the elevation"
+          ]
+        },
+        {
+          "name": "Sit-Up Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Drive forward while elevating with the butterfly hook and come up on top by wrestling up into the opponent.",
+          "initialPosition": {
+            "body": "Seated in butterfly guard, driving forward into opponent. Chest-to-chest contact, sitting up aggressively.",
+            "grips": "Collar and sleeve grip, or double underhooks, pulling opponent into you. Grips control their upper body as you drive forward.",
+            "legs": "Both butterfly hooks inside opponent's thighs. Elevating hook lifts as you drive forward.",
+            "hips": "Driving upward and forward — moving from seated to on top of them."
+          },
+          "greenLights": [
+            "Opponent's weight is shifting backward — they're leaning away from you",
+            "You have strong pulling grips (collar/sleeve or double underhooks)",
+            "Your hooks are engaged and can elevate as you drive",
+            "Opponent is not pressuring forward into you — space to come up"
+          ],
+          "redLights": [
+            "Opponent is driving heavy pressure forward — you'll get flattened",
+            "Your grips are broken and you can't pull yourself into them",
+            "Hooks are not engaged — feet are too low or outside their thighs",
+            "Opponent has crossface pressure pinning your head down"
+          ],
+          "steps": [
+            "From butterfly guard, establish strong upper body grips — collar and sleeve or double underhooks.",
+            "Drive FORWARD into opponent's chest while simultaneously elevating with one butterfly hook.",
+            "Come up from seated to kneeling — your hooks lift them as your body weight drives forward.",
+            "Complete the sweep to top position. Establish side control, mount, or transition to a takedown finish."
+          ],
+          "complexpieces": [
+            "If they push you back, immediately attack the classic butterfly sweep in the opposite direction",
+            "Chain with arm drag: drive forward, they push back, arm drag to the back",
+            "Use the sit-up momentum to attack a guillotine if their head drops"
+          ],
+          "simplifications": [
+            "Practice the sit-up motion from butterfly guard as a solo movement drill",
+            "Drill the combination of hook elevation + forward drive with a static partner",
+            "Focus on the timing — elevate and drive simultaneously, not sequentially"
+          ]
+        },
+        {
+          "name": "Arm Drag to Back Take",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Drag the opponent's arm across from butterfly guard and move behind them to secure back control.",
+          "initialPosition": {
+            "body": "Seated in butterfly guard, preparing to pull opponent's arm across and spin behind them.",
+            "grips": "Two-on-one on opponent's arm — one hand grips their wrist, other grips above their elbow (tricep). Pulling the arm across your body.",
+            "legs": "Butterfly hooks inside their thighs. Hooks assist the angle change as you move to the back.",
+            "hips": "Pivoting to the side as you drag the arm, creating the angle to get behind them."
+          },
+          "greenLights": [
+            "You've established a two-on-one grip on their arm",
+            "Opponent is reaching forward — arm is accessible for the drag",
+            "Your butterfly hooks give you enough base to spin behind them",
+            "Opponent is not defending the arm drag — focused on passing"
+          ],
+          "redLights": [
+            "Opponent's arms are tight and retracted — nothing to grab",
+            "They're pulling the arm away as you try to drag",
+            "Opponent is leaning back with weight away from you — the drag won't pull them forward",
+            "You've lost your butterfly hooks and have no base to pivot from"
+          ],
+          "steps": [
+            "From butterfly guard, grab opponent's wrist with one hand and their tricep with the other — two-on-one grip.",
+            "DRAG their arm forcefully across your body. Pull at the wrist while pushing at the tricep to accelerate the drag.",
+            "As their arm crosses, pivot your hips and spin BEHIND them. Your butterfly hooks help rotate you around their body.",
+            "Secure seatbelt grip (one arm over shoulder, one under armpit) and insert hooks. Complete the back take."
+          ],
+          "complexpieces": [
+            "If the back take is blocked, transition to a single leg on the near side",
+            "Chain: arm drag (they resist) → immediately classic butterfly sweep (they're now off-balance resisting the drag)",
+            "From the back, attack RNC or collar chokes immediately"
+          ],
+          "simplifications": [
+            "Practice the two-on-one arm drag grip and pull as an isolated drill",
+            "Drill the pivot from butterfly to back position without finishing the take",
+            "Focus on the drag angle — pull across and DOWN, not just sideways"
+          ]
+        },
+        {
+          "name": "Wrestle-Up Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Use butterfly guard to come up to your feet and finish a takedown by wrestling up into a standing clinch or single/double leg.",
+          "initialPosition": {
+            "body": "Seated in butterfly guard, transitioning to standing. Driving upward and into the opponent.",
+            "grips": "Collar and sleeve, underhook, or two-on-one grip pulling you up and controlling them as you stand.",
+            "legs": "Butterfly hooks release as you stand. Feet post on the mat to push yourself upright.",
+            "hips": "Driving upward from seated to standing while staying connected to opponent."
+          },
+          "greenLights": [
+            "Opponent's weight is shifted backward — not pressuring you",
+            "You have strong grips to pull yourself up and control them",
+            "Space exists to come up to your feet without being smashed back down",
+            "Opponent is not expecting you to stand — they're defending seated attacks"
+          ],
+          "redLights": [
+            "Opponent is driving heavy forward pressure — can't stand into it",
+            "Your grips are broken and you have nothing to pull up with",
+            "Opponent has head control pinning you down",
+            "No space to get your feet underneath you"
+          ],
+          "steps": [
+            "From butterfly guard, off-balance opponent backward with your hooks and grips. Create a moment of reduced pressure.",
+            "Post one hand on the mat and begin standing up. Keep your other grip on the opponent for control.",
+            "Come to your feet while staying chest-to-chest. Maintain collar/underhook control.",
+            "Complete a takedown — single leg, double leg, or body lock — from the standing clinch. Establish top position."
+          ],
+          "complexpieces": [
+            "If they push you back down, re-establish butterfly guard and attack sweeps immediately",
+            "Chain with arm drag: stand up with a two-on-one, then arm drag to the back",
+            "Use the wrestle-up momentum to snap them down if they posture too high"
+          ],
+          "simplifications": [
+            "Practice the stand-up from butterfly as a solo movement drill",
+            "Drill maintaining grips while transitioning from seated to standing",
+            "Start with partner giving minimal resistance to learn the balance transition"
+          ]
+        },
+        {
+          "name": "Butterfly to X-Guard Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Transition from butterfly guard underneath the opponent to establish X-guard and sweep from the leg entanglement.",
+          "initialPosition": {
+            "body": "Seated in butterfly guard, dropping underneath opponent to establish X-guard hooks around one leg.",
+            "grips": "Controlling opponent's sleeve or ankle. Hands adjust as you transition underneath to X-guard.",
+            "legs": "Butterfly hooks transition: one leg hooks behind opponent's near knee (bottom X hook), other foot pushes on far hip (top X hook).",
+            "hips": "Scooting underneath opponent's center of gravity for the X-guard position."
+          },
+          "greenLights": [
+            "Opponent stands up or posts on one leg — ideal X-guard entry",
+            "You can scoot underneath and establish both X-guard hooks",
+            "Opponent's weight is forward over you — loadable for the sweep",
+            "Your butterfly hook can transition cleanly to the bottom X hook"
+          ],
+          "redLights": [
+            "Opponent is kneeling with hips low — X-guard needs them elevated",
+            "You can't scoot underneath deep enough for proper hook placement",
+            "Opponent is backing away — can't establish the entanglement",
+            "Your hooks are being stripped during the transition"
+          ],
+          "steps": [
+            "From butterfly guard, as opponent stands or elevates, scoot your hips underneath their center of gravity.",
+            "Transition one butterfly hook to the bottom X-guard hook behind their near knee. Place your other foot on their far hip as the top hook.",
+            "Pinch knees together to control the trapped leg. You're now in X-guard with hooks forming an X around their leg.",
+            "Sweep by elevating with the bottom hook while the top hook steers. Push-pull to topple their base. Come up to top position."
+          ],
+          "complexpieces": [
+            "If X-guard sweep is blocked, transition to single leg X for ankle lock or different angle",
+            "Chain with technical stand-up: come up from X-guard while controlling their leg",
+            "Use X-guard to take the back by off-balancing forward and circling behind"
+          ],
+          "simplifications": [
+            "Practice the butterfly to X-guard hook transition as a standalone drill",
+            "Drill X-guard sweeps once the position is established separately",
+            "Focus on scooting deep enough underneath — depth determines X-guard effectiveness"
+          ]
+        },
+        {
+          "name": "Butterfly to Single Leg X Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Drop underneath from butterfly guard to enter single leg X (ashi garami) and sweep by controlling the ankle and pushing the hip.",
+          "initialPosition": {
+            "body": "From butterfly guard, dropping underneath opponent with their leg isolated between yours.",
+            "grips": "Controlling opponent's near ankle with your hand. Other hand grips sleeve or posts for base.",
+            "legs": "Inside leg hooks behind opponent's near knee (SLX hook). Outside foot pushes on their far hip for distance and control.",
+            "hips": "Directly underneath opponent's base, their leg isolated between yours."
+          },
+          "greenLights": [
+            "Opponent stands or elevates — one leg accessible for isolation",
+            "You can drop underneath and control their ankle from butterfly",
+            "Butterfly hook transitions naturally to the inside SLX hook",
+            "Opponent's far leg is within reach of your pushing foot"
+          ],
+          "redLights": [
+            "Opponent is kneeling with hips low — SLX works best against elevated opponents",
+            "You can't control their ankle — they'll retract the leg",
+            "Opponent is sprawling heavy on top of you",
+            "Your butterfly hooks are being cleared before you can transition"
+          ],
+          "steps": [
+            "From butterfly guard, as opponent stands or posts, scoot underneath them. Control their near ankle with your hand.",
+            "Transition your butterfly hook to the inside SLX hook behind their near knee. Place your other foot on their far hip.",
+            "PUSH their far hip with your foot while PULLING their ankle toward you. Off-balance them backward.",
+            "They topple backward or to the side. Come up to top position. Or transition to leg attacks from SLX."
+          ],
+          "complexpieces": [
+            "From SLX, attack straight ankle lock instead of sweeping",
+            "If the sweep is blocked, insert second hook for full X-guard",
+            "Chain with technical stand-up while controlling the ankle for a single leg finish"
+          ],
+          "simplifications": [
+            "Practice the butterfly to SLX transition as an isolated drill",
+            "Drill the push-pull mechanic from SLX (foot on hip, hand on ankle)",
+            "Focus on ankle control first — losing the ankle means losing everything"
+          ]
+        },
+        {
+          "name": "Guillotine Choke",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attack the opponent's neck with a guillotine choke when they drive forward into your butterfly guard, using head position and arm wrap to choke.",
+          "initialPosition": {
+            "body": "Seated in butterfly guard. Opponent's head is low, driving into your chest. You're wrapping their neck.",
+            "grips": "Choking arm wraps around their neck — chin strap grip (wrist bone under their throat). Other hand clasps over to lock the grip.",
+            "legs": "Butterfly hooks inside their thighs for elevation and control. Hooks prevent them from pulling away.",
+            "hips": "Falling slightly to the choking-arm side and elevating hips for choke pressure."
+          },
+          "greenLights": [
+            "Opponent drives their head forward into your chest — neck is exposed",
+            "You can wrap your arm around their neck with the wrist bone under their throat",
+            "Butterfly hooks prevent them from backing away from the choke",
+            "Opponent is focused on passing and not defending their neck"
+          ],
+          "redLights": [
+            "Opponent keeps their head up and chin tucked — neck not accessible",
+            "You can't wrap the neck deep enough for the wrist bone placement",
+            "Opponent is pulling away and your hooks can't keep them close",
+            "Your grip is on the chin/jaw rather than the throat — won't finish"
+          ],
+          "steps": [
+            "From butterfly guard, as opponent drives forward with low head, wrap your arm around their neck. Wrist bone directly under their throat.",
+            "Clasp your hands together to lock the guillotine grip (palm-to-palm or Marcelotine grip).",
+            "Fall slightly to the choking-arm side. Keep butterfly hooks engaged to prevent escape.",
+            "SQUEEZE by pulling your elbows toward your chest while lifting your hips UP against their neck. The compression chokes the arteries."
+          ],
+          "complexpieces": [
+            "If they defend by turning their head, switch to arm-in guillotine for more pressure",
+            "Chain: guillotine attempt (they posture up) → immediately sweep them as their arms defend the choke",
+            "Transition to anaconda or d'arce if the guillotine angle shifts"
+          ],
+          "simplifications": [
+            "Practice the chin strap grip — wrist bone placement under the throat is everything",
+            "Drill the wrap from butterfly against a partner driving forward",
+            "Focus on the squeeze mechanic: elbows IN, hips UP — not a crank"
+          ]
+        },
+        {
+          "name": "Arm-in Guillotine",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Trap the opponent's arm inside the guillotine to increase choking pressure and prevent the common defense of pulling the head free.",
+          "initialPosition": {
+            "body": "Seated in butterfly guard with opponent's head low. Their arm is trapped INSIDE the guillotine wrap alongside their neck.",
+            "grips": "Choking arm wraps around their neck AND their near-side arm. Wrist bone on throat. Other hand clasps to lock the grip.",
+            "legs": "Butterfly hooks inside their thighs. Hooks keep them close and prevent escape. May transition to closed guard or high guard for extra control.",
+            "hips": "Angling slightly to the choking side. Hips elevate for pressure."
+          },
+          "greenLights": [
+            "Opponent dives their head forward and their arm is inside the wrap",
+            "You can secure the arm-in configuration with the wrist bone still on their throat",
+            "Butterfly hooks keep them from pulling away",
+            "The arm-in position blocks their primary defense (pulling the trapped arm out)"
+          ],
+          "redLights": [
+            "You can't trap their arm inside — it's too retracted",
+            "The arm being inside pushes your wrist off the throat — grip is misaligned",
+            "Opponent is pulling their head away and your hooks can't keep them close",
+            "Your grip fatigue is setting in and you can't maintain the squeeze"
+          ],
+          "steps": [
+            "From butterfly guard, as opponent drives forward, wrap your arm around their neck AND their near arm. Trap the arm inside.",
+            "Position your wrist bone under their throat. Clasp hands to lock the grip (Marcelotine or palm-to-palm).",
+            "Fall to the choking-arm side. Close butterfly guard or throw a leg over their back for extra control.",
+            "SQUEEZE elbows toward your chest and ELEVATE hips. The trapped arm's shoulder pushes into the neck, increasing pressure."
+          ],
+          "complexpieces": [
+            "If they start to escape, transition to a regular guillotine by releasing the arm",
+            "Chain with sweep: if the choke doesn't finish, use the head control to sweep to mount and finish from top",
+            "Switch to anaconda choke if the arm-in angle is better suited"
+          ],
+          "simplifications": [
+            "Practice trapping the arm inside the wrap as a grip drill",
+            "Drill the difference between arm-in and standard guillotine positioning",
+            "Focus on wrist bone placement — the arm must not push your wrist away from the throat"
+          ]
+        },
+        {
+          "name": "Kimura (from Butterfly)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attack the opponent's shoulder with a kimura figure-four grip when they post an arm while defending sweeps from butterfly guard.",
+          "initialPosition": {
+            "body": "Seated in butterfly guard. Opponent posts a hand on the mat or reaches forward — arm exposed.",
+            "grips": "Kimura figure-four: one hand grips opponent's wrist, other reaches OVER their arm and grabs your own wrist.",
+            "legs": "Butterfly hooks maintain guard control. May release one hook to step over their head for finishing leverage.",
+            "hips": "Angled toward the kimura side, driving into the opponent for control."
+          },
+          "greenLights": [
+            "Opponent posts a hand on the mat to resist a sweep attempt — arm is isolated",
+            "You can reach their wrist and secure the figure-four kimura grip",
+            "Butterfly hooks keep them close while you attack",
+            "Opponent is focused on base recovery, not arm defense"
+          ],
+          "redLights": [
+            "Opponent's arms are tight to their body — nothing to isolate",
+            "They immediately grab their belt or pants to defend the grip",
+            "Your hooks are being cleared and you're losing guard position",
+            "Opponent is pulling away and you can't maintain wrist control"
+          ],
+          "steps": [
+            "From butterfly guard, attempt a sweep. When opponent posts their hand to resist, grab their wrist with your same-side hand.",
+            "Reach your other hand OVER their arm and grab your own wrist — figure-four kimura grip secured.",
+            "Pull their elbow tight to your chest. Control the arm close to your body.",
+            "Rotate their wrist behind their back with smooth rotational pressure on the shoulder joint. Step over their head with your leg for extra leverage if needed."
+          ],
+          "complexpieces": [
+            "If they resist the kimura, use the grip to sweep them — the kimura grip is a powerful sweeping handle",
+            "Chain: sweep attempt → they post → kimura on posted arm → they defend → sweep the other direction",
+            "Transition to hip bump sweep using the kimura grip as the driving force"
+          ],
+          "simplifications": [
+            "Practice recognizing the posted arm during butterfly sweep drills",
+            "Drill the figure-four grip quickly from seated butterfly guard",
+            "Focus on keeping their elbow tight to your body — space kills the kimura"
+          ]
+        },
+        {
+          "name": "Triangle Choke (from Butterfly)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Create an angle from butterfly guard and trap the opponent's neck and one arm in a triangle choke with your legs.",
+          "initialPosition": {
+            "body": "Seated in butterfly guard, creating arm-in, arm-out positioning. Transitioning to lying back for the triangle.",
+            "grips": "Sleeve grip on the arm being pulled across (arm-in). Other hand controls collar or pushes far arm away (arm-out).",
+            "legs": "Butterfly hooks release. One leg shoots HIGH over their shoulder behind their neck. Other foot pushes on their hip for the angle.",
+            "hips": "Scooting out to create the triangle angle, lying back from seated."
+          },
+          "greenLights": [
+            "Opponent reaches with one arm while the other stays back — arm-in, arm-out created",
+            "Butterfly guard gives you the seated angle to transition into the triangle",
+            "Opponent's posture is broken forward — close enough for the leg to reach",
+            "Sleeve control is established to guide the arm across"
+          ],
+          "redLights": [
+            "Both arms are equally positioned — no arm-in, arm-out yet",
+            "Opponent pulls back with strong upright posture — legs can't reach",
+            "You've lost sleeve control and can't manage arm positioning",
+            "Opponent is disengaging and creating distance"
+          ],
+          "steps": [
+            "From butterfly guard, pull one sleeve ACROSS their body (arm-in). Push or block the far arm (arm-out).",
+            "Release butterfly hooks and lie back slightly. Throw one leg HIGH over their shoulder, behind their neck.",
+            "Lock the triangle: back of knee over opposite ankle (figure-four). Angle your body 30° for optimal choke geometry.",
+            "Squeeze knees together, pull head DOWN, lift hips. Shoulder compresses one carotid, thigh compresses the other."
+          ],
+          "complexpieces": [
+            "If they posture inside the triangle, switch to armbar on the trapped arm",
+            "If they stack you, transition to omoplata by releasing the lock",
+            "Set up from a sweep: they post to resist, creating the arm-in positioning"
+          ],
+          "simplifications": [
+            "Practice creating arm-in, arm-out from butterfly grips as a drill",
+            "Drill the transition from seated butterfly to lying-back triangle entry",
+            "Focus on the 30° angle — the triangle geometry depends on correct angling"
+          ]
+        },
+        {
+          "name": "Straight Ankle Lock (from Butterfly)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Enter leg entanglements from butterfly guard and attack the opponent's ankle with a straight ankle lock.",
+          "initialPosition": {
+            "body": "Transitioning from butterfly guard to ashi garami (SLX) or leg entanglement. Falling to the side with their leg controlled.",
+            "grips": "Both hands wrap around opponent's ankle/Achilles. Wrist blade on the Achilles tendon.",
+            "legs": "Inside leg hooks behind opponent's knee. Outside leg crosses over their hip or thigh for control.",
+            "hips": "Extending against the controlled ankle, driving into the Achilles for the submission."
+          },
+          "greenLights": [
+            "You've transitioned from butterfly to a leg entanglement — leg is isolated",
+            "You can wrap your hands around their Achilles tendon area",
+            "Opponent's foot is controlled and they can't rotate free",
+            "The entanglement is secure with proper hook placement"
+          ],
+          "redLights": [
+            "You haven't established proper leg entanglement — position before submission",
+            "Opponent has cleared the knee line and can escape",
+            "Your grip is too high on the shin instead of the Achilles",
+            "Opponent is actively rolling to escape the entanglement"
+          ],
+          "steps": [
+            "From butterfly guard, transition to SLX or ashi garami by isolating one leg during a sweep attempt or transition.",
+            "Wrap both hands around their ankle — wrist blade on the Achilles tendon. Grip tight (palm-to-palm or figure-four).",
+            "Pinch knees to control their leg and prevent rotation. Keep foot trapped against your chest.",
+            "Extend hips FORWARD against the Achilles while arching back. Hip bridge pressure finishes the ankle lock."
+          ],
+          "complexpieces": [
+            "If they defend by bending the knee, transition to toe hold",
+            "Chain with heel hook (No-Gi): if they clear the straight ankle lock, attack the heel",
+            "Use the ankle lock threat to sweep — they defend the sub, you come up on top"
+          ],
+          "simplifications": [
+            "Practice the butterfly to leg entanglement transition as a separate drill",
+            "Drill the ankle grip placement — finding the Achilles is the key",
+            "Focus on the hip extension finishing mechanic from a static ashi garami position"
+          ]
+        },
+        {
+          "name": "Front Headlock Chokes",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Control the opponent's head from butterfly guard and attack with front headlock-style chokes (guillotine variants, d'arce, anaconda) when they drive forward.",
+          "initialPosition": {
+            "body": "Seated in butterfly guard with opponent's head controlled. Opponent is driving forward with head low — vulnerable to front headlock attacks.",
+            "grips": "Overhook or snap-down on their head/neck. Transition to specific choke grip (guillotine, d'arce, or anaconda) based on arm position.",
+            "legs": "Butterfly hooks maintain guard control and prevent them from backing away.",
+            "hips": "Adjusting angle based on the specific choke — may fall to one side or sprawl."
+          },
+          "greenLights": [
+            "Opponent's head is low and driving forward — neck is accessible",
+            "You can snap their head down and establish front headlock control",
+            "Their arm position determines which choke: arm-in (d'arce/anaconda) or arm-out (guillotine)",
+            "Butterfly hooks keep them anchored while you attack"
+          ],
+          "redLights": [
+            "Opponent keeps their head up with strong posture — can't snap down",
+            "They're pulling away and your hooks can't keep them close",
+            "You can't establish a choking grip — head control alone isn't enough",
+            "Opponent is aware and defending their neck proactively"
+          ],
+          "steps": [
+            "From butterfly guard, snap opponent's head down or catch it as they drive forward. Establish front headlock control.",
+            "Identify arm position: arm-out → guillotine. Arm-in nearside → d'arce. Arm-in farside → anaconda.",
+            "Secure the appropriate choke grip. Fall to the choking side or sprawl for angle depending on the specific choke.",
+            "SQUEEZE — pull elbows in, elevate hips, compress the neck. Finish the choke with steady pressure."
+          ],
+          "complexpieces": [
+            "Chain between guillotine variations: standard → arm-in → d'arce based on their defense",
+            "If the choke doesn't finish, use the head control to sweep to top and finish from mount",
+            "Snap down to front headlock, then transition to go-behind for back take if choke isn't there"
+          ],
+          "simplifications": [
+            "Practice the snap-down from butterfly guard as a standalone drill",
+            "Drill identifying which choke to use based on arm position",
+            "Master one choke (guillotine) before adding d'arce and anaconda to the chain"
+          ]
+        },
+        {
+          "name": "Loop Choke (from Butterfly)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Use collar grips from butterfly guard to trap the opponent's neck in a loop choke when they pressure forward into the guard.",
+          "initialPosition": {
+            "body": "Seated in butterfly guard. Opponent is driving forward with low head position into your guard.",
+            "grips": "Deep cross collar grip — 4 fingers inside, fed across the back of their neck to create the loop. Other hand controls their posture.",
+            "legs": "Butterfly hooks keep opponent close and prevent them from backing out of the choke.",
+            "hips": "Angled toward the collar grip side, falling back to tighten the loop."
+          },
+          "greenLights": [
+            "You've fed a deep collar grip across the back of their neck",
+            "Opponent is driving forward with their head low — walking into the choke",
+            "Butterfly hooks anchor them close so they can't back away",
+            "Opponent is not defending their collar"
+          ],
+          "redLights": [
+            "Opponent has strong upright posture — can't feed the collar deep",
+            "Collar grip is too shallow for the loop to be effective",
+            "Opponent is pulling away and hooks can't keep them close",
+            "Opponent is actively grip-fighting your collar hand"
+          ],
+          "steps": [
+            "From butterfly guard, feed your hand DEEP into their cross collar (4 fingers inside). Pull collar across and behind their neck to form the loop.",
+            "As opponent drives forward, tighten the loop by pulling the collar grip toward your chest. Butterfly hooks prevent them from backing out.",
+            "Fall to the collar-grip side while pulling their head into the loop. Your other hand can assist by pushing their head down.",
+            "Squeeze by pulling the collar tight across their neck. The loop compresses the carotid arteries."
+          ],
+          "complexpieces": [
+            "Set up during their pass attempt — feed the collar as they try to clear your hooks",
+            "Chain with cross collar choke: if the loop doesn't finish, the grip is set for the second hand",
+            "Use the loop choke threat to set up sweeps — they posture to defend, opening sweep angles"
+          ],
+          "simplifications": [
+            "Practice feeding the collar grip deep behind the neck — depth is everything",
+            "Drill the loop formation against a static partner from butterfly guard",
+            "Focus on the timing: feed the collar as they drive in, not when they're pulling away"
+          ]
+        },
+        {
+          "name": "Crossface Pressure Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Apply strong crossface pressure to flatten the butterfly guard player, clear their hooks, and pass to side control.",
+          "initialPosition": {
+            "body": "Kneeling or in combat base in opponent's butterfly guard. Driving forward with shoulder into their face/jaw.",
+            "grips": "Crossface arm: forearm or shoulder driving across their jaw. Underhook or arm control on the other side.",
+            "legs": "Knees tight, sprawling slightly to flatten them. Working to clear butterfly hooks with hip pressure.",
+            "hips": "Driving LOW and FORWARD with heavy chest and shoulder pressure."
+          },
+          "greenLights": [
+            "You can establish crossface pressure — shoulder on their jaw line",
+            "Opponent's butterfly hooks are shallow and clearable",
+            "Your weight is driving them flat to their back",
+            "Opponent is defensive and not actively sweeping"
+          ],
+          "redLights": [
+            "Opponent has a strong underhook preventing your crossface",
+            "They're actively elevating with hooks — you're being swept",
+            "You're too upright — not enough shoulder pressure to flatten them",
+            "Opponent is transitioning to X-guard or SLX underneath you"
+          ],
+          "steps": [
+            "Close the distance and drive your shoulder/forearm ACROSS their jaw (crossface). Turn their head away from you.",
+            "Sprawl your hips slightly to create downward pressure. Your chest drives into their torso, flattening them.",
+            "Clear butterfly hooks by pushing one knee down with your shin or stepping over their hook.",
+            "Pass to side control with constant crossface pressure. Secure hip control once past the hooks."
+          ],
+          "complexpieces": [
+            "If they re-establish a hook, switch to body lock pass while maintaining crossface",
+            "Chain with knee slice: use the crossface to set up the slice across their leg",
+            "If they underhook, switch sides and crossface the other direction"
+          ],
+          "simplifications": [
+            "Practice the crossface shoulder drive as a pressure drill",
+            "Drill clearing hooks while maintaining crossface — two separate skills combined",
+            "Focus on staying LOW — the most common mistake is rising up and losing pressure"
+          ]
+        },
+        {
+          "name": "Body Lock Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Lock your hands around the opponent's torso from inside butterfly guard and drive forward to flatten them, clearing hooks with body lock pressure.",
+          "initialPosition": {
+            "body": "Kneeling in opponent's butterfly guard. Chest-to-chest, wrapping both arms around their torso.",
+            "grips": "Both arms wrap around opponent's torso — hands clasped together behind their back in a body lock.",
+            "legs": "Knees tight together inside their butterfly hooks. Sprawling pressure drives hooks down and out.",
+            "hips": "Driving FORWARD and DOWN. Heavy hip pressure flattens them and pries hooks loose."
+          },
+          "greenLights": [
+            "You can lock your hands around their torso — body lock established",
+            "Opponent is unable to create space with their hooks due to your pressure",
+            "Your hip pressure is flattening their guard and clearing hooks",
+            "Opponent can't underhook or frame because your body lock traps their arms"
+          ],
+          "redLights": [
+            "Opponent has a strong underhook preventing the body lock",
+            "They're actively elevating with hooks — sweeping you before the lock settles",
+            "You can't close the body lock — arms aren't long enough or their frame blocks it",
+            "Opponent is transitioning to half guard or X-guard during the lock attempt"
+          ],
+          "steps": [
+            "Close distance and wrap both arms around opponent's torso. Clasp hands behind their back — body lock secured.",
+            "Drive hips FORWARD and DOWN with heavy pressure. Flatten them onto their back.",
+            "Clear butterfly hooks by stepping over them one at a time while maintaining the body lock. Hip switching helps clear hooks.",
+            "Pass to side control or mount once hooks are cleared. Maintain the body lock for control during the transition."
+          ],
+          "complexpieces": [
+            "If they re-hook during the pass, hip switch again to clear",
+            "Chain with crossface: release one arm from body lock, establish crossface, continue passing",
+            "Use the body lock to take mount by stepping over both hooks and sitting into mount"
+          ],
+          "simplifications": [
+            "Practice establishing the body lock from inside butterfly guard",
+            "Drill hip switching to clear hooks against light resistance",
+            "Focus on constant forward pressure — the body lock only works with weight driving through"
+          ]
+        },
+        {
+          "name": "Sprawl and Smash",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Sprawl your hips back when the opponent tries to elevate with butterfly hooks, then drive forward to smash their guard flat and pass.",
+          "initialPosition": {
+            "body": "In opponent's butterfly guard. Sprawling hips BACK when they attempt to elevate. Then driving forward to smash.",
+            "grips": "Overhook or head control to prevent their elevation. Other hand controls their arm or posts on the mat.",
+            "legs": "Sprawled back — hips low and heavy, removing the angle for their hooks to elevate.",
+            "hips": "Heavy and sprawled back. When hooks lose power, DRIVE forward to smash and flatten."
+          },
+          "greenLights": [
+            "Opponent is attempting the butterfly sweep — you feel the elevation coming",
+            "You can sprawl back fast enough to kill their hook power",
+            "Your hip sprawl removes the lifting angle from their hooks",
+            "Opponent is committed to the sweep and can't redirect when you sprawl"
+          ],
+          "redLights": [
+            "You sprawled too late and are already being elevated",
+            "Opponent switches to a different attack before you can drive forward",
+            "Your sprawl creates too much space and they transition to another guard",
+            "You don't have head or arm control to capitalize on the sprawl"
+          ],
+          "steps": [
+            "React to opponent's sweep attempt by SPRAWLING hips back immediately. Drop hips LOW to kill the hook's elevation power.",
+            "Establish overhook or head control to pin them as you sprawl. Their hooks lose leverage.",
+            "Once hooks are neutralized, DRIVE forward with hips and chest. Smash them flat onto their back.",
+            "Clear the weakened hooks and pass to side control or mount. Maintain constant forward pressure throughout."
+          ],
+          "complexpieces": [
+            "If they switch to arm drag as you sprawl, immediately redirect to a crossface pass",
+            "Chain: sprawl (kill sweep) → body lock → hip switch → pass to side control",
+            "Use the sprawl momentum to set up a d'arce choke as their head drops"
+          ],
+          "simplifications": [
+            "Practice the sprawl reaction as a timing drill — feel the hooks elevate, sprawl immediately",
+            "Drill the sprawl-to-forward-drive transition separately",
+            "Focus on keeping hips LOW during the sprawl — high hips still get swept"
+          ]
+        },
+        {
+          "name": "Leg Drag Pass (vs Butterfly)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Control one of the opponent's butterfly legs and drag it across your body to pass with tight hip control.",
+          "initialPosition": {
+            "body": "In opponent's butterfly guard. Grabbing one of their hooked legs to drag it across your body.",
+            "grips": "One hand grips opponent's pant leg at the ankle/shin (hooked leg). Other hand controls collar, belt, or far leg.",
+            "legs": "Stepping to the drag side as you pull their leg across. Strong base maintained.",
+            "hips": "Driving forward and to the side, pinning their dragged leg against your hip."
+          },
+          "greenLights": [
+            "You can grab their butterfly leg and redirect it across your body",
+            "Upper body grips are manageable — the drag won't trigger a sweep",
+            "You have a secondary grip for control during the pass",
+            "Opponent is flat and not actively elevating"
+          ],
+          "redLights": [
+            "Opponent has a strong underhook and is actively sweeping",
+            "They're transitioning to X-guard as you reach for the leg",
+            "You can't control the leg — they keep re-inserting the hook",
+            "Opponent is sitting up aggressively and threatening sweeps"
+          ],
+          "steps": [
+            "From inside their butterfly guard, grab one hooked leg at the pant cuff (ankle or shin area).",
+            "DRAG the leg across your body toward your opposite hip. Step to the drag side.",
+            "PIN the dragged leg against your hip with your body weight. Drive hips close to theirs — hip-to-hip.",
+            "Drop into side control on the drag side. Their hips are turned away, making reguarding very difficult."
+          ],
+          "complexpieces": [
+            "Chain with crossface: establish crossface on the drag side for immediate control",
+            "If they reguard, immediately switch to knee slice",
+            "Use the leg drag to set up a back take by stepping over to their back side"
+          ],
+          "simplifications": [
+            "Practice the leg grab and drag motion from inside butterfly guard",
+            "Drill the hip-to-hip pinning pressure from the drag position",
+            "Focus on the step to the drag side — footwork is critical"
+          ]
+        },
+        {
+          "name": "Knee Slice Pass (vs Butterfly)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Clear the butterfly hooks and drive your knee across the opponent's thigh to slice through and reach side control.",
+          "initialPosition": {
+            "body": "In opponent's butterfly guard. Working to clear hooks and insert knee across their thigh.",
+            "grips": "Near arm: crossface or collar grip. Far hand: controlling their pants, hook leg, or stripping grips.",
+            "legs": "Lead knee drops across opponent's thigh after clearing the butterfly hook. Rear leg posted for driving forward.",
+            "hips": "Driving forward and LOW through center as the knee slices across."
+          },
+          "greenLights": [
+            "You've cleared or flattened the butterfly hook enough to insert your knee across",
+            "Crossface or collar grip is established to flatten them",
+            "Their far-side hook is cleared or neutralized",
+            "Opponent is on their back and not re-inserting hooks"
+          ],
+          "redLights": [
+            "Butterfly hooks are still active and they're elevating",
+            "Opponent has strong underhook blocking the crossface",
+            "They're transitioning to X-guard or SLX underneath you",
+            "Opponent is sitting up aggressively while you attempt the slice"
+          ],
+          "steps": [
+            "Clear the butterfly hooks by sprawling, pushing them down, or stepping over. Close distance immediately.",
+            "Drop your near knee across their thigh. Secure crossface or collar grip to flatten them.",
+            "SLICE your knee forward through their legs with constant chest pressure. Keep hips LOW.",
+            "Clear past their legs and consolidate side control with crossface and hip control."
+          ],
+          "complexpieces": [
+            "If they re-insert a hook, backstep or hip switch to clear again",
+            "Chain with leg drag: fake knee slice, redirect to leg drag when they react",
+            "Use the collar grip to threaten a choke during the slice to distract"
+          ],
+          "simplifications": [
+            "Practice clearing butterfly hooks as a separate drill",
+            "Drill the knee slice from a static position without hooks",
+            "Focus on constant shoulder pressure throughout the slice — don't rise up"
+          ]
+        },
+        {
+          "name": "Stack Pass (vs Butterfly)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Drive the opponent's knees toward their chest from butterfly guard to collapse their structure and pass using stacking pressure.",
+          "initialPosition": {
+            "body": "In opponent's butterfly guard. Driving forward to collapse their leg structure and stack them.",
+            "grips": "Controlling opponent's legs at the knees or thighs, pushing them toward their chest. Or underhooks dragging them up.",
+            "legs": "Stepping forward. Knees driving into their legs to compress their structure.",
+            "hips": "Driving FORWARD and DOWN, stacking opponent's hips over their shoulders."
+          },
+          "greenLights": [
+            "You can drive forward and their hooks lose elevation power",
+            "You can push their knees toward their chest effectively",
+            "Opponent is relatively flat and can't maintain distance",
+            "Upper body control prevents them from framing you away"
+          ],
+          "redLights": [
+            "Hooks are powerful and they're elevating you off the mat",
+            "Opponent has strong frames (arms straight) preventing you from closing distance",
+            "They're transitioning to another guard as you stack",
+            "Opponent is very flexible and stacking has minimal effect"
+          ],
+          "steps": [
+            "Close distance and drive forward, pushing opponent's knees toward their chest. Kill the hook elevation angle.",
+            "Stack their hips OVER their head with shoulder pressure into their thighs. Head on the passing side.",
+            "Walk around to passing side while maintaining constant stacking pressure. Don't let them unstack.",
+            "Clear the legs and drop into side control. Secure crossface and hip control."
+          ],
+          "complexpieces": [
+            "Chain with leg drag: if they kick out of the stack, redirect to leg drag",
+            "If their grips prevent stacking, strip grips first then immediately drive forward",
+            "Use the stack to set up a choke (d'arce, anaconda) as their head drops during the pass"
+          ],
+          "simplifications": [
+            "Practice the forward stacking drive against butterfly as a pressure drill",
+            "Drill clearing hooks through stacking rather than individual hook removal",
+            "Focus on constant forward pressure — the biggest mistake is letting them re-establish distance"
+          ]
+        },
+        {
+          "name": "Backstep Pass (vs Butterfly)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Step back and around when the opponent elevates for sweeps from butterfly guard, using the backstep to kill the hook's power and pass.",
+          "initialPosition": {
+            "body": "In opponent's butterfly guard. They're attempting to elevate — you step backward and around to neutralize the sweep.",
+            "grips": "Controlling opponent's legs or upper body. Maintaining grips as you backstep to prevent them from following.",
+            "legs": "Stepping one leg FAR back and around the hook side. Removing the hook's leverage by changing your angle.",
+            "hips": "Turning hips away from the hook as you backstep, removing the elevation angle."
+          },
+          "greenLights": [
+            "Opponent is committing to a butterfly sweep — the elevation is coming",
+            "You can feel which hook is the sweeping hook and backstep that side",
+            "Your balance allows a controlled backstep without stumbling",
+            "Opponent is committed and can't redirect once you backstep"
+          ],
+          "redLights": [
+            "You're already being elevated — too late for a controlled backstep",
+            "Opponent switches to arm drag as you backstep — gives up your back",
+            "Your balance is compromised and the backstep would make you fall",
+            "Both hooks are equally active — unclear which side to backstep"
+          ],
+          "steps": [
+            "React to opponent's butterfly sweep attempt. Identify the sweeping-side hook.",
+            "BACKSTEP with the leg on the sweeping side — step it far back and around. Turn your hips away from the hook.",
+            "The backstep removes the hook's elevation power. Immediately drive forward to prevent reguarding.",
+            "Pass to side control or transition to a toreando/knee slice as opponent's guard is disrupted."
+          ],
+          "complexpieces": [
+            "Chain with leg entanglement: backstep directly into a leg lock position instead of passing",
+            "If they follow the backstep with a re-hook, immediately hip switch and pass the other side",
+            "Use the backstep to time a crossface — as you step back, their head is exposed"
+          ],
+          "simplifications": [
+            "Practice the backstep reaction as a timing drill against sweep attempts",
+            "Drill the backstep footwork solo — step back, turn hips, drive forward",
+            "Focus on the immediate forward drive AFTER the backstep — don't pause at distance"
           ]
         }
       ]

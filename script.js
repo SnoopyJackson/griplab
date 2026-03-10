@@ -509,7 +509,8 @@ const ACTIVITY_META = {
     bjj:       { label: 'BJJ (Gi)',   emoji: '🥋', color: '#a855f7' },
     nogi:      { label: 'No-Gi',      emoji: '🤼', color: '#00d4ff' },
     wrestling: { label: 'Wrestling',  emoji: '🏋️', color: '#f59e0b' },
-    lifting:   { label: 'Lifting',    emoji: '💪', color: '#ef4444' }
+    lifting:   { label: 'Lifting',    emoji: '💪', color: '#ef4444' },
+    yoga:      { label: 'Yoga',       emoji: '🧘', color: '#10b981' }
 };
 
 function getTrainingLog() {
@@ -838,9 +839,16 @@ function renderWarRoomTechniques() {
     });
 }
 
-// Export
+// Export — dumps ALL localStorage so nothing is lost
 function exportTrainingLog() {
+    const allData = {};
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        try { allData[key] = JSON.parse(localStorage.getItem(key)); }
+        catch { allData[key] = localStorage.getItem(key); }
+    }
     const data = {
+        localStorage: allData,
         trainingLog: getTrainingLog(),
         techniqueProgress: initializeProgress(),
         exportedAt: new Date().toISOString()
@@ -854,7 +862,7 @@ function exportTrainingLog() {
     URL.revokeObjectURL(url);
 }
 
-// Import
+// Import — restores full localStorage snapshot when available, falls back to legacy keys
 function importTrainingLog(event) {
     const file = event.target.files[0];
     if (!file) return;
@@ -871,14 +879,21 @@ function importTrainingLog(event) {
 
             if (!confirm('This will replace your current training log and technique progress. Continue?')) return;
 
-            saveTrainingLog(data.trainingLog);
-
-            if (data.techniqueProgress) {
-                saveProgress(data.techniqueProgress);
-                renderProgressSection();
-                renderGuards();
+            // Restore full localStorage snapshot if present
+            if (data.localStorage && typeof data.localStorage === 'object') {
+                for (const [key, value] of Object.entries(data.localStorage)) {
+                    localStorage.setItem(key, typeof value === 'string' ? value : JSON.stringify(value));
+                }
+            } else {
+                // Legacy import: only trainingLog + techniqueProgress
+                saveTrainingLog(data.trainingLog);
+                if (data.techniqueProgress) {
+                    saveProgress(data.techniqueProgress);
+                }
             }
 
+            renderProgressSection();
+            renderGuards();
             renderTrainingLogSection();
             alert('Data imported successfully!');
         } catch {
