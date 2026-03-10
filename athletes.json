@@ -542,7 +542,7 @@
   {
     "id": 58,
     "name": "Gabi Pessanha",
-    "image": "images/gabipessanha.jpg",
+    "image": "images/gabipessanha.webp",
     "signatures": {
       "guard": "Closed Guard",
       "sweep": "Scissor Sweep",
@@ -553,7 +553,7 @@
   {
     "id": 59,
     "name": "Gabi Garcia",
-    "image": "images/gabigarcia.jpg",
+    "image": "images/gabigarcia.webp",
     "signatures": {
       "guard": "Closed Guard",
       "sweep": "Hip Bump Sweep",
@@ -564,7 +564,7 @@
   {
     "id": 60,
     "name": "Leticia Ribeiro",
-    "image": "images/leticiaribeiro.jpg",
+    "image": "images/leticiaribeiro.webp",
     "signatures": {
       "guard": "Closed Guard",
       "sweep": "Scissor Sweep",
