@@ -1007,6 +1007,48 @@
           ]
         },
         {
+  "name": "Menotte Closed Guard Pass (Mako)",
+  "category": "pass",
+  "perspective": "top",
+  "goal": "Use the menotte (handcuff-style arm control) to trap the opponent’s arms together, break posture safely, open the closed guard, and pass while they are immobilized.",
+  "initialPosition": {
+    "body": "Inside opponent’s closed guard with upright posture. Opponent attempting to control sleeves or collar.",
+    "grips": "Secure a two-on-one style control that brings one of their arms across their centerline and traps it against their other arm (menotte configuration). Hands connect palm-to-palm or gable grip to immobilize both arms.",
+    "legs": "Stable base — knees wide, toes active. Hips heavy and centered to prevent sweeps.",
+    "hips": "Neutral and balanced. Avoid leaning too far forward before arm control is secured."
+  },
+  "greenLights": [
+    "You successfully trap one arm across their body",
+    "Their hands are pinned together (menotte secured)",
+    "Opponent cannot effectively frame or collar grip",
+    "Their posture is compromised and shoulders are flat"
+  ],
+  "redLights": [
+    "Posture is broken before securing the menotte",
+    "Opponent has strong sleeve/collar control preventing arm drag",
+    "You lean forward without arm control (risk of triangle/armbar)",
+    "Opponent opens guard first and creates angle"
+  ],
+  "steps": [
+    "From inside closed guard, isolate one of their arms and drag it across their centerline.",
+    "Trap that arm against their other arm, securing a tight menotte (handcuff-style) grip so both arms are immobilized.",
+    "Apply forward shoulder pressure to pin their arms toward their chest while maintaining strong posture and base.",
+    "Stand or wedge a knee to begin opening the closed guard while keeping the menotte tight.",
+    "Once the guard opens, immediately angle off toward the trapped-arm side and pass (knee slide or walk-around) while their arms remain controlled.",
+    "Settle into side control, maintaining upper-body dominance before releasing the grip."
+  ],
+  "complexpieces": [
+    "Transition directly to arm triangle if their arms stay compressed",
+    "Chain into knee slide pass once guard opens",
+    "If they resist the arm drag, switch to standard arm drag to back take"
+  ],
+  "simplifications": [
+    "Drill the arm-drag-to-menotte transition from seated guard first",
+    "Practice holding the menotte while partner gives light resistance",
+    "Start with guard loosely closed to focus on arm trapping mechanics"
+  ]
+},
+        {
           "name": "Carlson Gracie Jr. Sitting Guard Break",
           "category": "pass",
           "perspective": "top",
