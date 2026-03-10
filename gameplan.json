@@ -2419,6 +2419,1214 @@
       ]
     },
     {
+      "id": "de-la-riva",
+      "name": "De La Riva",
+      "emoji": "🪝",
+      "description": "Open guard position where the bottom player hooks the outside of the opponent's lead leg with their own leg while controlling grips to off-balance, create angles, and attack sweeps, back takes, or transitions to other guards.",
+      "techniques": [
+        {
+          "name": "Classic De La Riva Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Use the DLR hook and sleeve or collar grip to off-balance the opponent and sweep them to the side by pulling their base out from under them.",
+          "initialPosition": {
+            "body": "Lying on your back with DLR hook established on opponent's lead leg. Hips angled away from the hooked leg.",
+            "grips": "Far-side collar grip or sleeve grip to control their upper body. Other hand grips their far ankle or pant leg.",
+            "legs": "DLR hook: outside leg hooks behind opponent's lead calf, shin wrapping around, foot hooking inside thigh. Free leg: foot on their far hip or thigh for pushing.",
+            "hips": "Angled away from the hooked leg, creating off-balance pressure. Hips slightly elevated off the mat."
+          },
+          "greenLights": [
+            "DLR hook is deep and tight around opponent's lead leg",
+            "You have a strong collar or sleeve grip controlling their posture",
+            "Opponent's weight is shifting forward over their lead leg",
+            "You can reach their far ankle to remove their posting base"
+          ],
+          "redLights": [
+            "Opponent has broken your DLR hook by backstepping",
+            "You've lost your upper body grip — no way to pull them off-balance",
+            "Opponent has a very wide base with weight on the back foot",
+            "Opponent is actively stripping your hook with their hands"
+          ],
+          "steps": [
+            "Establish DLR hook on opponent's lead leg — shin wraps behind their calf, foot hooks inside their thigh. Maintain constant tension in the hook.",
+            "Grip their far-side collar (pulling them forward and down) and their far ankle or pant cuff with your other hand.",
+            "PULL them forward with the collar grip while simultaneously pulling their far ankle toward you. Push their hooked leg with your DLR hook in the opposite direction.",
+            "Their base collapses sideways. Come up to top position maintaining grips. Establish side control or a passing position."
+          ],
+          "complexpieces": [
+            "If they resist the sweep by posting, transition to berimbolo for a back take",
+            "Chain with collar drag: if the sweep is blocked, use the collar grip to drag them forward and take the back",
+            "Transition to X-guard if they step their far leg close enough"
+          ],
+          "simplifications": [
+            "Practice the DLR hook insertion and tension maintenance as a standalone drill",
+            "Drill the push-pull mechanics — hook pushes one direction, grips pull the other",
+            "Start with opponent standing still to learn the sweeping angle before adding resistance"
+          ]
+        },
+        {
+          "name": "Berimbolo",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Invert underneath the opponent from DLR guard to take their back or complete a sweep by rotating under their base.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard, preparing to invert. Body will rotate underneath opponent.",
+            "grips": "Belt grip or pants grip on the near side. Other hand grips their far sleeve or collar for control during rotation.",
+            "legs": "DLR hook on lead leg. Free leg assists the inversion by posting on the mat or on their hip.",
+            "hips": "Inverting — rolling onto your shoulders and spinning underneath opponent's base."
+          },
+          "greenLights": [
+            "DLR hook is deep and you have a strong belt or pants grip",
+            "Opponent's weight is forward over their lead leg — they're loaded for the inversion",
+            "You have enough space to invert underneath without being smashed",
+            "Opponent is reacting to a sweep attempt — the berimbolo catches them in transition"
+          ],
+          "redLights": [
+            "Opponent is sprawling back with hips far away — can't get underneath",
+            "Your DLR hook has been stripped — no anchor for the rotation",
+            "Opponent is driving heavy pressure directly down on you",
+            "You lack the comfort or drilling with inversion mechanics"
+          ],
+          "steps": [
+            "From DLR guard, secure a belt or pants grip. Pull opponent's weight forward over their lead leg.",
+            "Invert underneath them — roll onto your shoulders, spin your hips UNDER their base while maintaining the DLR hook and belt grip.",
+            "As you rotate underneath, look for their back. Your DLR leg transitions to become a hook. Use your free hand to secure a seatbelt or second hook.",
+            "Complete the back take by inserting both hooks and securing seatbelt control. Or, if they sprawl, complete the sweep to top position."
+          ],
+          "complexpieces": [
+            "Chain with kiss of the dragon if the berimbolo angle is blocked",
+            "If they sprawl during the berimbolo, come up with a single leg takedown",
+            "Fake the berimbolo and redirect to a classic DLR sweep when they overreact"
+          ],
+          "simplifications": [
+            "Practice inversion rolls solo — get comfortable being upside down before adding a partner",
+            "Drill the berimbolo motion with a cooperative partner at slow speed",
+            "Break into phases: (1) DLR to inversion, (2) rotation under, (3) back take or sweep finish"
+          ]
+        },
+        {
+          "name": "Babybolo",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "A simplified berimbolo-style back take using DLR control to off-balance and invert underneath the opponent without requiring full inversion depth.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard. Preparing for a shallow inversion — less depth than full berimbolo.",
+            "grips": "Belt or pants grip on the near side. Other hand controls sleeve or collar for stability.",
+            "legs": "DLR hook on lead leg. Free leg posts on the mat or their hip to assist the rotation.",
+            "hips": "Rotating underneath but with less depth — staying closer to the surface."
+          },
+          "greenLights": [
+            "DLR hook is established and opponent's weight is forward",
+            "You want to take the back but a full berimbolo feels too deep",
+            "Opponent is reacting to sweeps and their base is momentarily disrupted",
+            "You have a strong belt grip to guide the rotation"
+          ],
+          "redLights": [
+            "Opponent has heavy sprawl pressure preventing any inversion",
+            "DLR hook has been cleared — no anchor point",
+            "Opponent is actively backstepping to counter inversion attempts",
+            "You don't have a belt or pants grip for the rotation control"
+          ],
+          "steps": [
+            "From DLR guard, secure belt or pants grip and pull opponent's weight forward.",
+            "Begin a shallow inversion — rotate your hips underneath but don't go as deep as a full berimbolo. Keep the movement compact.",
+            "Use the DLR hook and belt grip to expose their back as you rotate. Your free leg comes around to become a hook.",
+            "Insert hooks and secure seatbelt. Complete the back take from a closer, more controlled distance than a full berimbolo."
+          ],
+          "complexpieces": [
+            "If the babybolo stalls, commit deeper for a full berimbolo",
+            "Chain with collar drag — if they resist the inversion, drag them forward instead",
+            "Transition to single leg X if you can't complete the back take"
+          ],
+          "simplifications": [
+            "Practice the shallow inversion motion solo — it's less intimidating than full berimbolo",
+            "Drill with a cooperative partner focusing on the back exposure, not the full take",
+            "Master the DLR hook and belt grip connection first — the rotation builds on that"
+          ]
+        },
+        {
+          "name": "Kiss of the Dragon",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Invert under the opponent's leg and rotate around to take the back by threading through underneath their base from DLR guard.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard. Preparing to thread under opponent's leg and come out behind them.",
+            "grips": "Pants grip on the near leg. Other hand may grip far ankle, sleeve, or mat for rotation control.",
+            "legs": "DLR hook on lead leg. Free leg assists the threading motion under their body.",
+            "hips": "Inverting and threading under their lead leg, rotating to emerge behind them."
+          },
+          "greenLights": [
+            "DLR hook is deep and you have pants control on the near leg",
+            "Opponent's weight is forward — space exists to thread underneath",
+            "Opponent is not sprawling — their hips are accessible",
+            "You're comfortable with inversion and can see the path to their back"
+          ],
+          "redLights": [
+            "Opponent is sprawling with hips very far back — no space to thread",
+            "They've stripped your DLR hook and you have no anchor",
+            "Opponent is aware and blocking the inversion with crossface pressure",
+            "You're not comfortable inverting — forced attempts risk neck injury"
+          ],
+          "steps": [
+            "From DLR guard, control the near-side pants and begin inverting. Thread your body UNDER their lead leg, rotating on your shoulders.",
+            "As you thread through, your DLR hook guides you around their leg. Spin underneath their base toward their back side.",
+            "Emerge behind them with your head on the far side. Immediately secure a seatbelt grip (one arm over, one under).",
+            "Insert hooks and establish full back control. If they turn to face you, complete a sweep to top position instead."
+          ],
+          "complexpieces": [
+            "Chain with berimbolo — if kiss of the dragon path is blocked, redirect to berimbolo angle",
+            "If they sprawl as you thread, transition to a crab ride for back control",
+            "Use as a counter when opponent tries to pass with a knee slice — thread under the slicing leg"
+          ],
+          "simplifications": [
+            "Practice the threading/inversion path solo with no partner first",
+            "Drill with a cooperative partner standing still to learn the rotation angle",
+            "Focus on the shoulder roll and neck safety — never force the inversion"
+          ]
+        },
+        {
+          "name": "Sit-Up Sweep (DLR Variation)",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Come up to a seated position while maintaining the DLR hook and drive forward for a sweep, using the hook as an anchor while wrestling up.",
+          "initialPosition": {
+            "body": "Transitioning from lying in DLR guard to sitting up. Driving forward into opponent.",
+            "grips": "Collar grip or sleeve grip pulling opponent toward you. Other hand posts on the mat to help you sit up.",
+            "legs": "DLR hook maintained on lead leg. Free leg posts on the mat for base as you rise.",
+            "hips": "Driving forward and upward as you sit up into opponent's base."
+          },
+          "greenLights": [
+            "Opponent's weight is back — they're leaning away and not pressuring forward",
+            "You have a strong collar or sleeve grip to pull yourself up",
+            "The DLR hook gives you an anchor to drive forward from",
+            "Opponent is not expecting you to sit up — they're focused on standing guard play"
+          ],
+          "redLights": [
+            "Opponent is pressuring forward heavily — sitting up into their pressure is risky",
+            "You've lost the DLR hook — no anchor to drive from",
+            "Your collar/sleeve grip is too weak to pull yourself upright",
+            "Opponent is actively trying to pass and you need to defend first"
+          ],
+          "steps": [
+            "From DLR guard, secure a strong collar or sleeve grip. Post your free hand on the mat behind you.",
+            "Sit up explosively while maintaining the DLR hook. Pull yourself toward them using the grip.",
+            "As you come up to seated, drive FORWARD into opponent. The DLR hook acts as an anchor preventing them from retreating.",
+            "Complete the sweep by driving them backward or transition to a single leg takedown from the seated position."
+          ],
+          "complexpieces": [
+            "If they resist the sit-up by pushing you back, immediately attack a collar drag to their back",
+            "Transition to a single leg: release the DLR hook and attack the same leg",
+            "Chain with classic DLR sweep: sit up (they push back), immediately lie back and sweep the opposite direction"
+          ],
+          "simplifications": [
+            "Practice the sit-up motion from DLR as a solo movement drill",
+            "Drill maintaining the DLR hook while sitting up — the hook often slips during the transition",
+            "Start with partner offering light resistance to learn the forward drive angle"
+          ]
+        },
+        {
+          "name": "Balloon Sweep (DLR)",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Use grips and leg extension to elevate the opponent overhead from DLR guard, launching them over you for a sweep.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard. Scooting underneath opponent to load their weight onto your feet.",
+            "grips": "Collar and sleeve grips pulling opponent forward. Both grips pull their weight over you.",
+            "legs": "DLR hook releases and both feet transition to opponent's hips/stomach for elevation. Legs coiled, ready to extend.",
+            "hips": "Underneath opponent's center of gravity, positioned to launch them overhead."
+          },
+          "greenLights": [
+            "Opponent's weight is fully committed forward over you",
+            "You can load their weight onto your feet for the elevation",
+            "Strong collar and sleeve grips prevent them from posting their hands",
+            "Opponent is leaning forward trying to pass or disengage"
+          ],
+          "redLights": [
+            "Opponent is sitting back with hips away — can't load their weight",
+            "You've lost a grip and they can post a hand to block",
+            "Opponent has a very wide low base",
+            "Your hips aren't underneath them enough for proper elevation angle"
+          ],
+          "steps": [
+            "From DLR guard, pull opponent forward with collar and sleeve grips. Scoot your hips underneath them.",
+            "Release the DLR hook and place both feet on their hips or stomach. Load their weight onto your feet.",
+            "EXTEND legs explosively overhead while PULLING the grips past your head. Launch them over you.",
+            "Roll through to top position as they land. Maintain at least one grip for immediate control."
+          ],
+          "complexpieces": [
+            "If they base out during the elevation, redirect to a lateral DLR sweep",
+            "Chain with overhead sweep: same concept but different leg angle and grip adjustment",
+            "Use single spider (one foot on bicep) variation for more controlled elevation"
+          ],
+          "simplifications": [
+            "Practice loading their weight onto your feet — the most important part of the setup",
+            "Drill the hip scoot underneath as a separate movement",
+            "Start with a cooperative/lighter partner to learn elevation timing"
+          ]
+        },
+        {
+          "name": "DLR to X-Guard Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Transition from DLR guard to X-guard by inserting both hooks around opponent's leg, then sweep from the X-guard leg entanglement.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard, transitioning underneath opponent to establish X-guard hooks.",
+            "grips": "Sleeve or ankle grip controlling opponent's upper body or far leg. Hands adjust as you transition to X-guard.",
+            "legs": "DLR hook transitions: one leg hooks behind opponent's near knee (bottom hook), other leg places foot on their far hip/thigh (top hook) — forming the X.",
+            "hips": "Scooting underneath opponent's center of gravity for the X-guard position."
+          },
+          "greenLights": [
+            "Opponent steps their far leg close enough to establish the second X-guard hook",
+            "Your DLR hook is deep and you can transition it to the bottom X-guard hook",
+            "Opponent is standing with weight forward — ideal for X-guard entry",
+            "You can scoot your hips underneath their base"
+          ],
+          "redLights": [
+            "Opponent's legs are too far apart to establish both X-guard hooks",
+            "Opponent is stepping back away from you — can't get underneath",
+            "Your DLR hook has been stripped during the transition",
+            "Opponent is kneeling — X-guard needs them standing or in combat base"
+          ],
+          "steps": [
+            "From DLR guard, scoot your hips under opponent's center of gravity. Control their sleeve or far ankle.",
+            "Transition your DLR hook to become the bottom X-guard hook behind their near knee. Place your other foot on their far hip as the top hook.",
+            "Pinch your knees to control the trapped leg. You're now in X-guard with both hooks forming an X around their leg.",
+            "Sweep by elevating with the bottom hook while the top hook steers. Push-pull to topple their base. Come up to top position."
+          ],
+          "complexpieces": [
+            "If X-guard sweep is blocked, transition to single leg X for ankle lock or different sweep angle",
+            "Chain with technical stand-up: come up to your feet from X-guard while controlling their leg",
+            "Use the X-guard to take the back by off-balancing forward and circling behind"
+          ],
+          "simplifications": [
+            "Practice the DLR to X-guard hook transition as a standalone drill",
+            "Drill X-guard sweeps separately once the position is established",
+            "Focus on the hip scoot underneath — getting deep enough is the key to X-guard"
+          ]
+        },
+        {
+          "name": "DLR to Single Leg X Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Drop underneath the opponent from DLR guard to enter single leg X (ashi garami) and sweep by controlling their ankle and pushing their hip.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard, transitioning to sit directly underneath opponent with their leg isolated.",
+            "grips": "Controlling opponent's near ankle or pant cuff. Other hand grips sleeve or posts on the mat.",
+            "legs": "Inside leg hooks behind opponent's near knee (primary hook). Outside foot pushes on their far hip for control and distance.",
+            "hips": "Directly underneath opponent's base with their leg isolated between yours."
+          },
+          "greenLights": [
+            "Opponent is standing with their lead leg accessible for isolation",
+            "You can drop underneath and control their ankle",
+            "The DLR hook transitions naturally to the inside SLX hook",
+            "Opponent's far leg is within reach of your pushing foot"
+          ],
+          "redLights": [
+            "Opponent is kneeling — SLX works best against a standing opponent",
+            "You can't control their ankle — they'll retract the leg",
+            "Opponent is sprawling back, preventing you from getting underneath",
+            "Your DLR hook has been stripped during the transition"
+          ],
+          "steps": [
+            "From DLR guard, scoot underneath opponent. Control their near ankle with your hand.",
+            "Transition your DLR hook to the inside SLX hook — behind their near knee. Place your other foot on their far hip.",
+            "PUSH their far hip with your foot while PULLING their ankle toward you. This off-balances them backward.",
+            "They topple backward or to the side. Come up to top position. Or transition to leg attacks from the SLX position."
+          ],
+          "complexpieces": [
+            "From SLX, attack straight ankle lock or heel hook instead of sweeping",
+            "If sweep is blocked, insert second hook for full X-guard",
+            "Chain with technical stand-up: come up while controlling the ankle for a single leg finish"
+          ],
+          "simplifications": [
+            "Practice the DLR to SLX transition as an isolated movement drill",
+            "Drill the push-pull sweep mechanic from SLX (foot on hip, hand on ankle)",
+            "Focus on ankle control — losing the ankle means losing the sweep"
+          ]
+        },
+        {
+          "name": "Collar Drag to Back Take",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Use a collar drag from DLR guard to spin behind the opponent and secure back control by pulling them forward and past you.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard, preparing to pull opponent forward and spin behind them.",
+            "grips": "Deep cross collar grip — 4 fingers inside, pulling them forward and down. Other hand may grip sleeve or post on the mat.",
+            "legs": "DLR hook on lead leg providing an anchor. Free leg posts on mat or pushes far hip.",
+            "hips": "Ready to hip escape and spin behind opponent as they're pulled forward."
+          },
+          "greenLights": [
+            "You have a deep cross collar grip and can pull them forward powerfully",
+            "Opponent's weight is forward — the drag accelerates their momentum",
+            "Your DLR hook anchors you while you spin behind",
+            "Opponent isn't defending their back — focused on the guard"
+          ],
+          "redLights": [
+            "Collar grip is too shallow — insufficient pulling power",
+            "Opponent is leaning back with hips away — the drag won't pull them forward",
+            "You've lost the DLR hook — no anchor to spin from",
+            "Opponent is actively clearing your grips"
+          ],
+          "steps": [
+            "From DLR guard, feed your hand DEEP into their cross collar (4 fingers inside). Establish a strong pulling grip.",
+            "DRAG them forward and down with the collar grip. Pull them past your body — their momentum takes them over you.",
+            "As they stumble forward, release the DLR hook, hip escape, and spin BEHIND them. You're moving to their back as they fall forward.",
+            "Secure seatbelt grip (one arm over shoulder, one under armpit) and insert hooks. Establish full back control."
+          ],
+          "complexpieces": [
+            "If the drag doesn't fully expose the back, transition to a single leg from the seated position",
+            "Chain: collar drag (they resist) → immediately hit a classic DLR sweep in the opposite direction",
+            "Use the arm drag variation if the collar drag is blocked — switch to two-on-one on their arm"
+          ],
+          "simplifications": [
+            "Practice the collar drag pull as an isolated grip and pull drill",
+            "Drill the spin-behind movement separately from the collar drag",
+            "Start with partner standing still to learn the dragging angle and back take path"
+          ]
+        },
+        {
+          "name": "DLR to Matrix",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "From DLR guard, invert under your opponent while maintaining hook and grip control, rotating beneath them to expose their back and enter the Matrix position for a back take or sweeping finish.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard, preparing for inversion to the Matrix position. Body rotates under opponent.",
+            "grips": "Belt or pants grip on near side. Other hand controls sleeve, collar, or far ankle for rotation stability.",
+            "legs": "DLR hook deep on lead leg. Free leg assists the inversion and rotation under opponent.",
+            "hips": "Inverting and rotating — threading underneath opponent similar to berimbolo but entering the Matrix angle."
+          },
+          "greenLights": [
+            "DLR hook is deep and you have a strong belt/pants grip",
+            "Opponent's weight is forward — space to invert underneath",
+            "You're comfortable with inversion mechanics",
+            "Classic DLR sweep or berimbolo has been blocked — Matrix is the redirect"
+          ],
+          "redLights": [
+            "Opponent is sprawling with heavy downward pressure",
+            "DLR hook has been stripped — no anchor for rotation",
+            "You're not comfortable inverting — don't force it",
+            "Opponent is actively backstepping to prevent inversion entries"
+          ],
+          "steps": [
+            "From DLR guard, secure belt/pants grip and pull opponent's weight forward. Begin inverting underneath them.",
+            "Rotate beneath their base while maintaining the DLR hook — thread through to the Matrix angle (you're underneath but angled to expose their back from a different position than berimbolo).",
+            "From the Matrix position, use your hooks and grips to expose their back. Work to secure seatbelt control.",
+            "Complete the back take by inserting hooks and controlling the seatbelt. Or finish with a sweep to top position if the back take is blocked."
+          ],
+          "complexpieces": [
+            "Chain Matrix with berimbolo — if one angle is blocked, redirect to the other",
+            "Use Matrix entry to set up crab ride for back control",
+            "If opponent defends the back take, come out with a sweep to top and immediately pass"
+          ],
+          "simplifications": [
+            "Practice inversion to the Matrix angle as a solo drill first",
+            "Drill the DLR to Matrix transition with a cooperative partner at slow speed",
+            "Master the berimbolo first — Matrix builds on similar inversion mechanics"
+          ]
+        },
+        {
+          "name": "DLR Wrestle-Up Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "From DLR guard, off-balance your opponent backward, release the guard, and come up to standing while maintaining control to wrestle up into top position.",
+          "initialPosition": {
+            "body": "In DLR guard, transitioning from lying to standing. Wrestling up into opponent.",
+            "grips": "Collar and sleeve grip, or two-on-one on their arm. Grips pull you up and control them as you stand.",
+            "legs": "DLR hook releases as you stand. Free leg posts on the mat to push yourself up.",
+            "hips": "Driving upward and forward into opponent as you rise to your feet."
+          },
+          "greenLights": [
+            "Opponent's weight is shifted backward — they're not pressuring you",
+            "You have strong pulling grips (collar, sleeve, or two-on-one)",
+            "Space exists to come up to your feet",
+            "Opponent is expecting guard play, not a wrestling-style stand-up"
+          ],
+          "redLights": [
+            "Opponent is driving heavy pressure forward on top of you",
+            "You can't establish strong enough grips to pull yourself up",
+            "Opponent is actively passing and you need to defend the guard first",
+            "Your base is compromised and you can't post to stand"
+          ],
+          "steps": [
+            "From DLR guard, off-balance opponent backward with your hook and grips. Create a moment where they're not pressuring you.",
+            "Post your free hand on the mat and begin standing up. Maintain your grips on their collar/sleeve for control.",
+            "Release the DLR hook and come to your feet. Drive forward into them with your grips, staying chest-to-chest.",
+            "Complete the takedown — single leg, double leg, or body lock — from the standing clinch position. Establish top control."
+          ],
+          "complexpieces": [
+            "If they push you back down, re-establish DLR guard immediately and attack sweeps",
+            "Chain with arm drag: wrestle up with a two-on-one, then arm drag to the back",
+            "Transition to a snap-down if they posture too upright when you stand"
+          ],
+          "simplifications": [
+            "Practice the stand-up from DLR as a movement drill — hook, off-balance, stand",
+            "Drill the wrestling finish separately (single leg, double leg) from standing",
+            "Start with partner giving no resistance to learn the transition from guard to standing"
+          ]
+        },
+        {
+          "name": "Triangle Choke (from DLR)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Create an angle from DLR guard and trap the opponent's neck and one arm in a triangle choke using your legs.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard, creating the arm-in, arm-out positioning needed for the triangle.",
+            "grips": "Sleeve grip on the arm you're pulling across (arm-in). Other hand controls collar or pushes their far arm away (arm-out).",
+            "legs": "DLR hook releases. One leg shoots HIGH over their shoulder and behind their neck. Other foot pushes on their hip for the angle.",
+            "hips": "Angled to one side, scooted out for the triangle geometry."
+          },
+          "greenLights": [
+            "Opponent reaches forward with one arm while the other stays back — arm-in, arm-out",
+            "You've pulled one sleeve across their centerline with your grip",
+            "Opponent's posture is broken forward — close enough to throw your leg over",
+            "The DLR angle naturally creates the arm-in, arm-out positioning"
+          ],
+          "redLights": [
+            "Both of opponent's arms are equally positioned — no arm-in, arm-out yet",
+            "Opponent has strong upright posture — too far to reach with your leg",
+            "You've lost sleeve control — can't control the arm positioning",
+            "Opponent is stepping back and creating distance"
+          ],
+          "steps": [
+            "From DLR guard, pull one sleeve ACROSS their body (arm-in). Control their posture with your other grip or push the far arm away (arm-out).",
+            "Release the DLR hook. Push on their hip with one foot for the angle. Throw your other leg HIGH over their shoulder, behind their neck.",
+            "Lock the triangle: back of knee over opposite ankle (figure-four). Angle your body 30° to the side for optimal choke geometry.",
+            "Squeeze knees together, pull their head DOWN, lift hips. The trapped arm's shoulder compresses one carotid, your thigh compresses the other."
+          ],
+          "complexpieces": [
+            "If they posture inside the triangle, switch to armbar on the trapped arm",
+            "If they stack you, transition to omoplata by releasing the lock and controlling the shoulder",
+            "Set up from a sweep attempt: they post an arm to resist, creating the arm-in positioning"
+          ],
+          "simplifications": [
+            "Practice creating the arm-in, arm-out from DLR grips as a drill",
+            "Drill the leg throw from DLR angle without locking the triangle",
+            "Focus on the angle creation first — the triangle geometry follows the correct angle"
+          ]
+        },
+        {
+          "name": "Omoplata (from DLR)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Swing your leg over the opponent's arm from DLR guard to isolate and attack their shoulder with an omoplata shoulder lock.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard, creating a perpendicular angle. Rotating body to trap their arm under your leg.",
+            "grips": "Sleeve grip on the arm being attacked, pulling it across. Other hand controls posture or assists rotation.",
+            "legs": "DLR hook releases. Attacking leg swings HIGH over opponent's shoulder. Other foot pushes on their hip for the pivot.",
+            "hips": "Pivoting to perpendicular angle relative to opponent's body."
+          },
+          "greenLights": [
+            "Opponent extends an arm — posting, reaching, or pushing",
+            "You've created a perpendicular angle from the DLR position",
+            "Their posture is broken and the arm is accessible for the leg to swing over",
+            "Failed triangle or sweep attempt leaves their arm exposed"
+          ],
+          "redLights": [
+            "Opponent keeps both arms tight and retracted",
+            "Opponent has strong upright posture — too far for the leg swing",
+            "You can't create the perpendicular angle from DLR",
+            "Opponent is already rolling forward before you can control their hip"
+          ],
+          "steps": [
+            "From DLR guard, control one sleeve and pull the arm across. Push on their hip with your free foot for the pivot.",
+            "Release DLR hook and swing your attacking leg HIGH over their shoulder, draping it across their back. Arm is trapped.",
+            "Sit up and control their hip or belt to prevent the forward roll escape. Establish the perpendicular angle.",
+            "Lean forward, drive their arm behind their back with your leg pressure on the shoulder. Smooth rotational pressure for the submission."
+          ],
+          "complexpieces": [
+            "If they roll forward, follow the roll and sweep to top position",
+            "Chain from triangle: if triangle attempt fails, redirect the leg for omoplata",
+            "Set up a wrist lock on the trapped arm while maintaining the omoplata"
+          ],
+          "simplifications": [
+            "Practice the leg swing from DLR over partner's shoulder as a movement drill",
+            "Drill sitting up and controlling the hip — the most critical part",
+            "Break into phases: (1) pull arm across, (2) pivot and swing leg, (3) sit up and finish"
+          ]
+        },
+        {
+          "name": "Armbar (from DLR)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attack the opponent's arm when they post or lose posture from DLR guard, pivoting to a perpendicular armbar position.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard, pivoting to the perpendicular armbar angle. Hips scooting to the side.",
+            "grips": "Wrist or sleeve grip on the arm being attacked. Other hand controls posture (collar, head) or assists the pivot.",
+            "legs": "DLR hook releases. One foot pushes on their hip for the pivot. Other leg swings over their face for the armbar clamp.",
+            "hips": "Pivoting to perpendicular angle, scooted to the side for armbar geometry."
+          },
+          "greenLights": [
+            "Opponent posts a hand on the mat or extends an arm to resist a sweep — arm is exposed",
+            "You've controlled their wrist and can pivot your hips for the armbar",
+            "Opponent's posture is broken forward and they're leaning into you",
+            "One arm is isolated from the DLR grip fighting"
+          ],
+          "redLights": [
+            "Both arms are retracted tight — nothing to isolate",
+            "Opponent has strong upright posture and is far away",
+            "You've lost wrist control — they'll retract during the pivot",
+            "Opponent is stacking you with heavy forward pressure"
+          ],
+          "steps": [
+            "From DLR guard, isolate one arm with a tight wrist/sleeve grip. Push on their hip with one foot for the pivot.",
+            "Release DLR hook and swing your other leg HIGH over their head/face, clamping down across their neck. Pivot hips to perpendicular.",
+            "Clamp BOTH legs tight — one over their face, one across their torso. Thumb points UP (arm extended, elbow facing your hips).",
+            "Squeeze knees together, pinch tight, and lift hips UP against their elbow for the submission."
+          ],
+          "complexpieces": [
+            "If they stack you, transition to triangle or omoplata — leg is already over their shoulder",
+            "Chain with triangle: if they pull arm out, lock up the triangle",
+            "Set up from a sweep attempt: when they post to resist, catch the posted arm"
+          ],
+          "simplifications": [
+            "Practice the hip pivot from DLR to the perpendicular armbar angle",
+            "Drill the leg-over-face clamp without finishing the submission",
+            "Break into two parts: (1) angle creation and leg placement, (2) finishing hip lift"
+          ]
+        },
+        {
+          "name": "Loop Choke (from DLR)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Use collar grips from DLR guard to trap the opponent's neck in a loop choke when they pressure forward into the guard.",
+          "initialPosition": {
+            "body": "Lying on your back in DLR guard. Opponent is driving forward with low head position.",
+            "grips": "Deep cross collar grip — 4 fingers inside, fed across the back of their neck to create the loop. Other hand controls their posture.",
+            "legs": "DLR hook maintains control of their lead leg. Free leg assists with posture control.",
+            "hips": "Angled toward the collar grip side, pulling opponent's head into the loop."
+          },
+          "greenLights": [
+            "You've fed a deep collar grip across the back of their neck",
+            "Opponent is driving forward with their head low — walking into the choke",
+            "DLR hook keeps them anchored and unable to back away",
+            "Opponent is not defending their collar"
+          ],
+          "redLights": [
+            "Opponent has strong upright posture — can't feed the collar deep",
+            "Collar grip is too shallow for the loop to be effective",
+            "Opponent is pulling away and creating distance",
+            "Opponent is actively grip-fighting your collar hand"
+          ],
+          "steps": [
+            "From DLR guard, feed your hand DEEP into their cross collar (4 fingers inside). Pull the collar across and behind their neck to form the loop.",
+            "As opponent pressures forward, tighten the loop by pulling the collar grip toward your chest. Use DLR hook to keep them from backing out.",
+            "Control their posture with your free hand — grip behind their head or their sleeve. Pull them DOWN into the collar loop.",
+            "Squeeze by pulling the collar tight while your DLR hook prevents escape. The loop compresses the neck arteries."
+          ],
+          "complexpieces": [
+            "Set up during their pass attempt — feed the collar as they try to clear your DLR hook",
+            "Chain with cross collar choke: if the loop doesn't finish, the grip is set for the second hand",
+            "Use the loop choke threat to set up sweeps — they posture to defend, opening sweep angles"
+          ],
+          "simplifications": [
+            "Practice feeding the collar grip deep behind the neck — depth determines effectiveness",
+            "Drill the loop formation against a static partner",
+            "Focus on using the DLR hook to prevent them from backing away from the choke"
+          ]
+        },
+        {
+          "name": "Straight Ankle Lock (from DLR)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Transition from DLR guard into a leg entanglement and attack the opponent's ankle with a straight ankle lock.",
+          "initialPosition": {
+            "body": "Transitioning from DLR guard to a leg entanglement position (SLX or ashi garami). Falling to the side with their leg controlled.",
+            "grips": "Both hands wrap around opponent's ankle/Achilles area. Wrist blade positioned on the Achilles tendon.",
+            "legs": "Inside leg hooks behind opponent's knee. Outside leg crosses over their hip or thigh to control the leg.",
+            "hips": "Extending against the controlled ankle, hips driving into the Achilles tendon for the submission."
+          },
+          "greenLights": [
+            "You've transitioned to SLX or ashi garami from DLR — leg is isolated",
+            "You can wrap your hands around their Achilles tendon area",
+            "Opponent's foot is controlled and they can't rotate free",
+            "The leg entanglement is secure with proper hook placement"
+          ],
+          "redLights": [
+            "You haven't established a proper leg entanglement yet — position before submission",
+            "Opponent has already cleared the knee line and can escape",
+            "Your grip on the ankle is too high — on the shin instead of the Achilles",
+            "Opponent is actively rolling to escape the entanglement"
+          ],
+          "steps": [
+            "From DLR guard, transition to SLX or ashi garami by scooting underneath and isolating their leg between yours.",
+            "Wrap both hands around their ankle — wrist blade positioned on the Achilles tendon. Grip tight (palm-to-palm or figure-four).",
+            "Pinch your knees together to control their leg and prevent rotation. Keep their foot trapped against your chest.",
+            "Extend your hips FORWARD against the Achilles while arching back slightly. The hip bridge pressure creates the ankle lock submission."
+          ],
+          "complexpieces": [
+            "If they defend by bending the knee, transition to a toe hold",
+            "Chain with heel hook (No-Gi): if they clear the straight ankle lock, attack the heel",
+            "Use the ankle lock threat to sweep — they defend the sub, you come up on top"
+          ],
+          "simplifications": [
+            "Practice the DLR to leg entanglement transition as a separate drill",
+            "Drill the ankle grip placement on a partner — finding the Achilles is key",
+            "Focus on the hip extension finishing mechanic from a static position"
+          ]
+        },
+        {
+          "name": "Estima Lock",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "An advanced foot lock attack from specific DLR entries, attacking the opponent's foot by applying rotational pressure against the ankle and foot joints.",
+          "initialPosition": {
+            "body": "Transitioning from DLR guard to an inverted or angled position where opponent's foot is accessible.",
+            "grips": "Both hands control opponent's foot — one grips the heel, other controls the toes or top of the foot. Wrist bone applies pressure.",
+            "legs": "Legs wrap or control their leg to prevent escape. DLR hook may still be partially engaged.",
+            "hips": "Angled to apply rotational pressure against the foot and ankle joint."
+          },
+          "greenLights": [
+            "Opponent's foot is accessible from the DLR transition",
+            "You can control the foot with both hands for the lock",
+            "Opponent is not wearing shoes (No-Gi) or their foot is exposed",
+            "The foot lock angle is achievable from your current position"
+          ],
+          "redLights": [
+            "You can't control the foot — opponent is pulling it away",
+            "Not allowed in your competition ruleset — check IBJJF belt-level rules",
+            "You're not in a secure enough position to hold the lock",
+            "Opponent has retracted the foot and you're overextended"
+          ],
+          "steps": [
+            "From DLR guard transition, identify the opportunity to attack the exposed foot during guard play or pass attempts.",
+            "Secure the foot with both hands — grip the heel and control the top of the foot. Position your wrist bone for the lock.",
+            "Apply rotational pressure against the foot and ankle joint. Your body angle and grip create the submission torque.",
+            "Maintain control of their leg with your legs to prevent them from pulling free. Apply smooth, steady pressure."
+          ],
+          "complexpieces": [
+            "Chain from a failed sweep: when they base out, their foot becomes accessible for the Estima lock",
+            "Combine with straight ankle lock: threaten one, switch to the other",
+            "Use as a surprise transition during guard passing exchanges"
+          ],
+          "simplifications": [
+            "Learn the Estima lock grip mechanics on a cooperative partner first",
+            "Practice identifying the foot lock opportunity during DLR transitions",
+            "Master straight ankle locks first — Estima lock builds on similar foot control principles"
+          ]
+        },
+        {
+          "name": "Kimura (from DLR)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attack the opponent's shoulder with a kimura figure-four grip when they post an arm while defending DLR sweeps.",
+          "initialPosition": {
+            "body": "In DLR guard or transitioning to seated. Opponent has posted a hand on the mat to defend a sweep — arm is exposed.",
+            "grips": "Kimura figure-four grip: one hand grabs opponent's wrist, other reaches OVER their arm and grabs your own wrist.",
+            "legs": "DLR hook may release as you sit up for the kimura. Free leg controls their hip or posts on the mat.",
+            "hips": "Angled toward the kimura side, sitting up to secure and finish the grip."
+          },
+          "greenLights": [
+            "Opponent posts a hand on the mat to defend your sweep — arm is isolated",
+            "You can reach their wrist and secure the figure-four kimura grip",
+            "Opponent is focused on base recovery and not defending the arm",
+            "You can sit up enough to apply the kimura leverage"
+          ],
+          "redLights": [
+            "Opponent's arms are tight to their body — nothing to isolate",
+            "Opponent immediately grabs their belt or pants to defend the grip",
+            "You can't sit up enough to apply proper kimura leverage",
+            "Opponent is pulling away and you can't maintain wrist control"
+          ],
+          "steps": [
+            "From DLR guard, attempt a sweep. When opponent posts their hand to resist, grab their wrist with your same-side hand.",
+            "Sit up and reach your other hand OVER their arm, grabbing your own wrist — figure-four kimura grip secured.",
+            "Pull their elbow tight to your chest. Control the arm close to your body.",
+            "Rotate their wrist behind their back. Apply smooth rotational pressure on the shoulder joint. If needed, release DLR hook and step over their head for better leverage."
+          ],
+          "complexpieces": [
+            "If they resist the kimura, use the grip to sweep them",
+            "Chain: sweep attempt → they post → kimura on posted arm → they defend → sweep the other direction",
+            "Transition to guillotine if they duck their head while defending the kimura"
+          ],
+          "simplifications": [
+            "Practice recognizing the posted arm opportunity during DLR sweep drills",
+            "Drill the figure-four grip from a seated DLR position",
+            "Focus on the sit-up transition from lying DLR to sitting with the kimura grip"
+          ]
+        },
+        {
+          "name": "Back Take to Chokes (from DLR)",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Use berimbolo, kiss of the dragon, or other DLR transitions to take the opponent's back and finish with chokes (RNC, bow and arrow, collar chokes).",
+          "initialPosition": {
+            "body": "Behind opponent after a successful back take from DLR guard. Chest on their back, seatbelt control.",
+            "grips": "Seatbelt grip: one arm over opponent's shoulder, one under their armpit. Transitioning to collar grips (Gi) or RNC grip.",
+            "legs": "Both hooks inserted inside opponent's thighs. Or body triangle locked around their waist.",
+            "hips": "Tight against their back, slightly offset to the choking arm side."
+          },
+          "greenLights": [
+            "You've successfully taken the back from a DLR transition (berimbolo, collar drag, etc.)",
+            "Seatbelt is secure with both hooks in",
+            "Opponent's chin is accessible for the choking arm",
+            "Opponent is focused on escaping the back position, not defending the choke"
+          ],
+          "redLights": [
+            "Back control isn't established — hooks are not in yet",
+            "Opponent has already turned to face you — back position is lost",
+            "Your seatbelt grip has been broken and they're escaping",
+            "You have no collar grip (Gi) and can't get under the chin (No-Gi)"
+          ],
+          "steps": [
+            "Establish back control with seatbelt grip and hooks after a successful DLR back take transition.",
+            "For RNC: fight the choking arm under their chin. Grab your own bicep (figure-four). Hand behind their head. Squeeze.",
+            "For Bow and Arrow (Gi): feed deep into far-side collar. Grab far pant leg. Fall to the side and stretch them like drawing a bow.",
+            "For collar chokes (Gi): establish cross collar grips and squeeze elbows together for the choke."
+          ],
+          "complexpieces": [
+            "If they defend the RNC, switch to bow and arrow. If bow and arrow is blocked, switch to armbar from the back",
+            "Chain submissions: RNC attempt → they defend → collar choke → they defend → armbar",
+            "Use the threat of chokes to force reactions that expose armbar opportunities"
+          ],
+          "simplifications": [
+            "Focus first on maintaining back control for extended periods before attacking chokes",
+            "Practice one choke at a time from the back — master RNC before adding bow and arrow",
+            "Drill hand-fighting to get under the chin against a defending partner"
+          ]
+        },
+        {
+          "name": "Caio Terra Leg Lock",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "From DLR or leg entanglement positions, isolate the opponent's leg and attack the knee or ankle with a controlled leg lock while maintaining hook and base.",
+          "initialPosition": {
+            "body": "Transitioning from DLR guard into a leg entanglement. Body angled to isolate opponent's leg for the attack.",
+            "grips": "Controlling opponent's foot or ankle. Hands wrap to secure the leg lock grip specific to the Caio Terra variation.",
+            "legs": "Legs control opponent's trapped leg — inside hook behind knee, outside leg crosses over for control.",
+            "hips": "Positioned to apply controlled extension or rotation against the knee or ankle joint."
+          },
+          "greenLights": [
+            "Opponent's leg is isolated in a proper entanglement from DLR",
+            "You have a secure grip on the ankle or foot for the leg lock",
+            "The knee line is controlled — opponent can't simply pull the leg free",
+            "The rule set allows leg locks at your competition level"
+          ],
+          "redLights": [
+            "Leg entanglement isn't properly established — position before submission",
+            "Opponent has cleared the knee line and can escape",
+            "Not permitted at your competition belt level (check IBJJF rules)",
+            "Your grip on the leg is insecure and opponent is actively rotating to escape"
+          ],
+          "steps": [
+            "From DLR guard, transition into a leg entanglement by isolating opponent's lead leg between yours.",
+            "Secure the Caio Terra leg lock grip — control the foot/ankle with both hands in the specific grip configuration.",
+            "Maintain knee line control with your legs — pinch knees and control their trapped leg to prevent escape or rotation.",
+            "Apply the leg lock with controlled pressure — extension against the knee or rotation against the ankle. Smooth, steady pressure."
+          ],
+          "complexpieces": [
+            "Chain with straight ankle lock: if Caio Terra grip is defended, switch to standard ankle lock",
+            "If they rotate to escape, follow the rotation and transition to a different leg lock angle",
+            "Use the leg lock threat to sweep: when they defend the submission, come up on top"
+          ],
+          "simplifications": [
+            "Master the basic DLR to leg entanglement transition first",
+            "Practice the specific Caio Terra grip mechanics on a cooperative partner",
+            "Drill knee line control as a separate positional exercise"
+          ]
+        },
+        {
+          "name": "Armbar Shotgun",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "From a high-angle DLR setup, swing your leg over the opponent's arm and torso in a fast, explosive motion to finish a tight armbar.",
+          "initialPosition": {
+            "body": "In DLR guard with a high angle — hips elevated and close to opponent. Preparing for an explosive leg swing.",
+            "grips": "Sleeve or wrist grip on the arm being attacked. Other hand controls collar, head, or free arm.",
+            "legs": "DLR hook provides the anchor. Free leg is loaded for the explosive swing over opponent's arm and torso.",
+            "hips": "Elevated and angled high — close to the opponent for the shotgun-style leg swing."
+          },
+          "greenLights": [
+            "Opponent extends an arm — posting, reaching, or defending a sweep",
+            "You have the high angle needed for the explosive leg swing",
+            "Wrist control is secure on the target arm",
+            "Opponent is not expecting the explosive transition — they're defending something else"
+          ],
+          "redLights": [
+            "Both of opponent's arms are retracted and tight",
+            "You don't have the high angle — hips are too low for the shotgun motion",
+            "Wrist control is insecure — they'll pull the arm during the swing",
+            "Opponent is already sprawling away with hips back"
+          ],
+          "steps": [
+            "From DLR guard, establish a high angle with your hips elevated. Control the target arm at the wrist or sleeve.",
+            "In one EXPLOSIVE motion, swing your free leg over their arm and torso — shotgun style. The speed of the leg swing is what makes this work.",
+            "Clamp both legs tight as the swing completes — one over their face/neck, one across their torso. Thumb pointing UP.",
+            "Squeeze knees together and lift hips against their elbow. The explosive entry plus tight clamp creates immediate submission pressure."
+          ],
+          "complexpieces": [
+            "If they bend the arm to defend, transition to triangle with the leg already over their shoulder",
+            "Chain from a sweep attempt: they post to resist, arm is exposed for the shotgun armbar",
+            "If the armbar doesn't finish, transition to omoplata with the leg already in position"
+          ],
+          "simplifications": [
+            "Practice the explosive leg swing over a partner's arm from DLR as a speed drill",
+            "Drill from a static high-angle DLR position without finishing",
+            "Break into two parts: (1) achieve high-angle DLR with wrist control, (2) explosive swing and finish"
+          ]
+        },
+        {
+          "name": "Back Step Pass (vs DLR)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Step backward and around the DLR hook to clear it and pass the guard by removing the hook's leverage.",
+          "initialPosition": {
+            "body": "Standing in opponent's DLR guard. They have a hook on your lead leg. Posture upright, preparing to backstep.",
+            "grips": "Hands controlling opponent's legs, pants, or stripping their grips. Free hand may control their free leg or collar.",
+            "legs": "Lead leg is hooked by DLR. You will step this leg BACKWARD and around to clear the hook.",
+            "hips": "Turning hips away from the hook as you backstep, removing the hook's leverage angle."
+          },
+          "greenLights": [
+            "You can feel the DLR hook and know which direction to step to clear it",
+            "Opponent's grips are manageable — you can backstep without being swept",
+            "Your balance is solid and you won't stumble during the backstep",
+            "Opponent is committing to the DLR hook and not anticipating the backstep"
+          ],
+          "redLights": [
+            "Opponent has very strong sleeve AND collar grips — backstepping may expose you to sweeps",
+            "Your balance is compromised and a backstep would leave you off-base",
+            "Opponent is already inverting for berimbolo — a backstep may accelerate their back take",
+            "You don't have control of their free leg — it may entangle you during the backstep"
+          ],
+          "steps": [
+            "From standing in their DLR guard, control their free leg and strip upper body grips where possible.",
+            "Step your hooked leg BACKWARD and around, turning your hips away from the hook. The backstep removes the hook's leverage.",
+            "As the hook clears, immediately drive forward to prevent reguarding. Control their legs.",
+            "Consolidate the pass — establish side control, knee on belly, or continue to a toreando pass if their legs are still in the way."
+          ],
+          "complexpieces": [
+            "Chain with leg drag: as you backstep, drag their hook leg across for an immediate pass",
+            "If the backstep clears the hook, immediately drop into knee slice for a fast pass",
+            "Use the backstep to enter a leg entanglement (leg lock) instead of passing"
+          ],
+          "simplifications": [
+            "Practice the backstep motion as a solo footwork drill",
+            "Drill the backstep against a static DLR hook to learn the clearing angle",
+            "Focus on controlling their free leg BEFORE backstepping — this prevents counter-attacks"
+          ]
+        },
+        {
+          "name": "Knee Slice Pass (vs DLR)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Clear the DLR hook and drive your knee across the opponent's legs to pass their guard and reach side control.",
+          "initialPosition": {
+            "body": "Standing or in combat base in opponent's DLR guard. Working to clear the hook and transition to knee slice.",
+            "grips": "Near arm: crossface or collar grip. Far hand: controlling their pants, hook leg, or stripping their grips.",
+            "legs": "Lead knee drops across opponent's thigh after clearing the DLR hook. Rear leg posted back for drive.",
+            "hips": "Driving forward and LOW through the center as the knee slices across."
+          },
+          "greenLights": [
+            "You've cleared the DLR hook enough to insert your knee across their thigh",
+            "You have a crossface or collar grip to flatten them",
+            "Their free leg is controlled and not creating a new guard",
+            "Opponent is flat on their back and not re-hooking"
+          ],
+          "redLights": [
+            "DLR hook is still deep — clear it before attempting to knee slice",
+            "Opponent has strong collar grip pulling your posture down",
+            "They're inverting as you knee slice — may expose your back",
+            "Opponent has transitioned to SLX or X-guard during your approach"
+          ],
+          "steps": [
+            "Strip the DLR hook by pushing their hook leg away or backstepping to clear it. Immediately close distance.",
+            "Drop your near knee across their thigh and secure crossface or collar grip. Drive your shoulder into their jaw.",
+            "Slice your knee FORWARD through their legs with constant chest pressure. Keep hips LOW — don't rise up.",
+            "Clear past their legs and consolidate side control with crossface and hip control."
+          ],
+          "complexpieces": [
+            "If they re-hook during the slice, backstep to clear and retry",
+            "Chain with toreando: fake the knee slice, redirect to toreando when they react",
+            "Use a collar grip to threaten a choke during the knee slice"
+          ],
+          "simplifications": [
+            "Practice clearing the DLR hook as a separate drill before adding the knee slice",
+            "Drill the knee slice motion from a static position without the hook",
+            "Focus on maintaining shoulder pressure throughout — the most common mistake is lifting up"
+          ]
+        },
+        {
+          "name": "Leg Drag Pass (vs DLR)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Control the opponent's DLR hook leg and drag it across your body to pass with tight hip-to-hip control.",
+          "initialPosition": {
+            "body": "Standing in opponent's DLR guard. Grabbing their hook leg to drag it across your body.",
+            "grips": "One hand grips opponent's hook-leg pant cuff at the ankle/shin. Other hand controls their collar, belt, or far leg.",
+            "legs": "Stepping to the drag side as you pull their leg across. Strong base maintained.",
+            "hips": "Driving forward and to the side, pinning their dragged leg against your hip."
+          },
+          "greenLights": [
+            "You can grab their DLR hook leg and redirect it across your body",
+            "Their upper body grips are weak enough that the drag won't trigger a sweep",
+            "You have a secondary grip (collar/belt) for control during the pass",
+            "Opponent is flat on their back and not inverting"
+          ],
+          "redLights": [
+            "Opponent has very strong collar grip — dragging may pull you into a sweep",
+            "They're actively inverting as you grab the leg — could lead to berimbolo",
+            "You can't control the leg — they keep regripping with the DLR hook",
+            "Opponent has transitioned to a different guard during the drag attempt"
+          ],
+          "steps": [
+            "From standing in their DLR guard, grab their hook-leg pant cuff at the ankle or shin.",
+            "DRAG their leg across your body toward your opposite hip. Step to the drag side.",
+            "PIN their dragged leg against your hip with your body. Drive your hips close to theirs — hip-to-hip.",
+            "Drop into side control on the drag side. Their hips are turned away, making reguarding very difficult."
+          ],
+          "complexpieces": [
+            "Chain with backstep: if the drag is blocked, backstep to clear the hook instead",
+            "Use the leg drag position to set up a back take by stepping over",
+            "If they reguard one leg, immediately switch to knee slice"
+          ],
+          "simplifications": [
+            "Practice the leg drag grip and motion from a static DLR hook",
+            "Drill the hip-to-hip pinning pressure from a static position",
+            "Focus on the step to the drag side — footwork makes or breaks this pass"
+          ]
+        },
+        {
+          "name": "Toreando Pass (vs DLR)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Control the opponent's legs from DLR guard and circle around them quickly using the toreando (bullfighter) pass to reach side control.",
+          "initialPosition": {
+            "body": "Standing in opponent's DLR guard. Stripping hooks and controlling both legs for the toreando.",
+            "grips": "Both hands gripping opponent's pant legs at the knees or shins. Redirecting both legs to one side.",
+            "legs": "Standing with explosive lateral movement ready. Strong base for the direction change.",
+            "hips": "Mobile and ready to explode laterally like a bullfighter."
+          },
+          "greenLights": [
+            "You've cleared the DLR hook and can control both legs",
+            "Opponent's upper body grips are broken — they can't pull you",
+            "You have both pant grips at the knees/shins",
+            "Opponent is flat on their back after losing the DLR hook"
+          ],
+          "redLights": [
+            "DLR hook is still active — clear it first",
+            "Opponent has strong collar or sleeve grips pulling you",
+            "They're transitioning to a different guard as you strip the DLR",
+            "You can only control one leg — need both for toreando"
+          ],
+          "steps": [
+            "Clear the DLR hook and strip upper body grips. Grab both pant legs at the knees or shins.",
+            "Push one leg DOWN to the mat while directing the other leg across. Choose the passing side.",
+            "EXPLODE laterally like a bullfighter — move hips quickly to the side, passing around their legs. Speed before they regrip.",
+            "Drop into side control: crossface and hip control. Sprawl legs back and drive chest-to-chest pressure."
+          ],
+          "complexpieces": [
+            "Fake toreando one direction, then switch sides when they react",
+            "Chain with leg drag: if the toreando is blocked, drag the near leg across",
+            "If they re-establish DLR during the pass, immediately backstep to clear"
+          ],
+          "simplifications": [
+            "Practice the toreando lateral explosion as a solo agility drill",
+            "Drill clearing the DLR hook + toreando as a two-step combination",
+            "Start with the hook already cleared to focus on the toreando passing angle"
+          ]
+        },
+        {
+          "name": "Stack Pass (vs DLR)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Drive the opponent's knees toward their chest from DLR guard to collapse their guard structure and pass using stacking pressure.",
+          "initialPosition": {
+            "body": "Standing or kneeling in opponent's DLR guard. Driving forward to collapse their leg structure.",
+            "grips": "Controlling opponent's legs at the knees or thighs, pushing them toward their chest.",
+            "legs": "Stepping forward with one foot up for drive. Other knee on mat or both feet up.",
+            "hips": "Driving FORWARD and DOWN, stacking opponent's hips over their shoulders."
+          },
+          "greenLights": [
+            "DLR hook is neutralized or weakened — you can drive forward",
+            "You can push their legs toward their chest effectively",
+            "Opponent is relatively flat and can't maintain distance",
+            "You have control of both legs for the stacking pressure"
+          ],
+          "redLights": [
+            "DLR hook is deep and pulling you off-balance — clear it first",
+            "Opponent has strong grips preventing you from closing distance",
+            "They're inverting as you stack — could expose your back",
+            "Opponent is very flexible and stacking has minimal effect"
+          ],
+          "steps": [
+            "Clear the DLR hook or neutralize its effectiveness. Drive forward, pushing opponent's knees toward their chest.",
+            "Stack their hips OVER their head with shoulder pressure into their thighs. Keep head on the passing side.",
+            "Walk around to the passing side, maintaining constant stacking pressure. Don't let them unstack.",
+            "Clear the legs and drop into side control. Secure crossface and hip control."
+          ],
+          "complexpieces": [
+            "Chain with toreando: if they kick out of the stack, redirect to toreando",
+            "If their grips prevent stacking, strip grips first then immediately re-drive",
+            "Use the stack pressure to set up a submission during the pass (collar choke, d'arce)"
+          ],
+          "simplifications": [
+            "Practice the forward stacking drive as a pressure drill",
+            "Drill clearing the DLR hook then immediately stacking as a combination",
+            "Focus on keeping constant forward pressure — the most common mistake is letting them re-establish distance"
+          ]
+        },
+        {
+          "name": "Long Step Pass (vs DLR)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Step the hooked leg far back to break the DLR hook and circle around the guard, using a long backstep to create distance from the hook.",
+          "initialPosition": {
+            "body": "Standing in opponent's DLR guard. Preparing to take a very long step backward with the hooked leg.",
+            "grips": "Controlling opponent's free leg and stripping upper body grips. Hands stabilize during the long step.",
+            "legs": "Hooked leg takes a very long step BACK and away, breaking the DLR hook through distance.",
+            "hips": "Turning away from the hook as the long step clears it, then immediately circling back to pass."
+          },
+          "greenLights": [
+            "The DLR hook can be broken with distance — a long step will pull the hook off",
+            "You have enough balance to take a long step without being swept",
+            "Opponent's grips are weak enough that the long step won't create a sweep opportunity",
+            "You can control their free leg to prevent them from transitioning guards"
+          ],
+          "redLights": [
+            "Opponent has very strong collar grip that will pull you off-balance during the step",
+            "The long step would leave you stretched out and vulnerable",
+            "Opponent is inverting — the long step gives them space to berimbolo",
+            "Your balance is already compromised"
+          ],
+          "steps": [
+            "From standing in their DLR guard, control their free leg. Prepare to step your hooked leg far back.",
+            "Take a LONG step backward with the hooked leg — step far enough that their hook loses tension and drops off.",
+            "As the hook clears, immediately circle your hips back toward the opponent. Don't leave space.",
+            "Close the distance and pass — use toreando, knee slice, or drop into side control depending on their reaction."
+          ],
+          "complexpieces": [
+            "Chain with backstep: if long step doesn't fully clear the hook, add a backstep rotation",
+            "Immediately drive into knee slice as the hook clears for a fast pass",
+            "If they transition to reverse DLR during the step, address the new hook before continuing"
+          ],
+          "simplifications": [
+            "Practice the long step motion as a solo footwork drill",
+            "Drill against a static DLR hook to learn how far you need to step",
+            "Focus on immediately closing distance after the step — don't pause at long range"
+          ]
+        },
+        {
+          "name": "Headquarters Pass (vs DLR)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Control the opponent's legs from headquarters position to prevent DLR hooks from being established, using the position as a launching pad for passes.",
+          "initialPosition": {
+            "body": "Standing or in combat base with one knee between opponent's legs (headquarters position). Preventing hooks.",
+            "grips": "Controlling both of opponent's legs — one hand on the near ankle/shin, other on the far knee or hip. Keeping legs separated.",
+            "legs": "Lead knee wedged between opponent's legs, preventing them from hooking. Rear leg posted for base.",
+            "hips": "Centered and low, controlling the space between opponent's legs."
+          },
+          "greenLights": [
+            "You've established headquarters position between their legs",
+            "DLR hook is prevented by your knee positioning",
+            "You have control of both their legs from the headquarters stance",
+            "Opponent can't re-establish guard hooks from this position"
+          ],
+          "redLights": [
+            "Opponent has already established DLR hook — headquarters is a preventive position",
+            "You're off-balance in headquarters and vulnerable to sweeps",
+            "Opponent has strong upper body grips pulling you out of position",
+            "They're transitioning to butterfly guard underneath your headquarters"
+          ],
+          "steps": [
+            "As you approach or after clearing the DLR hook, establish headquarters: knee between their legs, controlling both ankles/shins.",
+            "Keep their legs separated and prevent any hooks from being inserted. Your knee wedge blocks their guard establishment.",
+            "From headquarters, choose your pass: knee slice (slice lead knee across), toreando (push legs to one side), or leg drag.",
+            "Execute the pass with momentum from the headquarters position. The position gives you a head start on any passing technique."
+          ],
+          "complexpieces": [
+            "Chain multiple passes from headquarters: fake knee slice, switch to toreando, then leg drag",
+            "If they pummel a hook in, immediately address it before it becomes full DLR",
+            "Use headquarters to set up a body lock pass by closing distance and wrapping"
+          ],
+          "simplifications": [
+            "Practice establishing headquarters from standing as a positional drill",
+            "Drill launching passes from headquarters against light resistance",
+            "Focus on the knee positioning between their legs — this is the key to the position"
+          ]
+        },
+        {
+          "name": "Leg Weave Pass (vs DLR)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Thread your arm between the opponent's legs to weave and staple them together, applying shoulder pressure while circling to collapse their DLR guard and pass.",
+          "initialPosition": {
+            "body": "Standing or kneeling in opponent's DLR guard. Threading one arm between their legs to weave them together.",
+            "grips": "One arm threads between opponent's legs and grabs their far pant leg or controls the far thigh. Other hand controls collar or near leg.",
+            "legs": "Strong base for driving forward. Closing distance as you weave.",
+            "hips": "Driving forward with shoulder pressure, collapsing their guard structure."
+          },
+          "greenLights": [
+            "DLR hook has been cleared or weakened enough to thread your arm through",
+            "You can reach between their legs and grab the far pant leg/thigh",
+            "Opponent is relatively flat and you can apply shoulder pressure",
+            "Their guard structure is collapsing as you weave the legs together"
+          ],
+          "redLights": [
+            "DLR hook is too deep to thread your arm between their legs",
+            "Opponent has strong frames preventing you from closing distance",
+            "They're inverting or transitioning to a different guard as you weave",
+            "Your arm is trapped between their legs and they're attacking leg locks"
+          ],
+          "steps": [
+            "Clear or neutralize the DLR hook. Thread your near arm BETWEEN opponent's legs, reaching for their far pant leg or thigh.",
+            "Grab the far leg and pull it toward you, stapling both of their legs together. Their guard structure collapses.",
+            "Apply shoulder pressure into their thighs/chest as you circle to the passing side. Keep their legs stapled.",
+            "Walk around to side control. Release the weave and secure crossface and hip control."
+          ],
+          "complexpieces": [
+            "Chain with stack pass: if the weave stalls, use it to stack their hips instead",
+            "If they re-establish hooks during the weave, immediately switch to toreando",
+            "Use the leg weave position to set up a d'arce or anaconda choke on the way past"
+          ],
+          "simplifications": [
+            "Practice the arm threading motion between their legs as a drill",
+            "Drill the leg weave against a static guard to learn the stapling mechanics",
+            "Focus on maintaining shoulder pressure while circling — don't lose pressure"
+          ]
+        },
+        {
+          "name": "X Pass (vs DLR)",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Control one of the opponent's legs while stepping over with your opposite leg in an X-shaped configuration, clearing DLR hooks and driving across to side control.",
+          "initialPosition": {
+            "body": "Standing in opponent's DLR guard. Controlling their near leg and preparing to step across.",
+            "grips": "One hand controls opponent's near-side pant leg/ankle. Other hand controls their collar, belt, or far leg.",
+            "legs": "Far leg steps OVER and across their body in an X-pattern as you control the near leg. Lead leg follows.",
+            "hips": "Driving across their body, using the X-step to clear their guard structure."
+          },
+          "greenLights": [
+            "DLR hook has been cleared or you can step over it",
+            "You have a solid grip on their near leg for control",
+            "The X-step path is clear — their legs aren't blocking the crossover",
+            "Opponent is flat and not actively transitioning guards"
+          ],
+          "redLights": [
+            "DLR hook is deep and blocks your leg from stepping over",
+            "Opponent has strong grips that could sweep you mid-step",
+            "Their free leg is framing and preventing the crossover",
+            "Balance isn't stable enough for the X-step"
+          ],
+          "steps": [
+            "From standing, clear the DLR hook. Control their near leg with one hand. Grip their collar or belt with the other.",
+            "Step your FAR leg OVER and across their body — the X-step. Drive your hips across as you step.",
+            "Apply chest and shoulder pressure as you land on the passing side. Control their near leg to prevent reguarding.",
+            "Consolidate side control with crossface and hip control. Drive chest-to-chest pressure."
+          ],
+          "complexpieces": [
+            "Chain with toreando: if the X pass is blocked, redirect to toreando the other direction",
+            "Use the X pass to set up knee on belly instead of side control for immediate pressure",
+            "If they reguard during the pass, immediately backstep and try again"
+          ],
+          "simplifications": [
+            "Practice the X-step crossover as a solo footwork drill",
+            "Drill the X pass against a static guard to learn the stepping angle",
+            "Focus on controlling the near leg throughout — losing it means losing the pass"
+          ]
+        }
+      ]
+    },
+    {
       "id": "turtle",
       "name": "Turtle",
       "emoji": "🐢",
