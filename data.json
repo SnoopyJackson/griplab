@@ -4437,7 +4437,7 @@
   "name": "Mount 👑",
   "description": "Mount is a dominant top position where the attacker sits on the opponent’s torso with knees on the mat and hips controlling the centerline. It offers superior striking (in MMA), high-percentage submissions, and strong positional control. Effective mount requires hip pressure, balance, and progressive isolation of arms to prevent escapes. Variations include Low Mount, High Mount, S-Mount, Technical Mount, and Grapevine Mount.",
   "image": "images/mount.webp",
-  "video": "https://www.youtube.com/watch?v=9cVf6xQYl3Y",
+  "video": "https://www.youtube.com/watch?v=SYel-mVSMAI",
   "execution": [
     "Establish chest-to-chest connection after passing guard",
     "Slide knee across opponent’s hip line",
@@ -4557,7 +4557,7 @@
   "name": "Back Control 🎒",
   "description": "Back Control is a premier dominant position where the attacker secures control behind the opponent with chest-to-back connection and hooks or a body triangle controlling the hips. It offers the highest submission percentage in Brazilian Jiu-Jitsu due to direct access to the neck while minimizing defensive options. Strong back control requires hip control, upper body isolation, and constant adjustment to prevent escapes.",
   "image": "images/backcontrol.jpg",
-  "video": "https://www.youtube.com/watch?v=4v6rQ9kLm2U",
+  "video": "https://www.youtube.com/watch?v=CFDVh9EVgPA",
   "execution": [
     "Establish chest-to-back connection",
     "Insert both hooks inside opponent’s thighs or lock body triangle",
@@ -4669,7 +4669,7 @@
   "name": "Side Control 🔹",
   "description": "Side Control is a dominant top position where the attacker lies perpendicular across the opponent’s torso, controlling their upper body with chest-to-chest pressure, head positioning, and arm isolation. It allows control over the opponent while setting up a wide variety of submissions and transitions to mount, knee-on-belly, or back control. Proper weight distribution and grip management are key to maintaining Side Control and preventing escapes.",
   "image": "images/sidecontrol.webp",
-  "video": "https://www.youtube.com/watch?v=Kj2Yh1DQhM0",
+  "video": "https://www.youtube.com/watch?v=nDbHQPBvQvQ",
   "execution": [
     "Establish chest-to-chest pressure across opponent",
     "Control near-side arm with underhook or cross-face",
@@ -4781,7 +4781,7 @@
   "name": "North-South 🧭",
   "description": "North-South is a dominant top control position where the attacker positions chest-to-chest with the opponent but oriented in the opposite direction, facing their legs. It offers tight upper-body control, strong pinning pressure, and direct access to submissions such as the North-South choke, kimura, and arm isolations. Proper shoulder pressure and hip positioning are essential to prevent guard recovery and escapes.",
   "image": "images/northsouth.jpg",
-  "video": "https://www.youtube.com/watch?v=Jp4z5KxLm8A",
+  "video": "https://www.youtube.com/watch?v=Qn3yF9p8uWw",
   "execution": [
     "Transition from Side Control by circling toward opponent’s head",
     "Rotate hips so you face opponent’s legs",
@@ -4889,7 +4889,7 @@
   "name": "Knee on Belly 🦵",
   "description": "Knee on Belly is a high-pressure top control position where the attacker places one knee on the opponent’s abdomen or chest while keeping the other leg posted for balance. This position allows dynamic mobility, rapid transitions, and strong control, while making the bottom player uncomfortable and vulnerable to submissions. It is often used as an intermediate control between Side Control and Mount or to initiate attacks such as armbars, kimuras, and chokes.",
   "image": "images/kneeonbelly.jpg",
-  "video": "https://www.youtube.com/watch?v=8qW2k3tLp0A",
+  "video": "https://www.youtube.com/watch?v=BHUYEm0ve9A",
   "execution": [
     "Transition from Side Control or Mount",
     "Place knee on opponent’s stomach or chest",
@@ -4998,7 +4998,7 @@
   "name": "Crucifix ✝️",
   "description": "The Crucifix is a dominant control and submission position where the attacker traps one of the opponent’s arms with their legs and the other with their arms, creating a T-shaped control resembling a crucifix. It immobilizes the opponent, exposing them to chokes (like the rear naked choke or gi variations) and arm attacks such as the armbar or kimura. It is highly effective in both Gi and No-Gi grappling and works well from back or side positions.",
   "image": "images/crucifix.jpg",
-  "video": "https://www.youtube.com/watch?v=R7pQk9f2w9M",
+  "video": "https://www.youtube.com/watch?v=eLXIFcnyb1Q",
   "execution": [
     "Enter from back control, side control, or turtle position",
     "Trap near-side arm with legs (crossed or inside control)",
@@ -5095,6 +5095,111 @@
     {
       "name": "Bow and Arrow Choke",
       "description": "Gi variation when lapel grips are available."
+    }
+  ]
+},
+{
+  "id": 36,
+  "name": "The Truck 🚛",
+  "description": "The Truck is a dominant leg entanglement and control position where the attacker threads their body behind the opponent’s leg, controlling the hips and isolating a leg to create high-percentage submissions such as the calf slicer, inside and outside heel hooks, and kneebars. It is widely used in modern no-gi grappling and allows seamless transitions to the back, Saddle, or 50/50 positions. Mastery of The Truck provides both control and direct attacking options with minimal risk of reversal.",
+  "image": "images/truck.jpg",
+  "video": "https://www.youtube.com/watch?v=IY0CbahJG2A",
+  "execution": [
+    "Enter from Single Leg X, X-Guard, or leg drag transitions",
+    "Thread your body behind opponent’s leg",
+    "Control the opponent’s far hip with your arm",
+    "Insert hooks or control around knee/ankle depending on target",
+    "Keep your chest close and hips aligned",
+    "Pin opponent’s near leg to prevent escape",
+    "Adjust foot positioning to secure calf or heel line",
+    "Maintain tight control of knee line and hip rotation",
+    "Float or shift slightly to follow opponent’s defense",
+    "Transition immediately into submission or back take"
+  ],
+  "pros": [
+    "High-percentage leg attack position",
+    "Strong hip and knee line control",
+    "Seamless transitions to Saddle, 50/50, or back",
+    "Difficult for opponent to escape once secured",
+    "Direct entries into heel hooks, kneebars, and calf slicers",
+    "Dynamic and mobile — can follow opponent movements",
+    "Versatile in No-Gi and advanced leg systems"
+  ],
+  "cons": [
+    "Requires precise knee and hip control",
+    "Exposed heel/ankle risk if control loosens",
+    "Opponent can attempt roll or spin escapes",
+    "Leg entanglement rules vary by competition",
+    "Position is complex and timing-sensitive",
+    "Improper alignment can lead to counters"
+  ],
+  "tips": [
+    "Control far hip before committing hooks",
+    "Pin near leg to prevent hip escape",
+    "Maintain chest pressure and alignment",
+    "Keep knees tight to opponent’s knee line",
+    "Float with opponent to maintain leverage",
+    "Transition to Saddle or back if they spin",
+    "Target heel or calf after stabilizing position",
+    "Always monitor knee line to avoid counter attacks",
+    "Do not overextend — small adjustments are key",
+    "Chain attacks rather than relying on single submission"
+  ],
+  "athletes": [
+    "Craig Jones",
+    "Gordon Ryan",
+    "John Danaher",
+    "Garry Tonon",
+    "Lachlan Giles"
+  ],
+  "sweeps": [
+    {
+      "name": "Truck Elevation Sweep",
+      "description": "Lift opponent slightly and off-balance to roll or control top position."
+    },
+    {
+      "name": "Back Take Sweep",
+      "description": "Follow spin to take opponent’s back during defense."
+    },
+    {
+      "name": "Single Leg Dump",
+      "description": "Off-balance opponent backward to collapse posture."
+    }
+  ],
+  "passes": [
+    {
+      "name": "Hip Clearance Escape",
+      "description": "Push hips away to remove body connection."
+    },
+    {
+      "name": "Leg Roll Escape",
+      "description": "Rotate trapped leg to break alignment."
+    },
+    {
+      "name": "Stack and Slide",
+      "description": "Stack opponent and slide leg free while controlling hips."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "Inside Heel Hook",
+      "description": "Attack the trapped heel while controlling knee line."
+    },
+    {
+      "name": "Outside Heel Hook",
+      "description": "Adjust angle to attack heel externally."
+    },
+    {
+      "name": "Calf Slicer",
+      "description": "Compress opponent’s calf while hips are controlled."
+    },
+    {
+      "name": "Kneebar",
+      "description": "Extend the leg using knee line and hip alignment."
+    },
+    {
+      "name": "Back Take from Truck",
+      "description": "Follow spin and secure rear control for additional attacks."
     }
   ]
 }
