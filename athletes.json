@@ -11,28 +11,6 @@
     }
   },
   {
-    "id": 10,
-    "name": "Marcelo Garcia",
-    "image": "images/marcelo.jpg",
-    "signatures": {
-      "guard": "X-Guard & Butterfly Guard",
-      "sweep": "X-Guard Sweep to Back Take",
-      "pass": "Arm Drag Series",
-      "submission": "Guillotine & Rear Naked Choke"
-    }
-  },
-  {
-    "id": 11,
-    "name": "Gordon Ryan",
-    "image": "images/gordonryan.jpeg",
-    "signatures": {
-      "guard": "Outside Ashi & 50/50",
-      "sweep": "Leg Entanglement Entries",
-      "pass": "Body Lock Passing",
-      "submission": "Heel Hook & Rear Naked Choke"
-    }
-  },
-  {
     "id": 12,
     "name": "Jean Jacques Machado",
     "image": "images/jjmachado.jpg",
@@ -76,17 +54,7 @@
       "submission": "Armbar & Bow and Arrow Choke"
     }
   },
-  {
-    "id": 16,
-    "name": "Andre Galvao",
-    "image": "images/galvao.webp",
-    "signatures": {
-      "guard": "Spider Guard",
-      "sweep": "Balloon Sweep",
-      "pass": "Leg Drag Passing",
-      "submission": "Rear Naked Choke & Arm Triangle"
-    }
-  },
+ 
   {
     "id": 17,
     "name": "Rafael Mendes",
@@ -109,28 +77,8 @@
       "submission": "Rear Naked Choke"
     }
   },
-  {
-    "id": 19,
-    "name": "Mikey Musumeci",
-    "image": "images/mikey.jpg",
-    "signatures": {
-      "guard": "DLR & K-Guard",
-      "sweep": "Berimbolo Entries",
-      "pass": "Loose Passing",
-      "submission": "Straight Ankle Lock"
-    }
-  },
-  {
-    "id": 20,
-    "name": "Lachlan Giles",
-    "image": "images/giles.webp",
-    "signatures": {
-      "guard": "K-Guard",
-      "sweep": "Leg Entanglement Entries",
-      "pass": "Body Lock Passing",
-      "submission": "Heel Hook"
-    }
-  },
+  
+  
   {
     "id": 21,
     "name": "Craig Jones",
@@ -142,17 +90,7 @@
       "submission": "Heel Hook & Triangle"
     }
   },
-  {
-    "id": 22,
-    "name": "Felipe Pena",
-    "image": "images/penna.webp",
-    "signatures": {
-      "guard": "De La Riva Guard",
-      "sweep": "Single Leg Sweep",
-      "pass": "Knee Slice",
-      "submission": "Bow and Arrow Choke"
-    }
-  },
+  
   {
     "id": 23,
     "name": "Leandro Lo",
@@ -198,28 +136,8 @@
       "submission": "D'Arce & Anaconda Choke"
     }
   },
-  {
-    "id": 27,
-    "name": "Mica Galvao",
-    "image": "images/micagalvao.webp",
-    "signatures": {
-      "guard": "DLR & K-Guard",
-      "sweep": "Matrix Back Take",
-      "pass": "Knee Cut Passing",
-      "submission": "Rear Naked Choke"
-    }
-  },
-  {
-    "id": 28,
-    "name": "Nicholas Meregali",
-    "image": "images/meregali.webp",
-    "signatures": {
-      "guard": "De La Riva Guard",
-      "sweep": "Berimbolo",
-      "pass": "High Step & Leg Drag",
-      "submission": "Rear Naked Choke"
-    }
-  },
+  
+  
   {
     "id": 29,
     "name": "Giancarlo Bodoni",
@@ -231,17 +149,7 @@
       "submission": "Rear Naked Choke"
     }
   },
-  {
-    "id": 30,
-    "name": "Fabricio Andrey",
-    "image": "images/fabricioandrey.jpg",
-    "signatures": {
-      "guard": "Spider Guard & De La Riva",
-      "sweep": "Berimbolo Entries",
-      "pass": "Leg Drag",
-      "submission": "Triangle Choke"
-    }
-  },
+  
   {
     "id": 31,
     "name": "Diego Pato",
@@ -286,17 +194,7 @@
       "submission": "Heel Hook"
     }
   },
-   {
-    "id": 35,
-    "name": "Tainan Dalpra",
-    "image": "images/tainandalpra.webp",
-    "signatures": {
-      "guard": "Closed Guard & Collar Sleeve",
-      "sweep": "Tripod Sweep",
-      "pass": "Knee Cut Passing",
-      "submission": "Bow and Arrow Choke"
-    }
-  },
+   
   {
     "id": 36,
     "name": "Jansen Gomes",
@@ -319,17 +217,7 @@
       "submission": "Arm Triangle"
     }
   },
-  {
-    "id": 38,
-    "name": "Kaynan Duarte",
-    "image": "images/kaynanduarte.jpg",
-    "signatures": {
-      "guard": "Closed Guard",
-      "sweep": "Scissor Sweep",
-      "pass": "Over-Under Passing",
-      "submission": "Rear Naked Choke"
-    }
-  },
+  
   {
     "id": 39,
     "name": "Matheus Gabriel",
@@ -396,28 +284,8 @@
       "submission": "Arm Triangle"
     }
   },
-   {
-    "id": 45,
-    "name": "Rickson Gracie",
-    "image": "images/ricksongracie.webp",
-    "signatures": {
-      "guard": "Closed Guard",
-      "sweep": "Scissor Sweep",
-      "pass": "Pressure Passing",
-      "submission": "Rear Naked Choke"
-    }
-  },
-  {
-    "id": 46,
-    "name": "Royce Gracie",
-    "image": "images/roycegracie.jpg",
-    "signatures": {
-      "guard": "Closed Guard",
-      "sweep": "Hip Bump Sweep",
-      "pass": "Basic Guard Passing",
-      "submission": "Rear Naked Choke"
-    }
-  },
+   
+ 
   {
     "id": 47,
     "name": "Rolls Gracie",
@@ -506,17 +374,33 @@
       "submission": "Armbar"
     }
   },
-   {
-    "id": 55,
-    "name": "Ffion Davies",
-    "image": "images/ffiondavies.webp",
-    "signatures": {
-      "guard": "Collar Sleeve Guard",
-      "sweep": "Tripod Sweep",
-      "pass": "Leg Drag Passing",
-      "submission": "Armbar"
-    }
-  },
+   { "id": 10, "name": "Marcelo Garcia", "image": "images/marcelo.jpg", "signatures": { "guard": "X-Guard & Butterfly Guard", "sweep": "X-Guard Sweep to Back Take", "pass": "Knee Slice & Toreando", "submission": "Guillotine & Rear Naked Choke" } },
+
+{ "id": 11, "name": "Gordon Ryan", "image": "images/gordonryan.jpeg", "signatures": { "guard": "Outside Ashi & 50/50", "sweep": "Leg Entanglement to Back/Sweep", "pass": "Body Lock Passing", "submission": "Heel Hook & Rear Naked Choke" } },
+
+{ "id": 16, "name": "Andre Galvao", "image": "images/galvao.webp", "signatures": { "guard": "Spider Guard & De La Riva", "sweep": "Balloon Sweep", "pass": "Leg Drag Passing", "submission": "Rear Naked Choke & Arm Triangle" } },
+
+{ "id": 19, "name": "Mikey Musumeci", "image": "images/mikey.jpg", "signatures": { "guard": "DLR & K-Guard", "sweep": "Berimbolo to Back Take", "pass": "Loose Passing", "submission": "Straight Ankle Lock & Kneebar" } },
+
+{ "id": 20, "name": "Lachlan Giles", "image": "images/giles.webp", "signatures": { "guard": "K-Guard", "sweep": "Leg Entanglement to Heel Hook Entry", "pass": "Body Lock Passing", "submission": "Heel Hook" } },
+
+{ "id": 22, "name": "Felipe Pena", "image": "images/penna.webp", "signatures": { "guard": "De La Riva & Half Guard", "sweep": "Single Leg Sweep", "pass": "Knee Slice", "submission": "Bow and Arrow Choke" } },
+
+{ "id": 27, "name": "Mica Galvao", "image": "images/micagalvao.webp", "signatures": { "guard": "DLR & K-Guard", "sweep": "Berimbolo & Back Take", "pass": "Knee Cut Passing", "submission": "Rear Naked Choke" } },
+
+{ "id": 28, "name": "Nicholas Meregali", "image": "images/meregali.webp", "signatures": { "guard": "De La Riva Guard", "sweep": "Berimbolo", "pass": "High Step & Leg Drag", "submission": "Bow and Arrow Choke & Rear Naked Choke" } },
+
+{ "id": 30, "name": "Fabricio Andrey", "image": "images/fabricioandrey.jpg", "signatures": { "guard": "Spider Guard & De La Riva", "sweep": "Berimbolo to Back Take", "pass": "Leg Drag", "submission": "Triangle Choke" } },
+
+{ "id": 35, "name": "Tainan Dalpra", "image": "images/tainandalpra.webp", "signatures": { "guard": "Closed Guard & Collar Sleeve", "sweep": "Hip Bump & Tripod Sweep", "pass": "Knee Cut Passing", "submission": "Bow and Arrow Choke" } },
+
+{ "id": 38, "name": "Kaynan Duarte", "image": "images/kaynanduarte.jpg", "signatures": { "guard": "Closed Guard & De La Riva", "sweep": "Scissor Sweep", "pass": "Over-Under Passing", "submission": "Rear Naked Choke" } },
+
+{ "id": 45, "name": "Rickson Gracie", "image": "images/ricksongracie.webp", "signatures": { "guard": "Closed Guard", "sweep": "Scissor Sweep", "pass": "Pressure Passing", "submission": "Rear Naked Choke & Cross Collar Choke" } },
+
+{ "id": 46, "name": "Royce Gracie", "image": "images/roycegracie.jpg", "signatures": { "guard": "Closed Guard", "sweep": "Hip Bump Sweep", "pass": "Basic Guard Passing", "submission": "Rear Naked Choke & Armbar" } },
+
+{ "id": 55, "name": "Ffion Davies", "image": "images/ffiondavies.webp", "signatures": { "guard": "Collar Sleeve Guard", "sweep": "Tripod Sweep", "pass": "Leg Drag Passing", "submission": "Armbar & Triangle" } },
   {
     "id": 56,
     "name": "Beatriz Mesquita",
@@ -614,6 +498,159 @@
       "sweep": "Underhook Half Guard Sweep",
       "pass": "Body Lock Passing",
       "submission": "Rear Naked Choke"
+    }
+  },
+   {
+    "id": 65,
+    "name": "Bruno Malfacine",
+    "image": "images/malfacine.webp",
+    "signatures": {
+      "guard": "Spider Guard & De La Riva",
+      "sweep": "Berimbolo & Back Take",
+      "pass": "Toreando Passing",
+      "submission": "Bow and Arrow Choke"
+    }
+  },
+   {
+    "id": 66,
+    "name": "Lucas Lepri",
+    "image": "images/lucaslepri.webp",
+    "signatures": {
+      "guard": "Spider Guard & Lasso Guard",
+      "sweep": "Lasso Sweep",
+      "pass": "Knee Cut Passing",
+      "submission": "Bow and Arrow Choke & Triangle"
+    }
+  },
+   {
+    "id": 67,
+    "name": "Romulo Barral",
+    "image": "images/romulobarral.webp",
+    "signatures": {
+      "guard": "Spider Guard",
+      "sweep": "Spider Guard Sweep",
+      "pass": "Knee Slice Passing",
+      "submission": "Cross Collar Choke"
+    }
+  },
+    {
+    "id": 68,
+    "name": "Ronaldo Jacare Souza",
+    "image": "images/jacaresousa.webp",
+    "signatures": {
+      "guard": "Closed Guard & Half Guard",
+      "sweep": "Hip Bump Sweep",
+      "pass": "Pressure Passing",
+      "submission": "Armbar & Guillotine"
+    }
+  },
+  {
+    "id": 70,
+    "name": "Rodolfo Vieira",
+    "image": "images/rodolfovieira.webp",
+    "signatures": {
+      "guard": "Half Guard",
+      "sweep": "Underhook Half Guard Sweep",
+      "pass": "Pressure Passing & Knee Slice",
+      "submission": "Rear Naked Choke & Arm Triangle"
+    }
+  } {
+    "id": 71,
+    "name": "Bernardo Faria",
+    "image": "images/bernardofaria.webp",
+    "signatures": {
+      "guard": "Deep Half Guard",
+      "sweep": "Deep Half Sweep",
+      "pass": "Over-Under Passing",
+      "submission": "Bow and Arrow Choke"
+    }
+  },
+    {
+    "id": 72,
+    "name": "Lucas Leite",
+    "image": "images/lucasleite.webp",
+    "signatures": {
+      "guard": "Half Guard",
+      "sweep": "Coyote Half Guard Sweep",
+      "pass": "Leg Drag Passing",
+      "submission": "Rear Naked Choke"
+    }
+  },
+    {
+    "id": 73,
+    "name": "Dean Lister",
+    "image": "images/deanlister.jpg",
+    "signatures": {
+      "guard": "Z-Guard & Half Guard",
+      "sweep": "Half Guard Underhook Sweep",
+      "pass": "Pressure Passing",
+      "submission": "Straight Ankle Lock & Heel Hook"
+    }
+  },
+    {
+    "id": 74,
+    "name": "Garry Tonon",
+    "image": "images/garrytonon.webp",
+    "signatures": {
+      "guard": "Outside Ashi & Butterfly Guard",
+      "sweep": "Leg Entanglement to Back Take",
+      "pass": "Loose Passing",
+      "submission": "Heel Hook & D'Arce Choke"
+    }
+  },
+    {
+    "id": 75,
+    "name": "Eduardo Telles",
+    "image": "images/eduardotelles.webp",
+    "signatures": {
+      "guard": "Turtle Guard & Octopus Guard",
+      "sweep": "Turtle Guard Reversal",
+      "pass": "Knee Slice Passing",
+      "submission": "Triangle Choke"
+    }
+  },
+    {
+    "id": 76,
+    "name": "Geo Martinez",
+    "image": "images/geomartinez.jpg",
+    "signatures": {
+      "guard": "Octopus Guard & Sit-Up Guard",
+      "sweep": "Sit-Up Guard Sweep",
+      "pass": "Loose Passing",
+      "submission": "Triangle & Omoplata"
+    }
+  },
+   {
+    "id": 80,
+    "name": "Guilherme Mendes",
+    "image": "images/guilhermemendes.webp",
+    "signatures": {
+      "guard": "De La Riva Guard",
+      "sweep": "Berimbolo to Back Take",
+      "pass": "Leg Drag Passing",
+      "submission": "Bow and Arrow Choke"
+    }
+  },
+  {
+    "id": 81,
+    "name": "Joao Miyao",
+    "image": "images/joaomiyao.jpg",
+    "signatures": {
+      "guard": "De La Riva & Reverse De La Riva",
+      "sweep": "Berimbolo to Back Take",
+      "pass": "Leg Drag Passing",
+      "submission": "Bow and Arrow Choke"
+    }
+  },
+  {
+    "id": 82,
+    "name": "Paulo Miyao",
+    "image": "images/paulomiyao.jpg",
+    "signatures": {
+      "guard": "De La Riva & Reverse De La Riva",
+      "sweep": "Berimbolo to Back Take",
+      "pass": "Leg Drag Passing",
+      "submission": "Bow and Arrow Choke"
     }
   }
 ]
