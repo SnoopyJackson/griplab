@@ -695,7 +695,7 @@
     {
     "id": 73,
     "name": "Dean Lister",
-    "image": "images/deanlister.jpg",
+    "image": "images/deanlister.webp",
     "signatures": {
       "guard": "Z-Guard & Half Guard",
       "sweep": "Half Guard Underhook Sweep",
@@ -717,7 +717,7 @@
     {
     "id": 75,
     "name": "Eduardo Telles",
-    "image": "images/eduardotelles.webp",
+    "image": "images/eduardotelles.jpg",
     "signatures": {
       "guard": "Turtle Guard & Octopus Guard",
       "sweep": "Turtle Guard Reversal",
