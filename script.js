@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderProgressSection();
     initTrainingLog();
     initWarRoom();
+    initGameBoard();
 });
 
 // Navigation with sound effect simulation
@@ -911,3 +912,572 @@ function importTrainingLog(event) {
     // Reset input so the same file can be re-imported
     event.target.value = '';
 }
+
+// ==========================================
+// GAME BUILDER — Mind-Map Technique Planner
+// ==========================================
+
+const GB_STORAGE_KEY = 'bjj_game_builder';
+const GB_CAT_LABELS = {
+    position:   '📍 Position',
+    sweep:      '🔄 Sweep',
+    pass:       '🚀 Pass',
+    submission: '🔥 Submission',
+    escape:     '🛡️ Escape',
+    takedown:   '⬇️ Takedown',
+    concept:    '💡 Concept'
+};
+
+let gbGames = [];          // [{id, name, nodes:[], connections:[]}]
+let gbActiveGameId = null;
+let gbZoom = 1;
+let gbPanX = 0;
+let gbPanY = 0;
+let gbIsPanning = false;
+let gbPanStart = { x: 0, y: 0 };
+let gbDragNode = null;
+let gbDragOffset = { x: 0, y: 0 };
+let gbConnecting = null;   // { fromId, startX, startY }
+let gbPendingPos = { x: 0, y: 0 };
+let gbSelectedNodeId = null;
+
+function gbLoad() {
+    const raw = localStorage.getItem(GB_STORAGE_KEY);
+    if (raw) {
+        try { gbGames = JSON.parse(raw); } catch { gbGames = []; }
+    }
+    if (gbGames.length === 0) {
+        gbGames.push(gbCreateGameObject('Game A'));
+    }
+    gbActiveGameId = gbActiveGameId || gbGames[0].id;
+    if (!gbGames.find(g => g.id === gbActiveGameId)) {
+        gbActiveGameId = gbGames[0].id;
+    }
+}
+
+function gbSave() {
+    localStorage.setItem(GB_STORAGE_KEY, JSON.stringify(gbGames));
+}
+
+function gbCreateGameObject(name) {
+    return { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), name, nodes: [], connections: [] };
+}
+
+function gbActiveGame() {
+    return gbGames.find(g => g.id === gbActiveGameId);
+}
+
+// ---- Init ----
+function initGameBoard() {
+    gbLoad();
+
+    const viewport = document.getElementById('gb-viewport');
+    const canvas = document.getElementById('gb-canvas');
+
+    // Game selector
+    document.getElementById('gb-game-select').addEventListener('change', (e) => {
+        gbActiveGameId = e.target.value;
+        gbSave();
+        gbResetView();
+        gbRender();
+    });
+
+    document.getElementById('gb-new-game').addEventListener('click', () => {
+        const name = prompt('Game name:');
+        if (!name || !name.trim()) return;
+        const game = gbCreateGameObject(name.trim());
+        gbGames.push(game);
+        gbActiveGameId = game.id;
+        gbSave();
+        gbResetView();
+        gbRender();
+    });
+
+    document.getElementById('gb-rename-game').addEventListener('click', () => {
+        const game = gbActiveGame();
+        if (!game) return;
+        const name = prompt('Rename game:', game.name);
+        if (!name || !name.trim()) return;
+        game.name = name.trim();
+        gbSave();
+        gbRenderSelect();
+    });
+
+    document.getElementById('gb-delete-game').addEventListener('click', () => {
+        if (gbGames.length <= 1) { alert('You need at least one game.'); return; }
+        if (!confirm(`Delete "${gbActiveGame().name}"?`)) return;
+        gbGames = gbGames.filter(g => g.id !== gbActiveGameId);
+        gbActiveGameId = gbGames[0].id;
+        gbSave();
+        gbResetView();
+        gbRender();
+    });
+
+    document.getElementById('gb-reset-view').addEventListener('click', gbFitView);
+
+    // Export
+    document.getElementById('gb-export').addEventListener('click', () => {
+        const game = gbActiveGame();
+        const blob = new Blob([JSON.stringify(game, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `game-${game.name.replace(/\s+/g, '_')}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+    });
+
+    // Import
+    document.getElementById('gb-import-file').addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+            try {
+                const data = JSON.parse(ev.target.result);
+                if (!data.nodes || !Array.isArray(data.nodes)) { alert('Invalid game file.'); return; }
+                // Ensure it has an id
+                data.id = data.id || Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+                data.connections = data.connections || [];
+                // Avoid id collision
+                if (gbGames.find(g => g.id === data.id)) {
+                    data.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+                }
+                gbGames.push(data);
+                gbActiveGameId = data.id;
+                gbSave();
+                gbResetView();
+                gbRender();
+                alert(`Imported "${data.name}"!`);
+            } catch {
+                alert('Error reading game file.');
+            }
+        };
+        reader.readAsText(file);
+        e.target.value = '';
+    });
+
+    // Modal
+    document.getElementById('gb-modal-cancel').addEventListener('click', gbCloseModal);
+    document.getElementById('gb-modal-confirm').addEventListener('click', gbConfirmAddNode);
+    document.getElementById('gb-node-name').addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') { e.preventDefault(); gbConfirmAddNode(); }
+    });
+
+    // ---- Viewport interactions ----
+
+    // Zoom
+    viewport.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        const rect = viewport.getBoundingClientRect();
+        const mx = e.clientX - rect.left;
+        const my = e.clientY - rect.top;
+
+        const oldZoom = gbZoom;
+        const delta = e.deltaY > 0 ? 0.9 : 1.1;
+        gbZoom = Math.min(3, Math.max(0.15, gbZoom * delta));
+
+        // Zoom toward mouse
+        gbPanX = mx - (mx - gbPanX) * (gbZoom / oldZoom);
+        gbPanY = my - (my - gbPanY) * (gbZoom / oldZoom);
+
+        gbApplyTransform();
+    }, { passive: false });
+
+    // Pan + Drag + Connect
+    viewport.addEventListener('mousedown', (e) => {
+        if (e.target.closest('.gb-node-delete')) return;
+        if (e.target.closest('.gb-connector')) {
+            // Start connection
+            const nodeEl = e.target.closest('.gb-node');
+            const nodeId = nodeEl.dataset.id;
+            const game = gbActiveGame();
+            const node = game.nodes.find(n => n.id === nodeId);
+            if (!node) return;
+            gbConnecting = {
+                fromId: nodeId,
+                startX: node.x + (nodeEl.offsetWidth / 2) / gbZoom,
+                startY: node.y + nodeEl.offsetHeight / gbZoom
+            };
+            e.stopPropagation();
+            return;
+        }
+
+        const nodeEl = e.target.closest('.gb-node');
+        if (nodeEl) {
+            // Start drag node
+            const rect = viewport.getBoundingClientRect();
+            const mx = (e.clientX - rect.left - gbPanX) / gbZoom;
+            const my = (e.clientY - rect.top - gbPanY) / gbZoom;
+            const game = gbActiveGame();
+            const node = game.nodes.find(n => n.id === nodeEl.dataset.id);
+            if (!node) return;
+            gbDragNode = node;
+            gbDragOffset = { x: mx - node.x, y: my - node.y };
+            gbSelectedNodeId = node.id;
+            gbRenderNodes();
+            e.stopPropagation();
+            return;
+        }
+
+        // Pan
+        gbIsPanning = true;
+        gbPanStart = { x: e.clientX - gbPanX, y: e.clientY - gbPanY };
+    });
+
+    window.addEventListener('mousemove', (e) => {
+        if (gbConnecting) {
+            const rect = viewport.getBoundingClientRect();
+            const mx = (e.clientX - rect.left - gbPanX) / gbZoom;
+            const my = (e.clientY - rect.top - gbPanY) / gbZoom;
+            gbDrawTempLine(gbConnecting.startX, gbConnecting.startY, mx, my);
+            return;
+        }
+        if (gbDragNode) {
+            const rect = viewport.getBoundingClientRect();
+            const mx = (e.clientX - rect.left - gbPanX) / gbZoom;
+            const my = (e.clientY - rect.top - gbPanY) / gbZoom;
+            gbDragNode.x = mx - gbDragOffset.x;
+            gbDragNode.y = my - gbDragOffset.y;
+            gbPositionNode(gbDragNode.id);
+            gbRenderConnections();
+            return;
+        }
+        if (gbIsPanning) {
+            gbPanX = e.clientX - gbPanStart.x;
+            gbPanY = e.clientY - gbPanStart.y;
+            gbApplyTransform();
+        }
+    });
+
+    window.addEventListener('mouseup', (e) => {
+        if (gbConnecting) {
+            const nodeEl = e.target.closest('.gb-node');
+            if (nodeEl && nodeEl.dataset.id !== gbConnecting.fromId) {
+                const game = gbActiveGame();
+                const connExists = game.connections.some(c =>
+                    (c.from === gbConnecting.fromId && c.to === nodeEl.dataset.id) ||
+                    (c.to === gbConnecting.fromId && c.from === nodeEl.dataset.id)
+                );
+                if (!connExists) {
+                    game.connections.push({ from: gbConnecting.fromId, to: nodeEl.dataset.id });
+                    gbSave();
+                }
+            }
+            gbConnecting = null;
+            gbRemoveTempLine();
+            gbRenderConnections();
+            return;
+        }
+        if (gbDragNode) {
+            gbDragNode = null;
+            gbSave();
+            return;
+        }
+        gbIsPanning = false;
+    });
+
+    // Touch support for mobile
+    let touchDist = 0;
+    viewport.addEventListener('touchstart', (e) => {
+        if (e.touches.length === 2) {
+            touchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
+            return;
+        }
+        if (e.touches.length !== 1) return;
+        const touch = e.touches[0];
+        const nodeEl = touch.target.closest('.gb-node');
+        if (nodeEl && !touch.target.closest('.gb-node-delete') && !touch.target.closest('.gb-connector')) {
+            const rect = viewport.getBoundingClientRect();
+            const mx = (touch.clientX - rect.left - gbPanX) / gbZoom;
+            const my = (touch.clientY - rect.top - gbPanY) / gbZoom;
+            const game = gbActiveGame();
+            const node = game.nodes.find(n => n.id === nodeEl.dataset.id);
+            if (node) {
+                gbDragNode = node;
+                gbDragOffset = { x: mx - node.x, y: my - node.y };
+            }
+            return;
+        }
+        gbIsPanning = true;
+        gbPanStart = { x: touch.clientX - gbPanX, y: touch.clientY - gbPanY };
+    }, { passive: false });
+
+    viewport.addEventListener('touchmove', (e) => {
+        e.preventDefault();
+        if (e.touches.length === 2) {
+            const newDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
+            if (touchDist > 0) {
+                const scale = newDist / touchDist;
+                gbZoom = Math.min(3, Math.max(0.15, gbZoom * scale));
+                gbApplyTransform();
+            }
+            touchDist = newDist;
+            return;
+        }
+        if (e.touches.length !== 1) return;
+        const touch = e.touches[0];
+        if (gbDragNode) {
+            const rect = viewport.getBoundingClientRect();
+            const mx = (touch.clientX - rect.left - gbPanX) / gbZoom;
+            const my = (touch.clientY - rect.top - gbPanY) / gbZoom;
+            gbDragNode.x = mx - gbDragOffset.x;
+            gbDragNode.y = my - gbDragOffset.y;
+            gbPositionNode(gbDragNode.id);
+            gbRenderConnections();
+            return;
+        }
+        if (gbIsPanning) {
+            gbPanX = touch.clientX - gbPanStart.x;
+            gbPanY = touch.clientY - gbPanStart.y;
+            gbApplyTransform();
+        }
+    }, { passive: false });
+
+    viewport.addEventListener('touchend', () => {
+        if (gbDragNode) { gbDragNode = null; gbSave(); }
+        gbIsPanning = false;
+        touchDist = 0;
+    });
+
+    // Double-click to add node
+    viewport.addEventListener('dblclick', (e) => {
+        if (e.target.closest('.gb-node')) return;
+        const rect = viewport.getBoundingClientRect();
+        gbPendingPos = {
+            x: (e.clientX - rect.left - gbPanX) / gbZoom,
+            y: (e.clientY - rect.top - gbPanY) / gbZoom
+        };
+        gbOpenModal();
+    });
+
+    // Keyboard: Delete selected node
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Delete' && gbSelectedNodeId) {
+            const section = document.getElementById('gameboard-section');
+            if (!section || !section.classList.contains('active')) return;
+            if (document.getElementById('gb-modal').style.display !== 'none') return;
+            gbDeleteNode(gbSelectedNodeId);
+        }
+    });
+
+    gbRender();
+}
+
+// ---- Rendering ----
+
+function gbRender() {
+    gbRenderSelect();
+    gbRenderNodes();
+    gbRenderConnections();
+}
+
+function gbRenderSelect() {
+    const select = document.getElementById('gb-game-select');
+    select.innerHTML = gbGames.map(g =>
+        `<option value="${g.id}" ${g.id === gbActiveGameId ? 'selected' : ''}>${g.name}</option>`
+    ).join('');
+}
+
+function gbRenderNodes() {
+    const canvas = document.getElementById('gb-canvas');
+    // Remove old nodes
+    canvas.querySelectorAll('.gb-node').forEach(el => el.remove());
+
+    const game = gbActiveGame();
+    if (!game) return;
+
+    game.nodes.forEach(node => {
+        const el = document.createElement('div');
+        el.className = 'gb-node' + (node.id === gbSelectedNodeId ? ' selected' : '');
+        el.dataset.id = node.id;
+        el.dataset.cat = node.category;
+        el.style.left = node.x + 'px';
+        el.style.top = node.y + 'px';
+
+        const catLabel = GB_CAT_LABELS[node.category] || node.category;
+        el.innerHTML = `
+            <span class="gb-node-cat">${catLabel}</span>
+            <span class="gb-node-name">${gbEsc(node.name)}</span>
+            ${node.notes ? `<span class="gb-node-notes">${gbEsc(node.notes)}</span>` : ''}
+            <button class="gb-node-delete" title="Delete node">✕</button>
+            <div class="gb-connector" title="Drag to connect"></div>
+        `;
+
+        // Delete button
+        el.querySelector('.gb-node-delete').addEventListener('click', (e) => {
+            e.stopPropagation();
+            gbDeleteNode(node.id);
+        });
+
+        canvas.appendChild(el);
+    });
+
+    gbApplyTransform();
+}
+
+function gbPositionNode(nodeId) {
+    const canvas = document.getElementById('gb-canvas');
+    const el = canvas.querySelector(`.gb-node[data-id="${nodeId}"]`);
+    const game = gbActiveGame();
+    const node = game.nodes.find(n => n.id === nodeId);
+    if (el && node) {
+        el.style.left = node.x + 'px';
+        el.style.top = node.y + 'px';
+    }
+}
+
+function gbRenderConnections() {
+    const svg = document.getElementById('gb-connections');
+    // Keep temp line if exists
+    const tempLine = svg.querySelector('.gb-temp-line');
+    svg.innerHTML = '';
+    if (tempLine) svg.appendChild(tempLine);
+
+    const game = gbActiveGame();
+    if (!game) return;
+
+    const canvas = document.getElementById('gb-canvas');
+
+    game.connections.forEach(conn => {
+        const fromNode = game.nodes.find(n => n.id === conn.from);
+        const toNode = game.nodes.find(n => n.id === conn.to);
+        if (!fromNode || !toNode) return;
+
+        const fromEl = canvas.querySelector(`.gb-node[data-id="${conn.from}"]`);
+        const toEl = canvas.querySelector(`.gb-node[data-id="${conn.to}"]`);
+        if (!fromEl || !toEl) return;
+
+        const x1 = fromNode.x + fromEl.offsetWidth / 2;
+        const y1 = fromNode.y + fromEl.offsetHeight / 2;
+        const x2 = toNode.x + toEl.offsetWidth / 2;
+        const y2 = toNode.y + toEl.offsetHeight / 2;
+
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', x1);
+        line.setAttribute('y1', y1);
+        line.setAttribute('x2', x2);
+        line.setAttribute('y2', y2);
+        line.classList.add('gb-connection-line');
+        line.style.pointerEvents = 'stroke';
+        line.addEventListener('click', () => {
+            if (confirm('Remove this connection?')) {
+                game.connections = game.connections.filter(c => c !== conn);
+                gbSave();
+                gbRenderConnections();
+            }
+        });
+        svg.appendChild(line);
+    });
+}
+
+function gbDrawTempLine(x1, y1, x2, y2) {
+    const svg = document.getElementById('gb-connections');
+    let line = svg.querySelector('.gb-temp-line');
+    if (!line) {
+        line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.classList.add('gb-temp-line');
+        svg.appendChild(line);
+    }
+    line.setAttribute('x1', x1);
+    line.setAttribute('y1', y1);
+    line.setAttribute('x2', x2);
+    line.setAttribute('y2', y2);
+}
+
+function gbRemoveTempLine() {
+    const svg = document.getElementById('gb-connections');
+    const line = svg.querySelector('.gb-temp-line');
+    if (line) line.remove();
+}
+
+function gbApplyTransform() {
+    const canvas = document.getElementById('gb-canvas');
+    canvas.style.transform = `translate(${gbPanX}px, ${gbPanY}px) scale(${gbZoom})`;
+}
+
+function gbResetView() {
+    gbZoom = 1;
+    gbPanX = 0;
+    gbPanY = 0;
+    gbApplyTransform();
+}
+
+function gbFitView() {
+    const game = gbActiveGame();
+    if (!game || game.nodes.length === 0) { gbResetView(); return; }
+
+    const viewport = document.getElementById('gb-viewport');
+    const vw = viewport.clientWidth;
+    const vh = viewport.clientHeight;
+
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    game.nodes.forEach(n => {
+        minX = Math.min(minX, n.x);
+        minY = Math.min(minY, n.y);
+        maxX = Math.max(maxX, n.x + 200);
+        maxY = Math.max(maxY, n.y + 80);
+    });
+
+    const contentW = maxX - minX + 100;
+    const contentH = maxY - minY + 100;
+    gbZoom = Math.min(vw / contentW, vh / contentH, 1.5);
+    gbZoom = Math.max(0.15, gbZoom);
+    gbPanX = (vw - contentW * gbZoom) / 2 - minX * gbZoom + 50 * gbZoom;
+    gbPanY = (vh - contentH * gbZoom) / 2 - minY * gbZoom + 50 * gbZoom;
+    gbApplyTransform();
+}
+
+// ---- CRUD ----
+
+function gbOpenModal() {
+    document.getElementById('gb-modal').style.display = '';
+    document.getElementById('gb-node-name').value = '';
+    document.getElementById('gb-node-category').value = 'position';
+    document.getElementById('gb-node-notes').value = '';
+    setTimeout(() => document.getElementById('gb-node-name').focus(), 50);
+}
+
+function gbCloseModal() {
+    document.getElementById('gb-modal').style.display = 'none';
+}
+
+function gbConfirmAddNode() {
+    const name = document.getElementById('gb-node-name').value.trim();
+    if (!name) { document.getElementById('gb-node-name').focus(); return; }
+    const category = document.getElementById('gb-node-category').value;
+    const notes = document.getElementById('gb-node-notes').value.trim();
+
+    const game = gbActiveGame();
+    game.nodes.push({
+        id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+        name,
+        category,
+        notes,
+        x: gbPendingPos.x,
+        y: gbPendingPos.y
+    });
+    gbSave();
+    gbCloseModal();
+    gbRenderNodes();
+    gbRenderConnections();
+}
+
+function gbDeleteNode(nodeId) {
+    const game = gbActiveGame();
+    game.nodes = game.nodes.filter(n => n.id !== nodeId);
+    game.connections = game.connections.filter(c => c.from !== nodeId && c.to !== nodeId);
+    if (gbSelectedNodeId === nodeId) gbSelectedNodeId = null;
+    gbSave();
+    gbRenderNodes();
+    gbRenderConnections();
+}
+
+function gbEsc(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+}
+
+// Add init to DOMContentLoaded
+

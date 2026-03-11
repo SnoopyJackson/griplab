@@ -43,6 +43,10 @@
                     <span class="btn-icon">🗺️</span>
                     <span class="btn-text">WAR ROOM</span>
                 </button>
+                <button class="nav-btn" data-section="gameboard">
+                    <span class="btn-icon">🎮</span>
+                    <span class="btn-text">MY GAME</span>
+                </button>
             </nav>
         </div>
     </header>
@@ -255,6 +259,78 @@
 
                 <!-- Technique Cards -->
                 <div class="warroom-technique-list" id="warroom-technique-list"></div>
+            </div>
+        </section>
+        <!-- Game Board Section - Mind Map -->
+        <section id="gameboard-section" class="section">
+            <div class="gb-header">
+                <h2 class="section-title">MY GAME</h2>
+                <p class="section-subtitle">Build your BJJ game plan as a mind map</p>
+            </div>
+
+            <!-- Game Selector Bar -->
+            <div class="gb-toolbar">
+                <div class="gb-game-selector">
+                    <select id="gb-game-select" class="gb-select"></select>
+                    <button class="gb-btn gb-btn-new" id="gb-new-game" title="New Game">＋ NEW GAME</button>
+                    <button class="gb-btn gb-btn-rename" id="gb-rename-game" title="Rename Game">✏️</button>
+                    <button class="gb-btn gb-btn-delete" id="gb-delete-game" title="Delete Game">🗑️</button>
+                </div>
+                <div class="gb-actions">
+                    <button class="gb-btn gb-btn-export" id="gb-export">📤 EXPORT</button>
+                    <label class="gb-btn gb-btn-import">
+                        📥 IMPORT
+                        <input type="file" id="gb-import-file" accept=".json" hidden>
+                    </label>
+                    <button class="gb-btn gb-btn-reset-view" id="gb-reset-view" title="Reset View">🔄 FIT</button>
+                </div>
+            </div>
+
+            <!-- Instructions -->
+            <div class="gb-instructions">
+                <span>🖱️ Double-click to add node</span>
+                <span>🔗 Drag from connector ● to link</span>
+                <span>📌 Drag node to move</span>
+                <span>🔍 Scroll to zoom</span>
+                <span>✋ Drag background to pan</span>
+            </div>
+
+            <!-- Mind Map Viewport -->
+            <div class="gb-viewport" id="gb-viewport">
+                <div class="gb-canvas" id="gb-canvas">
+                    <svg class="gb-connections" id="gb-connections"></svg>
+                </div>
+            </div>
+
+            <!-- Node Add Modal -->
+            <div class="gb-modal-overlay" id="gb-modal" style="display:none">
+                <div class="gb-modal">
+                    <h3>ADD TECHNIQUE NODE</h3>
+                    <div class="gb-modal-field">
+                        <label>Name</label>
+                        <input type="text" id="gb-node-name" placeholder="e.g. Armbar from Guard" maxlength="60" autocomplete="off">
+                    </div>
+                    <div class="gb-modal-field">
+                        <label>Category</label>
+                        <select id="gb-node-category">
+                            <option value="position">📍 Position</option>
+                            <option value="sweep">🔄 Sweep</option>
+                            <option value="pass">🚀 Pass</option>
+                            <option value="submission">🔥 Submission</option>
+                            <option value="escape">🛡️ Escape</option>
+                            <option value="takedown">⬇️ Takedown</option>
+                            <option value="concept">💡 Concept</option>
+                        </select>
+                    </div>
+                    <div class="gb-modal-field">
+                        <label>Notes (optional)</label>
+                        <textarea id="gb-node-notes" rows="2" placeholder="Quick notes..." maxlength="200"></textarea>
+                    </div>
+                    <div class="gb-modal-buttons">
+                        <button class="gb-btn gb-btn-cancel" id="gb-modal-cancel">CANCEL</button>
+                        <button class="gb-btn gb-btn-confirm" id="gb-modal-confirm">ADD NODE</button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
