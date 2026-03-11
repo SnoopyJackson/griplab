@@ -4431,6 +4431,672 @@
       "description": "Compress lower leg during leg entanglement scramble."
     }
   ]
+},
+{
+  "id": 30,
+  "name": "Mount 👑",
+  "description": "Mount is a dominant top position where the attacker sits on the opponent’s torso with knees on the mat and hips controlling the centerline. It offers superior striking (in MMA), high-percentage submissions, and strong positional control. Effective mount requires hip pressure, balance, and progressive isolation of arms to prevent escapes. Variations include Low Mount, High Mount, S-Mount, Technical Mount, and Grapevine Mount.",
+  "image": "images/mount.webp",
+  "video": "https://www.youtube.com/watch?v=9cVf6xQYl3Y",
+  "execution": [
+    "Establish chest-to-chest connection after passing guard",
+    "Slide knee across opponent’s hip line",
+    "Set opposite knee on mat and square hips",
+    "Keep heels tight to opponent’s hips",
+    "Maintain low hips and heavy pressure",
+    "Control head and arm to prevent bridging",
+    "Climb to High Mount when arms separate",
+    "Use grapevines to flatten opponent if needed",
+    "Adjust base when opponent bridges or shrimps"
+  ],
+  "pros": [
+    "Highest scoring dominant position in sport BJJ",
+    "Excellent submission opportunities",
+    "Strong striking platform (MMA/self-defense)",
+    "Forces opponent to carry full body weight",
+    "Easy transitions to back control",
+    "Controls centerline and breathing",
+    "Psychologically exhausting for bottom player"
+  ],
+  "cons": [
+    "Can be reversed if base is poor",
+    "Vulnerable to explosive bridging (upa)",
+    "Requires balance and hip awareness",
+    "Sweat can reduce chest control (No-Gi)",
+    "Leg entanglement risk if hooks are lazy",
+    "Overcommitting high can expose space"
+  ],
+  "tips": [
+    "Low hips before high attacks",
+    "Head control prevents strong bridges",
+    "Climb gradually — don’t rush to High Mount",
+    "Widen knees when opponent bumps",
+    "Use crossface to flatten before attacking",
+    "Isolate one arm before committing to submission",
+    "Float hips during explosive bridges",
+    "Transition to Technical Mount if opponent turns",
+    "Use grapevines to kill hip mobility",
+    "Pressure first, submission second"
+  ],
+  "athletes": [
+    "Roger Gracie",
+    "Rafael Lovato Jr.",
+    "Gordon Ryan",
+    "Marcelo Garcia",
+    "Demian Maia"
+  ],
+  "sweeps": [
+    {
+      "name": "Upa (Bridge and Roll)",
+      "description": "Trap arm and bridge to reverse position."
+    },
+    {
+      "name": "Elbow Escape (Knee Escape)",
+      "description": "Create space and recover half guard."
+    },
+    {
+      "name": "Knee Shield Recovery",
+      "description": "Insert shin and re-guard."
+    },
+    {
+      "name": "Trap and Shrimp",
+      "description": "Trap foot and hip escape to recover guard."
+    }
+  ],
+  "passes": [
+    {
+      "name": "Mount to Back Transition",
+      "description": "Take back when opponent turns to escape."
+    },
+    {
+      "name": "Technical Mount Switch",
+      "description": "Adjust hips to isolate arm."
+    },
+    {
+      "name": "Knee Slide to S-Mount",
+      "description": "Climb higher to attack arms."
+    },
+    {
+      "name": "Crossface Control",
+      "description": "Flatten opponent to prevent escape."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "Armbar",
+      "description": "Isolate arm and swing to finish."
+    },
+    {
+      "name": "Cross Collar Choke",
+      "description": "Classic Gi choke from deep collar grips."
+    },
+    {
+      "name": "Ezekiel Choke",
+      "description": "Forearm choke using sleeve grip (Gi)."
+    },
+    {
+      "name": "Americana",
+      "description": "Figure-four shoulder lock from low mount."
+    },
+    {
+      "name": "Triangle from Mount",
+      "description": "Climb high and trap head and arm."
+    },
+    {
+      "name": "Mounted Guillotine",
+      "description": "Attack neck during defensive turn."
+    },
+    {
+      "name": "S-Mount Armbar",
+      "description": "Transition to S-Mount for tighter finish."
+    }
+  ]
+},
+{
+  "id": 31,
+  "name": "Back Control 🎒",
+  "description": "Back Control is a premier dominant position where the attacker secures control behind the opponent with chest-to-back connection and hooks or a body triangle controlling the hips. It offers the highest submission percentage in Brazilian Jiu-Jitsu due to direct access to the neck while minimizing defensive options. Strong back control requires hip control, upper body isolation, and constant adjustment to prevent escapes.",
+  "image": "images/backcontrol.jpg",
+  "video": "https://www.youtube.com/watch?v=4v6rQ9kLm2U",
+  "execution": [
+    "Establish chest-to-back connection",
+    "Insert both hooks inside opponent’s thighs or lock body triangle",
+    "Keep heels active and knees pinched",
+    "Control one arm (seatbelt grip preferred)",
+    "Keep head tight beside opponent’s head",
+    "Stay slightly off to choking arm side",
+    "Maintain hip-to-hip alignment",
+    "Follow opponent’s attempts to turn or slide down",
+    "Attack neck only after securing control"
+  ],
+  "pros": [
+    "Highest submission rate position",
+    "Direct access to rear naked choke",
+    "Excellent control over opponent’s mobility",
+    "Minimal striking threat from opponent",
+    "Strong scoring advantage in competition",
+    "Transitions available if opponent defends",
+    "Works effectively in Gi and No-Gi"
+  ],
+  "cons": [
+    "Hooks can be cleared if inactive",
+    "Body triangle may fatigue legs",
+    "Risk of sliding too high or too low",
+    "Hand fighting can stall attacks",
+    "Sweat reduces chest friction in No-Gi",
+    "Overcommitting to choke can lose position"
+  ],
+  "tips": [
+    "Control first, choke second",
+    "Hide choking hand until ready",
+    "Stay glued chest-to-back",
+    "Use body triangle if opponent is explosive",
+    "Trap one arm before attacking",
+    "Switch to Technical Mount if hooks are lost",
+    "Adjust when opponent scoots hips down",
+    "Stay on choking side to limit escape",
+    "Use head positioning to control posture",
+    "Chain attacks — never single attempt"
+  ],
+  "athletes": [
+    "Marcelo Garcia",
+    "Roger Gracie",
+    "Gordon Ryan",
+    "Demian Maia",
+    "John Danaher"
+  ],
+  "sweeps": [
+    {
+      "name": "Back Control Tilt",
+      "description": "Tilt opponent to choking side to secure stronger control."
+    },
+    {
+      "name": "Mat Return",
+      "description": "Lift and return opponent to the mat when they stand."
+    },
+    {
+      "name": "Hip Drop Reset",
+      "description": "Drop hips to prevent escape and reset hooks."
+    }
+  ],
+  "passes": [
+    {
+      "name": "Shoulder Escape",
+      "description": "Slide shoulders to mat and clear one hook."
+    },
+    {
+      "name": "Two-on-One Hand Fight",
+      "description": "Control choking arm and turn into guard."
+    },
+    {
+      "name": "Hip Scoot Down Escape",
+      "description": "Slide hips downward to remove hooks."
+    },
+    {
+      "name": "Body Triangle Break",
+      "description": "Attack locked foot and rotate hips to free torso."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "Rear Naked Choke",
+      "description": "Primary submission — secure chin control and finish."
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "description": "Gi variation using collar control."
+    },
+    {
+      "name": "Short Choke",
+      "description": "Finish when chin blocks full RNC."
+    },
+    {
+      "name": "Armbar from Back",
+      "description": "Isolate trapped arm and rotate for finish."
+    },
+    {
+      "name": "Triangle from Back",
+      "description": "Trap arm and head during defensive turn."
+    },
+    {
+      "name": "Neck Crank",
+      "description": "Apply rotational pressure when choke is defended."
+    }
+  ]
+},
+{
+  "id": 32,
+  "name": "Side Control 🔹",
+  "description": "Side Control is a dominant top position where the attacker lies perpendicular across the opponent’s torso, controlling their upper body with chest-to-chest pressure, head positioning, and arm isolation. It allows control over the opponent while setting up a wide variety of submissions and transitions to mount, knee-on-belly, or back control. Proper weight distribution and grip management are key to maintaining Side Control and preventing escapes.",
+  "image": "images/sidecontrol.webp",
+  "video": "https://www.youtube.com/watch?v=Kj2Yh1DQhM0",
+  "execution": [
+    "Establish chest-to-chest pressure across opponent",
+    "Control near-side arm with underhook or cross-face",
+    "Pin far-side arm using head, hip, or body weight",
+    "Spread knees for stable base",
+    "Keep hips low and aligned with opponent’s torso",
+    "Maintain constant pressure to limit breathing",
+    "Adjust head position to prevent bridge or roll",
+    "Use near-side knee to block hips",
+    "Transition to mount, knee-on-belly, or back control as needed"
+  ],
+  "pros": [
+    "Strong positional control with minimal energy",
+    "High-percentage submissions from top",
+    "Allows smooth transitions to mount, knee-on-belly, or back",
+    "Limits opponent mobility",
+    "Dominant scoring position in sport BJJ",
+    "Effective in both Gi and No-Gi",
+    "Versatile for self-defense and MMA control"
+  ],
+  "cons": [
+    "Opponent can escape with shrimp or bridge if base is loose",
+    "Requires continuous pressure and adjustment",
+    "Can lose position if grips fail",
+    "Limited submission options without isolating arm",
+    "Sweat in No-Gi reduces friction",
+    "Overcommitting can allow roll-over escape"
+  ],
+  "tips": [
+    "Control the near-side arm first",
+    "Pin the far-side shoulder with your chest",
+    "Keep hips low and heavy",
+    "Adjust head to block bridges",
+    "Spread knees for stability",
+    "Transition proactively to mount or back",
+    "Use crossface to disrupt posture",
+    "Attack arm or neck only after control is secure",
+    "Float slightly during opponent’s explosive movement",
+    "Chain attacks — do not rely on a single submission"
+  ],
+  "athletes": [
+    "Rafael Lovato Jr.",
+    "Marcelo Garcia",
+    "Roger Gracie",
+    "Demian Maia",
+    "Gordon Ryan"
+  ],
+  "sweeps": [
+    {
+      "name": "Bridge and Roll Escape",
+      "description": "Trap arm and bridge to reverse position."
+    },
+    {
+      "name": "Elbow Escape (Shrimp)",
+      "description": "Create space to recover guard."
+    },
+    {
+      "name": "Underhook Sweep",
+      "description": "Use underhook to elevate and turn opponent."
+    }
+  ],
+  "passes": [
+    {
+      "name": "Crossface and Knee Pin",
+      "description": "Flatten opponent and isolate hips to advance position."
+    },
+    {
+      "name": "Leg Weave Pass",
+      "description": "Clear legs and settle into dominant top."
+    },
+    {
+      "name": "Over-Under Pass",
+      "description": "Control far leg and chest to move into mount."
+    },
+    {
+      "name": "Knee Slide Pass",
+      "description": "Slide knee across opponent’s thigh and establish pressure."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "Americana",
+      "description": "Figure-four shoulder lock from low side control."
+    },
+    {
+      "name": "Kimura",
+      "description": "Figure-four shoulder lock targeting far arm."
+    },
+    {
+      "name": "Arm Triangle",
+      "description": "Compress neck and shoulder for choke."
+    },
+    {
+      "name": "Straight Armbar",
+      "description": "Trap near-side arm and extend for finish."
+    },
+    {
+      "name": "North-South Choke",
+      "description": "Transition to north-south position and choke."
+    },
+    {
+      "name": "Paper Cutter Choke",
+      "description": "Gi-based choke using collar and arm control."
+    }
+  ]
+},
+{
+  "id": 33,
+  "name": "North-South 🧭",
+  "description": "North-South is a dominant top control position where the attacker positions chest-to-chest with the opponent but oriented in the opposite direction, facing their legs. It offers tight upper-body control, strong pinning pressure, and direct access to submissions such as the North-South choke, kimura, and arm isolations. Proper shoulder pressure and hip positioning are essential to prevent guard recovery and escapes.",
+  "image": "images/northsouth.jpg",
+  "video": "https://www.youtube.com/watch?v=Jp4z5KxLm8A",
+  "execution": [
+    "Transition from Side Control by circling toward opponent’s head",
+    "Rotate hips so you face opponent’s legs",
+    "Keep chest heavy across opponent’s upper torso",
+    "Control near-side arm with underhook or wrist grip",
+    "Drop shoulder pressure into opponent’s jawline or chest",
+    "Keep hips low and legs sprawled for base",
+    "Block near hip with your arm or lat connection",
+    "Adjust position to prevent opponent turning inward",
+    "Stabilize before initiating submission attempts"
+  ],
+  "pros": [
+    "Strong upper-body control with minimal space",
+    "Excellent setup for North-South choke",
+    "Reduces opponent’s bridging power",
+    "Hard for bottom player to re-guard",
+    "Smooth transitions back to Side Control or Mount",
+    "Effective pressure-based control in Gi and No-Gi",
+    "Allows isolation of both arms"
+  ],
+  "cons": [
+    "Limited direct scoring compared to mount or back",
+    "Can lose control if hips are too high",
+    "Requires shoulder pressure precision",
+    "Sweat can reduce chest grip in No-Gi",
+    "Overcommitting to choke may allow escape",
+    "Limited striking posture (MMA context)"
+  ],
+  "tips": [
+    "Keep hips low and legs wide",
+    "Apply shoulder pressure into head or jaw",
+    "Control one arm before attacking choke",
+    "Do not allow bottom player to turn to knees",
+    "Float hips during explosive bridges",
+    "Switch back to Side Control if space opens",
+    "Keep chest connected at all times",
+    "Use head positioning to limit hip movement",
+    "Attack in combination with kimura control",
+    "Stabilize before submission attempts"
+  ],
+  "athletes": [
+    "Marcelo Garcia",
+    "Rafael Lovato Jr.",
+    "Roger Gracie",
+    "Gordon Ryan",
+    "Demian Maia"
+  ],
+  "sweeps": [
+    {
+      "name": "Bridge and Turn Escape",
+      "description": "Explosive bridge to create space and recover guard."
+    },
+    {
+      "name": "Underhook Come-Up",
+      "description": "Secure underhook and rotate to knees."
+    },
+    {
+      "name": "Hip Shrimp Recovery",
+      "description": "Create angle to reinsert guard."
+    }
+  ],
+  "passes": [
+    {
+      "name": "North-South to Side Control",
+      "description": "Circle back to traditional side control to stabilize."
+    },
+    {
+      "name": "North-South to Mount",
+      "description": "Step over hips and secure mount."
+    },
+    {
+      "name": "Kimura Control Transition",
+      "description": "Isolate far arm and shift into submission chain."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "North-South Choke",
+      "description": "Compress neck using lat and shoulder pressure."
+    },
+    {
+      "name": "Kimura",
+      "description": "Figure-four shoulder lock on isolated arm."
+    },
+    {
+      "name": "Straight Armbar",
+      "description": "Extend trapped arm from top control."
+    },
+    {
+      "name": "Arm Triangle",
+      "description": "Transition back toward side control to finish choke."
+    },
+    {
+      "name": "Darce Choke",
+      "description": "Thread arm under neck during transition scramble."
+    },
+    {
+      "name": "Far-Side Americana",
+      "description": "Attack far arm when opponent exposes shoulder."
+    }
+  ]
+},
+{
+  "id": 34,
+  "name": "Knee on Belly 🦵",
+  "description": "Knee on Belly is a high-pressure top control position where the attacker places one knee on the opponent’s abdomen or chest while keeping the other leg posted for balance. This position allows dynamic mobility, rapid transitions, and strong control, while making the bottom player uncomfortable and vulnerable to submissions. It is often used as an intermediate control between Side Control and Mount or to initiate attacks such as armbars, kimuras, and chokes.",
+  "image": "images/kneeonbelly.jpg",
+  "video": "https://www.youtube.com/watch?v=8qW2k3tLp0A",
+  "execution": [
+    "Transition from Side Control or Mount",
+    "Place knee on opponent’s stomach or chest",
+    "Keep other leg posted wide for balance",
+    "Maintain chest-to-chest pressure",
+    "Control near-side arm with underhook or crossface",
+    "Adjust hips to follow opponent’s movements",
+    "Keep weight centered and responsive",
+    "Use shoulder pressure into chest to limit mobility",
+    "Float hips for quick transitions",
+    "Scan for submission openings or positional improvements"
+  ],
+  "pros": [
+    "High mobility and dynamic control",
+    "Maintains pressure while allowing rapid transitions",
+    "Disrupts opponent’s breathing and movement",
+    "Effective setup for submissions (armbar, kimura, chokes)",
+    "Easy to switch to Mount or Side Control",
+    "Creates psychological and physical pressure",
+    "Useful in both Gi and No-Gi"
+  ],
+  "cons": [
+    "Less secure than full mount — opponent can roll",
+    "Requires constant balance adjustment",
+    "High knee may cause injury if misapplied",
+    "Limited scoring in competition compared to mount",
+    "Opponent can bridge or shrimp to escape",
+    "Overcommitting can lead to leg exposure or sweep"
+  ],
+  "tips": [
+    "Keep posted foot wide and hips mobile",
+    "Apply chest pressure without leaning too far forward",
+    "Pin near-side arm to reduce bridging",
+    "Float hips for quick submission setup",
+    "Move knee slightly to follow opponent’s movement",
+    "Transition to mount or side control if pressure is relieved",
+    "Control head position to prevent escapes",
+    "Attack arm or collar when opponent reacts",
+    "Use pressure to break posture before submissions",
+    "Do not stay static — Knee on Belly is a dynamic position"
+  ],
+  "athletes": [
+    "Marcelo Garcia",
+    "Rafael Lovato Jr.",
+    "Gordon Ryan",
+    "Demian Maia",
+    "Roger Gracie"
+  ],
+  "sweeps": [
+    {
+      "name": "Knee Slide Escape",
+      "description": "Bottom player bridges and slides knee to recover guard."
+    },
+    {
+      "name": "Elbow Escape",
+      "description": "Shrimp to create space and reinsert guard."
+    },
+    {
+      "name": "Bridge and Roll Recovery",
+      "description": "Explosive bridge to reverse position."
+    }
+  ],
+  "passes": [
+    {
+      "name": "Knee Pressure Pass",
+      "description": "Use knee pressure to maintain control while isolating arms for mount."
+    },
+    {
+      "name": "Slide to Side Control",
+      "description": "Shift off posted leg to settle in traditional side control."
+    },
+    {
+      "name": "Hip Switch Pass",
+      "description": "Rotate hips to follow opponent and block escapes."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "Armbar",
+      "description": "Isolate near-side arm from elevated position."
+    },
+    {
+      "name": "Kimura",
+      "description": "Figure-four shoulder lock from pinned arm."
+    },
+    {
+      "name": "Americana",
+      "description": "Attack far-side arm if exposed."
+    },
+    {
+      "name": "Mounted Triangle / High Mount Transition",
+      "description": "Climb for triangle or high mount submission."
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "description": "Gi choke from controlling near-side lapel and arm."
+    },
+    {
+      "name": "Peruvian Necktie Setup",
+      "description": "Transition head and arm to secure neck choke."
+    }
+  ]
+},
+{
+  "id": 35,
+  "name": "Crucifix ✝️",
+  "description": "The Crucifix is a dominant control and submission position where the attacker traps one of the opponent’s arms with their legs and the other with their arms, creating a T-shaped control resembling a crucifix. It immobilizes the opponent, exposing them to chokes (like the rear naked choke or gi variations) and arm attacks such as the armbar or kimura. It is highly effective in both Gi and No-Gi grappling and works well from back or side positions.",
+  "image": "images/crucifix.jpg",
+  "video": "https://www.youtube.com/watch?v=R7pQk9f2w9M",
+  "execution": [
+    "Enter from back control, side control, or turtle position",
+    "Trap near-side arm with legs (crossed or inside control)",
+    "Control far-side arm with your arms or grips",
+    "Pin chest to chest or chest to back depending on entry",
+    "Keep hips tight and perpendicular to opponent",
+    "Maintain head control to limit escapes",
+    "Adjust legs and arms to secure full immobilization",
+    "Set up submission attacks from immobilized opponent",
+    "Follow opponent if they attempt roll escape",
+    "Float slightly to maintain leverage without losing pressure"
+  ],
+  "pros": [
+    "Complete immobilization of opponent",
+    "High-percentage submissions available",
+    "Difficult to escape once established",
+    "Works in Gi and No-Gi",
+    "Versatile entry points from multiple positions",
+    "Excellent control for chain attacks",
+    "Psychologically dominant for opponent"
+  ],
+  "cons": [
+    "Requires precise trapping of both arms",
+    "Exposure risk if leg or arm control slips",
+    "Limited mobility — must transition carefully",
+    "Opponent can roll if position is loose",
+    "Choke options may be limited if grips fail",
+    "High-level timing required for effective submissions"
+  ],
+  "tips": [
+    "Trap far-side arm first, then near-side",
+    "Keep hips perpendicular and tight",
+    "Control head and chest to limit bridging",
+    "Set up submissions immediately after securing position",
+    "Float slightly to adjust leverage",
+    "Follow rolls to maintain control",
+    "Chain attacks — crucifix works best with multiple options",
+    "Pin both legs for maximal immobilization",
+    "Attack near-side arm if opponent defends choke",
+    "Adjust pressure rather than relying on static hold"
+  ],
+  "athletes": [
+    "Marcelo Garcia",
+    "Gordon Ryan",
+    "Craig Jones",
+    "Lachlan Giles",
+    "John Danaher"
+  ],
+  "sweeps": [
+    {
+      "name": "Crucifix Roll Sweep",
+      "description": "Elevate opponent while maintaining arm control to reverse position."
+    },
+    {
+      "name": "Back Take Sweep",
+      "description": "Transition to back when opponent turns defensively."
+    },
+    {
+      "name": "Side Control Tilt",
+      "description": "Off-balance opponent sideways to improve positional advantage."
+    }
+  ],
+  "passes": [
+    {
+      "name": "Arm Release Escape",
+      "description": "Free trapped arm and rotate to escape."
+    },
+    {
+      "name": "Hip Stack Counter",
+      "description": "Stack opponent and relieve pressure on trapped arm."
+    },
+    {
+      "name": "Roll and Sit Escape",
+      "description": "Roll under attacker to break crucifix control."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "Crucifix Choke",
+      "description": "Apply choke using opponent’s trapped arm and lapel (Gi) or body (No-Gi)."
+    },
+    {
+      "name": "Armbar",
+      "description": "Isolate trapped arm and extend for finish."
+    },
+    {
+      "name": "Kimura",
+      "description": "Attack far-side arm from control."
+    },
+    {
+      "name": "Peruvian Necktie",
+      "description": "Transition neck and arm into choke from crucifix control."
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "description": "Gi variation when lapel grips are available."
+    }
+  ]
 }
    ]
 }
