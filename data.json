@@ -4055,6 +4055,382 @@
       "description": "Attack lower leg during entanglement scramble."
     }
   ]
+},
+{
+  "id": 27,
+  "name": "Saddle (Inside Sankaku / Honey Hole) 🪢",
+  "description": "The Saddle — also known as Inside Sankaku or the Honey Hole — is a dominant inside leg entanglement where the attacker triangles their legs around one of the opponent’s legs while controlling the secondary leg with their arms. It is one of the strongest finishing positions in modern leg locking, offering powerful rotational control and direct access to inside heel hooks, kneebars, and transitions to 50/50 or backside Ashi. The position immobilizes the hips and isolates the knee line for high-percentage submissions.",
+  "image": "images/saddle.jpg",
+  "video": "https://www.youtube.com/watch?v=msIXsfajRew",
+  "execution": [
+    "Off-balance opponent and enter from Ashi Garami, Shin-to-Shin, or K-Guard",
+    "Thread your inside leg deep across opponent’s hip line",
+    "Triangle your legs around the trapped leg (figure-four configuration)",
+    "Control opponent’s secondary leg with your arms (two-on-one or cross grip)",
+    "Keep your knees tight and heels heavy to trap the hip",
+    "Hide your own heel to prevent counter leg locks",
+    "Ensure opponent’s knee line is fully controlled",
+    "Rotate your hips inward to expose the heel",
+    "Maintain upper body connection to prevent rolling escapes"
+  ],
+  "pros": [
+    "Elite rotational control over opponent’s knee",
+    "High-percentage inside heel hook finishes",
+    "Strong hip immobilization",
+    "Transitions smoothly from many modern guards",
+    "Difficult to escape once knee line is trapped",
+    "Controls secondary leg to limit defensive spins",
+    "Forces immediate defensive reactions"
+  ],
+  "cons": [
+    "Heel hook exposure rules vary by competition level",
+    "Requires precise knee line control",
+    "Risk of counter leg entanglements if heel is exposed",
+    "Less effective if opponent clears secondary leg",
+    "Can lead to scrambles if triangle loosens",
+    "Requires awareness of reaping rules in Gi divisions"
+  ],
+  "tips": [
+    "Always control the secondary leg first",
+    "Knee line control is more important than heel exposure",
+    "Pinch knees before attacking the heel",
+    "Hide your outside foot to avoid counter heel hooks",
+    "If opponent straightens leg, transition to kneebar",
+    "If opponent rolls, follow and maintain hip rotation",
+    "Keep hips glued — do not separate during finish",
+    "Use cross-hip pressure to prevent spinning escape",
+    "Triangle tight but adjustable for mobility",
+    "Attack in combination — never single-shot leg locks"
+  ],
+  "athletes": [
+    "John Danaher",
+    "Garry Tonon",
+    "Gordon Ryan",
+    "Craig Jones",
+    "Lachlan Giles"
+  ],
+  "sweeps": [
+    {
+      "name": "Saddle Tilt Sweep",
+      "description": "Elevate hips and rotate opponent backward to come on top."
+    },
+    {
+      "name": "Backside Come-Up",
+      "description": "Release triangle and rise into top position during scramble."
+    },
+    {
+      "name": "Secondary Leg Dump",
+      "description": "Lift controlled leg to topple opponent sideways."
+    },
+    {
+      "name": "50/50 Transition Sweep",
+      "description": "Switch to 50/50 and elevate opponent over trapped leg."
+    },
+    {
+      "name": "Kneebar Elevation Sweep",
+      "description": "Extend hips to off-balance opponent before submission."
+    }
+  ],
+  "passes": [
+    {
+      "name": "Backstep Escape",
+      "description": "Rotate hips and free knee line before triangle locks."
+    },
+    {
+      "name": "Secondary Leg Clear",
+      "description": "Remove controlled leg to weaken hip control."
+    },
+    {
+      "name": "Heel Slip Turn",
+      "description": "Rotate heel inward and spin out of entanglement."
+    },
+    {
+      "name": "Hand Fight Peel",
+      "description": "Break grip control on secondary leg."
+    },
+    {
+      "name": "Forward Roll Escape",
+      "description": "Commit to roll before heel exposure is secured."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "Inside Heel Hook",
+      "description": "Primary attack — rotate heel inward while controlling knee line."
+    },
+    {
+      "name": "Kneebar",
+      "description": "Switch hip angle and extend opponent’s leg."
+    },
+    {
+      "name": "Cross Ashi Heel Hook",
+      "description": "Transition to cross ashi for stronger breaking angle."
+    },
+    {
+      "name": "Toe Hold",
+      "description": "Attack foot if heel is hidden."
+    },
+    {
+      "name": "Calf Slicer",
+      "description": "Compress lower leg during entanglement control."
+    },
+    {
+      "name": "50/50 Heel Hook",
+      "description": "Transition when opponent turns knee outward."
+    },
+    {
+      "name": "Back Take from Roll",
+      "description": "Follow defensive spin to secure rear control."
+    } ]
+},
+{
+  "id": 28,
+  "name": "Crab Ride 🦀",
+  "description": "Crab Ride is a dynamic back control and transitional riding position where the attacker controls both of the opponent’s hips from behind using inside hooks while seated upright. Unlike traditional back control, Crab Ride keeps the opponent’s hips elevated and mobile, allowing the attacker to follow standing movements, force mat returns, enter leg drags, or secure full back control. It is widely used in modern sport Jiu-Jitsu as a transitional control between guard retention, leg entanglements, and back takes.",
+  "image": "images/crabride.jpg",
+  "video": "https://www.youtube.com/watch?v=q1Y4x_EUZtY",
+  "execution": [
+    "Enter from leg drag, reverse De La Riva, or berimbolo transition",
+    "Position yourself behind opponent with your chest upright",
+    "Insert both hooks inside opponent’s thighs (heels inside, toes flared)",
+    "Control near-side arm or secure a belt/waist grip (Gi) or body lock (No-Gi)",
+    "Keep knees pinched to control hips",
+    "Stay seated tall — do not fall backward",
+    "Elevate opponent’s hips slightly to disrupt balance",
+    "Follow their movement if they attempt to stand",
+    "Transition to back control, leg drag, or mat return"
+  ],
+  "pros": [
+    "Excellent transitional back exposure control",
+    "Strong against standing or scrambling opponents",
+    "High mobility position",
+    "Great for mat returns",
+    "Connects berimbolo to back takes",
+    "Forces opponent to address hooks immediately",
+    "Works in Gi and No-Gi"
+  ],
+  "cons": [
+    "Less chest-to-back control than traditional back mount",
+    "Requires active hook engagement",
+    "Can lose position if hooks slip",
+    "Opponent may sit to 50/50 if control is loose",
+    "Demands balance and timing",
+    "Limited finishing options without transition"
+  ],
+  "tips": [
+    "Stay tall — posture maintains control",
+    "Pinch knees before elevating hips",
+    "Control at least one arm to prevent turns",
+    "If opponent stands, follow and mat return",
+    "If they sit, transition to leg drag or back take",
+    "Keep hooks active — flex feet outward",
+    "Do not lean too far back",
+    "Use hip elevation to break posture",
+    "Transition quickly — it’s a riding position",
+    "Follow scrambles rather than forcing static control"
+  ],
+  "athletes": [
+    "Marcelo Garcia",
+    "Mikey Musumeci",
+    "Mendes Brothers",
+    "Gordon Ryan",
+    "Lachlan Giles"
+  ],
+  "sweeps": [
+    {
+      "name": "Crab Ride Tilt",
+      "description": "Elevate hips and tip opponent backward to secure top position."
+    },
+    {
+      "name": "Leg Drag Sweep",
+      "description": "Kick one leg across and settle into leg drag control."
+    },
+    {
+      "name": "Standing Mat Return",
+      "description": "Lift and return opponent to the mat when they stand."
+    },
+    {
+      "name": "Inside Trip from Crab Ride",
+      "description": "Come up while controlling hooks to trip opponent forward."
+    },
+    {
+      "name": "Back Exposure Sweep",
+      "description": "Force opponent to hands and secure rear control."
+    }
+  ],
+  "passes": [
+    {
+      "name": "Hip Turn Escape",
+      "description": "Rotate hips aggressively to clear one hook."
+    },
+    {
+      "name": "Sit-to-50/50",
+      "description": "Sit back to entangle one leg and remove hooks."
+    },
+    {
+      "name": "Forward Roll Escape",
+      "description": "Roll forward to disengage hooks."
+    },
+    {
+      "name": "Hand Peel and Turn-In",
+      "description": "Strip grips and square hips to face attacker."
+    },
+    {
+      "name": "Leg Kick-Out",
+      "description": "Forcefully extend leg to remove inside hook."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "Rear Naked Choke",
+      "description": "Transition to full back control and secure choke."
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "description": "Gi variation after securing back exposure."
+    },
+    {
+      "name": "Short Choke",
+      "description": "Attack immediately if neck is exposed."
+    },
+    {
+      "name": "Calf Slicer Entry",
+      "description": "Attack leg during transition scramble."
+    },
+    {
+      "name": "Armbar from Back Transition",
+      "description": "Trap arm during spin to back control."
+    },
+    {
+      "name": "Twister Hook Control",
+      "description": "Transition one hook to initiate truck-style control."
+    }
+  ]
+},
+{
+  "id": 29,
+  "name": "Waiter Guard 🍽️",
+  "description": "Waiter Guard is a deep half-style open guard where the bottom player controls one of the opponent’s legs elevated on their shin and shoulder, similar to a waiter carrying a tray. The position places the opponent’s weight over a lifted leg, creating strong sweeping leverage and direct entries into leg entanglements such as Single Leg X, Saddle, and 50/50. It is especially effective against standing or staggered opponents and is commonly entered from Reverse De La Riva or Deep Half transitions.",
+  "image": "images/waiterguard.jpg",
+  "video": "https://www.youtube.com/watch?v=m3sBmC74Jzg",
+  "execution": [
+    "Enter from Reverse De La Riva, De La Riva, or Deep Half",
+    "Thread your inside leg underneath opponent’s far thigh",
+    "Elevate their leg onto your shin and shoulder",
+    "Control near ankle or pant grip (Gi) / ankle or heel (No-Gi)",
+    "Keep your outside leg tight to prevent step-over",
+    "Stay slightly angled on your side — not flat",
+    "Maintain elevation so opponent’s foot cannot post",
+    "Keep hips underneath opponent’s center of gravity",
+    "Off-balance opponent backward or diagonally",
+    "Transition immediately into sweep or leg entanglement"
+  ],
+  "pros": [
+    "Strong off-balancing leverage",
+    "Excellent entry into leg entanglements",
+    "Forces opponent’s weight onto one leg",
+    "Effective against standing opponents",
+    "Connects smoothly to Saddle and 50/50",
+    "Creates immediate sweeping momentum",
+    "Works well in Gi for pant control"
+  ],
+  "cons": [
+    "Weak if opponent frees elevated leg",
+    "Requires precise angle control",
+    "Can be backstepped if elevation drops",
+    "Limited upper body control without grips",
+    "Exposure risk if hips are too flat",
+    "Timing-sensitive during transitions"
+  ],
+  "tips": [
+    "Keep opponent’s foot higher than their knee",
+    "Angle slightly under their trapped hip",
+    "Do not stay flat — be on your side",
+    "Control ankle before elevating",
+    "If opponent turns knee outward, enter 50/50",
+    "If they pressure forward, transition to Single Leg X",
+    "Maintain tight knee pinch on lifted leg",
+    "Use pant grip (Gi) to prevent spin-out",
+    "Follow opponent’s hop — do not pause",
+    "Elevate first, then sweep"
+  ],
+  "athletes": [
+    "Mikey Musumeci",
+    "Lachlan Giles",
+    "Rafa Mendes",
+    "Gordon Ryan",
+    "Craig Jones"
+  ],
+  "sweeps": [
+    {
+      "name": "Basic Waiter Tilt Sweep",
+      "description": "Elevate leg and rotate opponent backward to come on top."
+    },
+    {
+      "name": "Waiter to Single Leg X Sweep",
+      "description": "Drop under and reconfigure hooks to sweep forward."
+    },
+    {
+      "name": "50/50 Transition Sweep",
+      "description": "Shift hips and enter 50/50 to off-balance opponent."
+    },
+    {
+      "name": "Backside Rotation Sweep",
+      "description": "Rotate under opponent to expose back."
+    },
+    {
+      "name": "Saddle Entry Sweep",
+      "description": "Elevate and thread inside leg into Saddle for top finish."
+    }
+  ],
+  "passes": [
+    {
+      "name": "Backstep Counter",
+      "description": "Rotate hips and clear elevated leg before sweep begins."
+    },
+    {
+      "name": "Leg Kick Free",
+      "description": "Forcefully free trapped leg downward."
+    },
+    {
+      "name": "Hip Sprawl Pressure",
+      "description": "Drop hips heavy to collapse guard structure."
+    },
+    {
+      "name": "Crossface Smash",
+      "description": "Flatten opponent before elevation develops."
+    },
+    {
+      "name": "Secondary Leg Staple",
+      "description": "Pin bottom player’s outside leg to prevent angle."
+    }
+  ],
+  "submissions": [
+    {
+      "name": "Inside Heel Hook",
+      "description": "Enter Saddle during elevation and attack heel."
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "description": "Transition to Single Leg X for ankle finish."
+    },
+    {
+      "name": "Kneebar",
+      "description": "Extend leg during rotation under opponent."
+    },
+    {
+      "name": "Toe Hold",
+      "description": "Attack foot when opponent resists inward rotation."
+    },
+    {
+      "name": "Back Take from Rotation",
+      "description": "Spin underneath opponent to secure rear control."
+    },
+    {
+      "name": "Calf Slicer",
+      "description": "Compress lower leg during leg entanglement scramble."
+    }
+  ]
 }
    ]
 }
