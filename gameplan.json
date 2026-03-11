@@ -5115,6 +5115,774 @@
       ]
     },
     {
+      "id": "collar-sleeve",
+      "name": "Collar Sleeve Guard",
+      "emoji": "👔",
+      "description": "Open guard position built on a deep cross-collar grip and same-side sleeve control. With one foot on the hip and the other on the bicep, it creates strong distance management, off-balancing ability, and powerful angle-based attacks. One of the most effective attacking guard systems in Gi Jiu-Jitsu.",
+      "techniques": [
+        {
+          "name": "Collar Sleeve Scissor Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Break posture with collar grip and use scissor motion after angling off to sweep opponent from collar sleeve guard.",
+          "initialPosition": {
+            "body": "Lying on your back in collar sleeve guard. Torso angled toward the collar grip side — not flat on your back.",
+            "grips": "Deep cross-collar grip (4 fingers inside) pulling opponent's posture down. Opposite hand controls their same-side sleeve, pulling it across.",
+            "legs": "Collar-side foot on their hip for distance. Sleeve-side foot on their bicep. For the sweep: top shin cuts across their stomach, bottom leg extends to cut their base.",
+            "hips": "Angled toward the collar grip side. Scooted off-center to create the scissor angle."
+          },
+          "greenLights": [
+            "Opponent is kneeling with compromised posture from your collar pull",
+            "Opponent's base is narrow — knees close together",
+            "You've pulled the sleeve across their centerline, limiting their post",
+            "Opponent's weight is centered or slightly forward after collar pull"
+          ],
+          "redLights": [
+            "Opponent is standing tall with strong posture — can't break them down",
+            "Collar grip is shallow — no pulling power",
+            "Opponent has broken your sleeve grip — they can post freely",
+            "Opponent has a very wide base with knees far apart"
+          ],
+          "steps": [
+            "From collar sleeve guard, pull opponent's posture down with your deep collar grip. Pull sleeve across their centerline to limit their far-side post.",
+            "Transition your legs from guard position: place shin across their stomach and extend your bottom leg behind their far knee. Angle your hips toward the collar grip side.",
+            "Simultaneously: PULL down and across with the collar grip, PUSH with the shin across their belly, and SWEEP the bottom leg to cut away their far knee. All three forces work together.",
+            "Follow through the sweep to mount, maintaining the collar grip throughout the transition. Establish control immediately."
+          ],
+          "complexpieces": [
+            "If opponent posts their hand to block, switch to armbar on the posted arm",
+            "Chain with triangle: if they posture and create an arm-in/arm-out situation",
+            "If scissor sweep fails, transition back to full collar sleeve and attack tripod sweep instead"
+          ],
+          "simplifications": [
+            "Practice the collar pull posture break in isolation — grip depth and pull angle are the foundation",
+            "Drill the scissor leg motion without upper body grips to build the movement pattern",
+            "Against a cooperative partner, focus on timing the hip angle change with the collar pull"
+          ]
+        },
+        {
+          "name": "Overhead (Balloon) Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Pull opponent forward with collar grip and elevate them overhead using your hip foot to sweep them behind you.",
+          "initialPosition": {
+            "body": "Lying on back in collar sleeve guard. Scooting hips underneath opponent to load their weight onto your hip foot.",
+            "grips": "Deep cross-collar grip pulling opponent forward and down. Sleeve grip pulling their arm to prevent posting.",
+            "legs": "Collar-side foot on their hip — this becomes the elevation platform. Sleeve-side foot releases bicep to assist the flip.",
+            "hips": "Scooted underneath opponent's center of gravity. Positioned to elevate them overhead with hip-foot extension."
+          },
+          "greenLights": [
+            "Opponent leans forward — weight committed over you from your collar pull",
+            "You've loaded their weight onto your hip foot successfully",
+            "Sleeve grip is strong — they can't post their hand to block",
+            "Opponent's hips are over your center of gravity"
+          ],
+          "redLights": [
+            "Opponent is sitting back with hips far away — can't load weight onto foot",
+            "Collar grip is shallow — insufficient pull to commit their weight forward",
+            "Sleeve grip is broken — they'll post and block the sweep",
+            "Opponent has a very wide, low base resisting the forward pull"
+          ],
+          "steps": [
+            "From collar sleeve guard, pull opponent aggressively forward with the deep collar grip. Scoot your hips underneath them to load their weight onto your hip foot.",
+            "Maintain tight sleeve control to prevent any posting. Your hip foot becomes the platform under their hip or stomach.",
+            "EXTEND your hip-foot leg explosively while PULLING the collar overhead. Guide them over your head in a controlled arc using the sleeve grip to direct the rotation.",
+            "Follow through the sweep, rolling backward and coming up on top. Maintain collar grip throughout the transition."
+          ],
+          "complexpieces": [
+            "If they resist the overhead motion, redirect laterally to a tripod sweep",
+            "Chain with tomoe nage: same setup, different elevation angle",
+            "If they base with their free hand, attack omoplata on the posted arm"
+          ],
+          "simplifications": [
+            "Practice the hip scoot underneath to load their weight as a separate drill",
+            "Use a cooperative partner to learn the elevation and timing of the collar pull",
+            "Focus on the simultaneous extension and pull — both must happen together"
+          ]
+        },
+        {
+          "name": "Tripod Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Remove one of opponent's posts and extend with collar control to collapse their base and sweep them backward.",
+          "initialPosition": {
+            "body": "Lying on back in collar sleeve guard. Hips active and angled, ready to extend and drive opponent backward.",
+            "grips": "Deep cross-collar grip controlling posture. Sleeve grip on same-side arm pulling it across. Free hand may reach to control their far ankle or pant leg.",
+            "legs": "Collar-side foot on their hip pushing to create distance and off-balance. Sleeve-side foot hooks behind their far ankle or calf to remove their post.",
+            "hips": "Mobile, slightly off the mat. Ready to drive into the sweep by extending the hip foot."
+          },
+          "greenLights": [
+            "Opponent is standing in your guard with weight distributed between both feet",
+            "You can reach their far ankle or pant leg with your free hand or foot",
+            "Collar grip is deep — strong pulling control of their posture",
+            "Opponent's weight shifts to one leg, making the other easier to sweep"
+          ],
+          "redLights": [
+            "Opponent has very wide stance — hard to access far ankle",
+            "Collar grip is shallow — not enough control to direct the fall",
+            "Opponent is kneeling low — tripod sweep works best against standing opponents",
+            "Both sleeve and collar grips are compromised"
+          ],
+          "steps": [
+            "From collar sleeve guard, control the collar deep and sleeve tight. Identify opponent's far leg as the target post to remove.",
+            "Hook your sleeve-side foot behind their far ankle or calf. Your hip foot stays on their near hip.",
+            "Simultaneously: PUSH their near hip away with your foot, PULL their posture forward and down with the collar grip, and REAP their far ankle backward to remove the last post.",
+            "Opponent falls backward. Come up immediately to top position, maintaining collar control."
+          ],
+          "complexpieces": [
+            "Chain with sickle sweep: if they resist the tripod by stepping the far leg, switch to sickle reap on the near leg",
+            "If they pull back hard, use their momentum for a collar drag to technical stand-up",
+            "Transition to De La Riva if they step their lead leg forward to recover base"
+          ],
+          "simplifications": [
+            "Practice the ankle hook separately — timing the hook behind the heel",
+            "Drill the three-force coordination slowly: push hip, pull collar, reap ankle",
+            "Start from a static standing position to learn the sweep angle before adding resistance"
+          ]
+        },
+        {
+          "name": "Sickle Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Control posture with collar grip and reap their leg while off-balancing them sideways to complete the sweep.",
+          "initialPosition": {
+            "body": "Lying on back in collar sleeve guard. Hips angled toward the sweeping side.",
+            "grips": "Deep cross-collar grip pulling opponent's posture down and to the side. Sleeve grip on same-side arm isolating their posting ability.",
+            "legs": "Hip foot on opponent's hip or thigh for control. Free leg extends to reap behind their near knee or calf in a sickle motion.",
+            "hips": "Angled toward the reaping side, creating the off-balance direction."
+          },
+          "greenLights": [
+            "Opponent is standing with weight on their near leg",
+            "Collar pull has compromised their posture sideways",
+            "Sleeve grip prevents them from posting on the sweep side",
+            "Opponent is stepping forward — near leg is loaded and available for the reap"
+          ],
+          "redLights": [
+            "Opponent's weight is back and away — can't generate the off-balance",
+            "Collar grip is shallow — no directional pull control",
+            "Opponent has freed their sleeve and can post to block the sweep",
+            "Opponent is stepping away from the reap direction"
+          ],
+          "steps": [
+            "From collar sleeve guard, pull opponent's posture down and slightly sideways using the deep collar grip. Control sleeve to isolate their arm.",
+            "Extend your free leg behind their near knee or calf — this is the sickle reaping leg.",
+            "PULL the collar sharply to the side while simultaneously REAPING their leg with a sickle motion. Push with your hip foot for additional off-balance.",
+            "Opponent falls sideways. Follow through to top position immediately, keeping collar control for the transition."
+          ],
+          "complexpieces": [
+            "Chain with tripod: attempt sickle, if they step that leg back, immediately switch to tripod sweep on the other leg",
+            "If they posture hard to resist, use the off-balance angle for a triangle setup",
+            "Transition into De La Riva if the reap creates a natural hook position"
+          ],
+          "simplifications": [
+            "Practice the reaping leg motion solo to build the sickle arc movement",
+            "Drill the collar pull direction — the sweep follows where the collar pull leads",
+            "Start with partner giving minimal resistance to learn the timing of pull and reap together"
+          ]
+        },
+        {
+          "name": "Tomoe Nage",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Use foot on hip and collar pull to elevate opponent directly overhead in a sacrifice throw from collar sleeve guard.",
+          "initialPosition": {
+            "body": "Lying on back in collar sleeve guard. Scooting hips deep under opponent to load weight onto hip foot.",
+            "grips": "Deep cross-collar grip pulling opponent forward aggressively. Sleeve grip preventing any posting.",
+            "legs": "Collar-side foot planted firmly on their hip — the launching platform. Sleeve-side leg tucks or assists the flip motion.",
+            "hips": "Deep under opponent's center of gravity. Back almost flat, positioned for maximum elevation power."
+          },
+          "greenLights": [
+            "Opponent leans forward with weight fully committed over you",
+            "Hip foot is firmly planted on their hip or low stomach",
+            "Strong collar pull has broken their posture forward",
+            "Sleeve grip is secure — they cannot post to save the throw"
+          ],
+          "redLights": [
+            "Opponent has hips back and low base — insufficient weight over you",
+            "Collar grip is shallow — can't generate the forward pull needed",
+            "Hip foot is not firmly planted — will slip off during extension",
+            "Opponent is retreating or pulling away"
+          ],
+          "steps": [
+            "From collar sleeve guard, scoot hips deep under opponent. Plant your hip foot firmly on their hip or low abdomen.",
+            "PULL aggressively with the collar grip to commit their weight forward over you. Maintain tight sleeve control.",
+            "EXTEND your hip-foot leg explosively upward while PULLING the collar over your head. Your foot launches them overhead like a catapult.",
+            "Follow through the throw, rolling backward. Come up on top and establish control immediately."
+          ],
+          "complexpieces": [
+            "Chain with overhead sweep: same setup, if tomoe nage fails, redirect to balloon sweep",
+            "If they resist and pull back, use their backward momentum for a collar drag",
+            "Transition to triangle if they separate their arms during the defense"
+          ],
+          "simplifications": [
+            "Practice the foot-on-hip elevation with a cooperative partner first — learn the launch angle",
+            "Focus on the timing of the collar pull and leg extension happening simultaneously",
+            "Drill the hip scoot underneath as a separate warmup movement"
+          ]
+        },
+        {
+          "name": "Omoplata Sweep",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Enter omoplata from collar sleeve control and use shoulder control to force the sweep when submission is defended.",
+          "initialPosition": {
+            "body": "Lying on back in collar sleeve guard. Hips angled toward the sleeve-control side, rotating to throw leg over opponent's arm.",
+            "grips": "Deep cross-collar grip breaking posture. Sleeve grip isolating the target arm across your body.",
+            "legs": "Sleeve-side leg swings over opponent's isolated arm and shoulder. Hip foot releases to assist rotation.",
+            "hips": "Rotating perpendicular to opponent — angling strongly toward the sleeve side to clear the leg over their shoulder."
+          },
+          "greenLights": [
+            "Opponent's arm is pulled across your centerline with the sleeve grip",
+            "You've created a strong angle with your hips — not square",
+            "Opponent's posture is broken and they can't retract the isolated arm",
+            "Opponent defends the omoplata submission by posturing — sweep becomes available"
+          ],
+          "redLights": [
+            "Opponent's arm is not isolated — both arms are inside your guard",
+            "You're flat on your back with no angle created",
+            "Opponent has strong upright posture and you can't pull the sleeve across",
+            "Opponent rolls through the omoplata before you can control their hips"
+          ],
+          "steps": [
+            "From collar sleeve guard, pull the sleeve across your centerline and angle your hips sharply toward the sleeve side.",
+            "Swing your sleeve-side leg HIGH over their trapped shoulder and arm. Your leg goes across the back of their shoulder, foot coming down on the far side.",
+            "Sit up and control their hip with your free hand to prevent the roll-through. If they try to posture up and defend the omoplata submission — lean forward and drive them flat for the sweep.",
+            "Complete the sweep to top position. From here you can either finish the omoplata submission or transition to side control."
+          ],
+          "complexpieces": [
+            "If they roll through the omoplata, follow and maintain the shoulder lock for the submission",
+            "Chain with triangle: if the omoplata entry fails, your leg is already high — close the triangle",
+            "Use collar grip to prevent posture recovery while setting up the omoplata"
+          ],
+          "simplifications": [
+            "Drill the hip angle and leg swing in isolation — focus on clearing the leg over the shoulder",
+            "Practice the omoplata entry without the sweep — just get the position repeatedly",
+            "Use the collar grip as the primary posture break before attempting the arm isolation"
+          ]
+        },
+        {
+          "name": "Collar Drag to Technical Stand-Up",
+          "category": "sweep",
+          "perspective": "bottom",
+          "goal": "Drag opponent forward off the collar grip and come up to top position using a technical stand-up.",
+          "initialPosition": {
+            "body": "In collar sleeve guard, transitioning from lying to sitting up explosively off the collar drag.",
+            "grips": "Deep cross-collar grip — this is the primary drag handle. Sleeve grip assists the pull or releases to post on the mat for stand-up.",
+            "legs": "Feet disengage from hip and bicep. Posting foot plants flat on the mat for the technical stand-up.",
+            "hips": "Driving forward and up as you come to standing after the drag."
+          },
+          "greenLights": [
+            "Opponent is momentarily light on their feet or off-balanced forward",
+            "Deep collar grip allows strong pulling power",
+            "Opponent reaches forward or leans in to attack — weight committed",
+            "Space exists to come up to your feet after the drag"
+          ],
+          "redLights": [
+            "Opponent has heavy base and is sitting back — drag won't move them",
+            "Collar grip is shallow — can't generate enough pull",
+            "Opponent is already pressuring forward heavily — you'll get smashed coming up",
+            "No space to post and stand — opponent is too close and too heavy"
+          ],
+          "steps": [
+            "From collar sleeve guard, pull the collar SHARPLY forward and to the side — a hard snapping drag to off-balance them.",
+            "As they stumble forward, release your sleeve grip and post your hand on the mat behind you. Plant your posting foot flat.",
+            "Execute the technical stand-up: drive off the posting foot and hand, come to your feet while maintaining the collar grip. Stay low and controlled.",
+            "Establish top position using the collar grip to keep them down. Transition to a pass or takedown finish."
+          ],
+          "complexpieces": [
+            "If they recover posture during the drag, shoot for a single leg instead of standing up",
+            "Chain with back take: drag and circle behind them instead of coming up in front",
+            "If drag fails, immediately reset feet to hip and bicep — re-establish collar sleeve guard"
+          ],
+          "simplifications": [
+            "Practice the collar drag as a snap-pull drill without the stand-up",
+            "Drill the technical stand-up solo — posting and coming to feet smoothly",
+            "Combine with a cooperative partner: drag, post, stand, reset"
+          ]
+        },
+        {
+          "name": "Triangle Choke",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Primary attack from collar sleeve — pull sleeve across and shoot hips up after angling to lock a triangle choke around their neck and one arm.",
+          "initialPosition": {
+            "body": "Lying on back in collar sleeve guard. Hips angled sharply toward the collar grip side for leg clearance over their shoulder.",
+            "grips": "Deep cross-collar grip pulling posture down. Sleeve grip pulling their arm across your centerline to create arm-in/arm-out.",
+            "legs": "Sleeve-side foot on bicep pushes arm across. Hip foot on their hip creates angle. Attacking leg will throw HIGH over their shoulder.",
+            "hips": "Scooted to the collar-grip side, angled to clear the leg over their far shoulder."
+          },
+          "greenLights": [
+            "Sleeve has been pulled across your centerline — arm-in/arm-out is created",
+            "Collar grip has broken their posture down",
+            "Hips are angled — not square on your back",
+            "Opponent is focused on the collar grip defense and not protecting the triangle"
+          ],
+          "redLights": [
+            "Both opponent's arms are inside or outside — no arm-in/arm-out",
+            "Opponent has strong upright posture — can't shoot hips up",
+            "Your hips are flat — no angle to clear the leg over their shoulder",
+            "Sleeve grip is broken — can't isolate the arm across center"
+          ],
+          "steps": [
+            "From collar sleeve guard, pull the sleeve ACROSS your centerline with authority. Use your bicep foot to push their arm across, creating the arm-in/arm-out position.",
+            "Shoot your hips UP and throw your collar-side leg HIGH over their far shoulder and behind their neck. Release the hip foot and close the triangle figure-four (back of knee over opposite ankle).",
+            "Angle your body 30° to tighten the choke geometry. Pull their head DOWN with both hands.",
+            "Squeeze knees together and lift hips. Their trapped arm's shoulder compresses one carotid, your thigh compresses the other."
+          ],
+          "complexpieces": [
+            "If they posture inside the triangle, switch to armbar on the trapped arm",
+            "If they try to stack, release and transition to omoplata",
+            "Chain with collar sleeve scissor sweep: attempt the sweep first, when they resist up, shoot the triangle"
+          ],
+          "simplifications": [
+            "Practice pulling the sleeve across center and shooting hips up as a single drill",
+            "Drill the figure-four leg lock from collar sleeve position without finishing",
+            "Focus on the hip angle — this determines whether your leg can clear over their shoulder"
+          ]
+        },
+        {
+          "name": "Omoplata",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Swing leg over opponent's isolated arm from sleeve control to attack the shoulder joint with an omoplata.",
+          "initialPosition": {
+            "body": "Lying on back in collar sleeve guard. Hips rotating sharply toward the sleeve side to throw leg over their arm.",
+            "grips": "Sleeve grip isolating opponent's arm — pulling it across your body. Collar grip breaks posture to prevent retraction.",
+            "legs": "Sleeve-side leg swings over opponent's trapped arm and shoulder. Collar-side foot releases from hip to assist rotation.",
+            "hips": "Rotating perpendicular to opponent toward the sleeve side. Strong angle is critical for the leg to clear."
+          },
+          "greenLights": [
+            "Sleeve grip has pulled their arm across your centerline and isolated it",
+            "Collar grip is keeping their posture broken — they can't pull the arm back",
+            "Your hips are strongly angled toward the sleeve side",
+            "Opponent is leaning forward, making the arm more accessible"
+          ],
+          "redLights": [
+            "Arm is not isolated — opponent has retracted both arms",
+            "You're flat on your back — no angle to clear the leg over",
+            "Opponent has strong upright posture and their arm is high",
+            "Collar grip has been broken — opponent can posture and rip their arm free"
+          ],
+          "steps": [
+            "From collar sleeve guard, pull the sleeve to isolate their arm across your body. Use collar grip to keep posture broken.",
+            "Angle your hips sharply toward the sleeve side. Swing your sleeve-side leg HIGH over their trapped shoulder and arm.",
+            "Sit up and rotate to face the same direction as your opponent. Control their hip with your hand to prevent the roll-through escape.",
+            "Lean forward, driving their shoulder to the mat. Apply the omoplata by lifting their wrist toward the ceiling while keeping their elbow pinned to your hip."
+          ],
+          "complexpieces": [
+            "If they roll through, follow and maintain shoulder control for the finish",
+            "Chain with triangle: if your leg is over their shoulder but can't finish omoplata, close the triangle instead",
+            "Use the omoplata position to sweep if submission is defended — lean forward to flatten them"
+          ],
+          "simplifications": [
+            "Drill the leg swing over the arm repeatedly — the hip angle determines success",
+            "Practice the sit-up and hip control without finishing the submission",
+            "Focus on the collar grip pull as the setup — posture break makes everything easier"
+          ]
+        },
+        {
+          "name": "Armbar",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attack opponent's extended arm when they defend the triangle, using collar sleeve control to isolate and hyperextend the elbow.",
+          "initialPosition": {
+            "body": "Lying on back in collar sleeve guard or transitioning from a triangle attempt. Hips pivoting perpendicular to opponent's body.",
+            "grips": "Wrist or sleeve grip on the attacked arm. Collar grip or head control pulling posture down. Arm is extended or exposed from defending a previous attack.",
+            "legs": "One leg over opponent's face/neck, one across their torso. Clamping tight for control.",
+            "hips": "Perpendicular to opponent's body. Elevated for breaking pressure on the elbow."
+          },
+          "greenLights": [
+            "Opponent extends an arm defending the triangle or reaching for grips",
+            "You've isolated one arm with strong wrist control",
+            "Opponent's posture is broken and they're leaning forward",
+            "Your hips are angled perpendicular — ready for the pivot"
+          ],
+          "redLights": [
+            "Both of opponent's arms are tight to their body — nothing to isolate",
+            "Opponent is stacking you — hips driving over your head",
+            "No angle has been created — you're flat and square",
+            "Opponent is actively posturing up with arms retracted"
+          ],
+          "steps": [
+            "From collar sleeve guard (or after a triangle attempt), control the target arm at the wrist. Use the collar grip or head control to keep posture broken.",
+            "Pivot your hips perpendicular to their body. Place one foot on their hip to push and clear space. Swing your other leg HIGH over their face/neck.",
+            "Clamp BOTH legs tight — one over their face, one across their torso. Keep their thumb pointing up and arm fully extended.",
+            "Squeeze knees together and lift hips UP against the elbow joint for the submission. Control at the wrist; your hips deliver the breaking pressure."
+          ],
+          "complexpieces": [
+            "Chain from triangle: attempt triangle first, if they pull arm out, switch to armbar",
+            "If they stack, transition back to triangle or omoplata",
+            "Set up with collar choke threat — when they push your hand away, catch the extended arm"
+          ],
+          "simplifications": [
+            "Drill the hip pivot from collar sleeve position in isolation",
+            "Practice the leg clamp and hip lift on a cooperative partner to feel correct pressure",
+            "Break into two parts: angle creation + leg placement, then finishing mechanics"
+          ]
+        },
+        {
+          "name": "Cross Collar Choke",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Use the existing deep collar grip to feed a second hand and finish a cross collar choke from collar sleeve guard.",
+          "initialPosition": {
+            "body": "Lying on back in collar sleeve guard. Opponent's posture is broken down from the deep collar grip.",
+            "grips": "First hand already has the deep cross-collar grip (4 fingers inside, palm up). Second hand needs to reach across and grip the opposite collar deep (palm down). Wrists form an X at the throat.",
+            "legs": "Feet on hip and bicep maintaining distance, or guard closing around opponent to trap them in the choke.",
+            "hips": "Can be square or slightly angled. Priority is maintaining broken posture so they can't escape."
+          },
+          "greenLights": [
+            "Your existing collar grip is very deep — past the tag at the back of the collar",
+            "Opponent's posture is fully broken down — head is low",
+            "Opponent is focused on defending sweeps, not protecting their collar",
+            "You can feed your second hand across to the opposite collar"
+          ],
+          "redLights": [
+            "Collar grip is shallow — can't feed the second hand deep enough",
+            "Opponent has strong upright posture — can't reach the second collar",
+            "Opponent is actively stripping your collar grips",
+            "Opponent stands up to break posture — too much space between you"
+          ],
+          "steps": [
+            "From collar sleeve guard, your deep cross-collar grip is already established. Pull their posture fully down using the collar grip and feet on hip/bicep.",
+            "Release the sleeve grip and reach across to the OPPOSITE collar. Feed your hand deep (4 fingers inside, palm down). Your wrists now form an X at their throat.",
+            "Pull elbows toward your OWN ribs — not flaring outward. Squeeze forearms together like closing scissors. Maintain posture control with your legs.",
+            "Expand your chest forward while squeezing elbows down. Wrist bones compress the carotid arteries — this is a blood choke."
+          ],
+          "complexpieces": [
+            "Use the first choke grip as bait: if they posture to defend, switch to overhead sweep or tomoe nage",
+            "Chain with triangle: when they push your choking hand away, arm becomes exposed for triangle entry",
+            "If they defend the second grip, use the attempt to pull them into an omoplata setup"
+          ],
+          "simplifications": [
+            "Practice getting the second collar grip deep repeatedly — grip depth is everything",
+            "Drill posture-breaking from collar sleeve using the hip foot as a push-pull with the collar",
+            "Study the X-shape hand position and squeeze mechanics on a static partner"
+          ]
+        },
+        {
+          "name": "Loop Choke",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Attack opponent's neck with a loop choke when they drive forward into your collar sleeve guard.",
+          "initialPosition": {
+            "body": "Lying on back in collar sleeve guard. Opponent is driving forward into you.",
+            "grips": "Cross-collar grip feeds behind opponent's neck, creating a loop with the collar material around their neck. Free hand controls behind their head or grips the collar tail.",
+            "legs": "Feet disengage from hip and bicep as opponent closes distance. Legs may close or frame to control their body.",
+            "hips": "Angled slightly, guiding opponent's head toward the collar loop side."
+          },
+          "greenLights": [
+            "Opponent drives forward aggressively into your guard — head comes forward",
+            "Your collar grip is on the correct side to feed behind their neck",
+            "Opponent ducks their head, exposing the back of the neck",
+            "You can guide their head into the loop with your collar grip"
+          ],
+          "redLights": [
+            "Opponent has strong upright posture — head stays high and back",
+            "Collar grip is on the wrong side or too shallow to loop behind neck",
+            "Opponent is pulling away, not driving forward",
+            "Opponent is grip fighting and preventing collar access"
+          ],
+          "steps": [
+            "From collar sleeve guard, as opponent drives forward, feed your collar grip deeper — sliding behind their neck, creating a loop of collar material around their throat.",
+            "Use your free hand to control behind their head or grab the collar tail, closing the loop tight around their neck.",
+            "Angle your body to the side to tighten the collar loop. Pull your choking elbow toward your hip.",
+            "Apply the choke by expanding your chest and squeezing the loop. The collar material constricts around their neck as you create tension."
+          ],
+          "complexpieces": [
+            "Chain with collar drag: if the loop choke doesn't finish, use the collar grip to drag them forward and take the back",
+            "If they posture out, immediately re-establish collar sleeve guard distance",
+            "Transition to guillotine if the loop fails but their head is still low"
+          ],
+          "simplifications": [
+            "Practice feeding the collar behind the neck from collar sleeve position against a static partner",
+            "Drill the angle change that tightens the loop — the body turn is the finishing mechanic",
+            "Focus on recognizing when opponent drives forward — this is the trigger"
+          ]
+        },
+        {
+          "name": "Collar Drag to Back Take",
+          "category": "submission",
+          "perspective": "bottom",
+          "goal": "Pull opponent forward off the collar grip and circle behind them to secure back control.",
+          "initialPosition": {
+            "body": "In collar sleeve guard, transitioning from lying to sitting up off the collar drag, angling to circle behind opponent.",
+            "grips": "Deep cross-collar grip — primary drag handle. Sleeve grip may release to reach for opponent's back or far-side control.",
+            "legs": "Feet disengage from hip and bicep. Legs work to scoot hips behind opponent and insert hooks.",
+            "hips": "Driving laterally behind the opponent as you drag them forward and circle."
+          },
+          "greenLights": [
+            "Opponent is off-balanced forward from the collar pull",
+            "Space exists to circle behind them after the drag",
+            "Deep collar grip generates strong pulling power",
+            "Opponent reaches forward or leans in — weight is committed"
+          ],
+          "redLights": [
+            "Opponent has heavy base and resists the drag",
+            "Collar grip is shallow — insufficient pull",
+            "Opponent immediately postures back after the drag attempt",
+            "No space to circle — opponent recovers too quickly"
+          ],
+          "steps": [
+            "From collar sleeve guard, snap the collar grip SHARPLY forward and to the side to off-balance the opponent.",
+            "As they stumble forward, release the sleeve grip and sit up. Begin circling your hips BEHIND them on the collar grip side.",
+            "Use your free hand to reach over their back or secure a seatbelt grip (over-under on their torso). Keep the collar grip active to prevent them from turning.",
+            "Insert your hooks (feet inside their thighs) and secure back control. Transition to rear naked choke or other back attacks."
+          ],
+          "complexpieces": [
+            "If full back take isn't available, settle for a single hook and transition to body triangle",
+            "Chain with technical stand-up: if back take fails, come up to top position instead",
+            "If they turn into you during the drag, immediately re-establish collar sleeve guard"
+          ],
+          "simplifications": [
+            "Practice the collar drag snap-pull as an isolated drill",
+            "Drill circling behind a cooperative partner after the drag — focus on hip movement",
+            "Combine drag and hook insertion as a two-step drill before adding resistance"
+          ]
+        },
+        {
+          "name": "Leg Drag Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Clear the hip foot and drag opponent's leg across to eliminate their angle and pass collar sleeve guard.",
+          "initialPosition": {
+            "body": "Standing or kneeling in opponent's collar sleeve guard. Posture upright, working to clear their feet off your body.",
+            "grips": "One hand controls opponent's pant leg at the knee (the leg on your hip). Other hand is stripping or has stripped the collar grip.",
+            "legs": "Strong base — feet wide enough to resist off-balancing. Ready to step laterally for the drag.",
+            "hips": "Driving laterally as you drag their leg across your body."
+          },
+          "greenLights": [
+            "You've cleared their foot off your hip — it's now in your hands",
+            "Collar grip has been broken or is shallow",
+            "You control their pant leg and can redirect their leg",
+            "Opponent's angle is compromised and they're becoming flat"
+          ],
+          "redLights": [
+            "Opponent has deep collar grip pulling your posture — strip it first",
+            "Both feet are still active on your hip and bicep",
+            "Opponent is strongly angled and re-gripping the collar",
+            "You don't have pant control to drag the leg"
+          ],
+          "steps": [
+            "Strip or clear opponent's grip on your collar. Focus on removing the deepest threat first.",
+            "Control their hip-side leg at the pant knee. Clear the foot off your hip and pull the leg ACROSS your body to the opposite side.",
+            "Step laterally in the direction of the drag. Pin their leg to the mat using your hip pressure. Their angle is now eliminated.",
+            "Drive into side control with crossface pressure. Establish chest-to-chest contact and sprawl your legs back."
+          ],
+          "complexpieces": [
+            "If they re-guard during the drag, immediately switch to toreando pass",
+            "Chain with knee slice: drag the leg across, then slice your knee through for a tighter pass",
+            "If they invert to recover, follow with pressure and pin their hips"
+          ],
+          "simplifications": [
+            "Practice the collar grip strip as an isolated hand-fighting drill",
+            "Drill the leg drag motion without worrying about the pass finish",
+            "Focus on hip pressure to pin the dragged leg — this is what prevents reguarding"
+          ]
+        },
+        {
+          "name": "Knee Cut After Grip Break",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Strip collar and sleeve grips, then slice knee through the middle to pass collar sleeve guard to side control.",
+          "initialPosition": {
+            "body": "Kneeling or standing in opponent's collar sleeve guard. Posture upright after stripping their grips.",
+            "grips": "One hand controls opponent's hip or pant leg. Other hand frames on their bicep or controls their far shoulder for crossface.",
+            "legs": "Lead knee positioned between opponent's legs, ready to slice across. Back leg posted for driving power.",
+            "hips": "Driving forward and low through the center."
+          },
+          "greenLights": [
+            "Both collar and sleeve grips have been broken",
+            "Opponent is flat on their back without strong frames",
+            "Your knee is between their legs with angle to slice through",
+            "Opponent is trying to re-grip instead of framing — window to pass"
+          ],
+          "redLights": [
+            "Collar grip is still active and deep — strip it before attempting",
+            "Opponent's knee shield is up blocking the slice",
+            "Sleeve grip is controlling your driving arm — can't crossface",
+            "Opponent is strongly angled with feet on your hips"
+          ],
+          "steps": [
+            "Strip opponent's collar and sleeve grips with focused hand fighting. Establish posture and keep your hands active.",
+            "Step your lead leg forward and position your knee between their legs. Control their far hip with one hand.",
+            "Slice your knee sharply across their thigh while driving your shoulder into crossface position. Keep low and heavy.",
+            "Complete the pass to side control. Drop chest-to-chest pressure and sprawl your legs back."
+          ],
+          "complexpieces": [
+            "If they re-guard with a knee shield, switch to an over-under pass",
+            "Chain with leg drag: if the knee slice is blocked, drag their top leg across instead",
+            "If they turn away during the slice, transition to back take"
+          ],
+          "simplifications": [
+            "Practice grip stripping as an isolated hand-fighting round",
+            "Drill the knee slice motion from combat base without grips — focus on slide angle",
+            "Start from a grip-free position to practice just the passing mechanics"
+          ]
+        },
+        {
+          "name": "Toreando Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Break collar sleeve grips and redirect opponent's legs side to side to pass with a bullfighter-style pass.",
+          "initialPosition": {
+            "body": "Standing in opponent's collar sleeve guard. Posture upright, hands active for grip fighting.",
+            "grips": "Both hands controlling opponent's pants at the knees or ankles after breaking their grips. Controlling their legs to redirect them.",
+            "legs": "Standing with feet wide for a stable base. Ready to explode laterally like a bullfighter.",
+            "hips": "Upright and mobile, ready for fast lateral movement."
+          },
+          "greenLights": [
+            "You've broken both the collar and sleeve grips",
+            "You have control of both of their legs at the knees or ankles",
+            "Opponent is flat on their back with feet off your body",
+            "Space is available to move laterally past their legs"
+          ],
+          "redLights": [
+            "Collar grip is still deep and active — posture is compromised",
+            "Opponent has their feet back on your hips or biceps — re-established guard",
+            "You only control one leg — they'll re-guard with the free leg",
+            "Opponent is sitting up and actively re-gripping"
+          ],
+          "steps": [
+            "Strip both collar and sleeve grips with focused hand fighting. Establish posture and grab their pants at both knees.",
+            "Push one leg DOWN to the mat while directing the other across. Control the direction of their legs.",
+            "Explode laterally like a bullfighter — move your hips quickly past their legs. Keep downward pressure on their legs to prevent reguarding.",
+            "Land in side control: crossface with the near arm, far arm under their hip. Drop chest pressure and sprawl back."
+          ],
+          "complexpieces": [
+            "Fake toreando one direction, switch sides when they react",
+            "Chain with leg drag: as you redirect legs, drag the top leg across for a tighter control",
+            "If they sit up and reguard, immediately switch to a stack pass"
+          ],
+          "simplifications": [
+            "Practice the grip-breaking sequence as an isolated drill",
+            "Solo footwork drills: practice the lateral toreando movement without a partner",
+            "Start from already-broken grips to practice just the passing mechanics"
+          ]
+        },
+        {
+          "name": "Stack Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Pressure opponent's hips upward after collapsing their sleeve-side leg to stack and pass collar sleeve guard.",
+          "initialPosition": {
+            "body": "Kneeling in opponent's collar sleeve guard. Driving forward after clearing their bicep foot.",
+            "grips": "One arm scoops under their legs or controls both pant legs. Other hand may still be stripping collar grip or controlling their head.",
+            "legs": "One or both knees on the mat, driving forward. One foot steps up for stacking power.",
+            "hips": "Driving FORWARD, stacking opponent's hips over their head."
+          },
+          "greenLights": [
+            "You've collapsed their sleeve-side foot off your bicep",
+            "You can drive forward and get under their legs",
+            "Opponent's collar grip is weakening as you stack — hard to maintain grip while folded",
+            "Opponent is relatively flat and can be stacked effectively"
+          ],
+          "redLights": [
+            "Both feet are still actively on your hip and bicep — clear them first",
+            "Opponent is very flexible — stacking has minimal effect",
+            "Opponent has deep collar grip and is threatening chokes as you stack",
+            "You can't get under their legs to drive forward"
+          ],
+          "steps": [
+            "Clear the sleeve-side foot off your bicep. Drive forward into the space, getting your shoulder under their legs.",
+            "Step one foot up for stacking power. Drive your hips forward, folding opponent's hips over their head.",
+            "Walk around to one side while maintaining constant forward stacking pressure. Keep your head on the side you're passing to.",
+            "Complete the pass to side control as you clear past their legs. Drop chest pressure immediately."
+          ],
+          "complexpieces": [
+            "If they kick out of the stack, immediately switch to toreando",
+            "Chain with over-under: if one leg escapes, switch one arm over and one under for an over-under pass",
+            "Use the stacking pressure to break the collar grip — hard to hold when folded"
+          ],
+          "simplifications": [
+            "Practice clearing the bicep foot and driving forward as a separate drill",
+            "Drill the stacking motion with just shoulder pressure to learn the body drive",
+            "Focus on stepping up with one foot for power — most common mistake is staying on both knees"
+          ]
+        },
+        {
+          "name": "Long Step Pass",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Step back to disengage bicep control and circle around opponent's guard from a long range.",
+          "initialPosition": {
+            "body": "Standing in opponent's collar sleeve guard. Stepping one leg far back to clear the bicep foot.",
+            "grips": "Hands controlling opponent's pants or hips after stripping grips. Maintaining distance control.",
+            "legs": "One leg steps far back and away from the bicep foot. Other leg stays close for base.",
+            "hips": "Turning away momentarily as the long step clears the bicep hook, then immediately circling back in to pass."
+          },
+          "greenLights": [
+            "Opponent's bicep foot is the primary obstacle — clearing it opens the pass",
+            "You've stripped or loosened the collar grip",
+            "You have the space and posture to step far back",
+            "Opponent is committed to the bicep foot position and not transitioning to another guard"
+          ],
+          "redLights": [
+            "Opponent transitions to De La Riva or lasso as you step back — they adjust faster",
+            "Collar grip is still very deep and pulling you forward",
+            "You step back but don't immediately circle in — opponent re-establishes guard",
+            "Opponent follows your retreat with hip movement"
+          ],
+          "steps": [
+            "From standing in their collar sleeve guard, strip or loosen the collar grip. Identify the bicep foot as the primary obstacle.",
+            "Step the bicep-side leg FAR back and away — long step to completely disengage their foot from your arm.",
+            "Immediately circle back IN toward the opponent — don't stay at distance. Use the momentum of the step to drive laterally past their guard.",
+            "Pass to side control before they can re-establish collar sleeve grips or transition to another guard."
+          ],
+          "complexpieces": [
+            "If they follow with DLR hook, time a backstep to clear it",
+            "Chain with toreando: long step clears the bicep foot, immediately toreando past the remaining leg",
+            "If they sit up to re-grip, use the distance to shoot for a double under pass"
+          ],
+          "simplifications": [
+            "Practice the long step footwork solo — step back, turn hips, circle in",
+            "Drill against a static collar sleeve guard to learn the timing of the step",
+            "Focus on the immediate re-engagement after the step — don't give them time to adjust"
+          ]
+        },
+        {
+          "name": "Standing Grip Strip",
+          "category": "pass",
+          "perspective": "top",
+          "goal": "Stand tall and methodically remove collar control before passing, neutralizing the collar sleeve guard's primary weapon.",
+          "initialPosition": {
+            "body": "Standing tall and strong in opponent's collar sleeve guard. Posture fully upright, chin up.",
+            "grips": "Hands gripping opponent's wrists or sleeves, actively peeling their collar grip. One hand peels, other controls.",
+            "legs": "Standing with wide base for stability. Feet slightly outside their hips.",
+            "hips": "Driving upward and back to create distance and make the collar grip harder to maintain."
+          },
+          "greenLights": [
+            "You can stand tall and posture fully upright",
+            "Collar grip is 4-finger inside — peel by pushing their wrist away",
+            "Posture up high makes it difficult for them to maintain the deep grip",
+            "Opponent is struggling to keep the collar grip as you posture"
+          ],
+          "redLights": [
+            "Opponent immediately shoots hips up for triangle as you focus on grip stripping",
+            "Collar grip is extremely deep and they have strong grip endurance",
+            "You're leaning forward instead of standing tall — defeating the purpose",
+            "Opponent transitions to lasso or spider as you strip — they adapt faster"
+          ],
+          "steps": [
+            "Stand up tall in their collar sleeve guard. Get full posture — head up, back straight, hips high.",
+            "Identify the collar grip hand. Use both your hands if needed to peel their grip — push their wrist away from your collar while postured upright.",
+            "Once the collar grip is stripped, immediately control their legs at the pants or ankles. Don't give them time to re-grip.",
+            "Pass immediately using toreando, leg drag, or knee slice. The window after grip stripping is short — act fast."
+          ],
+          "complexpieces": [
+            "Bait the re-grip: strip collar, when they reach up for it again, their arm is extended — attack with a leg drag pass",
+            "Chain with stack pass: strip grips while standing, then drive forward into a stack",
+            "If they transition to spider guard as you strip, immediately strip sleeve grips as well before they establish the new guard"
+          ],
+          "simplifications": [
+            "Practice peeling the collar grip as an isolated hand-fighting drill",
+            "Drill posture recovery — standing tall from a compromised position",
+            "Focus on the immediate pass after grip strip — this is where most people stall"
+          ]
+        }
+      ]
+    },
+    {
       "id": "turtle",
       "name": "Turtle",
       "emoji": "🐢",
