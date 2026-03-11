@@ -1064,6 +1064,16 @@ function initGameBoard() {
         if (e.key === 'Enter') { e.preventDefault(); gbConfirmAddNode(); }
     });
 
+    // Mobile FAB (floating add button)
+    document.getElementById('gb-fab').addEventListener('click', () => {
+        const vRect = viewport.getBoundingClientRect();
+        gbPendingPos = {
+            x: (vRect.width / 2 - gbPanX) / gbZoom,
+            y: (vRect.height / 2 - gbPanY) / gbZoom
+        };
+        gbOpenModal();
+    });
+
     // ---- Viewport interactions ----
 
     // Zoom
@@ -1179,6 +1189,7 @@ function initGameBoard() {
 
     // Touch support for mobile
     let touchDist = 0;
+    let touchLongPress = null;
     viewport.addEventListener('touchstart', (e) => {
         if (e.touches.length === 2) {
             touchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
@@ -1187,7 +1198,23 @@ function initGameBoard() {
         if (e.touches.length !== 1) return;
         const touch = e.touches[0];
         const nodeEl = touch.target.closest('.gb-node');
-        if (nodeEl && !touch.target.closest('.gb-node-delete') && !touch.target.closest('.gb-connector')) {
+
+        // Touch on connector — start connection
+        if (touch.target.closest('.gb-connector') && nodeEl) {
+            e.preventDefault();
+            const nodeId = nodeEl.dataset.id;
+            const game = gbActiveGame();
+            const node = game.nodes.find(n => n.id === nodeId);
+            if (!node) return;
+            gbConnecting = {
+                fromId: nodeId,
+                startX: node.x + (nodeEl.offsetWidth / 2) / gbZoom,
+                startY: node.y + nodeEl.offsetHeight / gbZoom
+            };
+            return;
+        }
+
+        if (nodeEl && !touch.target.closest('.gb-node-delete')) {
             const rect = viewport.getBoundingClientRect();
             const mx = (touch.clientX - rect.left - gbPanX) / gbZoom;
             const my = (touch.clientY - rect.top - gbPanY) / gbZoom;
@@ -1196,6 +1223,8 @@ function initGameBoard() {
             if (node) {
                 gbDragNode = node;
                 gbDragOffset = { x: mx - node.x, y: my - node.y };
+                gbSelectedNodeId = node.id;
+                gbRenderNodes();
             }
             return;
         }
@@ -1217,6 +1246,16 @@ function initGameBoard() {
         }
         if (e.touches.length !== 1) return;
         const touch = e.touches[0];
+
+        // Touch connecting
+        if (gbConnecting) {
+            const rect = viewport.getBoundingClientRect();
+            const mx = (touch.clientX - rect.left - gbPanX) / gbZoom;
+            const my = (touch.clientY - rect.top - gbPanY) / gbZoom;
+            gbDrawTempLine(gbConnecting.startX, gbConnecting.startY, mx, my);
+            return;
+        }
+
         if (gbDragNode) {
             const rect = viewport.getBoundingClientRect();
             const mx = (touch.clientX - rect.left - gbPanX) / gbZoom;
@@ -1234,7 +1273,29 @@ function initGameBoard() {
         }
     }, { passive: false });
 
-    viewport.addEventListener('touchend', () => {
+    viewport.addEventListener('touchend', (e) => {
+        // Finish touch connection
+        if (gbConnecting) {
+            const touch = e.changedTouches[0];
+            // Find if finger ended on a node
+            const endEl = document.elementFromPoint(touch.clientX, touch.clientY);
+            const nodeEl = endEl && endEl.closest('.gb-node');
+            if (nodeEl && nodeEl.dataset.id !== gbConnecting.fromId) {
+                const game = gbActiveGame();
+                const connExists = game.connections.some(c =>
+                    (c.from === gbConnecting.fromId && c.to === nodeEl.dataset.id) ||
+                    (c.to === gbConnecting.fromId && c.from === nodeEl.dataset.id)
+                );
+                if (!connExists) {
+                    game.connections.push({ from: gbConnecting.fromId, to: nodeEl.dataset.id });
+                    gbSave();
+                }
+            }
+            gbConnecting = null;
+            gbRemoveTempLine();
+            gbRenderConnections();
+            return;
+        }
         if (gbDragNode) { gbDragNode = null; gbSave(); }
         gbIsPanning = false;
         touchDist = 0;

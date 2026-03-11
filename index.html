@@ -286,7 +286,7 @@
                 </div>
             </div>
 
-            <!-- Instructions -->
+            <!-- Instructions (desktop) -->
             <div class="gb-instructions">
                 <span>🖱️ Double-click to add node</span>
                 <span>🔗 Drag from connector ● to link</span>
@@ -294,12 +294,20 @@
                 <span>🔍 Scroll to zoom</span>
                 <span>✋ Drag background to pan</span>
             </div>
+            <!-- Instructions (mobile) -->
+            <div class="gb-instructions-mobile" style="display:none">
+                <span>➕ Tap + to add</span>
+                <span>📌 Drag to move</span>
+                <span>🔗 Drag ● to link</span>
+                <span>🤏 Pinch to zoom</span>
+            </div>
 
             <!-- Mind Map Viewport -->
             <div class="gb-viewport" id="gb-viewport">
                 <div class="gb-canvas" id="gb-canvas">
                     <svg class="gb-connections" id="gb-connections"></svg>
                 </div>
+                <button class="gb-fab" id="gb-fab" title="Add Node">＋</button>
             </div>
 
             <!-- Node Add Modal -->
