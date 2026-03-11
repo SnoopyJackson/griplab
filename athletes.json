@@ -889,5 +889,91 @@
     "pass": "Leg Drag Transitions",
     "submission": "Tarikoplata"
   }
-}
+},{
+    "id": 95,
+    "name": "Carlos Gracie Sr.",
+    "image": "images/carlosgraciesr.jpg",
+    "signatures": {
+      "guard": "Closed Guard",
+      "sweep": "Basic Sweeps",
+      "pass": "Fundamental Passing",
+      "submission": "Cross Collar Choke & Armbar"
+    }
+  },
+  {
+    "id": 96,
+    "name": "Carlos Gracie Jr.",
+    "image": "images/carlosgraciejr.jpg",
+    "signatures": {
+      "guard": "Closed & Half Guard",
+      "sweep": "Fundamental Sweeps",
+      "pass": "Pressure Passing Concepts",
+      "submission": "Fundamental Submissions"
+    }
+  },
+  {
+    "id": 97,
+    "name": "Oswaldo Fadda",
+    "image": "images/oswaldofadda.jpg",
+    "signatures": {
+      "guard": "Footlock-Oriented Guard",
+      "sweep": "Footlock & Leg Control Sweeps",
+      "pass": "Pressure Passing",
+      "submission": "Footlocks & Straight Ankle Lock"
+    }
+  },
+{
+    "id": 101,
+    "name": "Roberto “Cyborg” Abreu",
+    "image": "images/robertocyborgabreu.jpg",
+    "signatures": {
+      "guard": "Open Guard / Lasso Guard",
+      "sweep": "Berimbolo & Dynamic Sweeps",
+      "pass": "Leg Drag & Pressure Passing",
+      "submission": "Bow and Arrow Choke & Back Attacks"
+    }
+},
+{
+    "id": 103,
+    "name": "Braulio Estima",
+    "image": "images/braulioestima.jpg",
+    "signatures": {
+      "guard": "Closed Guard & Open Guard",
+      "sweep": "Technical Guard Sweeps & Berimbolo",
+      "pass": "Pressure Passing & Knee Slice",
+      "submission": "Triangle Choke & Back Attacks"
+    }
+  },
+  {
+    "id": 104,
+    "name": "Jeff Glover",
+    "image": "images/jeffglover.jpg",
+    "signatures": {
+      "guard": "Dynamic Open Guard & Inverted Play",
+      "sweep": "Creative Guard Sweeps",
+      "pass": "Adaptive Passing",
+      "submission": "Armbar, Triangle & Inverted Attacks"
+    }},
+     {
+    "id": 105,
+    "name": "Ryan Hall",
+    "image": "images/ryanhall.jpg",
+    "signatures": {
+      "guard": "50/50 Guard & Leg Lock Systems",
+      "sweep": "Leg Entanglement & Inversion Sweeps",
+      "pass": "Pressure & Leg Drag Passing",
+      "submission": "Heel Hooks, Toeholds, & Knee Locks"
+    }
+  },
+  {
+    "id": 106,
+    "name": "Demian Maia",
+    "image": "images/demianmaia.jpg",
+    "signatures": {
+      "guard": "Closed Guard & Open Guard Control",
+      "sweep": "Technical Guard Sweeps",
+      "pass": "Pressure Passing & Positional Control",
+      "submission": "Collar Chokes & Rear Naked Choke"
+    }
+  }
 ]
