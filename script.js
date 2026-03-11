@@ -342,8 +342,15 @@ function renderAthletes() {
         </div>
     `).join('');
     
-    // Add hover sound effect simulation
-    container.querySelectorAll('.athlete-card').forEach(card => {
+    // Add click to search YouTube and hover effects
+    container.querySelectorAll('.athlete-card').forEach((card, index) => {
+        card.style.cursor = 'pointer';
+        card.addEventListener('click', () => {
+            const athlete = athletesData[index];
+            const query = `${athlete.name} BJJ`;
+            const youtubeUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
+            window.open(youtubeUrl, '_blank');
+        });
         card.addEventListener('mouseenter', () => {
             card.style.zIndex = '10';
         });

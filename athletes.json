@@ -779,5 +779,115 @@
       "pass": "Submission‑Driven Passing Sequences",
       "submission": "Japanese Necktie & Omoplata"
     }
+  },
+  {
+    "id": 84,
+    "name": "Keenan Cornelius",
+    "image": "images/keenan.webp",
+    "signatures": {
+      "guard": "Lapel Guard Systems (Worm / Squid Guard)",
+      "sweep": "Lapel-Based Sweeps & Back Takes",
+      "pass": "Long-Step & Leg Drag Passing",
+      "submission": "Lapel Chokes & Back Attacks"
+    }
+  },
+  {
+    "id": 85,
+    "name": "Fernando Terere",
+    "image": "images/terere.jpg",
+    "signatures": {
+      "guard": "Dynamic Open Guard",
+      "sweep": "Explosive Guard Sweeps",
+      "pass": "Agile Toreando Passing",
+      "submission": "Back Takes & Collar Chokes"
+    }
+  },
+  {
+    "id": 86,
+    "name": "Leo Vieira",
+    "image": "images/leovieira.jpg",
+    "signatures": {
+      "guard": "Open Guard Transitions",
+      "sweep": "Technical Guard Sweeps",
+      "pass": "Toreando & Knee Slide Passing",
+      "submission": "Bow and Arrow Choke"
+    }
+  },
+  {
+    "id": 87,
+    "name": "JT Torres",
+    "image": "images/jttorres.webp",
+    "signatures": {
+      "guard": "Butterfly & Open Guard Control",
+      "sweep": "Wrestle-Up & Guard Sweeps",
+      "pass": "Pressure Passing Concepts",
+      "submission": "Rear Naked Choke"
+    }
+  },
+  {
+    "id": 88,
+    "name": "John Danaher",
+    "image": "images/johndanaher.webp",
+    "signatures": {
+      "guard": "Ashigarami & Leg Entanglement Systems",
+      "sweep": "Leg Entanglement to Back Take",
+      "pass": "Systematic Pressure Passing",
+      "submission": "Heel Hook & Back Control Systems"
+    }
+  },
+  {
+    "id": 89,
+    "name": "Eddie Bravo",
+    "image": "images/eddiebravo.webp",
+    "signatures": {
+      "guard": "Rubber Guard & 10th Planet Systems",
+      "sweep": "Electric Chair & Lockdown Sweeps",
+      "pass": "Submission-Oriented No-Gi Passing",
+      "submission": "Twister & Triangle Variations"
+    }
+  },
+  {
+    "id": 90,
+    "name": "Mario Sperry",
+    "image": "images/mariosperry.webp",
+    "signatures": {
+      "guard": "Half Guard & Defensive Guard Concepts",
+      "sweep": "Underhook Half Guard Sweep",
+      "pass": "Pressure Half Guard Passing",
+      "submission": "Kimura & Arm Triangle"
+    }
+  },
+  {
+    "id": 91,
+    "name": "Ricardo Arona",
+    "image": "images/ricardoarona.webp",
+    "signatures": {
+      "guard": "Half Guard & Open Guard Control",
+      "sweep": "Half Guard Sweeps",
+      "pass": "Heavy Top Pressure Passing",
+      "submission": "Armbar & Top Control Submissions"
+    }
+  },
+  {
+    "id": 92,
+    "name": "Caio Terra",
+    "image": "images/caioterra.jpg",
+    "signatures": {
+      "guard": "50/50 Guard & Modern Open Guard",
+      "sweep": "Berimbolo & 50/50 Sweeps",
+      "pass": "Technical Knee Cut Passing",
+      "submission": "Back Takes & Collar Chokes"
+    }
+  },
+{
+  "id": 94,
+  "name": "Tarik Hopstock",
+  "image": "images/tarikhopstock.jpg",
+  "signatures": {
+    "guard": "Inversion-Based Open Guard",
+    "sweep": "Berimbolo & Crab Ride Transitions",
+    "pass": "Leg Drag Transitions",
+    "submission": "Tarikoplata"
   }
+}
 ]
