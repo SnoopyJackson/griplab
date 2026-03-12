@@ -975,5 +975,26 @@
       "pass": "Pressure Passing & Positional Control",
       "submission": "Collar Chokes & Rear Naked Choke"
     }
+  },
+  {
+  "id": 107,
+  "name": "Victor Hugo",
+  "image": "images/victorhugo.jpg",
+  "signatures": {
+    "guard": "Open Guard & Lasso Guard Control",
+    "sweep": "Technical Guard Sweeps to Top Control",
+    "pass": "Heavy Pressure Passing & Leg Drag",
+    "submission": "Rear Naked Choke & Bow and Arrow Choke"
   }
+},
+{
+  "id": 108,
+  "name": "Rafael Lovato Jr.",
+  "image": "images/rafaellovatojr.webp",
+  "signatures": {
+    "guard": "Closed Guard & Half Guard",
+    "sweep": "Fundamental Guard Sweeps",
+    "pass": "Pressure Passing & Knee Slice",
+    "submission": "Collar Chokes & Top Control Submissions"
+  }}
 ]
