@@ -102,6 +102,11 @@
    "name": "Muscle Sweep",
   "description": "A powerful sweep from closed guard that uses upper body strength and timing to elevate and reverse the opponent when they resist posture breaking."
 }
+,
+{
+   "name": "Mermaid Sweep",
+  "description": "When the opponent stands, release the guard and clamp your legs around the knees while controlling their upper body. Use a twisting motion to off-balance and sweep them on the side, ending in a dominant position."
+}
 ],
 
 "passes": [
@@ -123,7 +128,7 @@
 },
 {
 "name": "Carlson Gracie Jr. Sitting Guard Break",
-"description": "Sit back with strong posture while controlling the lapels or biceps, widen your knees for base, and apply steady outward pressure with your elbows and hips to force the guard open."
+"description": "Sit back with strong posture while controlling the lapels and then the belt, widen your knees for base, and apply steady outward pressure with your elbows and hips to force the guard open."
 },
 {
 "name": "Standard Standing Closed Guard Opening",
@@ -610,6 +615,11 @@
 "name": "Backstep Pass",
 "description": "Step back and around when the opponent elevates for sweeps."
 }
+,
+{
+"name": "Floating Pass",
+"description": "Put a double underhook, head near opponent's head in order to be able to headstand and pass over the top of the opponent's guard, landing in side control."
+}
 ],
 
 "submissions": [
@@ -641,6 +651,11 @@
 {
 "name": "Loop Choke",
 "description": "Use collar grips to trap the opponent’s neck when they pressure forward."
+}
+,
+{
+"name": "Flying Kimura (top)",
+"description": "Attack the opponent’s arm from the top position using a flying Kimura technique."
 }
 ]
 },
@@ -764,6 +779,11 @@
 "name": "Hip Switch Pass",
 "description": "Switch your hips to free your trapped leg and clear the guard."
 }
+,
+{
+"name": "Crazy Dog Pass",
+"description": "Put pressure on knee using the arm, and sprawl & pass around"
+}
 ],
 
 "submissions": [
@@ -785,6 +805,11 @@
 {
 "name": "Ezekiel Choke",
 "description": "From half guard, slip one arm across the opponent’s neck while securing your sleeve or wrist with the other hand. Press your forearm or gi material into their throat and use chest pressure to complete the choke."
+}
+,
+{
+"name": "Baseball Choke",
+"description": "From half guard, secure a grip on the opponent’s collar or neck with one hand while the other hand controls their far arm. Use a baseball bat-like motion to apply pressure and finish the choke."
 }
 ]
 },
@@ -1362,6 +1387,11 @@
       "name": "Back Take to Rear Naked Choke",
       "description": "Transition to back control and finish with RNC."
     }
+    ,
+    {
+      "name": "Hindulotine",
+      "description": "Choke variation from rubber guard when opponent postures and you have control of the far wrist."
+    }
   ]
 },
   {
@@ -1769,6 +1799,11 @@
     {
       "name": "Choi Bar",
       "description": "Attack extended arm off underhook battle by threading leg over the shoulder for a tight armbar variation."
+    },
+    
+    {
+      "name": "Tarikoplata",
+      "description": "Kimura variation where you thread your leg over their head and apply shoulder pressure to finish."
     },
     {
       "name": "Guillotine Choke",
@@ -4501,7 +4536,12 @@
     {
       "name": "Trap and Shrimp",
       "description": "Trap foot and hip escape to recover guard."
+    },
+     {
+      "name": "Kipping Escape",
+      "description": "Push hips and kip with your knee legs, to create space and recover guard."
     }
+    
   ],
   "passes": [
     {
@@ -4549,6 +4589,14 @@
     {
       "name": "S-Mount Armbar",
       "description": "Transition to S-Mount for tighter finish."
+    },
+    {
+      "name": "Arm Triangle",
+      "description": "Isolate arm and head to apply pressure and finish choke."
+    },
+    {
+      "name": "Mother's Milk",
+      "description": "Use your chest to smother opponent’s face and apply pressure for a choke finish."
     }
   ]
 },
@@ -4773,6 +4821,11 @@
     {
       "name": "Paper Cutter Choke",
       "description": "Gi-based choke using collar and arm control."
+    }
+    ,
+    {
+      "name": "Buggy Choke",
+      "description": "No-Gi choke using underhook and head positioning."
     }
   ]
 },
