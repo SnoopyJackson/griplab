@@ -587,6 +587,14 @@
 {
 "name": "Butterfly to Single Leg X Sweep",
 "description": "Drop underneath to enter single leg X and complete the sweep."
+},
+{
+"name": "Shoulder Crunch Sweep",
+"description": "From butterfly guard, secure a collar tie or head control and crunch your opponent's shoulder down while elevating with your hook on the opposite side to off-balance and sweep them over."
+},
+{
+"name": "2 on 1 Back Take",
+"description": "From butterfly guard, secure a two-on-one grip on your opponent's arm. Use the control to pull them forward and off-balance while circling to their back side, inserting hooks to establish back control."
 }
 ],
 
@@ -4673,8 +4681,16 @@
   ],
   "passes": [
     {
-      "name": "Shoulder Escape",
-      "description": "Slide shoulders to mat and clear one hook."
+      "name": "Overhook Back Escape",
+      "description": "From back control, secure an overhook on the choking arm by clamping it tightly to your chest. Turn your body toward the overhook side, slide your hips to the mat on that side, and clear the bottom hook. Continue rotating to face your opponent and recover guard or establish a neutral position."
+    },
+    {
+      "name": "Underhook Back Escape",
+      "description": "From back control, fight for an underhook on the non-choking arm side by pummeling your arm underneath your opponent's. Use the underhook to turn into your opponent, clearing the far hook first. Drive your hips to the mat and rotate to face them, working to recover half guard or side control."
+    },
+    {
+      "name": "Body Triangle Back Escape",
+      "description": "When your opponent locks a body triangle from back control, identify the locking foot and use both hands to attack it by pushing or peeling it off. Rotate your hips toward the side of the locked triangle, angling your body to relieve the squeeze. Once the lock is broken, clear the legs, turn into your opponent, and recover guard."
     },
     {
       "name": "Two-on-One Hand Fight",
@@ -4683,10 +4699,6 @@
     {
       "name": "Hip Scoot Down Escape",
       "description": "Slide hips downward to remove hooks."
-    },
-    {
-      "name": "Body Triangle Break",
-      "description": "Attack locked foot and rotate hips to free torso."
     }
   ],
   "submissions": [
