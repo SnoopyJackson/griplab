@@ -940,13 +940,13 @@ main {
 .athlete-card {
     position: relative;
     background: var(--card-bg);
-    backdrop-filter: blur(10px);
     border: 3px solid var(--card-border);
     border-radius: 15px;
     overflow: hidden;
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: var(--shadow-brutal);
+    contain: layout style paint;
 }
 
 .athlete-card::before {
@@ -2527,6 +2527,7 @@ main {
         max-width: 100%;
         background: rgba(15, 23, 42, 0.95);
         border: 2px solid var(--card-border);
+        animation: none !important;
     }
 
     .athlete-card:hover {

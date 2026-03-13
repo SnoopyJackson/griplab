@@ -316,8 +316,8 @@ function renderAthletes() {
     const container = document.getElementById('athletes-container');
     
     container.innerHTML = athletesData.map((athlete, index) => `
-        <div class="athlete-card" style="animation-delay: ${index * 0.1}s">
-            <img src="${athlete.image}" alt="${athlete.name}" class="athlete-image">
+        <div class="athlete-card" style="animation-delay: ${Math.min(index * 0.05, 0.5)}s">
+            <img src="${athlete.image}" alt="${athlete.name}" class="athlete-image" loading="lazy">
             <div class="athlete-info">
                 <h3>${athlete.name}</h3>
                 <div class="signature-moves">

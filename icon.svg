@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#0a0e1a"/>
+  <rect x="8" y="8" width="496" height="496" rx="72" fill="none" stroke="#00ff88" stroke-width="4" opacity="0.6"/>
+  <!-- Flask body -->
+  <path d="M200 120 L200 240 L130 380 Q120 400 140 420 L372 420 Q392 400 382 380 L312 240 L312 120Z" fill="#0f172a" stroke="#00ff88" stroke-width="5"/>
+  <!-- Liquid -->
+  <path d="M170 320 L130 380 Q120 400 140 420 L372 420 Q392 400 382 380 L342 320Z" fill="#00ff88" opacity="0.3"/>
+  <path d="M185 350 L145 400 Q138 412 155 418 L357 418 Q374 412 367 400 L327 350Z" fill="#00ff88" opacity="0.2"/>
+  <!-- Flask top -->
+  <rect x="190" y="90" width="132" height="30" rx="6" fill="#1e293b" stroke="#00ff88" stroke-width="4"/>
+  <!-- Bubbles -->
+  <circle cx="230" cy="370" r="12" fill="#00ff88" opacity="0.5"/>
+  <circle cx="280" cy="350" r="8" fill="#00d4ff" opacity="0.5"/>
+  <circle cx="310" cy="385" r="10" fill="#00ff88" opacity="0.4"/>
+  <circle cx="250" cy="395" r="6" fill="#00d4ff" opacity="0.6"/>
+  <!-- Text BJJ -->
+  <text x="256" y="78" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="52" fill="#00ff88" letter-spacing="6">BJJ</text>
+  <!-- Text GRIPLAB -->
+  <text x="256" y="470" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="38" fill="#00d4ff" letter-spacing="4">GRIPLAB</text>
+</svg>
