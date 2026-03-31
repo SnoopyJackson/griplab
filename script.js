@@ -112,6 +112,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initTrainingLog();
     initWarRoom();
     initGameBoard();
+    initMetaSection();
 });
 
 // Navigation with sound effect simulation
@@ -1135,4 +1136,67 @@ function initGameBoard() {
     gbLoad();
     renderTabs();
     renderChapter();
+}
+
+// ==========================================
+// META SECTION — BJJ Meta Systems Reference
+// ==========================================
+
+function initMetaSection() {
+    const root = document.getElementById('meta-section');
+    if (!root) return;
+
+    const secBtns   = root.querySelectorAll('.sec-btn');
+    const tabgroups = root.querySelectorAll('.tabgroup');
+    const heroTitle = root.querySelector('#hero-title');
+    const heroDesc  = root.querySelector('#hero-desc');
+
+    const heroContent = {
+        bottom: {
+            title: 'Bottom<br>Game<br>Meta',
+            desc: 'Each entry is a <strong>complete meta-system</strong> — a coherent network of guards, grips, sweeps, submissions, transitions, counters, and the mental framework binding them. Not individual guards. Full strategic ecosystems used by champions to dominate from the bottom.'
+        },
+        top: {
+            title: 'Top<br>Game<br>Meta',
+            desc: 'Each entry is a <strong>complete passing meta-system</strong> — a full ecosystem of entries, control positions, reaction chains, counters, and the mental framework behind elite guard passing. Not individual passes. Complete strategic frameworks used by champions to dismantle every guard system.'
+        },
+        nogi: {
+            title: 'No-Gi<br>Bottom<br>Meta',
+            desc: 'Each entry is a <strong>complete no-gi meta-system</strong> — a full ecosystem of leg entanglements, positional control, submission chains, back-takes, and the mental framework that unifies them. Systems built on friction-free grappling where cloth grips are gone and inside position, elevation, and rotation are everything.'
+        },
+        nogitop: {
+            title: 'No-Gi<br>Top<br>Meta',
+            desc: 'Each entry is a <strong>complete no-gi top game meta-system</strong> — a full ecosystem of passes, positional controls, leg attack integrations, and the mental framework of passing without cloth. Where gi passing uses grips, no-gi passing uses weight, shin contact, speed, and leg attack threats simultaneously.'
+        }
+    };
+
+    function switchSection(sec) {
+        secBtns.forEach(b => b.classList.remove('active'));
+        root.querySelector(`.sec-btn[data-sec="${sec}"]`).classList.add('active');
+        tabgroups.forEach(g => g.classList.remove('active'));
+        root.querySelector(`#tabgroup-${sec}`).classList.add('active');
+        if (heroTitle) heroTitle.innerHTML = heroContent[sec].title;
+        if (heroDesc)  heroDesc.innerHTML  = heroContent[sec].desc;
+        root.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        const empty = root.querySelector('#empty');
+        if (empty) empty.style.display = '';
+        root.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    }
+
+    secBtns.forEach(btn => {
+        btn.addEventListener('click', () => switchSection(btn.dataset.sec));
+    });
+
+    root.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            const sys = tab.dataset.sys;
+            root.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            root.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+            const empty = root.querySelector('#empty');
+            if (empty) empty.style.display = 'none';
+            const panel = root.querySelector('#panel-' + sys);
+            if (panel) panel.classList.add('active');
+        });
+    });
 }

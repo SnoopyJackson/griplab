@@ -3291,3 +3291,567 @@ main {
   100% { transform: scale(1); }
 }
 .gb-unlocked { animation: gbUnlock 0.5s ease; }
+/* =================================
+   META SYSTEMS — BJJ Meta Reference
+   ================================= */
+
+#meta-section {
+  --bg: #0c0d0f;
+  --surface: #141518;
+  --surface2: #1c1e23;
+  --line: rgba(255,255,255,0.07);
+  --text: #e8e5de;
+  --muted: #6b6d75;
+  --dim: rgba(232,229,222,0.55);
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+.topbar {
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.18em;
+  color: var(--text);
+  text-transform: uppercase;
+}
+
+.badge {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  padding: 5px 12px;
+}
+
+.hero {
+  padding: 60px 40px 40px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: end;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-title {
+  font-family: 'Staatliches', sans-serif;
+  font-size: clamp(4rem, 9vw, 9rem);
+  line-height: 0.88;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.hero-desc {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--dim);
+  max-width: 400px;
+  align-self: end;
+}
+
+.hero-desc strong { color: var(--text); font-weight: 500; }
+
+.tabs-wrapper {
+  padding: 0 40px;
+  border-bottom: 1px solid var(--line);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.tabs-wrapper::-webkit-scrollbar { display:none; }
+
+.tabs { display:flex; gap: 0; width: max-content; }
+
+.tab {
+  padding: 18px 28px;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  cursor: pointer;
+  border-right: 1px solid var(--line);
+  border-bottom: 2px solid transparent;
+  transition: all 0.18s;
+  white-space: nowrap;
+  background: transparent;
+  border-top: none; border-left: none;
+  position: relative;
+}
+
+.tab:first-child { border-left: 1px solid var(--line); }
+.tab:hover { color: var(--text); background: var(--surface); }
+.tab.active { color: var(--text); background: var(--surface); border-bottom-color: var(--sys-color); }
+
+.tab[data-sys="lapel"]  { --sys-color: #e05c3a; }
+.tab[data-sys="spider"] { --sys-color: #4a9eff; }
+.tab[data-sys="dlr"]    { --sys-color: #4cde8a; }
+.tab[data-sys="collar"] { --sys-color: #f0c040; }
+.tab[data-sys="closed"] { --sys-color: #c084fc; }
+.tab[data-sys="fifty"]  { --sys-color: #fb7185; }
+
+.tab-dot {
+  display: inline-block;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--sys-color);
+  margin-right: 9px;
+  vertical-align: middle;
+}
+
+.panel { display:none; }
+.panel.active {
+  display:block;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from { opacity:0; transform:translateY(12px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+.sys-strip {
+  padding: 36px 40px;
+  border-bottom: 1px solid var(--line);
+  display:grid;
+  grid-template-columns: auto 1fr auto;
+  align-items:center;
+  gap: 32px;
+}
+
+.sys-index {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--sys-accent);
+  opacity: 0.2;
+  letter-spacing: -0.02em;
+}
+
+.sys-name {
+  font-family: 'Staatliches', sans-serif;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.sys-name small {
+  display:block;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: var(--sys-accent);
+  margin-bottom: 6px;
+}
+
+.sys-philosophy {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  max-width: 280px;
+  text-align:right;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.main-grid {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid var(--line);
+}
+
+.cell {
+  padding: 32px 36px;
+  border-right: 1px solid var(--line);
+  position:relative;
+}
+.cell:last-child { border-right:none; }
+
+.cell-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--sys-accent);
+  margin-bottom: 20px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.cell-label::after {
+  content:'';
+  flex:1; height:1px;
+  background:var(--sys-accent);
+  opacity:0.2;
+}
+
+.fig-list { display:flex; flex-direction:column; gap:14px; }
+
+.fig {
+  display:grid;
+  grid-template-columns: 3px 1fr;
+  gap:12px;
+  align-items:start;
+}
+
+.fig-bar { width:3px; min-height:36px; border-radius:2px; }
+
+.fig-name {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  font-weight:500;
+  color: var(--text);
+  text-transform:uppercase;
+}
+
+.fig-role {
+  font-size: 0.74rem;
+  color: var(--muted);
+  margin-top:3px;
+  line-height:1.4;
+}
+
+.fig-team {
+  display:inline-block;
+  font-family:'DM Mono',monospace;
+  font-size:0.6rem;
+  letter-spacing:0.1em;
+  color:var(--sys-accent);
+  border:1px solid var(--sys-accent);
+  padding:1px 6px;
+  margin-top:4px;
+  opacity:0.75;
+}
+
+.mindset-list { display:flex; flex-direction:column; gap:16px; }
+
+.mindset-item { display:flex; gap:14px; }
+
+.m-icon {
+  width:26px; height:26px;
+  border:1px solid var(--sys-accent);
+  color:var(--sys-accent);
+  font-family:'DM Mono',monospace;
+  font-size:0.7rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  opacity:0.65;
+}
+
+.m-text strong {
+  display:block;
+  font-size:0.8rem;
+  font-weight:500;
+  color:var(--text);
+  margin-bottom:3px;
+  letter-spacing:0.04em;
+}
+
+.m-text span {
+  font-size:0.76rem;
+  color:var(--dim);
+  line-height:1.55;
+}
+
+.core-row {
+  padding: 36px 40px;
+  border-bottom: 1px solid var(--line);
+  display:grid;
+  grid-template-columns: 220px 1fr;
+  gap: 48px;
+  align-items:start;
+}
+
+.core-system-id {
+  font-family:'Staatliches',sans-serif;
+  font-size:3.5rem;
+  line-height:1;
+  color:var(--sys-accent);
+  opacity:0.12;
+  letter-spacing:0.02em;
+  margin-top:8px;
+}
+
+.core-headline {
+  font-family:'Staatliches',sans-serif;
+  font-size:clamp(1.5rem, 2.8vw, 2.4rem);
+  letter-spacing:0.04em;
+  line-height:1.15;
+  color:var(--text);
+  margin-bottom:16px;
+  text-transform:uppercase;
+}
+
+.core-headline em {
+  font-style:normal;
+  color:var(--sys-accent);
+}
+
+.core-
+
+.core-body strong { color:var(--text); font-weight:500; }
+
+.lower-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  border-bottom:1px solid var(--line);
+}
+
+.lower-cell {
+  padding: 32px 36px;
+  border-right:1px solid var(--line);
+}
+.lower-cell:last-child { border-right:none; }
+
+.tech-matrix {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:2px;
+}
+
+.tech {
+  padding:9px 12px;
+  background:var(--surface);
+  font-family:'DM Mono',monospace;
+  font-size:0.67rem;
+  letter-spacing:0.05em;
+  color:var(--dim);
+  cursor:default;
+  transition:all 0.12s;
+  border-left:2px solid transparent;
+}
+.tech:hover {
+  background:var(--surface2);
+  color:var(--text);
+  border-left-color:var(--sys-accent);
+}
+
+.react-list { display:flex; flex-direction:column; }
+
+.react-row {
+  display:grid;
+  grid-template-columns:1fr 20px 1fr;
+  align-items:center;
+  gap:10px;
+  padding:9px 0;
+  border-bottom:1px solid var(--line);
+}
+.react-row:last-child { border-bottom:none; }
+
+.react-if {
+  font-size:0.73rem;
+  color:#e05c3a;
+  font-family:'DM Mono',monospace;
+  letter-spacing:0.03em;
+  line-height:1.3;
+}
+
+.react-arr { text-align:center; color:var(--muted); font-size:0.75rem; }
+
+.react-then {
+  font-size:0.73rem;
+  color:#4cde8a;
+  font-family:'DM Mono',monospace;
+  letter-spacing:0.03em;
+  text-align:right;
+  line-height:1.3;
+}
+
+.bottom-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+.bottom-cell {
+  padding:32px 36px;
+  border-right:1px solid var(--line);
+}
+.bottom-cell:last-child { border-right:none; }
+
+.strat-steps { display:flex; flex-direction:column; gap:0; position:relative; }
+
+.strat-steps::before {
+  content:'';
+  position:absolute;
+  left:13px; top:14px; bottom:14px;
+  width:1px;
+  background:linear-gradient(to bottom, var(--sys-accent), transparent);
+  opacity:0.2;
+}
+
+.strat-step { display:flex; gap:20px; align-items:flex-start; padding:11px 0; }
+
+.step-dot {
+  width:27px; height:27px;
+  border:1px solid var(--sys-accent);
+  border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  font-family:'DM Mono',monospace;
+  font-size:0.65rem;
+  color:var(--sys-accent);
+  flex-shrink:0;
+  position:relative; z-index:1;
+  background:var(--bg);
+}
+
+.step-title {
+  font-size:0.8rem;
+  font-weight:500;
+  color:var(--text);
+  margin-bottom:3px;
+  letter-spacing:0.03em;
+  padding-top:4px;
+}
+
+.step-desc {
+  font-size:0.74rem;
+  color:var(--dim);
+  line-height:1.55;
+}
+
+.conn-section { margin-bottom:20px; }
+
+.conn-section-title {
+  font-family:'DM Mono',monospace;
+  font-size:0.6rem;
+  letter-spacing:0.2em;
+  color:var(--muted);
+  text-transform:uppercase;
+  margin-bottom:9px;
+}
+
+.conn-chips { display:flex; flex-wrap:wrap; gap:5px; }
+
+.chip {
+  padding:5px 11px;
+  font-family:'DM Mono',monospace;
+  font-size:0.63rem;
+  letter-spacing:0.07em;
+  text-transform:uppercase;
+  border:1px solid var(--line);
+  color:var(--dim);
+  cursor:default;
+  transition:all 0.12s;
+}
+.chip:hover { border-color:var(--sys-accent); color:var(--text); }
+.chip.primary { border-color:var(--sys-accent); color:var(--sys-accent); opacity:0.85; }
+.chip.counter { border-color:#e05c3a; color:#e05c3a; opacity:0.6; }
+.chip.success { border-color:#4cde8a; color:#4cde8a; opacity:0.75; }
+
+/* ── SECTION SWITCHER ── */
+.section-switcher {
+  display:flex;
+  gap:0;
+  padding: 0 40px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.sec-btn {
+  padding: 14px 32px;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1.05rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.sec-btn:hover { color: var(--text); }
+.sec-btn.active { color: var(--text); border-bottom-color: var(--sec-color); }
+.sec-btn[data-sec="bottom"] { --sec-color: #4a9eff; }
+.sec-btn[data-sec="top"]    { --sec-color: #ff9f43; }
+.sec-btn[data-sec="nogi"]   { --sec-color: #26de81; }
+.sec-btn[data-sec="nogitop"]{ --sec-color: #ff6348; }
+
+/* ── NO-GI TOP GAME TAB COLORS ── */
+.tab[data-sys="nt-bodylock"]  { --sys-color: #ff6348; }
+.tab[data-sys="nt-smash"]     { --sys-color: #ff4757; }
+.tab[data-sys="nt-float"]     { --sys-color: #eccc68; }
+.tab[data-sys="nt-legweave"]  { --sys-color: #7bed9f; }
+.tab[data-sys="nt-toreando"]  { --sys-color: #70a1ff; }
+.tab[data-sys="nt-hq"]        { --sys-color: #ffa502; }
+.tab[data-sys="nt-headlock"]  { --sys-color: #ff6b81; }
+.tab[data-sys="nt-legpummel"] { --sys-color: #2ed573; }
+
+.sec-divider {
+  width:1px; background: var(--line); margin: 10px 0;
+}
+
+/* ── TOP GAME TAB COLORS ── */
+.tab[data-sys="hq"]       { --sys-color: #ff9f43; }
+.tab[data-sys="kneecut"]  { --sys-color: #ffd32a; }
+.tab[data-sys="legdrag"]  { --sys-color: #ff6b81; }
+.tab[data-sys="toreando"] { --sys-color: #a29bfe; }
+.tab[data-sys="overunder"]{ --sys-color: #fd79a8; }
+.tab[data-sys="smash"]    { --sys-color: #e17055; }
+.tab[data-sys="bodylock"] { --sys-color: #00b894; }
+
+/* ── NO-GI TAB COLORS ── */
+.tab[data-sys="ashi"]      { --sys-color: #fd9644; }
+.tab[data-sys="saddle"]    { --sys-color: #fc5c65; }
+.tab[data-sys="slx"]       { --sys-color: #26de81; }
+.tab[data-sys="xguard"]    { --sys-color: #45aaf2; }
+.tab[data-sys="butterfly"] { --sys-color: #a55eea; }
+.tab[data-sys="wrestleup"] { --sys-color: #eb3b5a; }
+.tab[data-sys="kguard"]    { --sys-color: #20bf6b; }
+.tab[data-sys="halfnogi"]  { --sys-color: #f7b731; }
+
+/* ── TABGROUP WRAPPERS ── */
+.tabgroup { display:none; }
+.tabgroup.active { display:block; }
+
+.empty {
+  padding:120px 40px;
+  text-align:center;
+}
+.empty-kanji {
+  font-family:'Staatliches',sans-serif;
+  font-size:10rem;
+  color:rgba(255,255,255,0.03);
+  line-height:1;
+  margin-bottom:24px;
+}
+.empty-msg {
+  font-family:'DM Mono',monospace;
+  font-size:0.75rem;
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+
+@media(max-width:900px){
+  .main-grid { grid-template-columns:1fr; }
+  .cell { border-right:none; border-bottom:1px solid var(--line); }
+  .core-row { grid-template-columns:1fr; gap:20px; }
+  .tech-matrix { grid-template-columns:1fr 1fr; }
+  .lower-grid,.bottom-grid { grid-template-columns:1fr; }
+  .lower-cell,.bottom-cell { border-right:none; border-bottom:1px solid var(--line); }
+  .hero { grid-template-columns:1fr; }
+  .sys-strip { grid-template-columns:auto 1fr; }
+  .sys-philosophy { display:none; }
+}
