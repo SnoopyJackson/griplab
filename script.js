@@ -1,4 +1,4 @@
-// Data will be loaded from JSON file
+﻿// Data will be loaded from JSON file
 let guardsData = [];
 let athletesData = [];
 let gameplanData = [];
@@ -198,7 +198,7 @@ function selectGuard(guardId) {
             
             <div class="detail-section">
                 <div class="description-header">
-                    <h3>📋 DESCRIPTION</h3>
+                    <h3>­ƒôï DESCRIPTION</h3>
                     <button class="watch-video-btn" onclick="${guard.video ? `window.open('${guard.video}', '_blank')` : `searchYouTube('${guard.name}', 'BJJ guard')` }">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
@@ -210,7 +210,7 @@ function selectGuard(guardId) {
             </div>
             
             <div class="detail-section">
-                <h3>⚙️ EXECUTION</h3>
+                <h3>ÔÜÖ´©Å EXECUTION</h3>
                 <ul>
                     ${guard.execution.map(step => `<li>${step}</li>`).join('')}
                 </ul>
@@ -218,13 +218,13 @@ function selectGuard(guardId) {
             
             <div class="pros-cons">
                 <div class="pros">
-                    <h4>✅ ADVANTAGES</h4>
+                    <h4>Ô£à ADVANTAGES</h4>
                     <ul>
                         ${guard.pros.map(pro => `<li>${pro}</li>`).join('')}
                     </ul>
                 </div>
                 <div class="cons">
-                    <h4>❌ DISADVANTAGES</h4>
+                    <h4>ÔØî DISADVANTAGES</h4>
                     <ul>
                         ${guard.cons.map(con => `<li>${con}</li>`).join('')}
                     </ul>
@@ -232,7 +232,7 @@ function selectGuard(guardId) {
             </div>
             
             <div class="detail-section">
-                <h3>💡 TIPS & CONCEPTS</h3>
+                <h3>­ƒÆí TIPS & CONCEPTS</h3>
                 <ul>
                     ${guard.tips.map(tip => `<li>${tip}</li>`).join('')}
                 </ul>
@@ -240,13 +240,13 @@ function selectGuard(guardId) {
             
             ${guard.sweeps ? `
             <div class="detail-section techniques-section">
-                <h3>🔄 SWEEP TECHNIQUES</h3>
+                <h3>­ƒöä SWEEP TECHNIQUES</h3>
                 <div class="technique-grid">
                     ${guard.sweeps.map((sweep, idx) => {
                         const techId = `${guard.id}-${sweep.name}`;
                         const status = getTechniqueProgress(techId);
                         const statusClass = status !== 'none' ? status : '';
-                        const statusEmoji = status === 'mastered' ? '⭐' : status === 'average' ? '📊' : status === 'learning' ? '📚' : status === 'bad' ? '❌' : '';
+                        const statusEmoji = status === 'mastered' ? 'Ô¡É' : status === 'average' ? '­ƒôè' : status === 'learning' ? '­ƒôÜ' : status === 'bad' ? 'ÔØî' : '';
                         return `
                         <div class="technique-card ${statusClass}" style="animation-delay: ${idx * 0.1}s" onclick="searchYouTube('${sweep.name}', '${guard.name}')">
                             <span class="technique-type sweep">SWEEP</span>
@@ -261,13 +261,13 @@ function selectGuard(guardId) {
             
             ${guard.passes ? `
             <div class="detail-section techniques-section">
-                <h3>🚀 GUARD PASS TECHNIQUES</h3>
+                <h3>­ƒÜÇ GUARD PASS TECHNIQUES</h3>
                 <div class="technique-grid">
                     ${guard.passes.map((pass, idx) => {
                         const techId = `${guard.id}-${pass.name}`;
                         const status = getTechniqueProgress(techId);
                         const statusClass = status !== 'none' ? status : '';
-                        const statusEmoji = status === 'mastered' ? '⭐' : status === 'average' ? '📊' : status === 'learning' ? '📚' : status === 'bad' ? '❌' : '';
+                        const statusEmoji = status === 'mastered' ? 'Ô¡É' : status === 'average' ? '­ƒôè' : status === 'learning' ? '­ƒôÜ' : status === 'bad' ? 'ÔØî' : '';
                         return `
                         <div class="technique-card ${statusClass}" style="animation-delay: ${idx * 0.1}s" onclick="searchYouTube('${pass.name}', '${guard.name}')">
                             <span class="technique-type pass">PASS</span>
@@ -282,13 +282,13 @@ function selectGuard(guardId) {
             
             ${guard.submissions ? `
             <div class="detail-section techniques-section">
-                <h3>🎯 SUBMISSION TECHNIQUES</h3>
+                <h3>­ƒÄ» SUBMISSION TECHNIQUES</h3>
                 <div class="technique-grid">
                     ${guard.submissions.map((sub, idx) => {
                         const techId = `${guard.id}-${sub.name}`;
                         const status = getTechniqueProgress(techId);
                         const statusClass = status !== 'none' ? status : '';
-                        const statusEmoji = status === 'mastered' ? '⭐' : status === 'average' ? '📊' : status === 'learning' ? '📚' : status === 'bad' ? '❌' : '';
+                        const statusEmoji = status === 'mastered' ? 'Ô¡É' : status === 'average' ? '­ƒôè' : status === 'learning' ? '­ƒôÜ' : status === 'bad' ? 'ÔØî' : '';
                         return `
                         <div class="technique-card ${statusClass}" style="animation-delay: ${idx * 0.1}s" onclick="searchYouTube('${sub.name}', '${guard.name}')">
                             <span class="technique-type submission">SUBMISSION</span>
@@ -302,7 +302,7 @@ function selectGuard(guardId) {
             ` : ''}
             
             <div class="detail-section">
-                <h3>👤 NOTABLE ATHLETES</h3>
+                <h3>­ƒæñ NOTABLE ATHLETES</h3>
                 <div class="athletes-tag">
                     ${guard.athletes.map(athlete => `<span class="athlete-tag">${athlete}</span>`).join('')}
                 </div>
@@ -321,7 +321,7 @@ function renderAthletes() {
             <div class="athlete-info">
                 <h3>${athlete.name}</h3>
                 <div class="signature-moves">
-                    <h4>⚡ SIGNATURE MOVES</h4>
+                    <h4>ÔÜí SIGNATURE MOVES</h4>
                     <div class="move-item">
                         <span class="move-type">GUARD</span>
                         <span class="move-name">${athlete.signatures.guard}</span>
@@ -514,11 +514,11 @@ function resetProgress() {
 const LOG_STORAGE_KEY = 'bjj_training_log';
 
 const ACTIVITY_META = {
-    bjj:       { label: 'BJJ (Gi)',   emoji: '🥋', color: '#a855f7' },
-    nogi:      { label: 'No-Gi',      emoji: '🤼', color: '#00d4ff' },
-    wrestling: { label: 'Wrestling',  emoji: '🏋️', color: '#f59e0b' },
-    lifting:   { label: 'Lifting',    emoji: '💪', color: '#ef4444' },
-    yoga:      { label: 'Yoga',       emoji: '🧘', color: '#10b981' }
+    bjj:       { label: 'BJJ (Gi)',   emoji: '­ƒÑï', color: '#a855f7' },
+    nogi:      { label: 'No-Gi',      emoji: '­ƒñ╝', color: '#00d4ff' },
+    wrestling: { label: 'Wrestling',  emoji: '­ƒÅï´©Å', color: '#f59e0b' },
+    lifting:   { label: 'Lifting',    emoji: '­ƒÆ¬', color: '#ef4444' },
+    yoga:      { label: 'Yoga',       emoji: '­ƒºÿ', color: '#10b981' }
 };
 
 function getTrainingLog() {
@@ -679,24 +679,24 @@ function renderLogEntries() {
                     <span class="log-entry-date">${dateStr}</span>
                 </div>
                 <div class="log-entry-body">
-                    <span class="log-entry-duration">⏱️ ${durationStr}</span>
+                    <span class="log-entry-duration">ÔÅ▒´©Å ${durationStr}</span>
                     ${entry.notes ? `<p class="log-entry-notes">${entry.notes}</p>` : ''}
                 </div>
-                <button class="log-entry-delete" onclick="deleteLogEntry(${entry.id})">🗑️</button>
+                <button class="log-entry-delete" onclick="deleteLogEntry(${entry.id})">­ƒùæ´©Å</button>
             </div>
         `;
     }).join('');
 }
 
 // ==========================================
-// WAR ROOM — Professor's Class Preparation
+// WAR ROOM ÔÇö Professor's Class Preparation
 // ==========================================
 
 const CATEGORY_META = {
-    sweep:      { emoji: '🔄', label: 'Sweep',      color: '#00ff88' },
-    pass:       { emoji: '🚀', label: 'Pass',        color: '#00d4ff' },
-    submission: { emoji: '🔥', label: 'Submission',  color: '#ff4444' },
-    escape:     { emoji: '🛡️', label: 'Escape',      color: '#a855f7' }
+    sweep:      { emoji: '­ƒöä', label: 'Sweep',      color: '#00ff88' },
+    pass:       { emoji: '­ƒÜÇ', label: 'Pass',        color: '#00d4ff' },
+    submission: { emoji: '­ƒöÑ', label: 'Submission',  color: '#ff4444' },
+    escape:     { emoji: '­ƒøí´©Å', label: 'Escape',      color: '#a855f7' }
 };
 
 let activePosition = null;
@@ -780,7 +780,7 @@ function renderWarRoomTechniques() {
 
     list.innerHTML = techs.map((tech, i) => {
         const cat = CATEGORY_META[tech.category];
-        const perspLabel = tech.perspective === 'bottom' ? '⬇️ Bottom' : '⬆️ Top';
+        const perspLabel = tech.perspective === 'bottom' ? 'Ô¼ç´©Å Bottom' : 'Ô¼å´©Å Top';
 
         return `
         <div class="wr-technique-card">
@@ -791,12 +791,12 @@ function renderWarRoomTechniques() {
                 </div>
                 <h4 class="wr-tech-name">${tech.name}</h4>
                 <p class="wr-tech-goal">${tech.goal}</p>
-                <span class="wr-tech-expand-icon">▼</span>
+                <span class="wr-tech-expand-icon">Ôû╝</span>
             </div>
             <div class="wr-tech-body" id="wr-tech-body-${i}">
                 <!-- Initial Position -->
                 <div class="wr-detail-block wr-detail-position">
-                    <h5>📍 INITIAL POSITION</h5>
+                    <h5>­ƒôì INITIAL POSITION</h5>
                     <div class="wr-position-grid">
                         <div class="wr-pos-item"><span class="wr-pos-label">Body</span><p>${tech.initialPosition.body}</p></div>
                         <div class="wr-pos-item"><span class="wr-pos-label">Grips</span><p>${tech.initialPosition.grips}</p></div>
@@ -808,29 +808,29 @@ function renderWarRoomTechniques() {
                 <!-- Green / Red Lights -->
                 <div class="wr-lights-row">
                     <div class="wr-detail-block wr-lights-green">
-                        <h5>🟢 GREEN LIGHTS</h5>
+                        <h5>­ƒƒó GREEN LIGHTS</h5>
                         <ul>${tech.greenLights.map(g => `<li>${g}</li>`).join('')}</ul>
                     </div>
                     <div class="wr-detail-block wr-lights-red">
-                        <h5>🔴 RED LIGHTS</h5>
+                        <h5>­ƒö┤ RED LIGHTS</h5>
                         <ul>${tech.redLights.map(r => `<li>${r}</li>`).join('')}</ul>
                     </div>
                 </div>
 
                 <!-- Key Steps -->
                 <div class="wr-detail-block wr-detail-steps">
-                    <h5>📝 KEY STEPS</h5>
+                    <h5>­ƒôØ KEY STEPS</h5>
                     <ol>${tech.steps.map(s => `<li>${s}</li>`).join('')}</ol>
                 </div>
 
                 <!-- Complexification / Simplification -->
                 <div class="wr-lights-row">
                     <div class="wr-detail-block wr-detail-complex">
-                        <h5>⬆️ COMPLEXIFICATION</h5>
+                        <h5>Ô¼å´©Å COMPLEXIFICATION</h5>
                         <ul>${tech.complexpieces.map(c => `<li>${c}</li>`).join('')}</ul>
                     </div>
                     <div class="wr-detail-block wr-detail-simple">
-                        <h5>⬇️ SIMPLIFICATION</h5>
+                        <h5>Ô¼ç´©Å SIMPLIFICATION</h5>
                         <ul>${tech.simplifications.map(s => `<li>${s}</li>`).join('')}</ul>
                     </div>
                 </div>
@@ -847,7 +847,7 @@ function renderWarRoomTechniques() {
     });
 }
 
-// Export — dumps ALL localStorage so nothing is lost
+// Export ÔÇö dumps ALL localStorage so nothing is lost
 function exportTrainingLog() {
     const allData = {};
     for (let i = 0; i < localStorage.length; i++) {
@@ -870,7 +870,7 @@ function exportTrainingLog() {
     URL.revokeObjectURL(url);
 }
 
-// Import — restores full localStorage snapshot when available, falls back to legacy keys
+// Import ÔÇö restores full localStorage snapshot when available, falls back to legacy keys
 function importTrainingLog(event) {
     const file = event.target.files[0];
     if (!file) return;
@@ -914,631 +914,225 @@ function importTrainingLog(event) {
 }
 
 // ==========================================
-// GAME BUILDER — Mind-Map Technique Planner
+// GAME BUILDER -- Chapter-Based Game Planner
 // ==========================================
 
-const GB_STORAGE_KEY = 'bjj_game_builder';
-const GB_CAT_LABELS = {
-    position:   '📍 Position',
-    sweep:      '🔄 Sweep',
-    pass:       '🚀 Pass',
-    submission: '🔥 Submission',
-    escape:     '🛡️ Escape',
-    takedown:   '⬇️ Takedown',
-    concept:    '💡 Concept'
-};
+const GB_STORAGE_KEY = 'bjj_chapter_builder';
+const MAX_MOVES = 3;
 
-let gbGames = [];          // [{id, name, nodes:[], connections:[]}]
-let gbActiveGameId = null;
-let gbZoom = 1;
-let gbPanX = 0;
-let gbPanY = 0;
-let gbIsPanning = false;
-let gbPanStart = { x: 0, y: 0 };
-let gbDragNode = null;
-let gbDragOffset = { x: 0, y: 0 };
-let gbConnecting = null;   // { fromId, startX, startY }
-let gbPendingPos = { x: 0, y: 0 };
-let gbSelectedNodeId = null;
+let gbChapters = [];
+let gbActiveIdx = null;
 
 function gbLoad() {
     const raw = localStorage.getItem(GB_STORAGE_KEY);
     if (raw) {
-        try { gbGames = JSON.parse(raw); } catch { gbGames = []; }
+        try { gbChapters = JSON.parse(raw); } catch { gbChapters = []; }
     }
-    if (gbGames.length === 0) {
-        gbGames.push(gbCreateGameObject('Game A'));
-    }
-    gbActiveGameId = gbActiveGameId || gbGames[0].id;
-    if (!gbGames.find(g => g.id === gbActiveGameId)) {
-        gbActiveGameId = gbGames[0].id;
+    if (gbChapters.length > 0) {
+        gbActiveIdx = 0;
     }
 }
 
 function gbSave() {
-    localStorage.setItem(GB_STORAGE_KEY, JSON.stringify(gbGames));
+    localStorage.setItem(GB_STORAGE_KEY, JSON.stringify(gbChapters));
 }
 
-function gbCreateGameObject(name) {
-    return { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), name, nodes: [], connections: [] };
+function addChapter() {
+    const inp = document.getElementById('chapterInput');
+    const name = inp.value.trim();
+    if (!name) return;
+    if (gbChapters.find(c => c.name.toLowerCase() === name.toLowerCase())) {
+        inp.style.borderColor = 'var(--gb-sub)';
+        setTimeout(() => inp.style.borderColor = '', 800);
+        return;
+    }
+    gbChapters.push({ name, sweeps: [], passes: [], subs: [] });
+    inp.value = '';
+    gbActiveIdx = gbChapters.length - 1;
+    gbSave();
+    renderTabs();
+    renderChapter();
 }
 
-function gbActiveGame() {
-    return gbGames.find(g => g.id === gbActiveGameId);
+function setActive(idx) {
+    gbActiveIdx = idx;
+    renderTabs();
+    renderChapter();
 }
 
-// ---- Init ----
+function deleteChapter(idx) {
+    gbChapters.splice(idx, 1);
+    if (gbActiveIdx >= gbChapters.length) gbActiveIdx = gbChapters.length - 1;
+    if (gbChapters.length === 0) gbActiveIdx = null;
+    gbSave();
+    renderTabs();
+    renderChapter();
+}
+
+function addMove(type, inputId) {
+    if (gbActiveIdx === null) return;
+    const inp = document.getElementById(inputId);
+    const name = inp.value.trim();
+    if (!name) return;
+    const ch = gbChapters[gbActiveIdx];
+    const arr = ch[type];
+    if (arr.length >= MAX_MOVES) return;
+    arr.push(name);
+    inp.value = '';
+    gbSave();
+    renderChapter();
+}
+
+function deleteMove(type, idx) {
+    if (gbActiveIdx === null) return;
+    gbChapters[gbActiveIdx][type].splice(idx, 1);
+    gbSave();
+    renderChapter();
+}
+
+function renderTabs() {
+    const container = document.getElementById('chapterTabs');
+    if (!container) return;
+    container.innerHTML = '';
+    gbChapters.forEach((ch, i) => {
+        const tab = document.createElement('div');
+        tab.className = 'chapter-tab' + (i === gbActiveIdx ? ' active' : '');
+        tab.textContent = ch.name;
+        tab.onclick = () => setActive(i);
+        container.appendChild(tab);
+    });
+}
+
+function renderChapter() {
+    const container = document.getElementById('chapterContent');
+    if (!container) return;
+
+    if (gbActiveIdx === null || gbChapters.length === 0) {
+        container.innerHTML = `
+            <div class="gb-empty-state">
+                <div class="gb-empty-icon">&#x2B21;</div>
+                <div class="gb-empty-title">NO CHAPTER LOADED</div>
+                <div class="gb-empty-sub">// ADD A POSITION TO BEGIN //</div>
+            </div>`;
+        return;
+    }
+
+    const ch = gbChapters[gbActiveIdx];
+    const totalMoves = ch.sweeps.length + ch.passes.length + ch.subs.length;
+    const sweepPct = (ch.sweeps.length / MAX_MOVES) * 100;
+    const passPct  = (ch.passes.length / MAX_MOVES) * 100;
+    const subPct   = (ch.subs.length   / MAX_MOVES) * 100;
+
+    container.innerHTML = `
+      <div class="chapter-panel">
+        <div class="chapter-header">
+          <div class="chapter-title">${gbEsc(ch.name)}</div>
+          <div style="display:flex;align-items:center;gap:12px;">
+            <div class="chapter-badge">CHAPTER ${String(gbActiveIdx + 1).padStart(2,'0')}</div>
+            <button class="gb-builder-btn gb-builder-btn-danger" onclick="deleteChapter(${gbActiveIdx})">DELETE</button>
+          </div>
+        </div>
+
+        <div class="move-grid">
+          ${gbRenderColumn('sweeps', ch, 'sweep', 'SWEEPS', 'sweepInput')}
+          ${gbRenderColumn('passes', ch, 'pass',  'PASSES', 'passInput')}
+          ${gbRenderColumn('subs',   ch, 'sub',   'SUBMISSIONS', 'subInput')}
+        </div>
+
+        <div class="stats-bar">
+          <div class="gb-stat">
+            <div class="gb-stat-label">TOTAL MOVES</div>
+            <div class="gb-stat-value">${String(totalMoves).padStart(2,'0')}</div>
+          </div>
+          <div class="gb-stat">
+            <div class="gb-stat-label">SWEEPS</div>
+            <div class="gb-stat-value sweep-val">${ch.sweeps.length}/${MAX_MOVES}</div>
+          </div>
+          <div class="gb-stat">
+            <div class="gb-stat-label">PASSES</div>
+            <div class="gb-stat-value pass-val">${ch.passes.length}/${MAX_MOVES}</div>
+          </div>
+          <div class="gb-stat">
+            <div class="gb-stat-label">SUBS</div>
+            <div class="gb-stat-value sub-val">${ch.subs.length}/${MAX_MOVES}</div>
+          </div>
+          <div class="prog-bars">
+            <div class="prog-row">
+              <div class="prog-type">SWP</div>
+              <div class="prog-track"><div class="prog-fill s" style="width:${sweepPct}%"></div></div>
+              <div class="prog-num">${ch.sweeps.length}</div>
+            </div>
+            <div class="prog-row">
+              <div class="prog-type">PAS</div>
+              <div class="prog-track"><div class="prog-fill p" style="width:${passPct}%"></div></div>
+              <div class="prog-num">${ch.passes.length}</div>
+            </div>
+            <div class="prog-row">
+              <div class="prog-type">SUB</div>
+              <div class="prog-track"><div class="prog-fill u" style="width:${subPct}%"></div></div>
+              <div class="prog-num">${ch.subs.length}</div>
+            </div>
+          </div>
+        </div>
+      </div>`;
+
+    ['sweepInput','passInput','subInput'].forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        const type = id === 'sweepInput' ? 'sweeps' : id === 'passInput' ? 'passes' : 'subs';
+        el.addEventListener('keydown', e => { if (e.key === 'Enter') addMove(type, id); });
+    });
+}
+
+function gbRenderColumn(type, ch, colorClass, label, inputId) {
+    const moves = ch[type];
+    const full  = moves.length >= MAX_MOVES;
+
+    const cards = [];
+    for (let i = 0; i < MAX_MOVES; i++) {
+        if (i < moves.length) {
+            cards.push(`
+              <div class="move-card ${colorClass}">
+                <div class="move-number">// MOVE ${String(i+1).padStart(2,'0')}</div>
+                <div class="move-name">${gbEsc(moves[i])}</div>
+                <button class="move-delete" onclick="deleteMove('${type}', ${i})" title="Remove">x</button>
+              </div>`);
+        } else {
+            cards.push(`
+              <div class="move-slot">
+                <div class="slot-label">// SLOT ${String(i+1).padStart(2,'0')} -- EMPTY</div>
+              </div>`);
+        }
+    }
+
+    const btnClass = colorClass;
+    const addForm = !full ? `
+      <div class="add-move-form">
+        <input class="move-input ${colorClass}-input" id="${inputId}"
+          type="text" placeholder="Add ${label.toLowerCase().slice(0,-1)}..." maxlength="40">
+        <button class="add-move-btn ${btnClass}-btn" onclick="addMove('${type}', '${inputId}')">+</button>
+      </div>` : `
+      <div class="slot-label" style="font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:3px;text-align:center;padding:6px;opacity:0.6;">
+        // SLOTS FULL //
+      </div>`;
+
+    return `
+      <div class="move-column">
+        <div class="column-header col-${colorClass}">
+          <div class="column-label">${label}</div>
+          <div class="col-count">${moves.length}/${MAX_MOVES}</div>
+        </div>
+        ${cards.join('')}
+        ${addForm}
+      </div>`;
+}
+
+function gbEsc(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
 function initGameBoard() {
     gbLoad();
-
-    const viewport = document.getElementById('gb-viewport');
-    const canvas = document.getElementById('gb-canvas');
-
-    // Game selector
-    document.getElementById('gb-game-select').addEventListener('change', (e) => {
-        gbActiveGameId = e.target.value;
-        gbSave();
-        gbResetView();
-        gbRender();
-    });
-
-    document.getElementById('gb-new-game').addEventListener('click', () => {
-        const name = prompt('Game name:');
-        if (!name || !name.trim()) return;
-        const game = gbCreateGameObject(name.trim());
-        gbGames.push(game);
-        gbActiveGameId = game.id;
-        gbSave();
-        gbResetView();
-        gbRender();
-    });
-
-    document.getElementById('gb-rename-game').addEventListener('click', () => {
-        const game = gbActiveGame();
-        if (!game) return;
-        const name = prompt('Rename game:', game.name);
-        if (!name || !name.trim()) return;
-        game.name = name.trim();
-        gbSave();
-        gbRenderSelect();
-    });
-
-    document.getElementById('gb-delete-game').addEventListener('click', () => {
-        if (gbGames.length <= 1) { alert('You need at least one game.'); return; }
-        if (!confirm(`Delete "${gbActiveGame().name}"?`)) return;
-        gbGames = gbGames.filter(g => g.id !== gbActiveGameId);
-        gbActiveGameId = gbGames[0].id;
-        gbSave();
-        gbResetView();
-        gbRender();
-    });
-
-    document.getElementById('gb-reset-view').addEventListener('click', gbFitView);
-
-    // Export
-    document.getElementById('gb-export').addEventListener('click', () => {
-        const game = gbActiveGame();
-        const blob = new Blob([JSON.stringify(game, null, 2)], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `game-${game.name.replace(/\s+/g, '_')}.json`;
-        a.click();
-        URL.revokeObjectURL(url);
-    });
-
-    // Import
-    document.getElementById('gb-import-file').addEventListener('change', (e) => {
-        const file = e.target.files[0];
-        if (!file) return;
-        const reader = new FileReader();
-        reader.onload = (ev) => {
-            try {
-                const data = JSON.parse(ev.target.result);
-                if (!data.nodes || !Array.isArray(data.nodes)) { alert('Invalid game file.'); return; }
-                // Ensure it has an id
-                data.id = data.id || Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
-                data.connections = data.connections || [];
-                // Avoid id collision
-                if (gbGames.find(g => g.id === data.id)) {
-                    data.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
-                }
-                gbGames.push(data);
-                gbActiveGameId = data.id;
-                gbSave();
-                gbResetView();
-                gbRender();
-                alert(`Imported "${data.name}"!`);
-            } catch {
-                alert('Error reading game file.');
-            }
-        };
-        reader.readAsText(file);
-        e.target.value = '';
-    });
-
-    // Modal
-    document.getElementById('gb-modal-cancel').addEventListener('click', gbCloseModal);
-    document.getElementById('gb-modal-confirm').addEventListener('click', gbConfirmAddNode);
-    document.getElementById('gb-node-name').addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') { e.preventDefault(); gbConfirmAddNode(); }
-    });
-
-    // Mobile FAB (floating add button)
-    document.getElementById('gb-fab').addEventListener('click', () => {
-        const vRect = viewport.getBoundingClientRect();
-        gbPendingPos = {
-            x: (vRect.width / 2 - gbPanX) / gbZoom,
-            y: (vRect.height / 2 - gbPanY) / gbZoom
-        };
-        gbOpenModal();
-    });
-
-    // ---- Viewport interactions ----
-
-    // Zoom
-    viewport.addEventListener('wheel', (e) => {
-        e.preventDefault();
-        const rect = viewport.getBoundingClientRect();
-        const mx = e.clientX - rect.left;
-        const my = e.clientY - rect.top;
-
-        const oldZoom = gbZoom;
-        const delta = e.deltaY > 0 ? 0.9 : 1.1;
-        gbZoom = Math.min(3, Math.max(0.15, gbZoom * delta));
-
-        // Zoom toward mouse
-        gbPanX = mx - (mx - gbPanX) * (gbZoom / oldZoom);
-        gbPanY = my - (my - gbPanY) * (gbZoom / oldZoom);
-
-        gbApplyTransform();
-    }, { passive: false });
-
-    // Pan + Drag + Connect
-    viewport.addEventListener('mousedown', (e) => {
-        if (e.target.closest('.gb-node-delete')) return;
-        if (e.target.closest('.gb-connector')) {
-            // Start connection
-            const nodeEl = e.target.closest('.gb-node');
-            const nodeId = nodeEl.dataset.id;
-            const game = gbActiveGame();
-            const node = game.nodes.find(n => n.id === nodeId);
-            if (!node) return;
-            gbConnecting = {
-                fromId: nodeId,
-                startX: node.x + (nodeEl.offsetWidth / 2) / gbZoom,
-                startY: node.y + nodeEl.offsetHeight / gbZoom
-            };
-            e.stopPropagation();
-            return;
-        }
-
-        const nodeEl = e.target.closest('.gb-node');
-        if (nodeEl) {
-            // Start drag node
-            const rect = viewport.getBoundingClientRect();
-            const mx = (e.clientX - rect.left - gbPanX) / gbZoom;
-            const my = (e.clientY - rect.top - gbPanY) / gbZoom;
-            const game = gbActiveGame();
-            const node = game.nodes.find(n => n.id === nodeEl.dataset.id);
-            if (!node) return;
-            gbDragNode = node;
-            gbDragOffset = { x: mx - node.x, y: my - node.y };
-            gbSelectedNodeId = node.id;
-            gbRenderNodes();
-            e.stopPropagation();
-            return;
-        }
-
-        // Pan
-        gbIsPanning = true;
-        gbPanStart = { x: e.clientX - gbPanX, y: e.clientY - gbPanY };
-    });
-
-    window.addEventListener('mousemove', (e) => {
-        if (gbConnecting) {
-            const rect = viewport.getBoundingClientRect();
-            const mx = (e.clientX - rect.left - gbPanX) / gbZoom;
-            const my = (e.clientY - rect.top - gbPanY) / gbZoom;
-            gbDrawTempLine(gbConnecting.startX, gbConnecting.startY, mx, my);
-            return;
-        }
-        if (gbDragNode) {
-            const rect = viewport.getBoundingClientRect();
-            const mx = (e.clientX - rect.left - gbPanX) / gbZoom;
-            const my = (e.clientY - rect.top - gbPanY) / gbZoom;
-            gbDragNode.x = mx - gbDragOffset.x;
-            gbDragNode.y = my - gbDragOffset.y;
-            gbPositionNode(gbDragNode.id);
-            gbRenderConnections();
-            return;
-        }
-        if (gbIsPanning) {
-            gbPanX = e.clientX - gbPanStart.x;
-            gbPanY = e.clientY - gbPanStart.y;
-            gbApplyTransform();
-        }
-    });
-
-    window.addEventListener('mouseup', (e) => {
-        if (gbConnecting) {
-            const nodeEl = e.target.closest('.gb-node');
-            if (nodeEl && nodeEl.dataset.id !== gbConnecting.fromId) {
-                const game = gbActiveGame();
-                const connExists = game.connections.some(c =>
-                    (c.from === gbConnecting.fromId && c.to === nodeEl.dataset.id) ||
-                    (c.to === gbConnecting.fromId && c.from === nodeEl.dataset.id)
-                );
-                if (!connExists) {
-                    game.connections.push({ from: gbConnecting.fromId, to: nodeEl.dataset.id });
-                    gbSave();
-                }
-            }
-            gbConnecting = null;
-            gbRemoveTempLine();
-            gbRenderConnections();
-            return;
-        }
-        if (gbDragNode) {
-            gbDragNode = null;
-            gbSave();
-            return;
-        }
-        gbIsPanning = false;
-    });
-
-    // Touch support for mobile
-    let touchDist = 0;
-    let touchLongPress = null;
-    viewport.addEventListener('touchstart', (e) => {
-        if (e.touches.length === 2) {
-            touchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
-            return;
-        }
-        if (e.touches.length !== 1) return;
-        const touch = e.touches[0];
-        const nodeEl = touch.target.closest('.gb-node');
-
-        // Touch on connector — start connection
-        if (touch.target.closest('.gb-connector') && nodeEl) {
-            e.preventDefault();
-            const nodeId = nodeEl.dataset.id;
-            const game = gbActiveGame();
-            const node = game.nodes.find(n => n.id === nodeId);
-            if (!node) return;
-            gbConnecting = {
-                fromId: nodeId,
-                startX: node.x + (nodeEl.offsetWidth / 2) / gbZoom,
-                startY: node.y + nodeEl.offsetHeight / gbZoom
-            };
-            return;
-        }
-
-        if (nodeEl && !touch.target.closest('.gb-node-delete')) {
-            const rect = viewport.getBoundingClientRect();
-            const mx = (touch.clientX - rect.left - gbPanX) / gbZoom;
-            const my = (touch.clientY - rect.top - gbPanY) / gbZoom;
-            const game = gbActiveGame();
-            const node = game.nodes.find(n => n.id === nodeEl.dataset.id);
-            if (node) {
-                gbDragNode = node;
-                gbDragOffset = { x: mx - node.x, y: my - node.y };
-                gbSelectedNodeId = node.id;
-                gbRenderNodes();
-            }
-            return;
-        }
-        gbIsPanning = true;
-        gbPanStart = { x: touch.clientX - gbPanX, y: touch.clientY - gbPanY };
-    }, { passive: false });
-
-    viewport.addEventListener('touchmove', (e) => {
-        e.preventDefault();
-        if (e.touches.length === 2) {
-            const newDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
-            if (touchDist > 0) {
-                const scale = newDist / touchDist;
-                gbZoom = Math.min(3, Math.max(0.15, gbZoom * scale));
-                gbApplyTransform();
-            }
-            touchDist = newDist;
-            return;
-        }
-        if (e.touches.length !== 1) return;
-        const touch = e.touches[0];
-
-        // Touch connecting
-        if (gbConnecting) {
-            const rect = viewport.getBoundingClientRect();
-            const mx = (touch.clientX - rect.left - gbPanX) / gbZoom;
-            const my = (touch.clientY - rect.top - gbPanY) / gbZoom;
-            gbDrawTempLine(gbConnecting.startX, gbConnecting.startY, mx, my);
-            return;
-        }
-
-        if (gbDragNode) {
-            const rect = viewport.getBoundingClientRect();
-            const mx = (touch.clientX - rect.left - gbPanX) / gbZoom;
-            const my = (touch.clientY - rect.top - gbPanY) / gbZoom;
-            gbDragNode.x = mx - gbDragOffset.x;
-            gbDragNode.y = my - gbDragOffset.y;
-            gbPositionNode(gbDragNode.id);
-            gbRenderConnections();
-            return;
-        }
-        if (gbIsPanning) {
-            gbPanX = touch.clientX - gbPanStart.x;
-            gbPanY = touch.clientY - gbPanStart.y;
-            gbApplyTransform();
-        }
-    }, { passive: false });
-
-    viewport.addEventListener('touchend', (e) => {
-        // Finish touch connection
-        if (gbConnecting) {
-            const touch = e.changedTouches[0];
-            // Find if finger ended on a node
-            const endEl = document.elementFromPoint(touch.clientX, touch.clientY);
-            const nodeEl = endEl && endEl.closest('.gb-node');
-            if (nodeEl && nodeEl.dataset.id !== gbConnecting.fromId) {
-                const game = gbActiveGame();
-                const connExists = game.connections.some(c =>
-                    (c.from === gbConnecting.fromId && c.to === nodeEl.dataset.id) ||
-                    (c.to === gbConnecting.fromId && c.from === nodeEl.dataset.id)
-                );
-                if (!connExists) {
-                    game.connections.push({ from: gbConnecting.fromId, to: nodeEl.dataset.id });
-                    gbSave();
-                }
-            }
-            gbConnecting = null;
-            gbRemoveTempLine();
-            gbRenderConnections();
-            return;
-        }
-        if (gbDragNode) { gbDragNode = null; gbSave(); }
-        gbIsPanning = false;
-        touchDist = 0;
-    });
-
-    // Double-click to add node
-    viewport.addEventListener('dblclick', (e) => {
-        if (e.target.closest('.gb-node')) return;
-        const rect = viewport.getBoundingClientRect();
-        gbPendingPos = {
-            x: (e.clientX - rect.left - gbPanX) / gbZoom,
-            y: (e.clientY - rect.top - gbPanY) / gbZoom
-        };
-        gbOpenModal();
-    });
-
-    // Keyboard: Delete selected node
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Delete' && gbSelectedNodeId) {
-            const section = document.getElementById('gameboard-section');
-            if (!section || !section.classList.contains('active')) return;
-            if (document.getElementById('gb-modal').style.display !== 'none') return;
-            gbDeleteNode(gbSelectedNodeId);
-        }
-    });
-
-    gbRender();
+    renderTabs();
+    renderChapter();
 }
-
-// ---- Rendering ----
-
-function gbRender() {
-    gbRenderSelect();
-    gbRenderNodes();
-    gbRenderConnections();
-}
-
-function gbRenderSelect() {
-    const select = document.getElementById('gb-game-select');
-    select.innerHTML = gbGames.map(g =>
-        `<option value="${g.id}" ${g.id === gbActiveGameId ? 'selected' : ''}>${g.name}</option>`
-    ).join('');
-}
-
-function gbRenderNodes() {
-    const canvas = document.getElementById('gb-canvas');
-    // Remove old nodes
-    canvas.querySelectorAll('.gb-node').forEach(el => el.remove());
-
-    const game = gbActiveGame();
-    if (!game) return;
-
-    game.nodes.forEach(node => {
-        const el = document.createElement('div');
-        el.className = 'gb-node' + (node.id === gbSelectedNodeId ? ' selected' : '');
-        el.dataset.id = node.id;
-        el.dataset.cat = node.category;
-        el.style.left = node.x + 'px';
-        el.style.top = node.y + 'px';
-
-        const catLabel = GB_CAT_LABELS[node.category] || node.category;
-        el.innerHTML = `
-            <span class="gb-node-cat">${catLabel}</span>
-            <span class="gb-node-name">${gbEsc(node.name)}</span>
-            ${node.notes ? `<span class="gb-node-notes">${gbEsc(node.notes)}</span>` : ''}
-            <button class="gb-node-delete" title="Delete node">✕</button>
-            <div class="gb-connector" title="Drag to connect"></div>
-        `;
-
-        // Delete button
-        el.querySelector('.gb-node-delete').addEventListener('click', (e) => {
-            e.stopPropagation();
-            gbDeleteNode(node.id);
-        });
-
-        canvas.appendChild(el);
-    });
-
-    gbApplyTransform();
-}
-
-function gbPositionNode(nodeId) {
-    const canvas = document.getElementById('gb-canvas');
-    const el = canvas.querySelector(`.gb-node[data-id="${nodeId}"]`);
-    const game = gbActiveGame();
-    const node = game.nodes.find(n => n.id === nodeId);
-    if (el && node) {
-        el.style.left = node.x + 'px';
-        el.style.top = node.y + 'px';
-    }
-}
-
-function gbRenderConnections() {
-    const svg = document.getElementById('gb-connections');
-    // Keep temp line if exists
-    const tempLine = svg.querySelector('.gb-temp-line');
-    svg.innerHTML = '';
-    if (tempLine) svg.appendChild(tempLine);
-
-    const game = gbActiveGame();
-    if (!game) return;
-
-    const canvas = document.getElementById('gb-canvas');
-
-    game.connections.forEach(conn => {
-        const fromNode = game.nodes.find(n => n.id === conn.from);
-        const toNode = game.nodes.find(n => n.id === conn.to);
-        if (!fromNode || !toNode) return;
-
-        const fromEl = canvas.querySelector(`.gb-node[data-id="${conn.from}"]`);
-        const toEl = canvas.querySelector(`.gb-node[data-id="${conn.to}"]`);
-        if (!fromEl || !toEl) return;
-
-        const x1 = fromNode.x + fromEl.offsetWidth / 2;
-        const y1 = fromNode.y + fromEl.offsetHeight / 2;
-        const x2 = toNode.x + toEl.offsetWidth / 2;
-        const y2 = toNode.y + toEl.offsetHeight / 2;
-
-        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-        line.setAttribute('x1', x1);
-        line.setAttribute('y1', y1);
-        line.setAttribute('x2', x2);
-        line.setAttribute('y2', y2);
-        line.classList.add('gb-connection-line');
-        line.style.pointerEvents = 'stroke';
-        line.addEventListener('click', () => {
-            if (confirm('Remove this connection?')) {
-                game.connections = game.connections.filter(c => c !== conn);
-                gbSave();
-                gbRenderConnections();
-            }
-        });
-        svg.appendChild(line);
-    });
-}
-
-function gbDrawTempLine(x1, y1, x2, y2) {
-    const svg = document.getElementById('gb-connections');
-    let line = svg.querySelector('.gb-temp-line');
-    if (!line) {
-        line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-        line.classList.add('gb-temp-line');
-        svg.appendChild(line);
-    }
-    line.setAttribute('x1', x1);
-    line.setAttribute('y1', y1);
-    line.setAttribute('x2', x2);
-    line.setAttribute('y2', y2);
-}
-
-function gbRemoveTempLine() {
-    const svg = document.getElementById('gb-connections');
-    const line = svg.querySelector('.gb-temp-line');
-    if (line) line.remove();
-}
-
-function gbApplyTransform() {
-    const canvas = document.getElementById('gb-canvas');
-    canvas.style.transform = `translate(${gbPanX}px, ${gbPanY}px) scale(${gbZoom})`;
-}
-
-function gbResetView() {
-    gbZoom = 1;
-    gbPanX = 0;
-    gbPanY = 0;
-    gbApplyTransform();
-}
-
-function gbFitView() {
-    const game = gbActiveGame();
-    if (!game || game.nodes.length === 0) { gbResetView(); return; }
-
-    const viewport = document.getElementById('gb-viewport');
-    const vw = viewport.clientWidth;
-    const vh = viewport.clientHeight;
-
-    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-    game.nodes.forEach(n => {
-        minX = Math.min(minX, n.x);
-        minY = Math.min(minY, n.y);
-        maxX = Math.max(maxX, n.x + 200);
-        maxY = Math.max(maxY, n.y + 80);
-    });
-
-    const contentW = maxX - minX + 100;
-    const contentH = maxY - minY + 100;
-    gbZoom = Math.min(vw / contentW, vh / contentH, 1.5);
-    gbZoom = Math.max(0.15, gbZoom);
-    gbPanX = (vw - contentW * gbZoom) / 2 - minX * gbZoom + 50 * gbZoom;
-    gbPanY = (vh - contentH * gbZoom) / 2 - minY * gbZoom + 50 * gbZoom;
-    gbApplyTransform();
-}
-
-// ---- CRUD ----
-
-function gbOpenModal() {
-    document.getElementById('gb-modal').style.display = '';
-    document.getElementById('gb-node-name').value = '';
-    document.getElementById('gb-node-category').value = 'position';
-    document.getElementById('gb-node-notes').value = '';
-    setTimeout(() => document.getElementById('gb-node-name').focus(), 50);
-}
-
-function gbCloseModal() {
-    document.getElementById('gb-modal').style.display = 'none';
-}
-
-function gbConfirmAddNode() {
-    const name = document.getElementById('gb-node-name').value.trim();
-    if (!name) { document.getElementById('gb-node-name').focus(); return; }
-    const category = document.getElementById('gb-node-category').value;
-    const notes = document.getElementById('gb-node-notes').value.trim();
-
-    const game = gbActiveGame();
-    game.nodes.push({
-        id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
-        name,
-        category,
-        notes,
-        x: gbPendingPos.x,
-        y: gbPendingPos.y
-    });
-    gbSave();
-    gbCloseModal();
-    gbRenderNodes();
-    gbRenderConnections();
-}
-
-function gbDeleteNode(nodeId) {
-    const game = gbActiveGame();
-    game.nodes = game.nodes.filter(n => n.id !== nodeId);
-    game.connections = game.connections.filter(c => c.from !== nodeId && c.to !== nodeId);
-    if (gbSelectedNodeId === nodeId) gbSelectedNodeId = null;
-    gbSave();
-    gbRenderNodes();
-    gbRenderConnections();
-}
-
-function gbEsc(str) {
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
-}
-
-// Add init to DOMContentLoaded
-
