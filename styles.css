@@ -3856,3 +3856,65 @@ main {
   .sys-strip { grid-template-columns:auto 1fr; }
   .sys-philosophy { display:none; }
 }
+
+@media(max-width:768px){
+  #meta-section .hero {
+    padding: 24px 16px 20px;
+    gap: 16px;
+  }
+  #meta-section .hero-title {
+    font-size: clamp(2.8rem, 14vw, 4rem);
+  }
+  #meta-section .section-switcher {
+    padding: 0 12px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  #meta-section .section-switcher::-webkit-scrollbar { display: none; }
+  #meta-section .sec-btn {
+    padding: 12px 16px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+  #meta-section .tabs-wrapper {
+    padding: 0 12px;
+  }
+  #meta-section .tab {
+    padding: 14px 14px;
+    font-size: 0.65rem;
+  }
+  #meta-section .sys-strip {
+    padding: 20px 16px;
+    gap: 16px;
+  }
+  #meta-section .sys-index {
+    font-size: 3rem;
+  }
+  #meta-section .sys-name {
+    font-size: clamp(1.6rem, 7vw, 2.4rem);
+  }
+  #meta-section .cell {
+    padding: 20px 16px;
+  }
+  #meta-section .core-row {
+    padding: 20px 16px;
+    gap: 16px;
+  }
+  #meta-section .lower-cell,
+  #meta-section .bottom-cell {
+    padding: 20px 16px;
+  }
+  #meta-section .tech-matrix {
+    grid-template-columns: 1fr 1fr;
+  }
+  #meta-section .react-row {
+    grid-template-columns: 1fr 16px 1fr;
+    gap: 6px;
+  }
+  #meta-section .strat-steps::before {
+    display: none;
+  }
+  #meta-section .empty {
+    padding: 60px 16px;
+  }
+}
