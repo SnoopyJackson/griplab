@@ -199,7 +199,7 @@ function selectGuard(guardId) {
             
             <div class="detail-section">
                 <div class="description-header">
-                    <h3>­ƒôï DESCRIPTION</h3>
+                    <h3>📝 DESCRIPTION</h3>
                     <button class="watch-video-btn" onclick="${guard.video ? `window.open('${guard.video}', '_blank')` : `searchYouTube('${guard.name}', 'BJJ guard')` }">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
@@ -211,7 +211,7 @@ function selectGuard(guardId) {
             </div>
             
             <div class="detail-section">
-                <h3>ÔÜÖ´©Å EXECUTION</h3>
+                <h3>⚙️ EXECUTION</h3>
                 <ul>
                     ${guard.execution.map(step => `<li>${step}</li>`).join('')}
                 </ul>
@@ -219,13 +219,13 @@ function selectGuard(guardId) {
             
             <div class="pros-cons">
                 <div class="pros">
-                    <h4>Ô£à ADVANTAGES</h4>
+                    <h4>✅ ADVANTAGES</h4>
                     <ul>
                         ${guard.pros.map(pro => `<li>${pro}</li>`).join('')}
                     </ul>
                 </div>
                 <div class="cons">
-                    <h4>ÔØî DISADVANTAGES</h4>
+                    <h4>❌ DISADVANTAGES</h4>
                     <ul>
                         ${guard.cons.map(con => `<li>${con}</li>`).join('')}
                     </ul>
@@ -233,7 +233,7 @@ function selectGuard(guardId) {
             </div>
             
             <div class="detail-section">
-                <h3>­ƒÆí TIPS & CONCEPTS</h3>
+                <h3>💡 TIPS & CONCEPTS</h3>
                 <ul>
                     ${guard.tips.map(tip => `<li>${tip}</li>`).join('')}
                 </ul>
@@ -241,13 +241,13 @@ function selectGuard(guardId) {
             
             ${guard.sweeps ? `
             <div class="detail-section techniques-section">
-                <h3>­ƒöä SWEEP TECHNIQUES</h3>
+                <h3>🔄 SWEEP TECHNIQUES</h3>
                 <div class="technique-grid">
                     ${guard.sweeps.map((sweep, idx) => {
                         const techId = `${guard.id}-${sweep.name}`;
                         const status = getTechniqueProgress(techId);
                         const statusClass = status !== 'none' ? status : '';
-                        const statusEmoji = status === 'mastered' ? 'Ô¡É' : status === 'average' ? '­ƒôè' : status === 'learning' ? '­ƒôÜ' : status === 'bad' ? 'ÔØî' : '';
+                        const statusEmoji = status === 'mastered' ? '⭐' : status === 'average' ? '📈' : status === 'learning' ? '📚' : status === 'bad' ? '❌' : '';
                         return `
                         <div class="technique-card ${statusClass}" style="animation-delay: ${idx * 0.1}s" onclick="searchYouTube('${sweep.name}', '${guard.name}')">
                             <span class="technique-type sweep">SWEEP</span>
@@ -262,13 +262,13 @@ function selectGuard(guardId) {
             
             ${guard.passes ? `
             <div class="detail-section techniques-section">
-                <h3>­ƒÜÇ GUARD PASS TECHNIQUES</h3>
+                <h3>🛡️ GUARD PASS TECHNIQUES</h3>
                 <div class="technique-grid">
                     ${guard.passes.map((pass, idx) => {
                         const techId = `${guard.id}-${pass.name}`;
                         const status = getTechniqueProgress(techId);
                         const statusClass = status !== 'none' ? status : '';
-                        const statusEmoji = status === 'mastered' ? 'Ô¡É' : status === 'average' ? '­ƒôè' : status === 'learning' ? '­ƒôÜ' : status === 'bad' ? 'ÔØî' : '';
+                        const statusEmoji = status === 'mastered' ? '⭐' : status === 'average' ? '📈' : status === 'learning' ? '📚' : status === 'bad' ? '❌' : '';
                         return `
                         <div class="technique-card ${statusClass}" style="animation-delay: ${idx * 0.1}s" onclick="searchYouTube('${pass.name}', '${guard.name}')">
                             <span class="technique-type pass">PASS</span>
@@ -283,13 +283,13 @@ function selectGuard(guardId) {
             
             ${guard.submissions ? `
             <div class="detail-section techniques-section">
-                <h3>­ƒÄ» SUBMISSION TECHNIQUES</h3>
+                <h3>🔒 SUBMISSION TECHNIQUES</h3>
                 <div class="technique-grid">
                     ${guard.submissions.map((sub, idx) => {
                         const techId = `${guard.id}-${sub.name}`;
                         const status = getTechniqueProgress(techId);
                         const statusClass = status !== 'none' ? status : '';
-                        const statusEmoji = status === 'mastered' ? 'Ô¡É' : status === 'average' ? '­ƒôè' : status === 'learning' ? '­ƒôÜ' : status === 'bad' ? 'ÔØî' : '';
+                        const statusEmoji = status === 'mastered' ? '⭐' : status === 'average' ? '📈' : status === 'learning' ? '📚' : status === 'bad' ? '❌' : '';
                         return `
                         <div class="technique-card ${statusClass}" style="animation-delay: ${idx * 0.1}s" onclick="searchYouTube('${sub.name}', '${guard.name}')">
                             <span class="technique-type submission">SUBMISSION</span>
@@ -303,7 +303,7 @@ function selectGuard(guardId) {
             ` : ''}
             
             <div class="detail-section">
-                <h3>­ƒæñ NOTABLE ATHLETES</h3>
+                <h3>🏅 NOTABLE ATHLETES</h3>
                 <div class="athletes-tag">
                     ${guard.athletes.map(athlete => `<span class="athlete-tag">${athlete}</span>`).join('')}
                 </div>
@@ -322,7 +322,7 @@ function renderAthletes() {
             <div class="athlete-info">
                 <h3>${athlete.name}</h3>
                 <div class="signature-moves">
-                    <h4>ÔÜí SIGNATURE MOVES</h4>
+                    <h4>✍️ SIGNATURE MOVES</h4>
                     <div class="move-item">
                         <span class="move-type">GUARD</span>
                         <span class="move-name">${athlete.signatures.guard}</span>
@@ -515,11 +515,11 @@ function resetProgress() {
 const LOG_STORAGE_KEY = 'bjj_training_log';
 
 const ACTIVITY_META = {
-    bjj:       { label: 'BJJ (Gi)',   emoji: '­ƒÑï', color: '#a855f7' },
-    nogi:      { label: 'No-Gi',      emoji: '­ƒñ╝', color: '#00d4ff' },
-    wrestling: { label: 'Wrestling',  emoji: '­ƒÅï´©Å', color: '#f59e0b' },
-    lifting:   { label: 'Lifting',    emoji: '­ƒÆ¬', color: '#ef4444' },
-    yoga:      { label: 'Yoga',       emoji: '­ƒºÿ', color: '#10b981' }
+    bjj:       { label: 'BJJ (Gi)',   emoji: '🥋', color: '#a855f7' },
+    nogi:      { label: 'No-Gi',      emoji: '🤼', color: '#00d4ff' },
+    wrestling: { label: 'Wrestling',  emoji: '🏋️', color: '#f59e0b' },
+    lifting:   { label: 'Lifting',    emoji: '💪', color: '#ef4444' },
+    yoga:      { label: 'Yoga',       emoji: '🧘', color: '#10b981' }
 };
 
 function getTrainingLog() {
@@ -680,24 +680,24 @@ function renderLogEntries() {
                     <span class="log-entry-date">${dateStr}</span>
                 </div>
                 <div class="log-entry-body">
-                    <span class="log-entry-duration">ÔÅ▒´©Å ${durationStr}</span>
+                    <span class="log-entry-duration">⏱️ ${durationStr}</span>
                     ${entry.notes ? `<p class="log-entry-notes">${entry.notes}</p>` : ''}
                 </div>
-                <button class="log-entry-delete" onclick="deleteLogEntry(${entry.id})">­ƒùæ´©Å</button>
+                <button class="log-entry-delete" onclick="deleteLogEntry(${entry.id})">🗑️</button>
             </div>
         `;
     }).join('');
 }
 
 // ==========================================
-// WAR ROOM ÔÇö Professor's Class Preparation
+// WAR ROOM — Professor's Class Preparation
 // ==========================================
 
 const CATEGORY_META = {
-    sweep:      { emoji: '­ƒöä', label: 'Sweep',      color: '#00ff88' },
-    pass:       { emoji: '­ƒÜÇ', label: 'Pass',        color: '#00d4ff' },
-    submission: { emoji: '­ƒöÑ', label: 'Submission',  color: '#ff4444' },
-    escape:     { emoji: '­ƒøí´©Å', label: 'Escape',      color: '#a855f7' }
+    sweep:      { emoji: '🔄', label: 'Sweep',      color: '#00ff88' },
+    pass:       { emoji: '🛡️', label: 'Pass',        color: '#00d4ff' },
+    submission: { emoji: '🎯', label: 'Submission',  color: '#ff4444' },
+    escape:     { emoji: '🏃', label: 'Escape',      color: '#a855f7' }
 };
 
 let activePosition = null;
@@ -781,7 +781,7 @@ function renderWarRoomTechniques() {
 
     list.innerHTML = techs.map((tech, i) => {
         const cat = CATEGORY_META[tech.category];
-        const perspLabel = tech.perspective === 'bottom' ? 'Ô¼ç´©Å Bottom' : 'Ô¼å´©Å Top';
+        const perspLabel = tech.perspective === 'bottom' ? '⬇️ Bottom' : '⬆️ Top';
 
         return `
         <div class="wr-technique-card">
@@ -792,12 +792,12 @@ function renderWarRoomTechniques() {
                 </div>
                 <h4 class="wr-tech-name">${tech.name}</h4>
                 <p class="wr-tech-goal">${tech.goal}</p>
-                <span class="wr-tech-expand-icon">Ôû╝</span>
+                <span class="wr-tech-expand-icon">▼</span>
             </div>
             <div class="wr-tech-body" id="wr-tech-body-${i}">
                 <!-- Initial Position -->
                 <div class="wr-detail-block wr-detail-position">
-                    <h5>­ƒôì INITIAL POSITION</h5>
+                    <h5>📍 INITIAL POSITION</h5>
                     <div class="wr-position-grid">
                         <div class="wr-pos-item"><span class="wr-pos-label">Body</span><p>${tech.initialPosition.body}</p></div>
                         <div class="wr-pos-item"><span class="wr-pos-label">Grips</span><p>${tech.initialPosition.grips}</p></div>
@@ -809,29 +809,29 @@ function renderWarRoomTechniques() {
                 <!-- Green / Red Lights -->
                 <div class="wr-lights-row">
                     <div class="wr-detail-block wr-lights-green">
-                        <h5>­ƒƒó GREEN LIGHTS</h5>
+                        <h5>🟢 GREEN LIGHTS</h5>
                         <ul>${tech.greenLights.map(g => `<li>${g}</li>`).join('')}</ul>
                     </div>
                     <div class="wr-detail-block wr-lights-red">
-                        <h5>­ƒö┤ RED LIGHTS</h5>
+                        <h5>🔴 RED LIGHTS</h5>
                         <ul>${tech.redLights.map(r => `<li>${r}</li>`).join('')}</ul>
                     </div>
                 </div>
 
                 <!-- Key Steps -->
                 <div class="wr-detail-block wr-detail-steps">
-                    <h5>­ƒôØ KEY STEPS</h5>
+                    <h5>📋 KEY STEPS</h5>
                     <ol>${tech.steps.map(s => `<li>${s}</li>`).join('')}</ol>
                 </div>
 
                 <!-- Complexification / Simplification -->
                 <div class="wr-lights-row">
                     <div class="wr-detail-block wr-detail-complex">
-                        <h5>Ô¼å´©Å COMPLEXIFICATION</h5>
+                        <h5>⬆️ COMPLEXIFICATION</h5>
                         <ul>${tech.complexpieces.map(c => `<li>${c}</li>`).join('')}</ul>
                     </div>
                     <div class="wr-detail-block wr-detail-simple">
-                        <h5>Ô¼ç´©Å SIMPLIFICATION</h5>
+                        <h5>⬇️ SIMPLIFICATION</h5>
                         <ul>${tech.simplifications.map(s => `<li>${s}</li>`).join('')}</ul>
                     </div>
                 </div>
@@ -848,7 +848,7 @@ function renderWarRoomTechniques() {
     });
 }
 
-// Export ÔÇö dumps ALL localStorage so nothing is lost
+// Export — dumps ALL localStorage so nothing is lost
 function exportTrainingLog() {
     const allData = {};
     for (let i = 0; i < localStorage.length; i++) {
@@ -871,7 +871,7 @@ function exportTrainingLog() {
     URL.revokeObjectURL(url);
 }
 
-// Import ÔÇö restores full localStorage snapshot when available, falls back to legacy keys
+// Import — restores full localStorage snapshot when available, falls back to legacy keys
 function importTrainingLog(event) {
     const file = event.target.files[0];
     if (!file) return;
